@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 5,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/5"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "機械女僕‧瑪麗"
+    },
+    "evidence_url": "https://bgm.tv/subject/507078",
+    "notes": "Observed in a local media library. Bangumi API search for \"機械女僕‧瑪麗\" returned anime subject 507078; this avoids matching unrelated older robot/mecha titles.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "507078",
+      "provider": "bangumi"
+    },
+    "title": "機械じかけのマリー",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-09T23:48:13Z",
+    "approved_by": "ModerRAS"
+  },
+  "schema": "contribution/v1"
+}
