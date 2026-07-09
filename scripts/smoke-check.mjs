@@ -115,7 +115,9 @@ writeFileSync(
 const archiveProvider = createBangumiArchiveProviderFromFile(archiveFile, { lastSync: "2026-07-08T12:34:56Z" });
 const archivePlan = await planRepositoryMediaImport({ candidates: archiveProvider.bulkImport() });
 assert.deepEqual(archivePlan.matches.map((item) => item.mediaId), ["media-000001"]);
-assert.deepEqual(archivePlan.creates.map((item) => item.mediaId), ["media-000002"]);
+assert.equal(archivePlan.creates.length, 1);
+assert.equal(archivePlan.creates[0].candidate.providerRef.id, "999999");
+assert.equal(archivePlan.creates[0].candidate.metadata.title, "Example Anime");
 assert.equal(archivePlan.conflicts.length, 0);
 
 const seenApiUrls = [];
