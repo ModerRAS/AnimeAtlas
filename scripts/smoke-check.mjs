@@ -33,23 +33,35 @@ function copySeedRepo(target) {
 }
 
 function issueEvent(operationType = "add_provider_ref") {
-  const body = operationType === "add_alias"
+  const body = operationType === "create_media"
     ? [
-        "### Change Type", "", "add_alias", "",
-        "### Media ID", "", "media-000001", "",
-        "### Alias Value", "", "Frieren", "",
-        "### Alias Language", "", "en", "",
-        "### Alias Type", "", "alternative", "",
-        "### Evidence URL", "", "https://example.test/source"
+        "### Change Type", "", "create_media", "",
+        "### Canonical Title", "", "Gachiakuta", "",
+        "### Alias Value", "", "Gachiakuta", "",
+        "### Alias Language", "", "ja-Latn", "",
+        "### Alias Type", "", "romaji", "",
+        "### Provider", "", "bangumi", "",
+        "### Provider Entity", "", "subject", "",
+        "### Provider ID", "", "498947", "",
+        "### Evidence URL", "", "https://bgm.tv/subject/498947"
       ].join("\n")
-    : [
-        "### Change Type", "", "add_provider_ref", "",
-        "### Media ID", "", "media-000001", "",
-        "### Provider", "", "myanimelist", "",
-        "### Provider Entity", "", "anime", "",
-        "### Provider ID", "", "999999", "",
-        "### Evidence URL", "", "https://example.test/myanimelist/999999"
-      ].join("\n");
+    : operationType === "add_alias"
+      ? [
+          "### Change Type", "", "add_alias", "",
+          "### Media ID", "", "media-000001", "",
+          "### Alias Value", "", "Frieren", "",
+          "### Alias Language", "", "en", "",
+          "### Alias Type", "", "alternative", "",
+          "### Evidence URL", "", "https://example.test/source"
+        ].join("\n")
+      : [
+          "### Change Type", "", "add_provider_ref", "",
+          "### Media ID", "", "media-000001", "",
+          "### Provider", "", "myanimelist", "",
+          "### Provider Entity", "", "anime", "",
+          "### Provider ID", "", "999999", "",
+          "### Evidence URL", "", "https://example.test/myanimelist/999999"
+        ].join("\n");
 
   return {
     action: "labeled",
@@ -137,6 +149,10 @@ const contribution = contributionFromIssueEvent(issueEvent("add_provider_ref"));
 assert.equal(contribution.ok, true);
 assert.equal(contribution.contribution.operation.type, "add_provider_ref");
 
+const createContribution = contributionFromIssueEvent(issueEvent("create_media"));
+assert.equal(createContribution.ok, true);
+assert.equal(createContribution.contribution.operation.type, "create_media");
+
 const writeDir = mkdtempSync(join(tmpdir(), "animeatlas-contribution-"));
 const outDir = join(writeDir, "approved");
 const firstWrite = writeApprovedContributionRecord(contribution.contribution, { outDir });
@@ -157,5 +173,20 @@ assert.equal(applied.appliedMutations, 1);
 assert.deepEqual(applied.files, ["db/media/media-000001.json"]);
 assert.equal(media.provider_refs.some((ref) => ref.provider === "myanimelist" && ref.entity === "anime" && ref.id === "999999"), true);
 assert.equal(validation.ok, true, JSON.stringify(validation.issues));
+
+const createRoot = mkdtempSync(join(tmpdir(), "animeatlas-create-"));
+copySeedRepo(createRoot);
+writeFileSync(join(createRoot, "source/contributions/approved/issue-000042.json"), JSON.stringify(createContribution.contribution, null, 2) + "\n");
+const createApplied = applyRepositoryApprovedContributions({ root: createRoot, write: true });
+const createdMedia = JSON.parse(readFileSync(join(createRoot, "db/media/media-000002.json"), "utf8"));
+const createdAliases = JSON.parse(readFileSync(join(createRoot, "db/aliases/media-000002.json"), "utf8"));
+const createdMetadata = JSON.parse(readFileSync(join(createRoot, "db/metadata/media-000002.json"), "utf8"));
+const createValidation = validateRepository(createRoot);
+assert.equal(createApplied.appliedMutations, 3);
+assert.deepEqual(createApplied.files, ["db/aliases/media-000002.json", "db/media/media-000002.json", "db/metadata/media-000002.json"]);
+assert.equal(createdMedia.provider_refs[0].id, "498947");
+assert.equal(createdAliases.aliases[0].value, "Gachiakuta");
+assert.equal(createdMetadata.metadata.title, "Gachiakuta");
+assert.equal(createValidation.ok, true, JSON.stringify(createValidation.issues));
 
 console.log("Smoke checks passed.");

@@ -23,7 +23,7 @@
       "required": ["type"],
       "properties": {
         "type": {
-          "enum": ["add_alias", "add_provider_ref", "correct_metadata", "merge_media", "split_media"]
+          "enum": ["create_media", "add_alias", "add_provider_ref", "correct_metadata", "merge_media", "split_media"]
         }
       }
     },

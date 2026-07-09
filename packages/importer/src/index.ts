@@ -1,4 +1,4 @@
-import { existsSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
+import { existsSync, mkdirSync, readdirSync, readFileSync, writeFileSync } from "node:fs";
 import { basename, dirname, join } from "node:path";
 import { formatMediaId, isMediaId, mediaIdNumber, normalizeAlias, stableStringify } from "@animeatlas/core";
 import { NormalizedMediaCandidate, ProviderRef, providerRefKey } from "@animeatlas/providers";
@@ -43,7 +43,7 @@ export type ApprovedContributionRecord = {
     author: string;
   };
   operation: Record<string, unknown> & {
-    type: "add_alias" | "add_provider_ref" | "correct_metadata";
+    type: "create_media" | "add_alias" | "add_provider_ref" | "correct_metadata";
     media_id?: unknown;
   };
   review: {
@@ -54,7 +54,7 @@ export type ApprovedContributionRecord = {
 
 export type ContributionMutation = {
   issue: number;
-  type: "append_alias" | "append_provider_ref" | "set_metadata_field";
+  type: "append_alias" | "append_provider_ref" | "set_metadata_field" | "create_media" | "create_alias_record" | "create_metadata_record";
   mediaId: string;
   targetFile: string;
   path: string;
@@ -176,6 +176,17 @@ export function applyApprovedContributionPlan(root: string, plan: ApprovedContri
   const touched = new Set<string>();
   for (const mutation of plan.mutations) {
     const file = join(root, mutation.targetFile);
+
+    if (mutation.type === "create_media" || mutation.type === "create_alias_record" || mutation.type === "create_metadata_record") {
+      if (existsSync(file)) {
+        throw new Error(`Cannot create ${mutation.targetFile}; file already exists.`);
+      }
+      mkdirSync(dirname(file), { recursive: true });
+      writeFileSync(file, stableStringify(mutation.value));
+      touched.add(mutation.targetFile);
+      continue;
+    }
+
     const data = readMutableJsonObject(file);
 
     if (mutation.type === "append_alias") {
@@ -200,6 +211,7 @@ export function planApprovedContributions(input: {
 }): ApprovedContributionPlan {
   const root = input.root ?? findRepoRoot(process.cwd());
   const mediaById = new Map(input.existingMedia.map((media) => [media.id, media]));
+  const mediaIds = new Set(input.existingMedia.map((media) => media.id).filter(isMediaId));
   const providerRefs = providerRefIndex(input.existingMedia);
   const aliasIndex = readAliasIndex(root);
   const plan: ApprovedContributionPlan = { mutations: [], noops: [], conflicts: [] };
@@ -208,6 +220,11 @@ export function planApprovedContributions(input: {
     const issue = contribution.issue?.number ?? 0;
     const operation = contribution.operation;
     const mediaId = typeof operation?.media_id === "string" ? operation.media_id : undefined;
+
+    if (operation.type === "create_media") {
+      planCreateMedia(root, plan, contribution, mediaIds, mediaById, providerRefs, aliasIndex);
+      continue;
+    }
 
     if (!mediaId || !isMediaId(mediaId)) {
       plan.conflicts.push({ issue, type: "invalid_contribution", message: "Contribution operation.media_id is invalid." });
@@ -303,6 +320,123 @@ export function planMediaImport(input: {
   }
 
   return { matches, creates, conflicts };
+}
+
+function planCreateMedia(
+  root: string,
+  plan: ApprovedContributionPlan,
+  contribution: ApprovedContributionRecord,
+  mediaIds: Set<string>,
+  mediaById: Map<string, ExistingMediaIdentity>,
+  providerRefs: Map<string, string>,
+  aliasIndex: Map<string, string>
+): void {
+  const issue = contribution.issue.number;
+  const operation = contribution.operation;
+  const title = typeof operation.title === "string" ? operation.title.trim() : "";
+  const ref = operation.provider_ref;
+  const alias = operation.alias;
+
+  if (!title) {
+    plan.conflicts.push({ issue, type: "invalid_contribution", message: "create_media requires title." });
+    return;
+  }
+  if (!isProviderRef(ref)) {
+    plan.conflicts.push({ issue, type: "invalid_contribution", message: "create_media requires provider_ref." });
+    return;
+  }
+  if (!isRecord(alias) || typeof alias.value !== "string") {
+    plan.conflicts.push({ issue, type: "invalid_contribution", message: "create_media requires alias.value." });
+    return;
+  }
+
+  const providerKey = providerRefKey(ref);
+  const existingProviderMedia = providerRefs.get(providerKey);
+  if (existingProviderMedia) {
+    plan.conflicts.push({ issue, type: "provider_ref_conflict", mediaId: existingProviderMedia, message: `Provider ref ${providerKey} already maps to ${existingProviderMedia}.` });
+    return;
+  }
+
+  const normalizedAlias = normalizeAlias(alias.value);
+  const existingAliasMedia = aliasIndex.get(normalizedAlias);
+  if (existingAliasMedia) {
+    plan.conflicts.push({ issue, type: "duplicate_alias", mediaId: existingAliasMedia, message: `Alias ${JSON.stringify(alias.value)} already resolves to ${existingAliasMedia}.` });
+    return;
+  }
+
+  const mediaId = formatMediaId(nextMediaSequence(mediaIds));
+  mediaIds.add(mediaId);
+  mediaById.set(mediaId, { id: mediaId, kind: "anime", provider_refs: [ref] });
+  providerRefs.set(providerKey, mediaId);
+  aliasIndex.set(normalizedAlias, mediaId);
+
+  const approvedAt = contribution.review.approved_at;
+  const providerRef = { provider: ref.provider, entity: ref.entity, id: ref.id };
+  const metadataFieldMeta = {
+    source: ref.provider,
+    source_field: "issue",
+    last_sync: approvedAt,
+    rule: "approved issue contribution",
+    provider_ref: providerRef
+  };
+
+  plan.mutations.push(
+    {
+      issue,
+      type: "create_media",
+      mediaId,
+      targetFile: repoPath(root, mediaFile(root, mediaId)),
+      path: "db/media",
+      value: {
+        $schema: "../../packages/schema/schemas/media-identity.schema.json",
+        schema: "media-identity/v1",
+        id: mediaId,
+        kind: "anime",
+        provider_refs: [providerRef],
+        relationships: []
+      }
+    },
+    {
+      issue,
+      type: "create_alias_record",
+      mediaId,
+      targetFile: repoPath(root, aliasFile(root, mediaId)),
+      path: "db/aliases",
+      value: {
+        $schema: "../../packages/schema/schemas/media-aliases.schema.json",
+        schema: "media-aliases/v1",
+        media_id: mediaId,
+        aliases: [alias]
+      }
+    },
+    {
+      issue,
+      type: "create_metadata_record",
+      mediaId,
+      targetFile: repoPath(root, metadataFile(root, mediaId)),
+      path: "db/metadata",
+      value: {
+        $schema: "../../packages/schema/schemas/media-metadata.schema.json",
+        schema: "media-metadata/v1",
+        media_id: mediaId,
+        metadata: {
+          title,
+          episode_count: 0,
+          runtime: 0
+        },
+        _meta: {
+          last_sync: {
+            [ref.provider]: approvedAt
+          },
+          fields: {
+            "metadata.title": metadataFieldMeta,
+            "metadata.episode_count": metadataFieldMeta,
+            "metadata.runtime": metadataFieldMeta
+          }
+        }
+      }
+    }
+  );
 }
 
 function planAddAlias(

@@ -362,14 +362,16 @@ function validateContributionRecords(
       issues.push({ file, message: "contribution operation.type is required" });
       continue;
     }
-    if (typeof operation.media_id !== "string" || !isMediaId(operation.media_id) || !mediaIds.has(operation.media_id)) {
+    if (operation.type !== "create_media" && (typeof operation.media_id !== "string" || !isMediaId(operation.media_id) || !mediaIds.has(operation.media_id))) {
       issues.push({ file, message: "contribution operation.media_id must reference an existing media identity" });
     }
     if (typeof operation.evidence_url !== "string" || !/^https?:\/\//.test(operation.evidence_url)) {
       issues.push({ file, message: "contribution operation.evidence_url must be an http(s) URL" });
     }
 
-    if (operation.type === "add_alias") {
+    if (operation.type === "create_media") {
+      validateContributionCreateMediaOperation(file, operation, providerKeys, issues);
+    } else if (operation.type === "add_alias") {
       validateContributionAliasOperation(file, operation, issues);
     } else if (operation.type === "add_provider_ref") {
       validateContributionProviderRefOperation(file, operation, providerKeys, issues);
@@ -381,26 +383,46 @@ function validateContributionRecords(
   }
 }
 
-function validateContributionAliasOperation(file: string, operation: AnyRecord, issues: ValidationIssue[]): void {
+function validateContributionCreateMediaOperation(
+  file: string,
+  operation: AnyRecord,
+  providerKeys: Set<string>,
+  issues: ValidationIssue[]
+): void {
+  if (typeof operation.title !== "string" || operation.title.trim() === "") {
+    issues.push({ file, message: "create_media title is required" });
+  }
+  validateContributionAliasOperation(file, operation, issues, "create_media");
+  const ref = operation.provider_ref;
+  if (!isProviderRef(ref)) {
+    issues.push({ file, message: "create_media contribution must include provider_ref" });
+    return;
+  }
+  if (!providerKeys.has(ref.provider)) {
+    issues.push({ file, message: `create_media uses undeclared provider ${ref.provider}` });
+  }
+}
+
+function validateContributionAliasOperation(file: string, operation: AnyRecord, issues: ValidationIssue[], label = "add_alias"): void {
   const alias = operation.alias;
   if (!isRecord(alias)) {
-    issues.push({ file, message: "add_alias contribution must include alias object" });
+    issues.push({ file, message: `${label} contribution must include alias object` });
     return;
   }
   if (typeof alias.value !== "string" || alias.value.trim() === "") {
-    issues.push({ file, message: "add_alias alias.value is required" });
+    issues.push({ file, message: `${label} alias.value is required` });
   }
   if (typeof alias.language !== "string" || !LANGUAGE_TAG.test(alias.language)) {
-    issues.push({ file, message: "add_alias alias.language must be valid" });
+    issues.push({ file, message: `${label} alias.language must be valid` });
   }
   if (typeof alias.type !== "string" || !ALIAS_TYPES.has(alias.type)) {
-    issues.push({ file, message: "add_alias alias.type must be valid" });
+    issues.push({ file, message: `${label} alias.type must be valid` });
   }
   if (alias.source !== "community") {
-    issues.push({ file, message: "add_alias alias.source must be community" });
+    issues.push({ file, message: `${label} alias.source must be community` });
   }
   if (typeof alias.confidence !== "number" || alias.confidence < 0 || alias.confidence > 1) {
-    issues.push({ file, message: "add_alias alias.confidence must be between 0 and 1" });
+    issues.push({ file, message: `${label} alias.confidence must be between 0 and 1` });
   }
 }
 

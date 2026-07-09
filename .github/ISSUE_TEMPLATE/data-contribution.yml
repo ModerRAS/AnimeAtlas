@@ -14,6 +14,7 @@ body:
     attributes:
       label: Change Type
       options:
+        - create_media
         - add_alias
         - add_provider_ref
         - correct_metadata
@@ -26,10 +27,15 @@ body:
       description: Existing internal ID, such as media-000001. Leave blank only if the maintainer asks for a new identity proposal.
       placeholder: media-000001
   - type: input
+    id: canonical_title
+    attributes:
+      label: Canonical Title
+      description: Required for create_media. Use the provider-preferred display title.
+  - type: input
     id: alias_value
     attributes:
       label: Alias Value
-      description: Required for add_alias.
+      description: Required for create_media or add_alias.
   - type: input
     id: alias_language
     attributes:
@@ -50,17 +56,17 @@ body:
     id: provider
     attributes:
       label: Provider
-      description: Required for add_provider_ref or metadata provenance, such as bangumi or tmdb.
+      description: Required for create_media, add_provider_ref, or metadata provenance, such as bangumi or tmdb.
   - type: input
     id: provider_entity
     attributes:
       label: Provider Entity
-      description: Required for add_provider_ref, such as subject or tv.
+      description: Required for create_media or add_provider_ref, such as subject or tv.
   - type: input
     id: provider_id
     attributes:
       label: Provider ID
-      description: Required for add_provider_ref.
+      description: Required for create_media or add_provider_ref.
   - type: input
     id: metadata_field
     attributes:

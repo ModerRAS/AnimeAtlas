@@ -17,7 +17,7 @@ type IssueEvent = {
   sender?: { login?: string };
 };
 
-type OperationType = "add_alias" | "add_provider_ref" | "correct_metadata";
+type OperationType = "create_media" | "add_alias" | "add_provider_ref" | "correct_metadata";
 
 type ContributionRecord = {
   schema: "contribution/v1";
@@ -50,7 +50,7 @@ type WriteApprovedContributionResult = {
 };
 
 const NO_RESPONSE = "_No response_";
-const OPERATION_TYPES = new Set<OperationType>(["add_alias", "add_provider_ref", "correct_metadata"]);
+const OPERATION_TYPES = new Set<OperationType>(["create_media", "add_alias", "add_provider_ref", "correct_metadata"]);
 const ALIAS_TYPES = new Set(["official", "localized", "romaji", "nickname", "alternative", "legacy"]);
 const LANGUAGE_TAG = /^[A-Za-z]{2,3}(-[A-Za-z0-9]{2,8})*$/;
 const PROVIDER_KEY = /^[a-z][a-z0-9-]*$/;
@@ -177,8 +177,53 @@ function operationFromFields(fields: Record<string, string>, errors: string[]): 
   }
 
   const mediaId = fields.media_id;
-  if (!mediaId || !isMediaId(mediaId)) {
+  if (type !== "create_media" && (!mediaId || !isMediaId(mediaId))) {
     errors.push("Media ID must be an existing-looking media-* ID such as media-000001.");
+  }
+
+  if (type === "create_media") {
+    const aliasType = fields.alias_type;
+    const confidence = 0.9;
+    if (!fields.canonical_title) {
+      errors.push("Canonical Title is required for create_media.");
+    }
+    if (!fields.alias_value) {
+      errors.push("Alias Value is required for create_media.");
+    }
+    if (!fields.alias_language || !LANGUAGE_TAG.test(fields.alias_language)) {
+      errors.push("Alias Language must be a valid language tag for create_media.");
+    }
+    if (!aliasType || !ALIAS_TYPES.has(aliasType)) {
+      errors.push("Alias Type is required for create_media.");
+    }
+    if (!fields.provider || !PROVIDER_KEY.test(fields.provider)) {
+      errors.push("Provider must be a stable provider key for create_media.");
+    }
+    if (!fields.provider_entity || !PROVIDER_KEY.test(fields.provider_entity)) {
+      errors.push("Provider Entity is required for create_media.");
+    }
+    if (!fields.provider_id) {
+      errors.push("Provider ID is required for create_media.");
+    }
+
+    return {
+      type,
+      title: fields.canonical_title,
+      provider_ref: {
+        provider: fields.provider,
+        entity: fields.provider_entity,
+        id: fields.provider_id
+      },
+      alias: {
+        value: fields.alias_value,
+        language: fields.alias_language,
+        type: aliasType,
+        source: "community",
+        confidence
+      },
+      evidence_url: fields.evidence_url,
+      notes: fields.notes
+    };
   }
 
   if (type === "add_alias") {
