@@ -190,5 +190,9 @@ assert.equal(createdMedia.provider_refs[0].id, "498947");
 assert.equal(createdAliases.aliases[0].value, "Gachiakuta");
 assert.equal(createdMetadata.metadata.title, "Gachiakuta");
 assert.equal(createValidation.ok, true, JSON.stringify(createValidation.issues));
+const createReapplyPlan = applyRepositoryApprovedContributions({ root: createRoot });
+assert.equal(createReapplyPlan.plan.conflicts.length, 0);
+assert.equal(createReapplyPlan.plan.mutations.length, 0);
+assert.equal(createReapplyPlan.plan.noops.length, 1);
 
 console.log("Smoke checks passed.");

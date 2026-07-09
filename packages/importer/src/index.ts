@@ -351,14 +351,18 @@ function planCreateMedia(
   }
 
   const providerKey = providerRefKey(ref);
+  const normalizedAlias = normalizeAlias(alias.value);
   const existingProviderMedia = providerRefs.get(providerKey);
+  const existingAliasMedia = aliasIndex.get(normalizedAlias);
   if (existingProviderMedia) {
-    plan.conflicts.push({ issue, type: "provider_ref_conflict", mediaId: existingProviderMedia, message: `Provider ref ${providerKey} already maps to ${existingProviderMedia}.` });
+    if (existingAliasMedia === existingProviderMedia) {
+      plan.noops.push({ issue, type: "noop", mediaId: existingProviderMedia, message: `create_media already applied for ${existingProviderMedia}.` });
+    } else {
+      plan.conflicts.push({ issue, type: "provider_ref_conflict", mediaId: existingProviderMedia, message: `Provider ref ${providerKey} already maps to ${existingProviderMedia}.` });
+    }
     return;
   }
 
-  const normalizedAlias = normalizeAlias(alias.value);
-  const existingAliasMedia = aliasIndex.get(normalizedAlias);
   if (existingAliasMedia) {
     plan.conflicts.push({ issue, type: "duplicate_alias", mediaId: existingAliasMedia, message: `Alias ${JSON.stringify(alias.value)} already resolves to ${existingAliasMedia}.` });
     return;

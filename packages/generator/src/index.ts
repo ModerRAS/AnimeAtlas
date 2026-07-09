@@ -130,7 +130,7 @@ export function checkGeneratedFiles(root = ROOT): CheckResult {
       mismatches.push(`${relativePath} is missing`);
       continue;
     }
-    const current = readFileSync(file, "utf8");
+    const current = readFileSync(file, "utf8").replace(/\r\n?/g, "\n");
     if (current !== content) {
       mismatches.push(`${relativePath} is stale`);
     }
