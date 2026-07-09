@@ -1,0 +1,14 @@
+{
+  "$schema": "../../packages/schema/schemas/media-aliases.schema.json",
+  "aliases": [
+    {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "魔法少女奈葉 EXCEEDS Gun Blaze Vengeance"
+    }
+  ],
+  "media_id": "media-000008",
+  "schema": "media-aliases/v1"
+}
