@@ -1,0 +1,27 @@
+{
+  "name": "animeatlas",
+  "version": "0.0.0",
+  "private": true,
+  "description": "Open Anime Identity & Metadata Database for offline scraping.",
+  "type": "module",
+  "packageManager": "pnpm@11.5.0",
+  "engines": {
+    "node": ">=22.0.0",
+    "pnpm": ">=10.0.0"
+  },
+  "scripts": {
+    "build": "pnpm -r build",
+    "typecheck": "pnpm build && pnpm -r typecheck",
+    "smoke": "pnpm build && node scripts/smoke-check.mjs",
+    "check": "pnpm typecheck && pnpm validate && pnpm check:generated && node scripts/smoke-check.mjs",
+    "cli": "pnpm --filter @animeatlas/cli start",
+    "viewer": "pnpm --filter @animeatlas/viewer build",
+    "validate": "pnpm build && pnpm --filter @animeatlas/validator validate:run",
+    "generate": "pnpm build && pnpm --filter @animeatlas/generator generate:run",
+    "check:generated": "pnpm build && pnpm --filter @animeatlas/generator check:run"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.0",
+    "typescript": "^5.9.0"
+  }
+}

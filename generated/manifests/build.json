@@ -1,0 +1,16 @@
+{
+  "generator": "@animeatlas/generator@0.0.0",
+  "inputs": {
+    "db/aliases/media-000001.json": "3b0f5b795326381f4c52313bffa2301d1338e0c295f73f4a098bdb7a9795575a",
+    "db/media/media-000001.json": "c4f6a2cf21b73a46300e483dd77ef50864e0563c4b071662e521600f6b9c687d",
+    "db/metadata/media-000001.json": "9a7434a10c8bf583209c00cd3c971dd039b2d4b70c8985aa9af8cdb53dcf8da2"
+  },
+  "outputs": [
+    "generated/indexes/aliases/exact.json",
+    "generated/indexes/provider-ids/exact.json",
+    "generated/indexes/search/tokens.json",
+    "generated/stats/summary.json",
+    "generated/manifests/build.json"
+  ],
+  "schema": "build-manifest/v1"
+}

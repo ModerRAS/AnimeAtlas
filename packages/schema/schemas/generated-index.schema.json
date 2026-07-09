@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://animeatlas.dev/schemas/generated-index/v1.json",
+  "title": "AnimeAtlas Generated Index",
+  "oneOf": [
+    { "$ref": "#/$defs/stringIndex" },
+    { "$ref": "#/$defs/stringArrayIndex" }
+  ],
+  "$defs": {
+    "stringIndex": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema", "entries"],
+      "properties": {
+        "schema": {
+          "enum": ["generated-alias-index/v1", "generated-provider-id-index/v1"]
+        },
+        "entries": {
+          "type": "object",
+          "additionalProperties": { "type": "string", "pattern": "^media-[0-9]{6}$" }
+        }
+      }
+    },
+    "stringArrayIndex": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema", "entries"],
+      "properties": {
+        "schema": { "const": "generated-search-index/v1" },
+        "entries": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "items": { "type": "string", "pattern": "^media-[0-9]{6}$" }
+          }
+        }
+      }
+    }
+  }
+}

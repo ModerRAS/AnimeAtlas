@@ -1,0 +1,90 @@
+name: Data Contribution
+
+description: Propose an AnimeAtlas identity, alias, provider ID, or metadata correction.
+title: "Data contribution: "
+labels:
+  - contribution
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Contributors should not edit repository JSON directly. Submit structured data here; maintainers review and add the `approved` label before automation parses it.
+  - type: dropdown
+    id: change_type
+    attributes:
+      label: Change Type
+      options:
+        - add_alias
+        - add_provider_ref
+        - correct_metadata
+    validations:
+      required: true
+  - type: input
+    id: media_id
+    attributes:
+      label: Media ID
+      description: Existing internal ID, such as media-000001. Leave blank only if the maintainer asks for a new identity proposal.
+      placeholder: media-000001
+  - type: input
+    id: alias_value
+    attributes:
+      label: Alias Value
+      description: Required for add_alias.
+  - type: input
+    id: alias_language
+    attributes:
+      label: Alias Language
+      description: BCP 47 language tag for add_alias, such as ja, en, zh-Hans, ja-Latn.
+  - type: dropdown
+    id: alias_type
+    attributes:
+      label: Alias Type
+      options:
+        - official
+        - localized
+        - romaji
+        - nickname
+        - alternative
+        - legacy
+  - type: input
+    id: provider
+    attributes:
+      label: Provider
+      description: Required for add_provider_ref or metadata provenance, such as bangumi or tmdb.
+  - type: input
+    id: provider_entity
+    attributes:
+      label: Provider Entity
+      description: Required for add_provider_ref, such as subject or tv.
+  - type: input
+    id: provider_id
+    attributes:
+      label: Provider ID
+      description: Required for add_provider_ref.
+  - type: input
+    id: metadata_field
+    attributes:
+      label: Metadata Field
+      description: Required for correct_metadata, such as metadata.episode_count.
+  - type: input
+    id: metadata_value
+    attributes:
+      label: Metadata Value
+      description: Required for correct_metadata. Keep this as a simple JSON scalar for now.
+  - type: input
+    id: source_field
+    attributes:
+      label: Source Field
+      description: Provider-native field used as evidence, such as eps or episode_run_time.
+  - type: input
+    id: evidence_url
+    attributes:
+      label: Evidence URL
+      description: URL or source reference supporting the requested change.
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Additional context for maintainers.

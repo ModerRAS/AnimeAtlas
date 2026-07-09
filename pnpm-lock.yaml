@@ -1,0 +1,99 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      '@types/node':
+        specifier: ^24.0.0
+        version: 24.13.2
+      typescript:
+        specifier: ^5.9.0
+        version: 5.9.3
+
+  apps/cli:
+    dependencies:
+      '@animeatlas/core':
+        specifier: workspace:*
+        version: link:../../packages/core
+      '@animeatlas/importer':
+        specifier: workspace:*
+        version: link:../../packages/importer
+      '@animeatlas/provider-bangumi':
+        specifier: workspace:*
+        version: link:../../packages/provider-bangumi
+      '@animeatlas/providers':
+        specifier: workspace:*
+        version: link:../../packages/providers
+
+  apps/github-action:
+    dependencies:
+      '@animeatlas/core':
+        specifier: workspace:*
+        version: link:../../packages/core
+
+  apps/viewer:
+    dependencies:
+      '@animeatlas/core':
+        specifier: workspace:*
+        version: link:../../packages/core
+
+  packages/core: {}
+
+  packages/generator:
+    dependencies:
+      '@animeatlas/core':
+        specifier: workspace:*
+        version: link:../core
+
+  packages/importer:
+    dependencies:
+      '@animeatlas/core':
+        specifier: workspace:*
+        version: link:../core
+      '@animeatlas/providers':
+        specifier: workspace:*
+        version: link:../providers
+
+  packages/provider-bangumi:
+    dependencies:
+      '@animeatlas/providers':
+        specifier: workspace:*
+        version: link:../providers
+
+  packages/providers: {}
+
+  packages/schema: {}
+
+  packages/validator:
+    dependencies:
+      '@animeatlas/core':
+        specifier: workspace:*
+        version: link:../core
+
+packages:
+
+  '@types/node@24.13.2':
+    resolution: {integrity: sha512-fRa09kZTgu8o71KFcDjUFuc7F+dEbZYZmkI0mg5YBTRs0yMKjYHsq/c0urDKeDb+D5qVgXOdFcuu+DZPKOITwA==}
+
+  typescript@5.9.3:
+    resolution: {integrity: sha512-jl1vZzPDinLr9eUt3J/t7V6FgNEw9QjvBPdysz9KfQDD41fQrC2Y4vKQdiaUpFT4bXlb1RHhLpp8wtm6M5TgSw==}
+    engines: {node: '>=14.17'}
+    hasBin: true
+
+  undici-types@7.18.2:
+    resolution: {integrity: sha512-AsuCzffGHJybSaRrmr5eHr81mwJU3kjw6M+uprWvCXiNeN9SOGwQ3Jn8jb8m3Z6izVgknn1R0FTCEAP2QrLY/w==}
+
+snapshots:
+
+  '@types/node@24.13.2':
+    dependencies:
+      undici-types: 7.18.2
+
+  typescript@5.9.3: {}
+
+  undici-types@7.18.2: {}

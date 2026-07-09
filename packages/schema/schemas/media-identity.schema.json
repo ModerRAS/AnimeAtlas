@@ -1,0 +1,43 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://animeatlas.dev/schemas/media-identity/v1.json",
+  "title": "AnimeAtlas Media Identity",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "id", "kind", "provider_refs", "relationships"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schema": { "const": "media-identity/v1" },
+    "id": { "type": "string", "pattern": "^media-[0-9]{6}$" },
+    "kind": { "const": "anime" },
+    "provider_refs": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/providerRef" }
+    },
+    "relationships": {
+      "type": "array",
+      "items": { "$ref": "#/$defs/relationship" }
+    }
+  },
+  "$defs": {
+    "providerRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["provider", "entity", "id"],
+      "properties": {
+        "provider": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
+        "entity": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
+        "id": { "type": "string", "minLength": 1 }
+      }
+    },
+    "relationship": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["type", "target"],
+      "properties": {
+        "type": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
+        "target": { "type": "string", "pattern": "^media-[0-9]{6}$" }
+      }
+    }
+  }
+}

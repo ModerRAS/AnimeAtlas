@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://animeatlas.dev/schemas/contribution/v1.json",
+  "title": "AnimeAtlas Approved Contribution",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "issue", "operation", "review"],
+  "properties": {
+    "schema": { "const": "contribution/v1" },
+    "issue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["number", "url", "author"],
+      "properties": {
+        "number": { "type": "integer", "minimum": 1 },
+        "url": { "type": "string", "format": "uri" },
+        "author": { "type": "string", "minLength": 1 }
+      }
+    },
+    "operation": {
+      "type": "object",
+      "additionalProperties": true,
+      "required": ["type"],
+      "properties": {
+        "type": {
+          "enum": ["add_alias", "add_provider_ref", "correct_metadata", "merge_media", "split_media"]
+        }
+      }
+    },
+    "review": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["approved_by", "approved_at"],
+      "properties": {
+        "approved_by": { "type": "string", "minLength": 1 },
+        "approved_at": { "type": "string", "format": "date-time" }
+      }
+    }
+  }
+}

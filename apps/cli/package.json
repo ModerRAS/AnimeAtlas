@@ -1,0 +1,22 @@
+{
+  "name": "@animeatlas/cli",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "bin": {
+    "animeatlas": "./dist/index.js"
+  },
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "start": "node dist/index.js"
+  },
+  "dependencies": {
+    "@animeatlas/core": "workspace:*",
+    "@animeatlas/importer": "workspace:*",
+    "@animeatlas/provider-bangumi": "workspace:*",
+    "@animeatlas/providers": "workspace:*"
+  }
+}

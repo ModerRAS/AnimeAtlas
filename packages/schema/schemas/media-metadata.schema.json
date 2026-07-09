@@ -1,0 +1,90 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://animeatlas.dev/schemas/media-metadata/v1.json",
+  "title": "AnimeAtlas Media Metadata",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "media_id", "metadata", "_meta"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schema": { "const": "media-metadata/v1" },
+    "media_id": { "type": "string", "pattern": "^media-[0-9]{6}$" },
+    "metadata": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["title", "episode_count", "runtime"],
+      "properties": {
+        "title": { "type": "string", "minLength": 1 },
+        "summary": { "type": "string" },
+        "genres": { "type": "array", "items": { "type": "string" } },
+        "studios": { "type": "array", "items": { "type": "string" } },
+        "season": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["year", "name"],
+          "properties": {
+            "year": { "type": "integer", "minimum": 1900 },
+            "name": { "enum": ["winter", "spring", "summer", "fall", "unknown"] }
+          }
+        },
+        "episode_count": { "type": "integer", "minimum": 0 },
+        "runtime": { "type": "integer", "minimum": 0 },
+        "air_date": {
+          "type": "object",
+          "additionalProperties": false,
+          "properties": {
+            "start": { "type": "string", "format": "date" },
+            "end": { "type": "string", "format": "date" }
+          }
+        },
+        "images": {
+          "type": "object",
+          "additionalProperties": { "type": "string" }
+        },
+        "ratings": {
+          "type": "object",
+          "additionalProperties": { "type": "number" }
+        }
+      }
+    },
+    "_meta": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["last_sync", "fields"],
+      "properties": {
+        "last_sync": {
+          "type": "object",
+          "additionalProperties": { "type": "string", "format": "date-time" }
+        },
+        "fields": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["source", "source_field", "last_sync", "rule"],
+            "properties": {
+              "source": { "type": "string", "minLength": 1 },
+              "source_field": { "type": "string", "minLength": 1 },
+              "last_sync": { "type": "string", "format": "date-time" },
+              "rule": { "type": "string", "minLength": 1 },
+              "provider_ref": { "$ref": "#/$defs/providerRef" },
+              "raw_ref": { "type": "string", "minLength": 1 }
+            }
+          }
+        }
+      }
+    }
+  },
+  "$defs": {
+    "providerRef": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["provider", "entity", "id"],
+      "properties": {
+        "provider": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
+        "entity": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
+        "id": { "type": "string", "minLength": 1 }
+      }
+    }
+  }
+}

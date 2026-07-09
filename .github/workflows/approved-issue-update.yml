@@ -1,0 +1,68 @@
+name: Approved Issue Update
+
+on:
+  issues:
+    types:
+      - labeled
+
+permissions:
+  contents: write
+  issues: write
+  pull-requests: write
+
+concurrency:
+  group: approved-issue-${{ github.event.issue.number }}
+  cancel-in-progress: false
+
+jobs:
+  update-from-approved-issue:
+    name: Update From Approved Issue
+    if: github.event.label.name == 'approved'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          run_install: false
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Write approved contribution record
+        run: pnpm --filter @animeatlas/github-action start -- write-approved-contribution "${{ github.event_path }}"
+
+      - name: Apply approved contributions
+        run: pnpm cli -- contributions apply-approved --write
+
+      - name: Regenerate derived artifacts
+        run: pnpm generate
+
+      - name: Validate result
+        run: pnpm check
+
+      - name: Create update pull request
+        uses: peter-evans/create-pull-request@v6
+        with:
+          branch: automation/approved-issue-${{ github.event.issue.number }}
+          commit-message: "Apply approved issue #${{ github.event.issue.number }}"
+          title: "Apply approved issue #${{ github.event.issue.number }}"
+          body: |
+            Applies approved AnimeAtlas data contribution from #${{ github.event.issue.number }}.
+
+            This PR was generated from the approved Issue Form workflow after running:
+            - `pnpm --filter @animeatlas/github-action start -- write-approved-contribution`
+            - `pnpm cli -- contributions apply-approved --write`
+            - `pnpm generate`
+            - `pnpm check`
+
+            Closes #${{ github.event.issue.number }}
+          delete-branch: true

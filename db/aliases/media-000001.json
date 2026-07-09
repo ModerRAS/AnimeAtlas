@@ -1,0 +1,28 @@
+{
+  "$schema": "../../packages/schema/schemas/media-aliases.schema.json",
+  "schema": "media-aliases/v1",
+  "media_id": "media-000001",
+  "aliases": [
+    {
+      "value": "葬送的芙莉莲",
+      "language": "zh-Hans",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "Frieren: Beyond Journey's End",
+      "language": "en",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.95
+    },
+    {
+      "value": "Sousou no Frieren",
+      "language": "ja-Latn",
+      "type": "romaji",
+      "source": "bangumi",
+      "confidence": 0.95
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://animeatlas.dev/schemas/build-manifest/v1.json",
+  "title": "AnimeAtlas Build Manifest",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "generator", "inputs", "outputs"],
+  "properties": {
+    "schema": { "const": "build-manifest/v1" },
+    "generator": { "type": "string", "minLength": 1 },
+    "inputs": {
+      "type": "object",
+      "additionalProperties": { "type": "string", "pattern": "^[a-f0-9]{64}$" }
+    },
+    "outputs": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 }
+    }
+  }
+}

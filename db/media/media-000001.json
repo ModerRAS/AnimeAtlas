@@ -1,0 +1,24 @@
+{
+  "$schema": "../../packages/schema/schemas/media-identity.schema.json",
+  "schema": "media-identity/v1",
+  "id": "media-000001",
+  "kind": "anime",
+  "provider_refs": [
+    {
+      "provider": "bangumi",
+      "entity": "subject",
+      "id": "443666"
+    },
+    {
+      "provider": "tmdb",
+      "entity": "tv",
+      "id": "217850"
+    },
+    {
+      "provider": "anidb",
+      "entity": "anime",
+      "id": "18199"
+    }
+  ],
+  "relationships": []
+}

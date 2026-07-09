@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://animeatlas.dev/schemas/provider-manifest-list/v1.json",
+  "title": "AnimeAtlas Provider Manifest List",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "providers"],
+  "properties": {
+    "schema": { "const": "provider-manifest-list/v1" },
+    "providers": {
+      "type": "array",
+      "items": { "$ref": "provider-manifest/v1.json" },
+      "minItems": 1
+    }
+  }
+}

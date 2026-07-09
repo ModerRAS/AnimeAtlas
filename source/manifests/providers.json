@@ -1,0 +1,52 @@
+{
+  "schema": "provider-manifest-list/v1",
+  "providers": [
+    {
+      "schema": "provider-manifest/v1",
+      "provider": "bangumi",
+      "display_name": "Bangumi",
+      "entity_types": ["anime"],
+      "capabilities": [
+        "search",
+        "resolve_ids",
+        "fetch_metadata",
+        "fetch_images",
+        "fetch_relations",
+        "bulk_import",
+        "incremental_update"
+      ],
+      "notes": {
+        "bulk_import": "https://github.com/bangumi/Archive",
+        "incremental_update": "https://github.com/bangumi/api"
+      }
+    },
+    {
+      "schema": "provider-manifest/v1",
+      "provider": "tmdb",
+      "display_name": "TMDB",
+      "entity_types": ["anime"],
+      "capabilities": ["search", "resolve_ids", "fetch_metadata", "fetch_images", "fetch_relations"]
+    },
+    {
+      "schema": "provider-manifest/v1",
+      "provider": "anidb",
+      "display_name": "AniDB",
+      "entity_types": ["anime"],
+      "capabilities": ["search", "resolve_ids", "fetch_metadata", "fetch_relations"]
+    },
+    {
+      "schema": "provider-manifest/v1",
+      "provider": "myanimelist",
+      "display_name": "MyAnimeList",
+      "entity_types": ["anime"],
+      "capabilities": ["search", "resolve_ids", "fetch_metadata", "fetch_images"]
+    },
+    {
+      "schema": "provider-manifest/v1",
+      "provider": "anilist",
+      "display_name": "AniList",
+      "entity_types": ["anime"],
+      "capabilities": ["search", "resolve_ids", "fetch_metadata", "fetch_images", "fetch_relations"]
+    }
+  ]
+}

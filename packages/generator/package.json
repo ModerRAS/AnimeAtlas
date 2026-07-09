@@ -1,0 +1,17 @@
+{
+  "name": "@animeatlas/generator",
+  "version": "0.0.0",
+  "private": true,
+  "type": "module",
+  "exports": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "typecheck": "tsc -p tsconfig.json --noEmit",
+    "generate:run": "node dist/cli.js --write",
+    "check:run": "node dist/cli.js --check"
+  },
+  "dependencies": {
+    "@animeatlas/core": "workspace:*"
+  }
+}

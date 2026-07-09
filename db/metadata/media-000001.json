@@ -1,0 +1,67 @@
+{
+  "$schema": "../../packages/schema/schemas/media-metadata.schema.json",
+  "schema": "media-metadata/v1",
+  "media_id": "media-000001",
+  "metadata": {
+    "title": "葬送的芙莉莲",
+    "summary": "A long-lived elf mage retraces her journey after the defeat of the Demon King.",
+    "genres": [
+      "fantasy",
+      "adventure",
+      "drama"
+    ],
+    "studios": [
+      "Madhouse"
+    ],
+    "season": {
+      "year": 2023,
+      "name": "fall"
+    },
+    "episode_count": 28,
+    "runtime": 24,
+    "air_date": {
+      "start": "2023-09-29",
+      "end": "2024-03-22"
+    }
+  },
+  "_meta": {
+    "last_sync": {
+      "bangumi": "2026-07-08T12:34:56Z"
+    },
+    "fields": {
+      "metadata.title": {
+        "source": "bangumi",
+        "source_field": "name_cn",
+        "last_sync": "2026-07-08T12:34:56Z",
+        "rule": "bangumi.name_cn -> metadata.title",
+        "provider_ref": {
+          "provider": "bangumi",
+          "entity": "subject",
+          "id": "443666"
+        }
+      },
+      "metadata.episode_count": {
+        "source": "bangumi",
+        "source_field": "eps",
+        "last_sync": "2026-07-08T12:34:56Z",
+        "rule": "bangumi.eps -> metadata.episode_count",
+        "provider_ref": {
+          "provider": "bangumi",
+          "entity": "subject",
+          "id": "443666"
+        }
+      },
+      "metadata.runtime": {
+        "source": "bangumi",
+        "source_field": "duration",
+        "last_sync": "2026-07-08T12:34:56Z",
+        "rule": "bangumi.duration -> metadata.runtime",
+        "provider_ref": {
+          "provider": "bangumi",
+          "entity": "subject",
+          "id": "443666"
+        }
+      }
+    }
+  }
+}
