@@ -1,0 +1,50 @@
+{
+  "$schema": "../../packages/schema/schemas/media-metadata.schema.json",
+  "_meta": {
+    "fields": {
+      "metadata.episode_count": {
+        "last_sync": "2026-07-09T15:12:18Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "498947",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      },
+      "metadata.runtime": {
+        "last_sync": "2026-07-09T15:12:18Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "498947",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      },
+      "metadata.title": {
+        "last_sync": "2026-07-09T15:12:18Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "498947",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      }
+    },
+    "last_sync": {
+      "bangumi": "2026-07-09T15:12:18Z"
+    }
+  },
+  "media_id": "media-000002",
+  "metadata": {
+    "episode_count": 0,
+    "runtime": 0,
+    "title": "Gachiakuta"
+  },
+  "schema": "media-metadata/v1"
+}

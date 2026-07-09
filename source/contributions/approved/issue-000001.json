@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 1,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/1"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Gachiakuta"
+    },
+    "evidence_url": "https://bgm.tv/subject/498947",
+    "notes": "Observed as a series directory under S:\\动漫. Bangumi API search for \"Gachiakuta\" returned anime subject 498947: name=ガチアクタ, name_cn=咔嗒咔嗒, air date=2025-07-06, eps=24.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "498947",
+      "provider": "bangumi"
+    },
+    "title": "Gachiakuta",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-09T15:12:18Z",
+    "approved_by": "ModerRAS"
+  },
+  "schema": "contribution/v1"
+}
