@@ -1,0 +1,14 @@
+{
+  "$schema": "../../packages/schema/schemas/media-aliases.schema.json",
+  "aliases": [
+    {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "關於我轉生變成史萊姆這檔事 第四季"
+    }
+  ],
+  "media_id": "media-000007",
+  "schema": "media-aliases/v1"
+}
