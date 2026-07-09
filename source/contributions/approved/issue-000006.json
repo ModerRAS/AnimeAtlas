@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 6,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/6"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "我的英雄學院 FINAL SEASON"
+    },
+    "evidence_url": "https://bgm.tv/subject/518413",
+    "notes": "Observed in a local media library. Bangumi API search for \"我的英雄學院 FINAL SEASON\" returned anime subject 518413; this avoids matching the first season subject 150955.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "518413",
+      "provider": "bangumi"
+    },
+    "title": "僕のヒーローアカデミア FINAL SEASON",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-09T23:50:40Z",
+    "approved_by": "ModerRAS"
+  },
+  "schema": "contribution/v1"
+}
