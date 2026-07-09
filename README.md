@@ -44,5 +44,6 @@ Resolver output includes the matched `media-*` ID, normalized metadata, and prov
 - `pnpm cli -- contributions apply-approved`
 - `pnpm cli -- contributions apply-approved --write`
 - `pnpm viewer`
+- `pnpm release:sqlite`
 - `pnpm smoke`
 - `pnpm check`

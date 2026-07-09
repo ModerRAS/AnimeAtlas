@@ -16,6 +16,7 @@
     "check": "pnpm typecheck && pnpm validate && pnpm check:generated && node scripts/smoke-check.mjs",
     "cli": "pnpm --filter @animeatlas/cli start",
     "viewer": "pnpm --filter @animeatlas/viewer build",
+    "release:sqlite": "node scripts/build-sqlite.mjs",
     "validate": "pnpm build && pnpm --filter @animeatlas/validator validate:run",
     "generate": "pnpm build && pnpm --filter @animeatlas/generator generate:run",
     "check:generated": "pnpm build && pnpm --filter @animeatlas/generator check:run"

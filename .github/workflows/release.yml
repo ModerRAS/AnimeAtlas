@@ -1,0 +1,108 @@
+name: Release
+
+on:
+  push:
+    branches:
+      - main
+      - master
+    tags:
+      - "v*"
+    paths:
+      - "apps/**"
+      - "db/**"
+      - "generated/**"
+      - "packages/**"
+      - "scripts/**"
+      - "source/**"
+      - "package.json"
+      - "pnpm-lock.yaml"
+      - "pnpm-workspace.yaml"
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Release tag, for example v0.1.0"
+        required: true
+        type: string
+
+permissions:
+  contents: write
+
+concurrency:
+  group: release-${{ github.ref }}-${{ inputs.version || github.run_number }}
+  cancel-in-progress: false
+
+jobs:
+  release:
+    name: Build SQLite Release
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Install sqlite3
+        run: sudo apt-get update && sudo apt-get install -y sqlite3
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          run_install: false
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Generate and validate data
+        run: |
+          pnpm generate
+          pnpm check
+
+      - name: Resolve release version
+        id: version
+        env:
+          INPUT_VERSION: ${{ inputs.version || '' }}
+        shell: bash
+        run: |
+          if [[ "${GITHUB_REF_TYPE}" == "tag" ]]; then
+            version="${GITHUB_REF_NAME}"
+          elif [[ -n "$INPUT_VERSION" ]]; then
+            version="$INPUT_VERSION"
+          else
+            version="v0.0.${GITHUB_RUN_NUMBER}"
+          fi
+          if [[ ! "$version" =~ ^v[0-9]+\.[0-9]+\.[0-9]+.*$ ]]; then
+            echo "Release version must look like v0.1.0; got $version" >&2
+            exit 1
+          fi
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+
+      - name: Build SQLite database
+        env:
+          RELEASE_VERSION: ${{ steps.version.outputs.version }}
+        run: pnpm release:sqlite
+
+      - name: Upload workflow artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: animeatlas-sqlite-${{ steps.version.outputs.version }}
+          path: release/animeatlas.sqlite
+
+      - name: Publish GitHub Release
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        shell: bash
+        run: |
+          version="${{ steps.version.outputs.version }}"
+          file="release/animeatlas.sqlite"
+          if gh release view "$version" >/dev/null 2>&1; then
+            gh release upload "$version" "$file" --clobber
+          else
+            gh release create "$version" "$file" \
+              --target "$GITHUB_SHA" \
+              --title "AnimeAtlas ${version}" \
+              --notes "AnimeAtlas offline SQLite database generated from this repository."
+          fi
