@@ -5,14 +5,17 @@
     "db/aliases/media-000002.json": "d213e260dd4785d6ca9c3c010a14dcdc8b16c4c23a1da386a50827f50ed5c4c7",
     "db/aliases/media-000003.json": "e8dad275b866eb53effb4690fa9880ec03c315be0ccaeeeda3831fa982720e0f",
     "db/aliases/media-000004.json": "36f55bcbe37eb15ec0c44510aff0150e7e308fde60ca38c17b7d918ebaefef94",
+    "db/aliases/media-000005.json": "8ed59a698692c463d266f75b12426e5e7a5fd1271b32ef023e9d1d84eae5ef32",
     "db/media/media-000001.json": "c4f6a2cf21b73a46300e483dd77ef50864e0563c4b071662e521600f6b9c687d",
     "db/media/media-000002.json": "950f74bc8fb377beddfc99c79913aeb40b876bb5d31a122d163f06e00816a5e4",
     "db/media/media-000003.json": "8239002916f733c039380086e3f4cf20aebdd9fb42f2d453bc3425ff6a4ef2ce",
     "db/media/media-000004.json": "2a275d746ef6ad24baba192b1f1a8f60dd887575c883f2e4a0a3389a33450164",
+    "db/media/media-000005.json": "20b6c2dd838545552bf9cd7df8cc85ca083b7fa8b7322065a653adc7af5c2860",
     "db/metadata/media-000001.json": "9a7434a10c8bf583209c00cd3c971dd039b2d4b70c8985aa9af8cdb53dcf8da2",
     "db/metadata/media-000002.json": "1822cc9262066d88a8ba4d80e230134d9a4641dd01151c47067a95e76f086277",
     "db/metadata/media-000003.json": "80a7879a2e4f286c7619b13013c30d54a227da036a8b1359c3057b6155107062",
-    "db/metadata/media-000004.json": "2e9df6e7193291a1e94bfe099beee7dacf10776a68ad05bc850da0ca03a44762"
+    "db/metadata/media-000004.json": "2e9df6e7193291a1e94bfe099beee7dacf10776a68ad05bc850da0ca03a44762",
+    "db/metadata/media-000005.json": "58667413d7ae62db9672b4aaf2854ab4a64efba2a0a5461a3b3e8007b56a02fc"
   },
   "outputs": [
     "generated/indexes/aliases/exact.json",
