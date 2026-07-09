@@ -37,6 +37,9 @@ jobs:
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
 
+      - name: Build workspace
+        run: pnpm build
+
       - name: Write approved contribution record
         run: pnpm --filter @animeatlas/github-action start -- write-approved-contribution "${{ github.event_path }}"
 
@@ -59,6 +62,7 @@ jobs:
             Applies approved AnimeAtlas data contribution from #${{ github.event.issue.number }}.
 
             This PR was generated from the approved Issue Form workflow after running:
+            - `pnpm build`
             - `pnpm --filter @animeatlas/github-action start -- write-approved-contribution`
             - `pnpm cli -- contributions apply-approved --write`
             - `pnpm generate`
