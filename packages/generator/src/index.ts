@@ -185,7 +185,7 @@ function listJsonFiles(dir: string): string[] {
 function hashInputs(root: string): Record<string, string> {
   const hashes: Record<string, string> = {};
   for (const file of listJsonFiles(join(root, "db"))) {
-    hashes[toRepoPath(root, file)] = sha256(readFileSync(file));
+    hashes[toRepoPath(root, file)] = sha256(readFileSync(file, "utf8").replace(/\r\n?/g, "\n"));
   }
   return hashes;
 }

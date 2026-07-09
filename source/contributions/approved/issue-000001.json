@@ -13,7 +13,7 @@
       "value": "Gachiakuta"
     },
     "evidence_url": "https://bgm.tv/subject/498947",
-    "notes": "Observed as a series directory under S:\\动漫. Bangumi API search for \"Gachiakuta\" returned anime subject 498947: name=ガチアクタ, name_cn=咔嗒咔嗒, air date=2025-07-06, eps=24.",
+    "notes": "Observed in a local media library. Bangumi API search for \"Gachiakuta\" returned anime subject 498947: name=ガチアクタ, name_cn=咔嗒咔嗒, air date=2025-07-06, eps=24.",
     "provider_ref": {
       "entity": "subject",
       "id": "498947",
