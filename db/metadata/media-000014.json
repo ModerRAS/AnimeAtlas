@@ -1,0 +1,50 @@
+{
+  "$schema": "../../packages/schema/schemas/media-metadata.schema.json",
+  "_meta": {
+    "fields": {
+      "metadata.episode_count": {
+        "last_sync": "2026-07-10T00:09:43Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "565304",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      },
+      "metadata.runtime": {
+        "last_sync": "2026-07-10T00:09:43Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "565304",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      },
+      "metadata.title": {
+        "last_sync": "2026-07-10T00:09:43Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "565304",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      }
+    },
+    "last_sync": {
+      "bangumi": "2026-07-10T00:09:43Z"
+    }
+  },
+  "media_id": "media-000014",
+  "metadata": {
+    "episode_count": 0,
+    "runtime": 0,
+    "title": "最強の王様、二度目の人生は何をする？ Season 2"
+  },
+  "schema": "media-metadata/v1"
+}

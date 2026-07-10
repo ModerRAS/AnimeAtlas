@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 14,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/14"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "終末起點 第 2 季"
+    },
+    "evidence_url": "https://bgm.tv/subject/565304",
+    "notes": "Observed in a local media library. Bangumi API search for \"終末起點 第 2 季\" returned anime subject 565304; this covers the spaced numeric season alias.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "565304",
+      "provider": "bangumi"
+    },
+    "title": "最強の王様、二度目の人生は何をする？ Season 2",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-10T00:09:43Z",
+    "approved_by": "ModerRAS"
+  },
+  "schema": "contribution/v1"
+}
