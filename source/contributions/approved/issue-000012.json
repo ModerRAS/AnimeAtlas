@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 12,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/12"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "碧藍航線 微速前進！2"
+    },
+    "evidence_url": "https://bgm.tv/subject/454083",
+    "notes": "Observed in a local media library. Bangumi API search for \"碧藍航線 微速前進！2\" returned anime subject 454083; this avoids matching the first season subject 297168.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "454083",
+      "provider": "bangumi"
+    },
+    "title": "アズールレーン びそくぜんしんっ！にっ!!",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-10T00:04:53Z",
+    "approved_by": "ModerRAS"
+  },
+  "schema": "contribution/v1"
+}
