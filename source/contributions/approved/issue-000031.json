@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 31,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/31"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "青梅竹馬的戀愛喜劇無法成立"
+    },
+    "evidence_url": "https://bgm.tv/subject/549654",
+    "notes": "Observed in a local media library. Bangumi API search for \"青梅竹馬的戀愛喜劇無法成立\" returns anime subject 549654; without this alias, fuzzy online matching can prefer older subject 316264.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "549654",
+      "provider": "bangumi"
+    },
+    "title": "幼馴染とはラブコメにならない",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-10T00:51:47Z",
+    "approved_by": "ModerRAS"
+  },
+  "schema": "contribution/v1"
+}
