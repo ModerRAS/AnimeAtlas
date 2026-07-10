@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 41,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/41"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Ulysses Jeanne d'Arc to Renkin no Kishi"
+    },
+    "evidence_url": "https://bgm.tv/subject/227098",
+    "notes": "Observed in a local media library. User confirmed Bangumi subject 227098 for the base series title; menu/cast-special files are extras and should not become separate media mappings.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "227098",
+      "provider": "bangumi"
+    },
+    "title": "ユリシーズ ジャンヌ・ダルクと錬金の騎士",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-10T01:16:37Z",
+    "approved_by": "ModerRAS"
+  },
+  "schema": "contribution/v1"
+}
