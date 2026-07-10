@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 42,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/42"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "在異世界獲得超強能力的我，在現實世界照樣無敵～等級提升改變人生命運～ TVSP"
+    },
+    "evidence_url": "https://bgm.tv/subject/459601",
+    "notes": "Observed in a local media library. User confirmed Bangumi subject 459601 for this TV special; without the alias, fuzzy matching can fall back to main-series subject 397025.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "459601",
+      "provider": "bangumi"
+    },
+    "title": "異世界でチート能力を手にした俺は、現実世界をも無双する～レベルアップは人生を変えた～ スペシャル",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-10T01:18:51Z",
+    "approved_by": "ModerRAS"
+  },
+  "schema": "contribution/v1"
+}

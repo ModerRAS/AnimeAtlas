@@ -1,0 +1,14 @@
+{
+  "$schema": "../../packages/schema/schemas/media-aliases.schema.json",
+  "aliases": [
+    {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "在異世界獲得超強能力的我，在現實世界照樣無敵～等級提升改變人生命運～ TVSP"
+    }
+  ],
+  "media_id": "media-000023",
+  "schema": "media-aliases/v1"
+}
