@@ -10,6 +10,7 @@
     "db/aliases/media-000007.json": "9d4b60220ec855a9e5740a68fdeb04ea95512d168bed5f89c91471d68ab69ae0",
     "db/aliases/media-000008.json": "d3df52412295653fef0cf3912e9e78a6d4ebf5a0fa113f69775411f2acb7e972",
     "db/aliases/media-000009.json": "692080728105cac103256742e7897d05cce6883507cd4b2f9cd41a5ae1b8c1b7",
+    "db/aliases/media-000010.json": "1cfe317b5c323d8fe192bdb2ae8bc04b7040bf2b894b3e5b0a454c86c700fc12",
     "db/media/media-000001.json": "c4f6a2cf21b73a46300e483dd77ef50864e0563c4b071662e521600f6b9c687d",
     "db/media/media-000002.json": "950f74bc8fb377beddfc99c79913aeb40b876bb5d31a122d163f06e00816a5e4",
     "db/media/media-000003.json": "8239002916f733c039380086e3f4cf20aebdd9fb42f2d453bc3425ff6a4ef2ce",
@@ -19,6 +20,7 @@
     "db/media/media-000007.json": "4453dcc3c4e59a18072051483ebd142ddf1d9b0b2b953097f13dc813bd2dccea",
     "db/media/media-000008.json": "89cef56853b17c1bb0c96daca76390f22b597ae583828107b6d6b0ba34f58047",
     "db/media/media-000009.json": "5d7e73bbc006e42cfff73ab58df026ec2a5ddb4db7cc9f3bb21fbe71c4c60d8e",
+    "db/media/media-000010.json": "c736b1d4a4d657e18639d18f9d7ecd01fcfde5736a6db4be3949483d084b1afe",
     "db/metadata/media-000001.json": "9a7434a10c8bf583209c00cd3c971dd039b2d4b70c8985aa9af8cdb53dcf8da2",
     "db/metadata/media-000002.json": "1822cc9262066d88a8ba4d80e230134d9a4641dd01151c47067a95e76f086277",
     "db/metadata/media-000003.json": "80a7879a2e4f286c7619b13013c30d54a227da036a8b1359c3057b6155107062",
@@ -27,7 +29,8 @@
     "db/metadata/media-000006.json": "79c763ead3ef4def6df37071f3797c38d32784c47287b4535984d6dd41539ada",
     "db/metadata/media-000007.json": "0419926781f954215f0123224d2dc432087566f04acaa8b408d0fbd2792b9027",
     "db/metadata/media-000008.json": "dbcdce8bda098f648b19853729e6e8164730753c2cd45879af2fe9f485f3ca79",
-    "db/metadata/media-000009.json": "ac170ea764cfd0d1b302d26c0aad44cae7fe97d1c628612241bca7af83fcbc3c"
+    "db/metadata/media-000009.json": "ac170ea764cfd0d1b302d26c0aad44cae7fe97d1c628612241bca7af83fcbc3c",
+    "db/metadata/media-000010.json": "9720d2261e1c9662dcd4e7f55c211f949b213ba86cb738c0b0c3f6ea635b6448"
   },
   "outputs": [
     "generated/indexes/aliases/exact.json",
