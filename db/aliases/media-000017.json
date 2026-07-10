@@ -1,0 +1,14 @@
+{
+  "$schema": "../../packages/schema/schemas/media-aliases.schema.json",
+  "aliases": [
+    {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "青梅竹馬的戀愛喜劇無法成立"
+    }
+  ],
+  "media_id": "media-000017",
+  "schema": "media-aliases/v1"
+}
