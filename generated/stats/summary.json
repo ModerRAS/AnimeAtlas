@@ -1,11 +1,11 @@
 {
   "counts": {
-    "alias_records": 18,
-    "aliases": 20,
-    "media": 18,
-    "metadata_records": 18,
-    "provider_refs": 20,
-    "search_terms": 106
+    "alias_records": 19,
+    "aliases": 21,
+    "media": 19,
+    "metadata_records": 19,
+    "provider_refs": 21,
+    "search_terms": 108
   },
   "schema": "generated-stats/v1"
 }

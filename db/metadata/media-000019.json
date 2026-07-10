@@ -1,0 +1,50 @@
+{
+  "$schema": "../../packages/schema/schemas/media-metadata.schema.json",
+  "_meta": {
+    "fields": {
+      "metadata.episode_count": {
+        "last_sync": "2026-07-10T01:04:02Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "552589",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      },
+      "metadata.runtime": {
+        "last_sync": "2026-07-10T01:04:02Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "552589",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      },
+      "metadata.title": {
+        "last_sync": "2026-07-10T01:04:02Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "552589",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      }
+    },
+    "last_sync": {
+      "bangumi": "2026-07-10T01:04:02Z"
+    }
+  },
+  "media_id": "media-000019",
+  "metadata": {
+    "episode_count": 0,
+    "runtime": 0,
+    "title": "カナン様はあくまでチョロい"
+  },
+  "schema": "media-metadata/v1"
+}

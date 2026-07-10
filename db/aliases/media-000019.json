@@ -1,0 +1,14 @@
+{
+  "$schema": "../../packages/schema/schemas/media-aliases.schema.json",
+  "aliases": [
+    {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "容易對付的惡魔大人"
+    }
+  ],
+  "media_id": "media-000019",
+  "schema": "media-aliases/v1"
+}
