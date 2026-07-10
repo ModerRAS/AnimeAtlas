@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 46,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/46"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "無尾熊繪日記"
+    },
+    "evidence_url": "https://bgm.tv/subject/564980",
+    "notes": "Observed in a local media library. User confirmed Bangumi subject 564980 for this localized title.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "564980",
+      "provider": "bangumi"
+    },
+    "title": "コアラ絵日記",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-10T02:18:30Z",
+    "approved_by": "ModerRAS"
+  },
+  "schema": "contribution/v1"
+}
