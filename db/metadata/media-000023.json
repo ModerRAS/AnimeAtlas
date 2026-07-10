@@ -1,0 +1,50 @@
+{
+  "$schema": "../../packages/schema/schemas/media-metadata.schema.json",
+  "_meta": {
+    "fields": {
+      "metadata.episode_count": {
+        "last_sync": "2026-07-10T01:18:51Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "459601",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      },
+      "metadata.runtime": {
+        "last_sync": "2026-07-10T01:18:51Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "459601",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      },
+      "metadata.title": {
+        "last_sync": "2026-07-10T01:18:51Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "459601",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      }
+    },
+    "last_sync": {
+      "bangumi": "2026-07-10T01:18:51Z"
+    }
+  },
+  "media_id": "media-000023",
+  "metadata": {
+    "episode_count": 0,
+    "runtime": 0,
+    "title": "異世界でチート能力を手にした俺は、現実世界をも無双する～レベルアップは人生を変えた～ スペシャル"
+  },
+  "schema": "media-metadata/v1"
+}
