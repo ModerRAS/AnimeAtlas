@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 16,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/16"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "鑽石王牌 act2 第二季"
+    },
+    "evidence_url": "https://bgm.tv/subject/495238",
+    "notes": "Observed in a local media library. Bangumi API search for \"ダイヤのA act2 第二季\" returned anime subject 495238.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "495238",
+      "provider": "bangumi"
+    },
+    "title": "ダイヤのA actⅡ Second Season",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-10T00:14:34Z",
+    "approved_by": "ModerRAS"
+  },
+  "schema": "contribution/v1"
+}
