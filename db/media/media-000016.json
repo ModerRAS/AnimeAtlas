@@ -1,0 +1,14 @@
+{
+  "$schema": "../../packages/schema/schemas/media-identity.schema.json",
+  "id": "media-000016",
+  "kind": "anime",
+  "provider_refs": [
+    {
+      "entity": "subject",
+      "id": "495238",
+      "provider": "bangumi"
+    }
+  ],
+  "relationships": [],
+  "schema": "media-identity/v1"
+}

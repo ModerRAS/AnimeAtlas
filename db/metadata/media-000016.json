@@ -1,0 +1,50 @@
+{
+  "$schema": "../../packages/schema/schemas/media-metadata.schema.json",
+  "_meta": {
+    "fields": {
+      "metadata.episode_count": {
+        "last_sync": "2026-07-10T00:14:34Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "495238",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      },
+      "metadata.runtime": {
+        "last_sync": "2026-07-10T00:14:34Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "495238",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      },
+      "metadata.title": {
+        "last_sync": "2026-07-10T00:14:34Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "495238",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      }
+    },
+    "last_sync": {
+      "bangumi": "2026-07-10T00:14:34Z"
+    }
+  },
+  "media_id": "media-000016",
+  "metadata": {
+    "episode_count": 0,
+    "runtime": 0,
+    "title": "ダイヤのA actⅡ Second Season"
+  },
+  "schema": "media-metadata/v1"
+}
