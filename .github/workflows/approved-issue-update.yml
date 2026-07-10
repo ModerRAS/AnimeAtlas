@@ -6,17 +6,18 @@ on:
       - labeled
 
 permissions:
+  actions: write
   contents: write
   issues: write
   pull-requests: write
 
 concurrency:
-  group: approved-issue-${{ github.event.issue.number }}
+  group: approved-issue-update
   cancel-in-progress: false
 
 jobs:
   update-from-approved-issue:
-    name: Update From Approved Issue
+    name: Update From Approved Issues
     if: github.event.label.name == 'approved'
     runs-on: ubuntu-latest
     steps:
@@ -40,8 +41,13 @@ jobs:
       - name: Build workspace
         run: pnpm build
 
-      - name: Write approved contribution record
-        run: pnpm --filter @animeatlas/github-action start -- write-approved-contribution "${{ github.event_path }}"
+      - name: List approved issues
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh issue list --state open --label approved --limit 1000 --json number,url,body,author,updatedAt > approved-issues.json
+
+      - name: Sync approved contribution records
+        run: pnpm --filter @animeatlas/github-action start -- sync-approved-issues approved-issues.json --approved-by github-actions[bot]
 
       - name: Apply approved contributions
         run: pnpm cli -- contributions apply-approved --write
@@ -52,21 +58,34 @@ jobs:
       - name: Validate result
         run: pnpm check
 
-      - name: Create update pull request
+      - name: Write pull request body
+        run: |
+          {
+            echo "Applies all currently open AnimeAtlas issues with the approved label."
+            echo
+            echo "This PR is updated by the approved issue workflow after running:"
+            echo "- \`pnpm build\`"
+            echo "- \`pnpm --filter @animeatlas/github-action start -- sync-approved-issues\`"
+            echo "- \`pnpm cli -- contributions apply-approved --write\`"
+            echo "- \`pnpm generate\`"
+            echo "- \`pnpm check\`"
+            echo
+            echo "Included issues:"
+            jq -r '.[] | "- Closes #\(.number)"' approved-issues.json
+          } > approved-issues-pr-body.md
+
+      - name: Create or update aggregate pull request
+        id: cpr
         uses: peter-evans/create-pull-request@v6
         with:
-          branch: automation/approved-issue-${{ github.event.issue.number }}
-          commit-message: "Apply approved issue #${{ github.event.issue.number }}"
-          title: "Apply approved issue #${{ github.event.issue.number }}"
-          body: |
-            Applies approved AnimeAtlas data contribution from #${{ github.event.issue.number }}.
-
-            This PR was generated from the approved Issue Form workflow after running:
-            - `pnpm build`
-            - `pnpm --filter @animeatlas/github-action start -- write-approved-contribution`
-            - `pnpm cli -- contributions apply-approved --write`
-            - `pnpm generate`
-            - `pnpm check`
-
-            Closes #${{ github.event.issue.number }}
+          branch: automation/approved-issues
+          commit-message: "Apply approved AnimeAtlas issues"
+          title: "Apply approved AnimeAtlas issues"
+          body-path: approved-issues-pr-body.md
           delete-branch: true
+
+      - name: Run pull request validation workflow
+        if: steps.cpr.outputs.pull-request-number != ''
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run validate.yml --ref automation/approved-issues

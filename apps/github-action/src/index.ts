@@ -17,6 +17,14 @@ type IssueEvent = {
   sender?: { login?: string };
 };
 
+type IssueListItem = {
+  number?: number;
+  url?: string;
+  body?: string | null;
+  author?: { login?: string };
+  updatedAt?: string;
+};
+
 type OperationType = "create_media" | "add_alias" | "add_provider_ref" | "correct_metadata";
 
 type ContributionRecord = {
@@ -41,6 +49,7 @@ type WriteApprovedContributionOptions = {
   outDir?: string;
   force?: boolean;
   root?: string;
+  approvedBy?: string;
 };
 
 type WriteApprovedContributionResult = {
@@ -167,6 +176,48 @@ export function writeApprovedContributionRecord(
 
 export function approvedContributionFileName(contribution: ContributionRecord): string {
   return `issue-${String(contribution.issue.number).padStart(6, "0")}.json`;
+}
+
+export function contributionFromIssueListItem(issue: IssueListItem, approvedBy = "approved-label"): ParseResult {
+  return contributionFromIssueEvent({
+    action: "labeled",
+    label: { name: "approved" },
+    issue: {
+      number: issue.number,
+      html_url: issue.url,
+      body: issue.body,
+      user: issue.author,
+      updated_at: issue.updatedAt
+    },
+    sender: { login: approvedBy }
+  });
+}
+
+export function syncApprovedIssueRecords(
+  issues: IssueListItem[],
+  options: WriteApprovedContributionOptions = {}
+): Array<WriteApprovedContributionResult & { skipped_existing: boolean }> {
+  const root = options.root ?? findRepoRoot(process.cwd());
+  const outDir = resolveFromRoot(root, options.outDir ?? "source/contributions/approved");
+  const results: Array<WriteApprovedContributionResult & { skipped_existing: boolean }> = [];
+
+  for (const issue of issues) {
+    const result = contributionFromIssueListItem(issue, options.approvedBy);
+    if (!result.ok) {
+      throw new Error(`Issue #${issue.number ?? "<unknown>"} cannot be synced: ${result.errors.join("; ")}`);
+    }
+
+    const file = join(outDir, approvedContributionFileName(result.contribution));
+    if (existsSync(file) && !options.force) {
+      results.push({ file, written: false, contribution: result.contribution, skipped_existing: true });
+      continue;
+    }
+
+    const writeResult = writeApprovedContributionRecord(result.contribution, { ...options, root, outDir });
+    results.push({ ...writeResult, skipped_existing: false });
+  }
+
+  return results;
 }
 
 function operationFromFields(fields: Record<string, string>, errors: string[]): ContributionRecord["operation"] | undefined {
@@ -352,17 +403,37 @@ function usage(): string {
   return [
     "Usage:",
     "  github-action parse-issue-event <github-event-path>",
-    "  github-action write-approved-contribution <github-event-path> [--out-dir source/contributions/approved] [--force]"
+    "  github-action write-approved-contribution <github-event-path> [--out-dir source/contributions/approved] [--force]",
+    "  github-action sync-approved-issues <issues-json-path> [--out-dir source/contributions/approved] [--force] [--approved-by login]"
   ].join("\n");
 }
 
 async function main(argv: string[]): Promise<void> {
-  const [command, eventPath, ...rest] = argv;
-  if (!command || !eventPath) {
+  const [command, inputPath, ...rest] = argv;
+  if (!command || !inputPath) {
     throw new CliUsageError(usage());
   }
 
-  const event = JSON.parse(readFileSync(eventPath, "utf8")) as IssueEvent;
+  if (command === "sync-approved-issues") {
+    const options = parseWriteOptions(rest);
+    const issues = JSON.parse(readFileSync(inputPath, "utf8")) as IssueListItem[];
+    if (!Array.isArray(issues)) {
+      throw new CliUsageError("sync-approved-issues expects a JSON array from gh issue list.");
+    }
+    const results = syncApprovedIssueRecords(issues, options);
+    process.stdout.write(stableStringify({
+      schema: "approved-issue-sync-result/v1",
+      summary: {
+        issues: issues.length,
+        written: results.filter((result) => result.written).length,
+        skipped_existing: results.filter((result) => result.skipped_existing).length
+      },
+      results
+    }));
+    return;
+  }
+
+  const event = JSON.parse(readFileSync(inputPath, "utf8")) as IssueEvent;
   const result = contributionFromIssueEvent(event);
   if (!result.ok) {
     for (const error of result.errors) {
@@ -403,6 +474,13 @@ function parseWriteOptions(args: string[]): WriteApprovedContributionOptions {
       index += 1;
     } else if (arg === "--force") {
       options.force = true;
+    } else if (arg === "--approved-by") {
+      const value = args[index + 1];
+      if (!value) {
+        throw new CliUsageError("--approved-by requires a login value.");
+      }
+      options.approvedBy = value;
+      index += 1;
     } else {
       throw new CliUsageError(`Unknown option: ${arg}`);
     }
