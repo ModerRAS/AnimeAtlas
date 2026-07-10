@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 11,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/11"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "異世界悠閒農家 2"
+    },
+    "evidence_url": "https://bgm.tv/subject/575057",
+    "notes": "Observed in a local media library. Bangumi API search for \"異世界悠閒農家 2\" returned anime subject 575057; this avoids matching the first season subject 376137.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "575057",
+      "provider": "bangumi"
+    },
+    "title": "異世界のんびり農家２",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-10T00:02:31Z",
+    "approved_by": "ModerRAS"
+  },
+  "schema": "contribution/v1"
+}
