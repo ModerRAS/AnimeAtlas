@@ -1,0 +1,14 @@
+{
+  "$schema": "../../packages/schema/schemas/media-aliases.schema.json",
+  "aliases": [
+    {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "終末起點 第 2 季"
+    }
+  ],
+  "media_id": "media-000014",
+  "schema": "media-aliases/v1"
+}
