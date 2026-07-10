@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 32,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/32"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "花樣少年少女 第二季"
+    },
+    "evidence_url": "https://bgm.tv/subject/637124",
+    "notes": "Observed in a local media library. Bangumi API search for \"花ざかりの君たちへ 第二季\" returns anime subject 637124; without this alias, fuzzy online matching can fall back to first-season subject 494564.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "637124",
+      "provider": "bangumi"
+    },
+    "title": "花ざかりの君たちへ 第2期",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-10T00:53:34Z",
+    "approved_by": "ModerRAS"
+  },
+  "schema": "contribution/v1"
+}
