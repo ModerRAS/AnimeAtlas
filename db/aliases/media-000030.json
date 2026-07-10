@@ -1,0 +1,14 @@
+{
+  "$schema": "../../packages/schema/schemas/media-aliases.schema.json",
+  "aliases": [
+    {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "我回來了，他又來打擾了！"
+    }
+  ],
+  "media_id": "media-000030",
+  "schema": "media-aliases/v1"
+}

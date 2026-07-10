@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 64,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/64"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "拉拉熊"
+    },
+    "evidence_url": "https://bgm.tv/subject/520633",
+    "notes": "Observed in a local media library. User confirmed Bangumi subject 520633 for this title.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "520633",
+      "provider": "bangumi"
+    },
+    "title": "リラックマ",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-10T02:45:03Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

@@ -1,0 +1,14 @@
+{
+  "$schema": "../../packages/schema/schemas/media-aliases.schema.json",
+  "aliases": [
+    {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "複製品的我也會談戀愛"
+    }
+  ],
+  "media_id": "media-000034",
+  "schema": "media-aliases/v1"
+}

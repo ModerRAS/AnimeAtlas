@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 62,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/62"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "貫徹輔助魔法支援弱小隊友的宮廷魔法師，慘遭驅逐後目標成為最強冒險者"
+    },
+    "evidence_url": "https://bgm.tv/subject/545842",
+    "notes": "Observed in a local media library. User confirmed Bangumi subject 545842 for this title.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "545842",
+      "provider": "bangumi"
+    },
+    "title": "味方が弱すぎて補助魔法に徹していた宮廷魔法師、追放されて最強を目指す",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-10T02:44:58Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

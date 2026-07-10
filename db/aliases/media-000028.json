@@ -1,0 +1,14 @@
+{
+  "$schema": "../../packages/schema/schemas/media-aliases.schema.json",
+  "aliases": [
+    {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "Animatica「北斗之拳 拳王軍雜兵們的輓歌」"
+    }
+  ],
+  "media_id": "media-000028",
+  "schema": "media-aliases/v1"
+}

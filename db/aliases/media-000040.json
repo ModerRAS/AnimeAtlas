@@ -1,0 +1,14 @@
+{
+  "$schema": "../../packages/schema/schemas/media-aliases.schema.json",
+  "aliases": [
+    {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "超人力霸王奧米加"
+    }
+  ],
+  "media_id": "media-000040",
+  "schema": "media-aliases/v1"
+}

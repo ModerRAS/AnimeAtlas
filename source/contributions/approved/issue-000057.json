@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 57,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/57"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "我回來了，他又來打擾了！"
+    },
+    "evidence_url": "https://bgm.tv/subject/610703",
+    "notes": "Observed in a local media library. User confirmed Bangumi subject 610703 for this title.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "610703",
+      "provider": "bangumi"
+    },
+    "title": "ただいま、おじゃまされます！",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-10T02:44:47Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

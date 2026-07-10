@@ -1,0 +1,14 @@
+{
+  "$schema": "../../packages/schema/schemas/media-aliases.schema.json",
+  "aliases": [
+    {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "惡食千金與狂血公爵～那個魔物我就美美地享用了！～"
+    }
+  ],
+  "media_id": "media-000029",
+  "schema": "media-aliases/v1"
+}
