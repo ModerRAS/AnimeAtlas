@@ -47,7 +47,7 @@ jobs:
         run: gh issue list --state open --label approved --limit 1000 --json number,url,body,author,updatedAt > approved-issues.json
 
       - name: Sync approved contribution records
-        run: pnpm --filter @animeatlas/github-action start -- sync-approved-issues approved-issues.json --approved-by github-actions[bot]
+        run: pnpm --filter @animeatlas/github-action start -- sync-approved-issues "$GITHUB_WORKSPACE/approved-issues.json" --approved-by github-actions[bot]
 
       - name: Apply approved contributions
         run: pnpm cli -- contributions apply-approved --write
