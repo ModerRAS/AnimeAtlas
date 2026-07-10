@@ -1,0 +1,14 @@
+{
+  "$schema": "../../packages/schema/schemas/media-aliases.schema.json",
+  "aliases": [
+    {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "銀魂 3 年 Z 班銀八老師"
+    }
+  ],
+  "media_id": "media-000015",
+  "schema": "media-aliases/v1"
+}
