@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 37,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/37"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "關於我在無意間被隔壁的天使變成廢柴這件事 2"
+    },
+    "evidence_url": "https://bgm.tv/subject/458684",
+    "notes": "Observed in a local media library. User confirmed Bangumi subject 458684 for this localized sequel title; current matching leaves it unresolved.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "458684",
+      "provider": "bangumi"
+    },
+    "title": "お隣の天使様にいつの間にか駄目人間にされていた件2",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-10T01:07:39Z",
+    "approved_by": "ModerRAS"
+  },
+  "schema": "contribution/v1"
+}
