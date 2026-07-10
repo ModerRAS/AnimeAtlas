@@ -1,0 +1,50 @@
+{
+  "$schema": "../../packages/schema/schemas/media-metadata.schema.json",
+  "_meta": {
+    "fields": {
+      "metadata.episode_count": {
+        "last_sync": "2026-07-10T02:44:58Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "545842",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      },
+      "metadata.runtime": {
+        "last_sync": "2026-07-10T02:44:58Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "545842",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      },
+      "metadata.title": {
+        "last_sync": "2026-07-10T02:44:58Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "545842",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      }
+    },
+    "last_sync": {
+      "bangumi": "2026-07-10T02:44:58Z"
+    }
+  },
+  "media_id": "media-000035",
+  "metadata": {
+    "episode_count": 0,
+    "runtime": 0,
+    "title": "味方が弱すぎて補助魔法に徹していた宮廷魔法師、追放されて最強を目指す"
+  },
+  "schema": "media-metadata/v1"
+}

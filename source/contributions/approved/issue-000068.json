@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 68,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/68"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "超人力霸王奧米加"
+    },
+    "evidence_url": "https://bgm.tv/subject/546258",
+    "notes": "Observed in a local media library. User confirmed Bangumi subject 546258 for this title. Bangumi reports this as type=6; user requested this provider mapping.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "546258",
+      "provider": "bangumi"
+    },
+    "title": "ウルトラマンオメガ",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-10T02:49:38Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

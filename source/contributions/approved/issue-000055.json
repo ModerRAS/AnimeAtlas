@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 55,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/55"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "Animatica「北斗之拳 拳王軍雜兵們的輓歌」"
+    },
+    "evidence_url": "https://bgm.tv/subject/584833",
+    "notes": "Observed in a local media library. User confirmed Bangumi subject 584833 for this title.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "584833",
+      "provider": "bangumi"
+    },
+    "title": "北斗の拳 拳王軍ザコたちの挽歌",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-10T02:44:42Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}
