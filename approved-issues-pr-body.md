@@ -8,4 +8,4 @@ This PR is updated by the approved issue workflow after running:
 - `pnpm check`
 
 Included issues:
-- Closes #72
+- Closes #74
