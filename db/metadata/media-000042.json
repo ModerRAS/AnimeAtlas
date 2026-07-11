@@ -1,0 +1,50 @@
+{
+  "$schema": "../../packages/schema/schemas/media-metadata.schema.json",
+  "_meta": {
+    "fields": {
+      "metadata.episode_count": {
+        "last_sync": "2026-07-11T08:17:34Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "330054",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      },
+      "metadata.runtime": {
+        "last_sync": "2026-07-11T08:17:34Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "330054",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      },
+      "metadata.title": {
+        "last_sync": "2026-07-11T08:17:34Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "330054",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      }
+    },
+    "last_sync": {
+      "bangumi": "2026-07-11T08:17:34Z"
+    }
+  },
+  "media_id": "media-000042",
+  "metadata": {
+    "episode_count": 0,
+    "runtime": 0,
+    "title": "魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～ Ⅱ"
+  },
+  "schema": "media-metadata/v1"
+}

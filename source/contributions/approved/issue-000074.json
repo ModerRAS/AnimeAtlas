@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 74,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/74"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Maou Gakuin no Futekigousha Season 2"
+    },
+    "evidence_url": "https://bgm.tv/subject/330054",
+    "notes": "Observed in a local media library. This romanized season title identifies the second TV season; conservative matching must not fall through to an unrelated same-season subject.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "330054",
+      "provider": "bangumi"
+    },
+    "title": "魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～ Ⅱ",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-11T08:17:34Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}
