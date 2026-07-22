@@ -3,19 +3,12 @@
   "aliases": [
     {
       "confidence": 0.9,
-      "language": "zh-Hant",
-      "source": "community",
-      "type": "localized",
-      "value": "溜掉的大魚比不上自己釣到的魚"
-    },
-    {
-      "confidence": 0.9,
       "language": "ja-Latn",
       "source": "community",
       "type": "romaji",
-      "value": "Nigetsuri"
+      "value": "Kirei ni Shite Moraemasu ka"
     }
   ],
-  "media_id": "media-000020",
+  "media_id": "media-000045",
   "schema": "media-aliases/v1"
 }

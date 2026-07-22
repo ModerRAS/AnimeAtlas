@@ -1,0 +1,25 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 76,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/76"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Ace of Diamond Act II S2"
+    },
+    "evidence_url": "https://bgm.tv/subject/495238",
+    "media_id": "media-000016",
+    "notes": "Observed in a local media library. DMHY LoliHouse releases identify this exact alias as 钻石王牌 act2 第二季; S2 is retained because Bangumi seasons have distinct subject IDs.",
+    "type": "add_alias"
+  },
+  "review": {
+    "approved_at": "2026-07-22T13:03:41Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

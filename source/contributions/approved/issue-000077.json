@@ -1,0 +1,25 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 77,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/77"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Nigetsuri"
+    },
+    "evidence_url": "https://bgm.tv/subject/604307",
+    "media_id": "media-000020",
+    "notes": "Observed in a local media library. DMHY LoliHouse releases map Nigetsuri uniquely to 溜掉的大鱼比不上自己钓到的鱼, Bangumi subject 604307.",
+    "type": "add_alias"
+  },
+  "review": {
+    "approved_at": "2026-07-22T13:03:44Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

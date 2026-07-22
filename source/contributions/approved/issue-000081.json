@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 81,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/81"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Otome Kaijuu Carameliser"
+    },
+    "evidence_url": "https://bgm.tv/subject/617123",
+    "notes": "Observed in a local media library. DMHY 三明治摆烂组&LoliHouse releases pair this title with 少女怪兽焦糖味; Bangumi subject 617123 is the 2026-07 TV first season.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "617123",
+      "provider": "bangumi"
+    },
+    "title": "乙女怪獣キャラメリゼ",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-22T13:03:57Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

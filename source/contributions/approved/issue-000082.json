@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 82,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/82"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "en",
+      "source": "community",
+      "type": "official",
+      "value": "The Ghost in the Shell"
+    },
+    "evidence_url": "https://bgm.tv/subject/496276",
+    "notes": "Observed in a local media library. DMHY LoliHouse releases use this exact English title for the 2026 TV series; Bangumi subject 496276 is dated 2026-07-07 and is distinct from the 1995 film.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "496276",
+      "provider": "bangumi"
+    },
+    "title": "攻殻機動隊 THE GHOST IN THE SHELL",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-22T13:04:00Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

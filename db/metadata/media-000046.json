@@ -1,0 +1,50 @@
+{
+  "$schema": "../../packages/schema/schemas/media-metadata.schema.json",
+  "_meta": {
+    "fields": {
+      "metadata.episode_count": {
+        "last_sync": "2026-07-22T13:03:57Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "617123",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      },
+      "metadata.runtime": {
+        "last_sync": "2026-07-22T13:03:57Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "617123",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      },
+      "metadata.title": {
+        "last_sync": "2026-07-22T13:03:57Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "617123",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      }
+    },
+    "last_sync": {
+      "bangumi": "2026-07-22T13:03:57Z"
+    }
+  },
+  "media_id": "media-000046",
+  "metadata": {
+    "episode_count": 0,
+    "runtime": 0,
+    "title": "乙女怪獣キャラメリゼ"
+  },
+  "schema": "media-metadata/v1"
+}

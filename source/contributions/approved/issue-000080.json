@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 80,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/80"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Kirei ni Shite Moraemasu ka"
+    },
+    "evidence_url": "https://bgm.tv/subject/562430",
+    "notes": "Observed in a local media library. DMHY releases pair this romanized title with 能帮我弄干净吗？; Bangumi subject 562430 is the 2026-01 TV season with 12 episodes, matching the local season.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "562430",
+      "provider": "bangumi"
+    },
+    "title": "綺麗にしてもらえますか。",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-22T13:03:54Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

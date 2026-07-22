@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 79,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/79"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Hell Mode S2"
+    },
+    "evidence_url": "https://bgm.tv/subject/638151",
+    "notes": "Observed in a local media library. DMHY LoliHouse titles explicitly include S2, and local files are under Season 2; Bangumi subject 638151 is the 2026-07 second season. The bare Hell Mode alias is intentionally not contributed.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "638151",
+      "provider": "bangumi"
+    },
+    "title": "ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～ 2nd Season",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-22T13:03:51Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}
