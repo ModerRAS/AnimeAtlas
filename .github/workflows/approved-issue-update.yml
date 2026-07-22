@@ -9,7 +9,6 @@ permissions:
   actions: write
   contents: write
   issues: write
-  pull-requests: write
 
 concurrency:
   group: approved-issue-update
@@ -47,7 +46,7 @@ jobs:
         run: gh issue list --state open --label approved --limit 1000 --json number,url,body,author,updatedAt > approved-issues.json
 
       - name: Sync approved contribution records
-        run: pnpm --filter @animeatlas/github-action start -- sync-approved-issues "$GITHUB_WORKSPACE/approved-issues.json" --approved-by github-actions[bot]
+        run: pnpm --filter @animeatlas/github-action start -- sync-approved-issues "$GITHUB_WORKSPACE/approved-issues.json" --approved-by github-actions[bot] > approved-issue-sync.json
 
       - name: Apply approved contributions
         run: pnpm cli -- contributions apply-approved --write
@@ -58,34 +57,55 @@ jobs:
       - name: Validate result
         run: pnpm check
 
-      - name: Write pull request body
+      - name: Generate commit message
+        id: commit-message
         run: |
-          {
-            echo "Applies all currently open AnimeAtlas issues with the approved label."
-            echo
-            echo "This PR is updated by the approved issue workflow after running:"
-            echo "- \`pnpm build\`"
-            echo "- \`pnpm --filter @animeatlas/github-action start -- sync-approved-issues\`"
-            echo "- \`pnpm cli -- contributions apply-approved --write\`"
-            echo "- \`pnpm generate\`"
-            echo "- \`pnpm check\`"
-            echo
-            echo "Included issues:"
-            jq -r '.[] | "- Closes #\(.number)"' approved-issues.json
-          } > approved-issues-pr-body.md
+          count=$(jq '.results | length' approved-issue-sync.json)
+          issues=$(jq -r '[.results[].contribution.issue.number | "#\(.)"] | join(", ")' approved-issue-sync.json)
+          if [[ "$count" == "1" ]]; then
+            operation=$(jq -r '.results[0].contribution.operation.type' approved-issue-sync.json)
+            media_id=$(jq -r '.results[0].contribution.operation.media_id // empty' approved-issue-sync.json)
+            case "$operation" in
+              add_alias) message="data: add alias to ${media_id} (${issues})" ;;
+              add_provider_ref) message="data: add provider ref to ${media_id} (${issues})" ;;
+              correct_metadata) message="data: correct metadata for ${media_id} (${issues})" ;;
+              create_media) message="data: create media (${issues})" ;;
+              *) message="data: apply approved contribution (${issues})" ;;
+            esac
+          else
+            message="data: apply ${count} approved contributions (${issues})"
+          fi
+          echo "message=${message}" >> "$GITHUB_OUTPUT"
 
-      - name: Create or update aggregate pull request
-        id: cpr
-        uses: peter-evans/create-pull-request@v6
-        with:
-          branch: automation/approved-issues
-          commit-message: "Apply approved AnimeAtlas issues"
-          title: "Apply approved AnimeAtlas issues"
-          body-path: approved-issues-pr-body.md
-          delete-branch: true
+      - name: Commit approved contributions
+        id: commit
+        env:
+          COMMIT_MESSAGE: ${{ steps.commit-message.outputs.message }}
+        run: |
+          git add source/contributions/approved db generated
+          if git diff --cached --quiet; then
+            echo "changed=false" >> "$GITHUB_OUTPUT"
+            echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git commit -m "$COMMIT_MESSAGE"
+          git push origin HEAD:master
+          echo "changed=true" >> "$GITHUB_OUTPUT"
+          echo "sha=$(git rev-parse HEAD)" >> "$GITHUB_OUTPUT"
 
-      - name: Run pull request validation workflow
-        if: steps.cpr.outputs.pull-request-number != ''
+      - name: Close applied issues
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh workflow run validate.yml --ref automation/approved-issues
+          COMMIT_SHA: ${{ steps.commit.outputs.sha }}
+        run: |
+          while read -r issue; do
+            gh issue close "$issue" --comment "Applied in ${GITHUB_SERVER_URL}/${GITHUB_REPOSITORY}/commit/${COMMIT_SHA}."
+          done < <(jq -r '.[].number' approved-issues.json)
+
+      - name: Run release workflow
+        if: steps.commit.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: gh workflow run release.yml --ref master
