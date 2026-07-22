@@ -1,0 +1,25 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 92,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/92"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Honzuki no Gekokujou S4"
+    },
+    "evidence_url": "https://bgm.tv/subject/469104",
+    "media_id": "media-000052",
+    "notes": "Library MLIP rebuild normalizes the release-style S04 query to S4. Both forms uniquely identify Bangumi 469104, the 2026 fourth season; no bare alias is added.",
+    "type": "add_alias"
+  },
+  "review": {
+    "approved_at": "2026-07-22T17:41:04Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

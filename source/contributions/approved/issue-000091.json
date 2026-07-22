@@ -1,0 +1,25 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 91,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/91"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Ace of Diamond Act II Season 2"
+    },
+    "evidence_url": "https://bgm.tv/subject/495238",
+    "media_id": "media-000016",
+    "notes": "Library MLIP rebuild retains this normalized season query instead of the existing compact S2 alias. Both forms uniquely identify Bangumi 495238, the second season; no bare alias is added.",
+    "type": "add_alias"
+  },
+  "review": {
+    "approved_at": "2026-07-22T17:40:59Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}
