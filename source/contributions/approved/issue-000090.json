@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 90,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/90"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "娑婆氣"
+    },
+    "evidence_url": "https://bgm.tv/subject/525660",
+    "notes": "Observed in a local media library. DMHY ANi releases pair Shabake / 娑婆氣 with the 13-episode TV series. Bangumi subject 525660 is the 2025 TV season; same-name subject 340164 is a single 2021 WEB episode and must not match.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "525660",
+      "provider": "bangumi"
+    },
+    "title": "しゃばけ",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-22T13:43:20Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

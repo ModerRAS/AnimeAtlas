@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 88,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/88"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Honzuki no Gekokujou S04"
+    },
+    "evidence_url": "https://bgm.tv/subject/469104",
+    "notes": "Observed in a local media library. DMHY SweetSub&LoliHouse releases explicitly identify Honzuki no Gekokujou S04 as the 2026 fourth season / 领主的养女. The S04 suffix is mandatory because Bangumi seasons have distinct subject IDs.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "469104",
+      "provider": "bangumi"
+    },
+    "title": "本好きの下剋上～司書になるためには手段を選んでいられません～ 領主の養女",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-22T13:43:08Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

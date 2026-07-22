@@ -1,0 +1,25 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 89,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/89"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Mushoku Tensei S3"
+    },
+    "evidence_url": "https://bgm.tv/subject/501963",
+    "media_id": "media-000009",
+    "notes": "Observed in a local media library. DMHY LoliHouse releases explicitly identify Mushoku Tensei S3 as the 2026 third season, already represented by media-000009 / Bangumi subject 501963. The bare title is intentionally not used.",
+    "type": "add_alias"
+  },
+  "review": {
+    "approved_at": "2026-07-22T13:43:14Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}
