@@ -7,6 +7,13 @@
       "source": "community",
       "type": "romaji",
       "value": "Toukutsu Ou"
+    },
+    {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Toukutsu Ou (Korean Audio)"
     }
   ],
   "media_id": "media-000048",

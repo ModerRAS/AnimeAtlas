@@ -1,0 +1,25 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 87,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/87"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Toukutsu Ou (Korean Audio)"
+    },
+    "evidence_url": "https://bgm.tv/subject/621835",
+    "media_id": "media-000048",
+    "notes": "Observed in a local media library. DMHY LoliHouse identifies this as the Korean-audio release variant of the same Toukutsu Ou season represented by media-000048 / Bangumi subject 621835; audio language does not create a different Bangumi subject.",
+    "type": "add_alias"
+  },
+  "review": {
+    "approved_at": "2026-07-22T13:11:03Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}
