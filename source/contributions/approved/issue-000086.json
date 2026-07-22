@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 86,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/86"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "[Boruto Naruto Next Generations]"
+    },
+    "evidence_url": "https://bgm.tv/subject/202661",
+    "notes": "Observed in a local media library. DMHY DBD-Raws releases pair this bracketed parser title with 博人传 -火影忍者新时代- and the 001-293 TV set; Bangumi subject 202661 is the 293-episode first series, not the announced second part.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "202661",
+      "provider": "bangumi"
+    },
+    "title": "BORUTO-ボルト- NARUTO NEXT GENERATIONS",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-22T13:04:14Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

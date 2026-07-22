@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 85,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/85"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Yuusha no Rokkotsu de"
+    },
+    "evidence_url": "https://bgm.tv/subject/623854",
+    "notes": "Observed in a local media library. DMHY LoliHouse releases pair this romanized title with 女神“异世界转生想成为什么”我“勇者的肋骨”; Bangumi subject 623854 is the 2026-04 TV first season with 12 episodes.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "623854",
+      "provider": "bangumi"
+    },
+    "title": "女神『異世界転生何になりたいですか』俺「勇者の肋骨で」",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-22T13:04:10Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

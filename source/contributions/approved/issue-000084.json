@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 84,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/84"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e S4"
+    },
+    "evidence_url": "https://bgm.tv/subject/510710",
+    "notes": "Observed in a local media library. DMHY LoliHouse titles explicitly include S4 and local files are under Season 4; Bangumi subject 510710 is the 2026 fourth season with 16 episodes.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "510710",
+      "provider": "bangumi"
+    },
+    "title": "ようこそ実力至上主義の教室へ 4th Season",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-22T13:04:06Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

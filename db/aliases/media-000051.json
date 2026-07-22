@@ -1,0 +1,14 @@
+{
+  "$schema": "../../packages/schema/schemas/media-aliases.schema.json",
+  "aliases": [
+    {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "[Boruto Naruto Next Generations]"
+    }
+  ],
+  "media_id": "media-000051",
+  "schema": "media-aliases/v1"
+}
