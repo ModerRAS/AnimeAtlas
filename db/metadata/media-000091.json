@@ -1,0 +1,50 @@
+{
+  "$schema": "../../packages/schema/schemas/media-metadata.schema.json",
+  "_meta": {
+    "fields": {
+      "metadata.episode_count": {
+        "last_sync": "2026-07-30T09:15:10Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "585790",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      },
+      "metadata.runtime": {
+        "last_sync": "2026-07-30T09:15:10Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "585790",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      },
+      "metadata.title": {
+        "last_sync": "2026-07-30T09:15:10Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "585790",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      }
+    },
+    "last_sync": {
+      "bangumi": "2026-07-30T09:15:10Z"
+    }
+  },
+  "media_id": "media-000091",
+  "metadata": {
+    "episode_count": 0,
+    "runtime": 0,
+    "title": "自動販売機に生まれ変わった俺は迷宮を彷徨う 3rd season"
+  },
+  "schema": "media-metadata/v1"
+}
