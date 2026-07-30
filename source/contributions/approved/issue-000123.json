@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 123,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/123"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Onegai Aipri"
+    },
+    "evidence_url": "https://bgm.tv/subject/622634",
+    "notes": "Verified against Bangumi (bgm 622634): name=おねがいアイプリ, name_cn=拜托了偶像公主. Romaji folder name matches. Internal season=[1].",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "622634",
+      "provider": "bangumi"
+    },
+    "title": "おねがいアイプリ",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-30T08:20:16Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}
