@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 133,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/133"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "TRIGUN STARGAZE"
+    },
+    "evidence_url": "https://bgm.tv/subject/426100",
+    "notes": "Verified against Bangumi (bgm 426100): name=TRIGUN STARGAZE, name_cn=枪神 观星之人. Romaji folder name matches. Internal season=[1].",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "426100",
+      "provider": "bangumi"
+    },
+    "title": "TRIGUN STARGAZE",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-30T06:37:49Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

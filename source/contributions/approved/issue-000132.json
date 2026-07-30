@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 132,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/132"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Tongari Boushi no Atelier"
+    },
+    "evidence_url": "https://bgm.tv/subject/377130",
+    "notes": "Verified against Bangumi (bgm 377130): name=とんがり帽子のアトリエ, name_cn=尖帽子的魔法工房. Romaji folder name matches. Internal season=[1].",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "377130",
+      "provider": "bangumi"
+    },
+    "title": "とんがり帽子のアトリエ",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-30T06:38:01Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

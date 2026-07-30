@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 130,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/130"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Tenbin"
+    },
+    "evidence_url": "https://bgm.tv/subject/456080",
+    "notes": "Verified against Bangumi (bgm 456080): name=転校先の清楚可憐な美少女が、昔男子と思って一緒に遊んだ幼馴染だった件, name_cn=转学后班上的清纯可爱美少女，竟是小时候玩在一起的哥儿们. Romaji folder name matches. Internal season=[1].",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "456080",
+      "provider": "bangumi"
+    },
+    "title": "転校先の清楚可憐な美少女が、昔男子と思って一緒に遊んだ幼馴染だった件",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-30T06:38:51Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

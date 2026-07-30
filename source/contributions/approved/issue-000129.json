@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 129,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/129"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Super no Ura de Yani Suu Futari"
+    },
+    "evidence_url": "https://bgm.tv/subject/571784",
+    "notes": "Verified against Bangumi (bgm 571784): name=スーパーの裏でヤニ吸うふたり, name_cn=在超市后门吸烟的二人. Romaji folder name matches. Internal season=[1].",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "571784",
+      "provider": "bangumi"
+    },
+    "title": "スーパーの裏でヤニ吸うふたり",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-30T06:39:01Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}
