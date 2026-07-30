@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 122,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/122"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Omagoto"
+    },
+    "evidence_url": "https://bgm.tv/subject/555445",
+    "notes": "Verified against Bangumi (bgm 555445): name=「お前ごときが魔王に勝てると思うな」と勇者パーティを追放されたので、王都で気ままに暮らしたい, name_cn=「凭你也想讨伐魔王？」被勇者小队逐出队伍，只好在王都自在过活. Romaji folder name matches. Internal season=[1].",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "555445",
+      "provider": "bangumi"
+    },
+    "title": "「お前ごときが魔王に勝てると思うな」と勇者パーティを追放されたので、王都で気ままに暮らしたい",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-30T08:21:00Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

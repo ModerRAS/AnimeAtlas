@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 118,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/118"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Mebius Dust"
+    },
+    "evidence_url": "https://bgm.tv/subject/276787",
+    "notes": "Verified against Bangumi (bgm 276787): name=メビウス・ダスト, name_cn=梅比乌斯之尘. Romaji folder name matches. Internal season=[1].",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "276787",
+      "provider": "bangumi"
+    },
+    "title": "メビウス・ダスト",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-30T08:22:01Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

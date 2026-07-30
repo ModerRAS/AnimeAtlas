@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 115,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/115"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "LIAR GAME"
+    },
+    "evidence_url": "https://bgm.tv/subject/580133",
+    "notes": "Verified against Bangumi (bgm 580133): name=LIAR GAME, name_cn=欺诈游戏. Romaji folder name matches. Internal season=[1].",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "580133",
+      "provider": "bangumi"
+    },
+    "title": "LIAR GAME",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-30T08:22:32Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

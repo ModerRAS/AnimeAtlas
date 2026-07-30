@@ -1,0 +1,25 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 119,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/119"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Mushoku Tensei S3"
+    },
+    "evidence_url": "https://bgm.tv/subject/501963",
+    "media_id": "media-000009",
+    "notes": "Verified against Bangumi (bgm 501963): name=無職転生Ⅲ ～異世界行ったら本気だす～, name_cn=无职转生 第三季 ～到了异世界就拿出真本事～. Season-explicit romaji alias extracted from the release filename (e.g. 'Mushoku Tensei S3'); matches the Bangumi subject above. Internal season=[3].",
+    "type": "add_alias"
+  },
+  "review": {
+    "approved_at": "2026-07-30T08:21:54Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

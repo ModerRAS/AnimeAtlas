@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 121,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/121"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Nippon Sangoku"
+    },
+    "evidence_url": "https://bgm.tv/subject/623851",
+    "notes": "Verified against Bangumi (bgm 623851): name=日本三國, name_cn=日本三国. Romaji folder name matches. Internal season=[1].",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "623851",
+      "provider": "bangumi"
+    },
+    "title": "日本三國",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-30T08:21:28Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

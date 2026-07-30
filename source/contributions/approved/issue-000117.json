@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 117,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/117"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Mairimashita! Iruma-kun S4"
+    },
+    "evidence_url": "https://bgm.tv/subject/524486",
+    "notes": "Verified against Bangumi (bgm 524486): name=魔入りました！入間くん 第4シリーズ, name_cn=入间同学入魔了 第四季. Season-explicit romaji alias extracted from the release filename (e.g. 'Mairimashita! Iruma-kun S4'); matches the Bangumi subject above. Internal season=[4].",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "524486",
+      "provider": "bangumi"
+    },
+    "title": "魔入りました！入間くん 第4シリーズ",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-30T08:22:09Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

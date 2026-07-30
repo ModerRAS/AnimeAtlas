@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 120,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/120"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Nige Jouzu no Wakagimi"
+    },
+    "evidence_url": "https://bgm.tv/subject/424573",
+    "notes": "Verified against Bangumi (bgm 424573): name=逃げ上手の若君, name_cn=擅长逃跑的殿下. Romaji folder name matches. Internal season=[1].",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "424573",
+      "provider": "bangumi"
+    },
+    "title": "逃げ上手の若君",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-30T08:21:45Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}
