@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 126,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/126"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Re Zero kara Hajimeru Isekai Seikatsu"
+    },
+    "evidence_url": "https://bgm.tv/subject/140001",
+    "notes": "Verified against Bangumi (bgm 140001): name=Re:ゼロから始める異世界生活, name_cn=Re：从零开始的异世界生活. Romaji folder name matches. Internal season=[1].",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "140001",
+      "provider": "bangumi"
+    },
+    "title": "Re:ゼロから始める異世界生活",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-30T07:27:48Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

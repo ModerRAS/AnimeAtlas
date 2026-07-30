@@ -1,0 +1,14 @@
+{
+  "$schema": "../../packages/schema/schemas/media-aliases.schema.json",
+  "aliases": [
+    {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Re Zero kara Hajimeru Isekai Seikatsu"
+    }
+  ],
+  "media_id": "media-000064",
+  "schema": "media-aliases/v1"
+}

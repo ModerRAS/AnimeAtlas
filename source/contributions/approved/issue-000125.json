@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 125,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/125"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Rakudai Kenja no Gakuin Musou"
+    },
+    "evidence_url": "https://bgm.tv/subject/630163",
+    "notes": "Verified against Bangumi (bgm 630163): name=落第賢者の学院無双～二度目の転生、Sランクチート魔術師冒険録～, name_cn=落第贤者的学院无双～第二次转生的S级开外挂魔术师冒险录～. Romaji folder name matches. Internal season=[1].",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "630163",
+      "provider": "bangumi"
+    },
+    "title": "落第賢者の学院無双～二度目の転生、Sランクチート魔術師冒険録～",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-30T07:28:00Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}
