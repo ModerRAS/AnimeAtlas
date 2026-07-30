@@ -1,0 +1,14 @@
+{
+  "$schema": "../../packages/schema/schemas/media-aliases.schema.json",
+  "aliases": [
+    {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Yoroi Shin Den Samurai Troopers"
+    }
+  ],
+  "media_id": "media-000054",
+  "schema": "media-aliases/v1"
+}

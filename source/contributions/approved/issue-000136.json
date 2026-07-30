@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 136,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/136"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Yozakura-san Chi no Daisakusen"
+    },
+    "evidence_url": "https://bgm.tv/subject/411276",
+    "notes": "Verified against Bangumi (bgm 411276): name=夜桜さんちの大作戦, name_cn=夜樱家的大作战. Romaji folder name matches. Internal season=[1].",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "411276",
+      "provider": "bangumi"
+    },
+    "title": "夜桜さんちの大作戦",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-30T06:36:57Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}
