@@ -1,0 +1,50 @@
+{
+  "$schema": "../../packages/schema/schemas/media-metadata.schema.json",
+  "_meta": {
+    "fields": {
+      "metadata.episode_count": {
+        "last_sync": "2026-07-30T08:25:38Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "579246",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      },
+      "metadata.runtime": {
+        "last_sync": "2026-07-30T08:25:38Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "579246",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      },
+      "metadata.title": {
+        "last_sync": "2026-07-30T08:25:38Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "579246",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      }
+    },
+    "last_sync": {
+      "bangumi": "2026-07-30T08:25:38Z"
+    }
+  },
+  "media_id": "media-000082",
+  "metadata": {
+    "episode_count": 0,
+    "runtime": 0,
+    "title": "ブチ切れ令嬢は報復を誓いました。～魔導書の力で祖国を叩き潰します～"
+  },
+  "schema": "media-metadata/v1"
+}

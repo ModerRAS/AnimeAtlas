@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 93,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/93"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "20 Seiki Denki Mokuroku"
+    },
+    "evidence_url": "https://bgm.tv/subject/255209",
+    "notes": "Verified against Bangumi (bgm 255209): name=二十世紀電氣目録-ユーレカ・エヴリカ-, name_cn=二十世纪电气目录. Romaji folder name matches. Internal season=[1].",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "255209",
+      "provider": "bangumi"
+    },
+    "title": "二十世紀電氣目録-ユーレカ・エヴリカ-",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-30T08:25:59Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 105,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/105"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Hell Mode S2"
+    },
+    "evidence_url": "https://bgm.tv/subject/638151",
+    "notes": "Verified against Bangumi (bgm 638151): name=ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～ 2nd Season, name_cn=地狱模式～喜欢挑战特殊成就的玩家在废设定的异世界成为无双～第二季. Season-explicit romaji alias extracted from the release filename (e.g. 'Hell Mode S2'); matches the Bangumi subject above. Internal season=[2].",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "638151",
+      "provider": "bangumi"
+    },
+    "title": "ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～ 2nd Season",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-30T08:24:12Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

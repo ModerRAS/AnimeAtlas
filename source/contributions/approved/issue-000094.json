@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 94,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/94"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Akuyaku Reijou wa Ringoku no Outaishi ni Dekiai sareru"
+    },
+    "evidence_url": "https://bgm.tv/subject/568174",
+    "notes": "Verified against Bangumi (bgm 568174): name=悪役令嬢は隣国の王太子に溺愛される, name_cn=被邻国王子溺爱的反派女主. Romaji folder name matches. Internal season=[1].",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "568174",
+      "provider": "bangumi"
+    },
+    "title": "悪役令嬢は隣国の王太子に溺愛される",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-30T08:25:52Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

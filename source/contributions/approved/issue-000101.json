@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 101,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/101"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Gaikotsu Kishi-sama, Tadaima Isekai e Odekakechuu II"
+    },
+    "evidence_url": "https://bgm.tv/subject/528828",
+    "notes": "Verified against Bangumi (bgm 528828): name=骸骨騎士様、只今異世界へお出掛け中Ⅱ, name_cn=骸骨骑士大人异世界冒险中 第二季. Season-explicit romaji alias extracted from the release filename (e.g. 'Gaikotsu Kishi-sama, Tadaima Isekai e Odekakechuu II'); matches the Bangumi subject above. Internal season=[2].",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "528828",
+      "provider": "bangumi"
+    },
+    "title": "骸骨騎士様、只今異世界へお出掛け中Ⅱ",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-30T08:24:58Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

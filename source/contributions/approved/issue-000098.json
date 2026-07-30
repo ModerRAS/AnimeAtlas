@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 98,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/98"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Degarashi Ouji"
+    },
+    "evidence_url": "https://bgm.tv/subject/456081",
+    "notes": "Verified against Bangumi (bgm 456081): name=最強出涸らし皇子の暗躍帝位争い, name_cn=最强出涸皇子的暗跃帝位争夺. Romaji folder name matches. Internal season=[1].",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "456081",
+      "provider": "bangumi"
+    },
+    "title": "最強出涸らし皇子の暗躍帝位争い",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-30T08:25:21Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

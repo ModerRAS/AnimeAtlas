@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 95,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/95"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "BLEACH Sennen Kessen-hen"
+    },
+    "evidence_url": "https://bgm.tv/subject/302286",
+    "notes": "Verified against Bangumi (bgm 302286): name=BLEACH 千年血戦篇, name_cn=死神 千年血战篇. Romaji folder name matches. Internal season=[1].",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "302286",
+      "provider": "bangumi"
+    },
+    "title": "BLEACH 千年血戦篇",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-30T08:25:45Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

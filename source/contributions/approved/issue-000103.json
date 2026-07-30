@@ -1,0 +1,25 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 103,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/103"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Grand Blue S3"
+    },
+    "evidence_url": "https://bgm.tv/subject/569116",
+    "media_id": "media-000004",
+    "notes": "Verified against Bangumi (bgm 569116): name=ぐらんぶる Season 3, name_cn=碧蓝之海 第三季. Season-explicit romaji alias extracted from the release filename (e.g. 'Grand Blue S3'); matches the Bangumi subject above. Internal season=[3].",
+    "type": "add_alias"
+  },
+  "review": {
+    "approved_at": "2026-07-30T08:24:33Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

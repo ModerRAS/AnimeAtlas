@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 96,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/96"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Buchigire Reijou wa Houfuku wo Chikaimashita"
+    },
+    "evidence_url": "https://bgm.tv/subject/579246",
+    "notes": "Verified against Bangumi (bgm 579246): name=ブチ切れ令嬢は報復を誓いました。～魔導書の力で祖国を叩き潰します～, name_cn=暴怒千金发誓复仇。～凭借魔导书之力打垮祖国～. Romaji folder name matches. Internal season=[1].",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "579246",
+      "provider": "bangumi"
+    },
+    "title": "ブチ切れ令嬢は報復を誓いました。～魔導書の力で祖国を叩き潰します～",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-30T08:25:38Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

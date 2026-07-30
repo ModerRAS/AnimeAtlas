@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 97,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/97"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Clevatess S2"
+    },
+    "evidence_url": "https://bgm.tv/subject/585820",
+    "notes": "Verified against Bangumi (bgm 585820): name=クレバテスⅡ-魔獣の王と偽りの勇者伝承-, name_cn=Clevatess II-魔兽之王与虚假的勇者传承-. Season-explicit romaji alias extracted from the release filename (e.g. 'Clevatess S2'); matches the Bangumi subject above. Internal season=[2].",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "585820",
+      "provider": "bangumi"
+    },
+    "title": "クレバテスⅡ-魔獣の王と偽りの勇者伝承-",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-30T08:25:30Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

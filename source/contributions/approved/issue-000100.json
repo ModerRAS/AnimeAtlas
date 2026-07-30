@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 100,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/100"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Futsutsuka na Akujo dewa Gozaimasu ga"
+    },
+    "evidence_url": "https://bgm.tv/subject/545008",
+    "notes": "Verified against Bangumi (bgm 545008): name=ふつつかな悪女ではございますが ～雛宮蝶鼠とりかえ伝～, name_cn=恶女不才，请多关照 ～雏宫蝶鼠换身传～. Romaji folder name matches. Internal season=[1].",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "545008",
+      "provider": "bangumi"
+    },
+    "title": "ふつつかな悪女ではございますが ～雛宮蝶鼠とりかえ伝～",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-30T08:25:05Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

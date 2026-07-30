@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 108,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/108"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Jingai Kyoushitsu no Ningengirai Kyoushi"
+    },
+    "evidence_url": "https://bgm.tv/subject/583728",
+    "notes": "Verified against Bangumi (bgm 583728): name=人外教室の人間嫌い教師, name_cn=非人学生与厌世教师. Romaji folder name matches. Internal season=[1].",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "583728",
+      "provider": "bangumi"
+    },
+    "title": "人外教室の人間嫌い教師",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-30T08:23:59Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}
