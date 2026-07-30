@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 127,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/127"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Rooster Fighter"
+    },
+    "evidence_url": "https://bgm.tv/subject/505258",
+    "notes": "Verified against Bangumi (bgm 505258): name=ニワトリ・ファイター, name_cn=公鸡斗士. Romaji folder name matches. Internal season=[1].",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "505258",
+      "provider": "bangumi"
+    },
+    "title": "ニワトリ・ファイター",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-30T07:27:11Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}
