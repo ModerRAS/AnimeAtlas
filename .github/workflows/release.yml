@@ -20,15 +20,18 @@ on:
   workflow_dispatch:
     inputs:
       version:
-        description: "Release tag, for example v0.1.0"
+        description: "Internal build version written into the SQLite release_info table, for example v0.1.0 (the GitHub release tag is always 'download')"
         required: false
         type: string
 
 permissions:
   contents: write
 
+# A single fixed "download" rolling release is overwritten on every publish,
+# so all release runs must serialize against the same group to avoid clobbering
+# the asset mid-write.
 concurrency:
-  group: release-${{ github.ref }}-${{ inputs.version || github.run_number }}
+  group: release-download
   cancel-in-progress: false
 
 jobs:
@@ -96,13 +99,16 @@ jobs:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         shell: bash
         run: |
-          version="${{ steps.version.outputs.version }}"
+          tag="download"
           file="release/animeatlas.sqlite"
-          if gh release view "$version" >/dev/null 2>&1; then
-            gh release upload "$version" "$file" --clobber
+          asset_url="https://github.com/${GITHUB_REPOSITORY}/releases/download/${tag}/animeatlas.sqlite"
+          notes="Always-up-to-date AnimeAtlas offline SQLite database. This is a rolling release: the asset below is overwritten on every publish, so the download URL never changes: ${asset_url}  The exact build is recorded inside the file in the release_info table (SELECT value FROM release_info WHERE key = 'version')."
+          if gh release view "$tag" >/dev/null 2>&1; then
+            gh release upload "$tag" "$file" --clobber
+            gh release edit "$tag" --target "$GITHUB_SHA" --title "Download" --notes "$notes"
           else
-            gh release create "$version" "$file" \
+            gh release create "$tag" "$file" \
               --target "$GITHUB_SHA" \
-              --title "AnimeAtlas ${version}" \
-              --notes "AnimeAtlas offline SQLite database generated from this repository."
+              --title "Download" \
+              --notes "$notes"
           fi
