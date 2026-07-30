@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 109,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/109"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Jishou Akuyaku Reijou na Konyakusha no Kansatsu Kiroku"
+    },
+    "evidence_url": "https://bgm.tv/subject/558088",
+    "notes": "Verified against Bangumi (bgm 558088): name=自称悪役令嬢な婚約者の観察記録。, name_cn=自称恶役大小姐的婚约者观察记录。. Romaji folder name matches. Internal season=[1].",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "558088",
+      "provider": "bangumi"
+    },
+    "title": "自称悪役令嬢な婚約者の観察記録。",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-30T08:23:47Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 111,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/111"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Kanteishi"
+    },
+    "evidence_url": "https://bgm.tv/subject/599171",
+    "notes": "Verified against Bangumi (bgm 599171): name=最強の職業は勇者でも賢者でもなく鑑定士（仮）らしいですよ？, name_cn=最强的职业不是勇者也不是贤者好像是鉴定士(伪)的样子?. Romaji folder name matches. Internal season=[1].",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "599171",
+      "provider": "bangumi"
+    },
+    "title": "最強の職業は勇者でも賢者でもなく鑑定士（仮）らしいですよ？",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-30T08:23:23Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

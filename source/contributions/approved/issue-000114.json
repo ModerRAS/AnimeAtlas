@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 114,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/114"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Kokoore"
+    },
+    "evidence_url": "https://bgm.tv/subject/590786",
+    "notes": "Verified against Bangumi (bgm 590786): name=ここは俺に任せて先に行けと言ってから10年がたったら伝説になっていた。, name_cn=『你们先走我断后』，于是10年后我成为了传说. Romaji folder name matches. Internal season=[1].",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "590786",
+      "provider": "bangumi"
+    },
+    "title": "ここは俺に任せて先に行けと言ってから10年がたったら伝説になっていた。",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-07-30T08:22:42Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

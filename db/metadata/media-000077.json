@@ -1,0 +1,50 @@
+{
+  "$schema": "../../packages/schema/schemas/media-metadata.schema.json",
+  "_meta": {
+    "fields": {
+      "metadata.episode_count": {
+        "last_sync": "2026-07-30T08:23:04Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "565701",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      },
+      "metadata.runtime": {
+        "last_sync": "2026-07-30T08:23:04Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "565701",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      },
+      "metadata.title": {
+        "last_sync": "2026-07-30T08:23:04Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "565701",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      }
+    },
+    "last_sync": {
+      "bangumi": "2026-07-30T08:23:04Z"
+    }
+  },
+  "media_id": "media-000077",
+  "metadata": {
+    "episode_count": 0,
+    "runtime": 0,
+    "title": "片田舎のおっさん、剣聖になるⅡ"
+  },
+  "schema": "media-metadata/v1"
+}
