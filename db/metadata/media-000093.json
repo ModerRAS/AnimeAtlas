@@ -1,0 +1,50 @@
+{
+  "$schema": "../../packages/schema/schemas/media-metadata.schema.json",
+  "_meta": {
+    "fields": {
+      "metadata.episode_count": {
+        "last_sync": "2026-08-10T14:19:48Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "638497",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      },
+      "metadata.runtime": {
+        "last_sync": "2026-08-10T14:19:48Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "638497",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      },
+      "metadata.title": {
+        "last_sync": "2026-08-10T14:19:48Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "638497",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      }
+    },
+    "last_sync": {
+      "bangumi": "2026-08-10T14:19:48Z"
+    }
+  },
+  "media_id": "media-000093",
+  "metadata": {
+    "episode_count": 0,
+    "runtime": 0,
+    "title": "正反対な君と僕 第2期"
+  },
+  "schema": "media-metadata/v1"
+}

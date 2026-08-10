@@ -1,0 +1,14 @@
+{
+  "$schema": "../../packages/schema/schemas/media-aliases.schema.json",
+  "aliases": [
+    {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Seihantai na Kimi to Boku 2nd Season"
+    }
+  ],
+  "media_id": "media-000093",
+  "schema": "media-aliases/v1"
+}
