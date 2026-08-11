@@ -1,0 +1,51 @@
+{
+  "$schema": "../../packages/schema/schemas/media-metadata.schema.json",
+  "_meta": {
+    "fields": {
+      "metadata.episode_count": {
+        "source": "bangumi",
+        "source_field": "eps",
+        "last_sync": "2026-08-11T06:50:00Z",
+        "rule": "bangumi.eps -> metadata.episode_count",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "517106",
+          "provider": "bangumi"
+        },
+        "raw_ref": "raw/bangumi/api/subject-517106.json"
+      },
+      "metadata.runtime": {
+        "last_sync": "2026-08-10T14:19:51Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "517106",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      },
+      "metadata.title": {
+        "last_sync": "2026-08-10T14:19:51Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "517106",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      }
+    },
+    "last_sync": {
+      "bangumi": "2026-08-11T06:50:00Z"
+    }
+  },
+  "media_id": "media-000092",
+  "metadata": {
+    "episode_count": 12,
+    "runtime": 0,
+    "title": "逃げ上手の若君 第二期"
+  },
+  "schema": "media-metadata/v1"
+}

@@ -1,0 +1,17 @@
+{
+  "$schema": "../../packages/schema/schemas/media-identity.schema.json",
+  "schema": "media-identity/v2",
+  "id": "media-000095",
+  "kind": "anime",
+  "series_id": "series-000093",
+  "title": "鎧真伝サムライトルーパー 第2クール",
+  "installment": {},
+  "provider_refs": [
+    {
+      "entity": "subject",
+      "id": "612697",
+      "provider": "bangumi"
+    }
+  ],
+  "relationships": []
+}

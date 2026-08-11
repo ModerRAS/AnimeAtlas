@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 142,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/142"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Yoroi Shin Den Samurai Troopers Part 2"
+    },
+    "evidence_url": "https://bgm.tv/subject/612697",
+    "notes": "Anime Garden currently publishes episodes 13+ as `鎧真傳 / Yoroi Shin Den Samurai Troopers Part 2`; all 10 checked results carry subject 612697. Bangumi confirms bgm 612697 is `鎧真伝サムライトルーパー 第2クール` (2026-07-07). Local files are episodes 13-17, but the current library maps them to first-cour bgm 564175 via the generic alias contributed in #135. Add this season-explicit release alias without changing the base alias.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "612697",
+      "provider": "bangumi"
+    },
+    "title": "鎧真伝サムライトルーパー 第2クール",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-08-10T14:19:43Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

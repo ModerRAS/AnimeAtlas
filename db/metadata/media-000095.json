@@ -1,0 +1,51 @@
+{
+  "$schema": "../../packages/schema/schemas/media-metadata.schema.json",
+  "_meta": {
+    "fields": {
+      "metadata.episode_count": {
+        "source": "bangumi",
+        "source_field": "eps",
+        "last_sync": "2026-08-11T06:50:00Z",
+        "rule": "bangumi.eps -> metadata.episode_count",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "612697",
+          "provider": "bangumi"
+        },
+        "raw_ref": "raw/bangumi/api/subject-612697.json"
+      },
+      "metadata.runtime": {
+        "last_sync": "2026-08-10T14:19:43Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "612697",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      },
+      "metadata.title": {
+        "last_sync": "2026-08-10T14:19:43Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "612697",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      }
+    },
+    "last_sync": {
+      "bangumi": "2026-08-11T06:50:00Z"
+    }
+  },
+  "media_id": "media-000095",
+  "metadata": {
+    "episode_count": 12,
+    "runtime": 0,
+    "title": "鎧真伝サムライトルーパー 第2クール"
+  },
+  "schema": "media-metadata/v1"
+}

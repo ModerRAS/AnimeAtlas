@@ -1,0 +1,19 @@
+{
+  "$schema": "../../packages/schema/schemas/media-identity.schema.json",
+  "schema": "media-identity/v2",
+  "id": "media-000092",
+  "kind": "anime",
+  "series_id": "series-000090",
+  "title": "逃げ上手の若君 第二期",
+  "installment": {
+    "season": 2
+  },
+  "provider_refs": [
+    {
+      "entity": "subject",
+      "id": "517106",
+      "provider": "bangumi"
+    }
+  ],
+  "relationships": []
+}

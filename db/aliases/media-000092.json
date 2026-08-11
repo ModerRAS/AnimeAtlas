@@ -6,30 +6,23 @@
       "language": "ja-Latn",
       "source": "community",
       "type": "romaji",
-      "value": "Futsutsuka na Akujo dewa Gozaimasu ga"
+      "value": "Nige Jouzu no Wakagimi S2"
     },
     {
-      "value": "ふつつかな悪女ではございますが ～雛宮蝶鼠とりかえ伝～",
+      "value": "逃げ上手の若君 第二期",
       "language": "ja",
       "type": "official",
       "source": "bangumi",
       "confidence": 0.98
     },
     {
-      "value": "恶女不才，请多关照 ～雏宫蝶鼠换身传～",
+      "value": "擅长逃跑的殿下 第二季",
       "language": "zh-Hans",
       "type": "localized",
       "source": "bangumi",
       "confidence": 0.98
-    },
-    {
-      "confidence": 0.9,
-      "language": "zh-Hant",
-      "source": "community",
-      "type": "localized",
-      "value": "我是不才惡女"
     }
   ],
-  "media_id": "media-000043",
+  "media_id": "media-000092",
   "schema": "media-aliases/v2"
 }

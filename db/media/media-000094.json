@@ -1,0 +1,19 @@
+{
+  "$schema": "../../packages/schema/schemas/media-identity.schema.json",
+  "schema": "media-identity/v2",
+  "id": "media-000094",
+  "kind": "anime",
+  "series_id": "series-000092",
+  "title": "幼女戦記Ⅱ",
+  "installment": {
+    "season": 2
+  },
+  "provider_refs": [
+    {
+      "entity": "subject",
+      "id": "339515",
+      "provider": "bangumi"
+    }
+  ],
+  "relationships": []
+}
