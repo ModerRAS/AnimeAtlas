@@ -1,0 +1,679 @@
+{
+  "$schema": "../../packages/schema/schemas/episode-record.schema.json",
+  "schema": "episode-record/v2",
+  "media_id": "media-000052",
+  "episodes": [
+    {
+      "id": "episode-000995",
+      "kind": "regular",
+      "provider_refs": [
+        {
+          "provider": "bangumi",
+          "entity": "episode",
+          "id": "1625746"
+        }
+      ],
+      "numbers": [
+        {
+          "namespace": "bangumi:ep",
+          "value": 1,
+          "source": "bangumi"
+        },
+        {
+          "namespace": "bangumi:sort",
+          "value": 1,
+          "source": "bangumi"
+        }
+      ],
+      "provenance": {
+        "source": "bangumi",
+        "observed_at": "2026-08-11T05:45:53.037Z",
+        "raw_ref": "raw/bangumi/api/episodes-469104.json"
+      }
+    },
+    {
+      "id": "episode-000996",
+      "kind": "regular",
+      "provider_refs": [
+        {
+          "provider": "bangumi",
+          "entity": "episode",
+          "id": "1625747"
+        }
+      ],
+      "numbers": [
+        {
+          "namespace": "bangumi:ep",
+          "value": 2,
+          "source": "bangumi"
+        },
+        {
+          "namespace": "bangumi:sort",
+          "value": 2,
+          "source": "bangumi"
+        }
+      ],
+      "provenance": {
+        "source": "bangumi",
+        "observed_at": "2026-08-11T05:45:53.037Z",
+        "raw_ref": "raw/bangumi/api/episodes-469104.json"
+      }
+    },
+    {
+      "id": "episode-000997",
+      "kind": "regular",
+      "provider_refs": [
+        {
+          "provider": "bangumi",
+          "entity": "episode",
+          "id": "1625748"
+        }
+      ],
+      "numbers": [
+        {
+          "namespace": "bangumi:ep",
+          "value": 3,
+          "source": "bangumi"
+        },
+        {
+          "namespace": "bangumi:sort",
+          "value": 3,
+          "source": "bangumi"
+        }
+      ],
+      "provenance": {
+        "source": "bangumi",
+        "observed_at": "2026-08-11T05:45:53.037Z",
+        "raw_ref": "raw/bangumi/api/episodes-469104.json"
+      }
+    },
+    {
+      "id": "episode-000998",
+      "kind": "regular",
+      "provider_refs": [
+        {
+          "provider": "bangumi",
+          "entity": "episode",
+          "id": "1625749"
+        }
+      ],
+      "numbers": [
+        {
+          "namespace": "bangumi:ep",
+          "value": 4,
+          "source": "bangumi"
+        },
+        {
+          "namespace": "bangumi:sort",
+          "value": 4,
+          "source": "bangumi"
+        }
+      ],
+      "provenance": {
+        "source": "bangumi",
+        "observed_at": "2026-08-11T05:45:53.037Z",
+        "raw_ref": "raw/bangumi/api/episodes-469104.json"
+      }
+    },
+    {
+      "id": "episode-000999",
+      "kind": "regular",
+      "provider_refs": [
+        {
+          "provider": "bangumi",
+          "entity": "episode",
+          "id": "1625750"
+        }
+      ],
+      "numbers": [
+        {
+          "namespace": "bangumi:ep",
+          "value": 5,
+          "source": "bangumi"
+        },
+        {
+          "namespace": "bangumi:sort",
+          "value": 5,
+          "source": "bangumi"
+        }
+      ],
+      "provenance": {
+        "source": "bangumi",
+        "observed_at": "2026-08-11T05:45:53.037Z",
+        "raw_ref": "raw/bangumi/api/episodes-469104.json"
+      }
+    },
+    {
+      "id": "episode-001000",
+      "kind": "regular",
+      "provider_refs": [
+        {
+          "provider": "bangumi",
+          "entity": "episode",
+          "id": "1625751"
+        }
+      ],
+      "numbers": [
+        {
+          "namespace": "bangumi:ep",
+          "value": 6,
+          "source": "bangumi"
+        },
+        {
+          "namespace": "bangumi:sort",
+          "value": 6,
+          "source": "bangumi"
+        }
+      ],
+      "provenance": {
+        "source": "bangumi",
+        "observed_at": "2026-08-11T05:45:53.037Z",
+        "raw_ref": "raw/bangumi/api/episodes-469104.json"
+      }
+    },
+    {
+      "id": "episode-001001",
+      "kind": "regular",
+      "provider_refs": [
+        {
+          "provider": "bangumi",
+          "entity": "episode",
+          "id": "1625752"
+        }
+      ],
+      "numbers": [
+        {
+          "namespace": "bangumi:ep",
+          "value": 7,
+          "source": "bangumi"
+        },
+        {
+          "namespace": "bangumi:sort",
+          "value": 7,
+          "source": "bangumi"
+        }
+      ],
+      "provenance": {
+        "source": "bangumi",
+        "observed_at": "2026-08-11T05:45:53.037Z",
+        "raw_ref": "raw/bangumi/api/episodes-469104.json"
+      }
+    },
+    {
+      "id": "episode-001002",
+      "kind": "regular",
+      "provider_refs": [
+        {
+          "provider": "bangumi",
+          "entity": "episode",
+          "id": "1625753"
+        }
+      ],
+      "numbers": [
+        {
+          "namespace": "bangumi:ep",
+          "value": 8,
+          "source": "bangumi"
+        },
+        {
+          "namespace": "bangumi:sort",
+          "value": 8,
+          "source": "bangumi"
+        }
+      ],
+      "provenance": {
+        "source": "bangumi",
+        "observed_at": "2026-08-11T05:45:53.037Z",
+        "raw_ref": "raw/bangumi/api/episodes-469104.json"
+      }
+    },
+    {
+      "id": "episode-001003",
+      "kind": "regular",
+      "provider_refs": [
+        {
+          "provider": "bangumi",
+          "entity": "episode",
+          "id": "1625754"
+        }
+      ],
+      "numbers": [
+        {
+          "namespace": "bangumi:ep",
+          "value": 9,
+          "source": "bangumi"
+        },
+        {
+          "namespace": "bangumi:sort",
+          "value": 9,
+          "source": "bangumi"
+        }
+      ],
+      "provenance": {
+        "source": "bangumi",
+        "observed_at": "2026-08-11T05:45:53.037Z",
+        "raw_ref": "raw/bangumi/api/episodes-469104.json"
+      }
+    },
+    {
+      "id": "episode-001004",
+      "kind": "regular",
+      "provider_refs": [
+        {
+          "provider": "bangumi",
+          "entity": "episode",
+          "id": "1625755"
+        }
+      ],
+      "numbers": [
+        {
+          "namespace": "bangumi:ep",
+          "value": 10,
+          "source": "bangumi"
+        },
+        {
+          "namespace": "bangumi:sort",
+          "value": 10,
+          "source": "bangumi"
+        }
+      ],
+      "provenance": {
+        "source": "bangumi",
+        "observed_at": "2026-08-11T05:45:53.037Z",
+        "raw_ref": "raw/bangumi/api/episodes-469104.json"
+      }
+    },
+    {
+      "id": "episode-001005",
+      "kind": "regular",
+      "provider_refs": [
+        {
+          "provider": "bangumi",
+          "entity": "episode",
+          "id": "1625756"
+        }
+      ],
+      "numbers": [
+        {
+          "namespace": "bangumi:ep",
+          "value": 11,
+          "source": "bangumi"
+        },
+        {
+          "namespace": "bangumi:sort",
+          "value": 11,
+          "source": "bangumi"
+        }
+      ],
+      "provenance": {
+        "source": "bangumi",
+        "observed_at": "2026-08-11T05:45:53.037Z",
+        "raw_ref": "raw/bangumi/api/episodes-469104.json"
+      }
+    },
+    {
+      "id": "episode-001006",
+      "kind": "regular",
+      "provider_refs": [
+        {
+          "provider": "bangumi",
+          "entity": "episode",
+          "id": "1625757"
+        }
+      ],
+      "numbers": [
+        {
+          "namespace": "bangumi:ep",
+          "value": 12,
+          "source": "bangumi"
+        },
+        {
+          "namespace": "bangumi:sort",
+          "value": 12,
+          "source": "bangumi"
+        }
+      ],
+      "provenance": {
+        "source": "bangumi",
+        "observed_at": "2026-08-11T05:45:53.037Z",
+        "raw_ref": "raw/bangumi/api/episodes-469104.json"
+      }
+    },
+    {
+      "id": "episode-001007",
+      "kind": "regular",
+      "provider_refs": [
+        {
+          "provider": "bangumi",
+          "entity": "episode",
+          "id": "1707346"
+        }
+      ],
+      "numbers": [
+        {
+          "namespace": "bangumi:ep",
+          "value": 13,
+          "source": "bangumi"
+        },
+        {
+          "namespace": "bangumi:sort",
+          "value": 13,
+          "source": "bangumi"
+        }
+      ],
+      "provenance": {
+        "source": "bangumi",
+        "observed_at": "2026-08-11T05:45:53.037Z",
+        "raw_ref": "raw/bangumi/api/episodes-469104.json"
+      }
+    },
+    {
+      "id": "episode-001008",
+      "kind": "regular",
+      "provider_refs": [
+        {
+          "provider": "bangumi",
+          "entity": "episode",
+          "id": "1707347"
+        }
+      ],
+      "numbers": [
+        {
+          "namespace": "bangumi:ep",
+          "value": 14,
+          "source": "bangumi"
+        },
+        {
+          "namespace": "bangumi:sort",
+          "value": 14,
+          "source": "bangumi"
+        }
+      ],
+      "provenance": {
+        "source": "bangumi",
+        "observed_at": "2026-08-11T05:45:53.037Z",
+        "raw_ref": "raw/bangumi/api/episodes-469104.json"
+      }
+    },
+    {
+      "id": "episode-001009",
+      "kind": "regular",
+      "provider_refs": [
+        {
+          "provider": "bangumi",
+          "entity": "episode",
+          "id": "1707348"
+        }
+      ],
+      "numbers": [
+        {
+          "namespace": "bangumi:ep",
+          "value": 15,
+          "source": "bangumi"
+        },
+        {
+          "namespace": "bangumi:sort",
+          "value": 15,
+          "source": "bangumi"
+        }
+      ],
+      "provenance": {
+        "source": "bangumi",
+        "observed_at": "2026-08-11T05:45:53.037Z",
+        "raw_ref": "raw/bangumi/api/episodes-469104.json"
+      }
+    },
+    {
+      "id": "episode-001010",
+      "kind": "regular",
+      "provider_refs": [
+        {
+          "provider": "bangumi",
+          "entity": "episode",
+          "id": "1707349"
+        }
+      ],
+      "numbers": [
+        {
+          "namespace": "bangumi:ep",
+          "value": 16,
+          "source": "bangumi"
+        },
+        {
+          "namespace": "bangumi:sort",
+          "value": 16,
+          "source": "bangumi"
+        }
+      ],
+      "provenance": {
+        "source": "bangumi",
+        "observed_at": "2026-08-11T05:45:53.037Z",
+        "raw_ref": "raw/bangumi/api/episodes-469104.json"
+      }
+    },
+    {
+      "id": "episode-001011",
+      "kind": "regular",
+      "provider_refs": [
+        {
+          "provider": "bangumi",
+          "entity": "episode",
+          "id": "1707350"
+        }
+      ],
+      "numbers": [
+        {
+          "namespace": "bangumi:ep",
+          "value": 17,
+          "source": "bangumi"
+        },
+        {
+          "namespace": "bangumi:sort",
+          "value": 17,
+          "source": "bangumi"
+        }
+      ],
+      "provenance": {
+        "source": "bangumi",
+        "observed_at": "2026-08-11T05:45:53.037Z",
+        "raw_ref": "raw/bangumi/api/episodes-469104.json"
+      }
+    },
+    {
+      "id": "episode-001012",
+      "kind": "regular",
+      "provider_refs": [
+        {
+          "provider": "bangumi",
+          "entity": "episode",
+          "id": "1707351"
+        }
+      ],
+      "numbers": [
+        {
+          "namespace": "bangumi:ep",
+          "value": 18,
+          "source": "bangumi"
+        },
+        {
+          "namespace": "bangumi:sort",
+          "value": 18,
+          "source": "bangumi"
+        }
+      ],
+      "provenance": {
+        "source": "bangumi",
+        "observed_at": "2026-08-11T05:45:53.037Z",
+        "raw_ref": "raw/bangumi/api/episodes-469104.json"
+      }
+    },
+    {
+      "id": "episode-001013",
+      "kind": "regular",
+      "provider_refs": [
+        {
+          "provider": "bangumi",
+          "entity": "episode",
+          "id": "1707352"
+        }
+      ],
+      "numbers": [
+        {
+          "namespace": "bangumi:ep",
+          "value": 19,
+          "source": "bangumi"
+        },
+        {
+          "namespace": "bangumi:sort",
+          "value": 19,
+          "source": "bangumi"
+        }
+      ],
+      "provenance": {
+        "source": "bangumi",
+        "observed_at": "2026-08-11T05:45:53.037Z",
+        "raw_ref": "raw/bangumi/api/episodes-469104.json"
+      }
+    },
+    {
+      "id": "episode-001014",
+      "kind": "regular",
+      "provider_refs": [
+        {
+          "provider": "bangumi",
+          "entity": "episode",
+          "id": "1707353"
+        }
+      ],
+      "numbers": [
+        {
+          "namespace": "bangumi:ep",
+          "value": 20,
+          "source": "bangumi"
+        },
+        {
+          "namespace": "bangumi:sort",
+          "value": 20,
+          "source": "bangumi"
+        }
+      ],
+      "provenance": {
+        "source": "bangumi",
+        "observed_at": "2026-08-11T05:45:53.037Z",
+        "raw_ref": "raw/bangumi/api/episodes-469104.json"
+      }
+    },
+    {
+      "id": "episode-001015",
+      "kind": "regular",
+      "provider_refs": [
+        {
+          "provider": "bangumi",
+          "entity": "episode",
+          "id": "1707354"
+        }
+      ],
+      "numbers": [
+        {
+          "namespace": "bangumi:ep",
+          "value": 21,
+          "source": "bangumi"
+        },
+        {
+          "namespace": "bangumi:sort",
+          "value": 21,
+          "source": "bangumi"
+        }
+      ],
+      "provenance": {
+        "source": "bangumi",
+        "observed_at": "2026-08-11T05:45:53.037Z",
+        "raw_ref": "raw/bangumi/api/episodes-469104.json"
+      }
+    },
+    {
+      "id": "episode-001016",
+      "kind": "regular",
+      "provider_refs": [
+        {
+          "provider": "bangumi",
+          "entity": "episode",
+          "id": "1707355"
+        }
+      ],
+      "numbers": [
+        {
+          "namespace": "bangumi:ep",
+          "value": 22,
+          "source": "bangumi"
+        },
+        {
+          "namespace": "bangumi:sort",
+          "value": 22,
+          "source": "bangumi"
+        }
+      ],
+      "provenance": {
+        "source": "bangumi",
+        "observed_at": "2026-08-11T05:45:53.037Z",
+        "raw_ref": "raw/bangumi/api/episodes-469104.json"
+      }
+    },
+    {
+      "id": "episode-001017",
+      "kind": "regular",
+      "provider_refs": [
+        {
+          "provider": "bangumi",
+          "entity": "episode",
+          "id": "1707356"
+        }
+      ],
+      "numbers": [
+        {
+          "namespace": "bangumi:ep",
+          "value": 23,
+          "source": "bangumi"
+        },
+        {
+          "namespace": "bangumi:sort",
+          "value": 23,
+          "source": "bangumi"
+        }
+      ],
+      "provenance": {
+        "source": "bangumi",
+        "observed_at": "2026-08-11T05:45:53.037Z",
+        "raw_ref": "raw/bangumi/api/episodes-469104.json"
+      }
+    },
+    {
+      "id": "episode-001018",
+      "kind": "regular",
+      "provider_refs": [
+        {
+          "provider": "bangumi",
+          "entity": "episode",
+          "id": "1707357"
+        }
+      ],
+      "numbers": [
+        {
+          "namespace": "bangumi:ep",
+          "value": 24,
+          "source": "bangumi"
+        },
+        {
+          "namespace": "bangumi:sort",
+          "value": 24,
+          "source": "bangumi"
+        }
+      ],
+      "provenance": {
+        "source": "bangumi",
+        "observed_at": "2026-08-11T05:45:53.037Z",
+        "raw_ref": "raw/bangumi/api/episodes-469104.json"
+      }
+    }
+  ]
+}

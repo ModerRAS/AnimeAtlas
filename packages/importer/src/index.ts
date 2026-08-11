@@ -35,7 +35,7 @@ export type ImportPlan = {
   conflicts: ImportConflict[];
 };
 
-export type ApprovedContributionRecord = {
+export type ApprovedContributionV1Record = {
   schema: "contribution/v1";
   issue: {
     number: number;
@@ -52,9 +52,24 @@ export type ApprovedContributionRecord = {
   };
 };
 
+export type ApprovedContributionV2Record = {
+  schema: "contribution/v2";
+  issue: ApprovedContributionV1Record["issue"];
+  observation: Record<string, unknown>;
+  target: {
+    series_id: string;
+    media_id: string;
+    installment: Record<string, unknown>;
+  };
+  changes: Array<Record<string, unknown> & { type: "add_media_alias" | "upsert_episode_numbers" | "correct_metadata"; media_id: unknown }>;
+  review: ApprovedContributionV1Record["review"];
+};
+
+export type ApprovedContributionRecord = ApprovedContributionV1Record | ApprovedContributionV2Record;
+
 export type ContributionMutation = {
   issue: number;
-  type: "append_alias" | "append_provider_ref" | "set_metadata_field" | "create_media" | "create_alias_record" | "create_metadata_record";
+  type: "append_alias" | "append_provider_ref" | "append_episode_number" | "set_metadata_field" | "create_media" | "create_alias_record" | "create_metadata_record";
   mediaId: string;
   targetFile: string;
   path: string;
@@ -75,6 +90,8 @@ export type ContributionConflict = {
     | "missing_media"
     | "duplicate_alias"
     | "provider_ref_conflict"
+    | "season_mismatch"
+    | "episode_mismatch"
     | "missing_record";
   mediaId?: string;
   targetFile?: string;
@@ -193,6 +210,8 @@ export function applyApprovedContributionPlan(root: string, plan: ApprovedContri
       appendArrayValue(data, "aliases", mutation.value);
     } else if (mutation.type === "append_provider_ref") {
       appendArrayValue(data, "provider_refs", mutation.value);
+    } else if (mutation.type === "append_episode_number") {
+      appendPathArrayValue(data, mutation.path, mutation.value);
     } else if (mutation.type === "set_metadata_field") {
       setPath(data, mutation.path, mutation.value);
     }
@@ -214,9 +233,14 @@ export function planApprovedContributions(input: {
   const mediaIds = new Set(input.existingMedia.map((media) => media.id).filter(isMediaId));
   const providerRefs = providerRefIndex(input.existingMedia);
   const aliasIndex = readAliasIndex(root);
+  const aliasCandidates = readAliasCandidates(root);
   const plan: ApprovedContributionPlan = { mutations: [], noops: [], conflicts: [] };
 
   for (const contribution of input.contributions) {
+    if (contribution.schema === "contribution/v2") {
+      planV2Contribution(root, plan, contribution, mediaById, aliasCandidates);
+      continue;
+    }
     const issue = contribution.issue?.number ?? 0;
     const operation = contribution.operation;
     const mediaId = typeof operation?.media_id === "string" ? operation.media_id : undefined;
@@ -247,6 +271,142 @@ export function planApprovedContributions(input: {
   }
 
   return plan;
+}
+
+function planV2Contribution(
+  root: string,
+  plan: ApprovedContributionPlan,
+  contribution: ApprovedContributionV2Record,
+  mediaById: Map<string, ExistingMediaIdentity>,
+  aliasCandidates: Map<string, Set<string>>
+): void {
+  const issue = contribution.issue.number;
+  const mediaId = contribution.target.media_id;
+  if (!isMediaId(mediaId) || !mediaById.has(mediaId)) {
+    plan.conflicts.push({ issue, type: "missing_media", mediaId, message: `Media ${mediaId} does not exist.` });
+    return;
+  }
+
+  const mediaPath = mediaFile(root, mediaId);
+  const media = readMutableJsonObject(mediaPath);
+  if (media.schema !== "media-identity/v2" || media.series_id !== contribution.target.series_id) {
+    plan.conflicts.push({ issue, type: "season_mismatch", mediaId, message: `Media ${mediaId} is not owned by target series ${contribution.target.series_id}.` });
+    return;
+  }
+  if (JSON.stringify(media.installment ?? {}) !== JSON.stringify(contribution.target.installment ?? {})) {
+    plan.conflicts.push({ issue, type: "season_mismatch", mediaId, message: `Contribution Season/Part does not match ${mediaId}.` });
+    return;
+  }
+
+  for (const change of contribution.changes) {
+    if (change.media_id !== mediaId) {
+      plan.conflicts.push({ issue, type: "invalid_contribution", mediaId, message: "Every v2 change must target contribution.target.media_id." });
+      continue;
+    }
+
+    if (change.type === "add_media_alias") {
+      const alias = change.alias;
+      if (!isRecord(alias) || typeof alias.value !== "string") {
+        plan.conflicts.push({ issue, type: "invalid_contribution", mediaId, message: "add_media_alias requires alias.value." });
+        continue;
+      }
+      const normalized = normalizeAlias(alias.value);
+      const targets = aliasCandidates.get(normalized) ?? new Set<string>();
+      if (targets.has(mediaId)) {
+        plan.noops.push({ issue, type: "noop", mediaId, message: `Alias ${JSON.stringify(alias.value)} already exists for ${mediaId}.` });
+        continue;
+      }
+      targets.add(mediaId);
+      aliasCandidates.set(normalized, targets);
+      plan.mutations.push({
+        issue,
+        type: "append_alias",
+        mediaId,
+        targetFile: repoPath(root, aliasFile(root, mediaId)),
+        path: "aliases[]",
+        value: alias
+      });
+      continue;
+    }
+
+    if (change.type === "correct_metadata") {
+      const field = change.field;
+      if (typeof field !== "string" || !field.startsWith("metadata.")) {
+        plan.conflicts.push({ issue, type: "invalid_contribution", mediaId, message: "correct_metadata requires a metadata.* field." });
+        continue;
+      }
+      const file = metadataFile(root, mediaId);
+      if (!existsSync(file)) {
+        plan.conflicts.push({ issue, type: "missing_record", mediaId, targetFile: repoPath(root, file), message: `Metadata record for ${mediaId} does not exist.` });
+        continue;
+      }
+      const current = readPath(JSON.parse(readFileSync(file, "utf8")), field);
+      if (JSON.stringify(current) === JSON.stringify(change.value)) {
+        plan.noops.push({ issue, type: "noop", mediaId, message: `${field} already has the requested value.` });
+      } else {
+        plan.mutations.push({
+          issue,
+          type: "set_metadata_field",
+          mediaId,
+          targetFile: repoPath(root, file),
+          path: field,
+          value: change.value
+        });
+      }
+      continue;
+    }
+
+    if (change.type === "upsert_episode_numbers") {
+      const episodeId = change.episode_id;
+      const numbers = change.numbers;
+      if (typeof episodeId !== "string" || !Array.isArray(numbers)) {
+        plan.conflicts.push({ issue, type: "invalid_contribution", mediaId, message: "upsert_episode_numbers requires episode_id and numbers[]." });
+        continue;
+      }
+      const file = join(root, "db", "episodes", `${mediaId}.json`);
+      if (!existsSync(file)) {
+        plan.conflicts.push({ issue, type: "missing_record", mediaId, targetFile: repoPath(root, file), message: `Episode record for ${mediaId} does not exist.` });
+        continue;
+      }
+      const record = readMutableJsonObject(file);
+      const episodes = Array.isArray(record.episodes) ? record.episodes : [];
+      const episodeIndex = episodes.findIndex((episode) => isRecord(episode) && episode.id === episodeId);
+      if (episodeIndex < 0) {
+        plan.conflicts.push({ issue, type: "episode_mismatch", mediaId, message: `Episode ${episodeId} does not belong to ${mediaId}.` });
+        continue;
+      }
+      const episode = episodes[episodeIndex];
+      if (!isRecord(episode) || !Array.isArray(episode.numbers)) continue;
+      const existing = new Set(
+        episode.numbers
+          .filter(isRecord)
+          .map((number) => `${String(number.namespace)}:${String(number.value)}`)
+      );
+      for (const mutation of plan.mutations.filter((item) => item.type === "append_episode_number" && item.mediaId === mediaId && item.path === `episodes.${episodeIndex}.numbers`)) {
+        if (isRecord(mutation.value)) existing.add(`${String(mutation.value.namespace)}:${String(mutation.value.value)}`);
+      }
+      let added = 0;
+      for (const number of numbers) {
+        if (!isRecord(number) || typeof number.namespace !== "string" || !Number.isInteger(number.value) || typeof number.source !== "string") {
+          plan.conflicts.push({ issue, type: "invalid_contribution", mediaId, message: `Episode ${episodeId} contains an invalid namespaced number.` });
+          continue;
+        }
+        const key = `${number.namespace}:${number.value}`;
+        if (existing.has(key)) continue;
+        existing.add(key);
+        added += 1;
+        plan.mutations.push({
+          issue,
+          type: "append_episode_number",
+          mediaId,
+          targetFile: repoPath(root, file),
+          path: `episodes.${episodeIndex}.numbers`,
+          value: number
+        });
+      }
+      if (added === 0) plan.noops.push({ issue, type: "noop", mediaId, message: `Episode ${episodeId} numbers already exist.` });
+    }
+  }
 }
 
 export function planMediaImport(input: {
@@ -325,7 +485,7 @@ export function planMediaImport(input: {
 function planCreateMedia(
   root: string,
   plan: ApprovedContributionPlan,
-  contribution: ApprovedContributionRecord,
+  contribution: ApprovedContributionV1Record,
   mediaIds: Set<string>,
   mediaById: Map<string, ExistingMediaIdentity>,
   providerRefs: Map<string, string>,
@@ -446,7 +606,7 @@ function planCreateMedia(
 function planAddAlias(
   root: string,
   plan: ApprovedContributionPlan,
-  contribution: ApprovedContributionRecord,
+  contribution: ApprovedContributionV1Record,
   mediaId: string,
   aliasIndex: Map<string, string>
 ): void {
@@ -487,7 +647,7 @@ function planAddAlias(
 function planAddProviderRef(
   root: string,
   plan: ApprovedContributionPlan,
-  contribution: ApprovedContributionRecord,
+  contribution: ApprovedContributionV1Record,
   mediaId: string,
   providerRefs: Map<string, string>
 ): void {
@@ -523,7 +683,7 @@ function planAddProviderRef(
 function planCorrectMetadata(
   root: string,
   plan: ApprovedContributionPlan,
-  contribution: ApprovedContributionRecord,
+  contribution: ApprovedContributionV1Record,
   mediaId: string
 ): void {
   const issue = contribution.issue.number;
@@ -579,6 +739,22 @@ function appendArrayValue(target: Record<string, unknown>, key: string, value: u
   if (!Array.isArray(current)) {
     throw new Error(`Cannot append to ${key}; target is not an array.`);
   }
+  current.push(value);
+}
+
+function appendPathArrayValue(target: Record<string, unknown>, path: string, value: unknown): void {
+  const parts = path.split(".");
+  let current: unknown = target;
+  for (const part of parts) {
+    if (Array.isArray(current) && /^\d+$/.test(part)) {
+      current = current[Number(part)];
+    } else if (isRecord(current)) {
+      current = current[part];
+    } else {
+      throw new Error(`Cannot append to ${path}; ${part} is not traversable.`);
+    }
+  }
+  if (!Array.isArray(current)) throw new Error(`Cannot append to ${path}; target is not an array.`);
   current.push(value);
 }
 
@@ -638,6 +814,24 @@ function readAliasIndex(root: string): Map<string, string> {
     }
   }
   return aliases;
+}
+
+function readAliasCandidates(root: string): Map<string, Set<string>> {
+  const candidates = new Map<string, Set<string>>();
+  const dir = join(root, "db", "aliases");
+  if (!existsSync(dir)) return candidates;
+  for (const name of readdirSync(dir).filter((file) => file.endsWith(".json")).sort()) {
+    const data = JSON.parse(readFileSync(join(dir, name), "utf8")) as unknown;
+    if (!isRecord(data) || typeof data.media_id !== "string" || !Array.isArray(data.aliases)) continue;
+    for (const alias of data.aliases) {
+      if (!isRecord(alias) || typeof alias.value !== "string") continue;
+      const key = normalizeAlias(alias.value);
+      const ids = candidates.get(key) ?? new Set<string>();
+      ids.add(data.media_id);
+      candidates.set(key, ids);
+    }
+  }
+  return candidates;
 }
 
 function mediaFile(root: string, mediaId: string): string {

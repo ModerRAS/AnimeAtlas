@@ -1,0 +1,58 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/c0/c5/389637_FKK3F.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/c0/c5/389637_FKK3F.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/c0/c5/389637_FKK3F.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/c0/c5/389637_FKK3F.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/c0/c5/389637_FKK3F.jpg"
+    },
+    "name": "人外教室の人間嫌い教師",
+    "name_cn": "非人学生与厌世教师",
+    "relation": "书籍",
+    "type": 1,
+    "id": 389637
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/9e/ed/615710_FlN8X.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/9e/ed/615710_FlN8X.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/9e/ed/615710_FlN8X.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/9e/ed/615710_FlN8X.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/9e/ed/615710_FlN8X.jpg"
+    },
+    "name": "ニンゲン",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 615710
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/08/22/622929_UYAf3.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/08/22/622929_UYAf3.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/08/22/622929_UYAf3.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/08/22/622929_UYAf3.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/08/22/622929_UYAf3.jpg"
+    },
+    "name": "人間カムトゥルー!",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 622929
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/2e/c4/632632_K9q1k.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/2e/c4/632632_K9q1k.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/2e/c4/632632_K9q1k.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/2e/c4/632632_K9q1k.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/2e/c4/632632_K9q1k.jpg"
+    },
+    "name": "人外教室の人間嫌い教師 ORIGINAL SOUNDTRACK",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 632632
+  }
+]

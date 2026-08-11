@@ -1,0 +1,28 @@
+{
+  "$schema": "../../packages/schema/schemas/series-aliases.schema.json",
+  "schema": "series-aliases/v2",
+  "series_id": "series-000089",
+  "aliases": [
+    {
+      "value": "ウルトラマンオメガ",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "奥美迦奥特曼",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "超人力霸王奧米加",
+      "language": "zh-Hant",
+      "type": "localized",
+      "source": "community",
+      "confidence": 0.9
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "$schema": "../../packages/schema/schemas/series-aliases.schema.json",
+  "schema": "series-aliases/v2",
+  "series_id": "series-000031",
+  "aliases": [
+    {
+      "value": "コアラ絵日記",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "考拉绘日记",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "無尾熊繪日記"
+    }
+  ]
+}

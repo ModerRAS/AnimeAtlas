@@ -7,8 +7,22 @@
       "source": "community",
       "type": "localized",
       "value": "Animatica「北斗之拳 拳王軍雜兵們的輓歌」"
+    },
+    {
+      "value": "北斗の拳 拳王軍ザコたちの挽歌",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "北斗神拳 拳王军杂兵们的挽歌",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000028",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

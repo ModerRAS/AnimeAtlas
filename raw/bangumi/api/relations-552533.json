@@ -1,0 +1,44 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/5a/36/397211_8lD6P.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/5a/36/397211_8lD6P.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/5a/36/397211_8lD6P.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/5a/36/397211_8lD6P.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/5a/36/397211_8lD6P.jpg"
+    },
+    "name": "天幕のジャードゥーガル",
+    "name_cn": "穹庐下的魔女",
+    "relation": "书籍",
+    "type": 1,
+    "id": 397211
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/65/eb/656694_28dtw.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/65/eb/656694_28dtw.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/65/eb/656694_28dtw.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/65/eb/656694_28dtw.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/65/eb/656694_28dtw.jpg"
+    },
+    "name": "Stella",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 656694
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/6b/11/664703_B6z68.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/6b/11/664703_B6z68.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/6b/11/664703_B6z68.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/6b/11/664703_B6z68.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/6b/11/664703_B6z68.jpg"
+    },
+    "name": "星",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 664703
+  }
+]

@@ -7,8 +7,15 @@
       "source": "community",
       "type": "romaji",
       "value": "DIGIMON BEATBREAK"
+    },
+    {
+      "value": "数码宝贝 觉醒节拍",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000085",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

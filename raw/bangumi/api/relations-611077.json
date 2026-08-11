@@ -1,0 +1,128 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/01/88/899_REwVW.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/01/88/899_REwVW.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/01/88/899_REwVW.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/01/88/899_REwVW.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/01/88/899_REwVW.jpg"
+    },
+    "name": "名探偵コナン",
+    "name_cn": "名侦探柯南",
+    "relation": "联动",
+    "type": 2,
+    "id": 899
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/0a/40/526104_i2616.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/0a/40/526104_i2616.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/0a/40/526104_i2616.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/0a/40/526104_i2616.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/0a/40/526104_i2616.jpg"
+    },
+    "name": "キミとアイドルプリキュア♪",
+    "name_cn": "Idol光之美少女你与我♪",
+    "relation": "前传",
+    "type": 2,
+    "id": 526104
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/6b/98/605719_ik9GH.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/6b/98/605719_ik9GH.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/6b/98/605719_ik9GH.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/6b/98/605719_ik9GH.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/6b/98/605719_ik9GH.jpg"
+    },
+    "name": "キミとアイドルプリキュア♪感謝祭",
+    "name_cn": "",
+    "relation": "角色出演",
+    "type": 6,
+    "id": 605719
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/91/58/621435_SL8H9.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/91/58/621435_SL8H9.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/91/58/621435_SL8H9.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/91/58/621435_SL8H9.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/91/58/621435_SL8H9.jpg"
+    },
+    "name": "『名探偵プリキュア！』主題歌シングル",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 621435
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/40/9e/630112_kHQ3A.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/40/9e/630112_kHQ3A.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/40/9e/630112_kHQ3A.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/40/9e/630112_kHQ3A.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/40/9e/630112_kHQ3A.jpg"
+    },
+    "name": "プリキュア・スターディテクティブ・サウンド!!",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 630112
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/8c/e1/639663_iY3I9.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/8c/e1/639663_iY3I9.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/8c/e1/639663_iY3I9.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/8c/e1/639663_iY3I9.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/8c/e1/639663_iY3I9.jpg"
+    },
+    "name": "映画名探偵プリキュア！不思議な庭と2人の秘密",
+    "name_cn": "电影名侦探光之美少女！不可思议的庭院与两人的秘密",
+    "relation": "番外篇",
+    "type": 2,
+    "id": 639663
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/0e/fa/644700_A7Fz6.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/0e/fa/644700_A7Fz6.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/0e/fa/644700_A7Fz6.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/0e/fa/644700_A7Fz6.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/0e/fa/644700_A7Fz6.jpg"
+    },
+    "name": "『名探偵プリキュア！』ボーカルアルバム～ツナガル♡ツラナル～",
+    "name_cn": "",
+    "relation": "角色歌",
+    "type": 3,
+    "id": 644700
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/61/d6/646585_pHeWW.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/61/d6/646585_pHeWW.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/61/d6/646585_pHeWW.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/61/d6/646585_pHeWW.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/61/d6/646585_pHeWW.jpg"
+    },
+    "name": "名探偵プリキュア！LIVE2026 キュアット熱唱！はなまるShowtime☆",
+    "name_cn": "",
+    "relation": "三次元",
+    "type": 6,
+    "id": 646585
+  },
+  {
+    "images": {
+      "small": "",
+      "grid": "",
+      "large": "",
+      "medium": "",
+      "common": ""
+    },
+    "name": "『名探偵プリキュア！』後期主題歌シングル",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 688205
+  }
+]

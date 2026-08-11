@@ -1,0 +1,86 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/cb/8e/318611_kG33t.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/cb/8e/318611_kG33t.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/cb/8e/318611_kG33t.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/cb/8e/318611_kG33t.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/cb/8e/318611_kG33t.jpg"
+    },
+    "name": "杖と剣のウィストリア",
+    "name_cn": "杖与剑的魔剑谭",
+    "relation": "书籍",
+    "type": 1,
+    "id": 318611
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/b4/1b/497933_kAWew.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/b4/1b/497933_kAWew.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/b4/1b/497933_kAWew.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/b4/1b/497933_kAWew.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/b4/1b/497933_kAWew.jpg"
+    },
+    "name": "Fire and Fear",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 497933
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/28/b8/497934_I2fbr.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/28/b8/497934_I2fbr.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/28/b8/497934_I2fbr.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/28/b8/497934_I2fbr.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/28/b8/497934_I2fbr.jpg"
+    },
+    "name": "フローズン",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 497934
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/28/19/515856_RNj5p.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/28/19/515856_RNj5p.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/28/19/515856_RNj5p.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/28/19/515856_RNj5p.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/28/19/515856_RNj5p.jpg"
+    },
+    "name": "杖と剣のウィストリア Season 2",
+    "name_cn": "杖与剑的魔剑谭 第二季",
+    "relation": "续集",
+    "type": 2,
+    "id": 515856
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/2e/88/515994_85b98.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/2e/88/515994_85b98.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/2e/88/515994_85b98.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/2e/88/515994_85b98.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/2e/88/515994_85b98.jpg"
+    },
+    "name": "TVアニメ『杖と剣のウィストリア』音楽抄録",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 515994
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/13/fc/664474_nSs82.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/13/fc/664474_nSs82.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/13/fc/664474_nSs82.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/13/fc/664474_nSs82.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/13/fc/664474_nSs82.jpg"
+    },
+    "name": "TVアニメ『杖と剣のウィストリア』音楽集",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 664474
+  }
+]

@@ -7,8 +7,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Jihanki 3rd Season"
+    },
+    {
+      "value": "自動販売機に生まれ変わった俺は迷宮を彷徨う 3rd season",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "转生成自动贩卖机的我今天也在迷宫徘徊 第三季",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000091",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

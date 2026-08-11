@@ -1,0 +1,8 @@
+{
+  "$schema": "../../packages/schema/schemas/series-identity.schema.json",
+  "schema": "series-identity/v2",
+  "id": "series-000062",
+  "kind": "anime-series",
+  "title": "名探偵プリキュア！",
+  "relationships": []
+}

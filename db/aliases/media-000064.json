@@ -7,8 +7,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Re Zero kara Hajimeru Isekai Seikatsu"
+    },
+    {
+      "value": "Re:ゼロから始める異世界生活",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "Re：从零开始的异世界生活",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000064",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

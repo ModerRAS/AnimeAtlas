@@ -7,8 +7,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Rakudai Kenja no Gakuin Musou"
+    },
+    {
+      "value": "落第賢者の学院無双～二度目の転生、Sランクチート魔術師冒険録～",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "落第贤者的学院无双～第二次转生的S级开外挂魔术师冒险录～",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000063",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

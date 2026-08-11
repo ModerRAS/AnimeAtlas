@@ -1,0 +1,28 @@
+{
+  "$schema": "../../packages/schema/schemas/series-aliases.schema.json",
+  "schema": "series-aliases/v2",
+  "series_id": "series-000035",
+  "aliases": [
+    {
+      "value": "悪食令嬢と狂血公爵",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "恶食千金与狂血公爵",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "惡食千金與狂血公爵～那個魔物我就美美地享用了！～"
+    }
+  ]
+}

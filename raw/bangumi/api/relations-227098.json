@@ -1,0 +1,58 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/f8/3a/144488_228yQ.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/f8/3a/144488_228yQ.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/f8/3a/144488_228yQ.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/f8/3a/144488_228yQ.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/f8/3a/144488_228yQ.jpg"
+    },
+    "name": "ユリシーズ ジャンヌ・ダルクと錬金の騎士",
+    "name_cn": "尤利西斯  贞德与炼金的骑士",
+    "relation": "书籍",
+    "type": 1,
+    "id": 144488
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/82/5e/260968_X506L.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/82/5e/260968_X506L.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/82/5e/260968_X506L.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/82/5e/260968_X506L.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/82/5e/260968_X506L.jpg"
+    },
+    "name": "リベラシオン",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 260968
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/86/4e/262857_ff12w.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/86/4e/262857_ff12w.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/86/4e/262857_ff12w.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/86/4e/262857_ff12w.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/86/4e/262857_ff12w.jpg"
+    },
+    "name": "百年のメラム",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 262857
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/44/e2/264598_5rwBW.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/44/e2/264598_5rwBW.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/44/e2/264598_5rwBW.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/44/e2/264598_5rwBW.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/44/e2/264598_5rwBW.jpg"
+    },
+    "name": "TVアニメ『ユリシーズ ジャンヌ・ダルクと錬金の騎士』オリジナルサウンドトラック",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 264598
+  }
+]

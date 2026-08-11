@@ -1,7 +1,11 @@
 {
   "$schema": "../../packages/schema/schemas/media-identity.schema.json",
+  "schema": "media-identity/v2",
   "id": "media-000082",
   "kind": "anime",
+  "series_id": "series-000079",
+  "title": "ブチ切れ令嬢は報復を誓いました。～魔導書の力で祖国を叩き潰します～",
+  "installment": {},
   "provider_refs": [
     {
       "entity": "subject",
@@ -9,6 +13,5 @@
       "provider": "bangumi"
     }
   ],
-  "relationships": [],
-  "schema": "media-identity/v1"
+  "relationships": []
 }

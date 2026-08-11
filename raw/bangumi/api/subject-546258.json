@@ -1,0 +1,305 @@
+{
+  "date": "2025-07-05",
+  "platform": "日剧",
+  "images": {
+    "small": "https://lain.bgm.tv/r/200/pic/cover/l/cd/b7/546258_0WZ40.jpg",
+    "grid": "https://lain.bgm.tv/r/100/pic/cover/l/cd/b7/546258_0WZ40.jpg",
+    "large": "https://lain.bgm.tv/pic/cover/l/cd/b7/546258_0WZ40.jpg",
+    "medium": "https://lain.bgm.tv/r/800/pic/cover/l/cd/b7/546258_0WZ40.jpg",
+    "common": "https://lain.bgm.tv/r/400/pic/cover/l/cd/b7/546258_0WZ40.jpg"
+  },
+  "summary": "故事设定在一个从未出现过奥特曼与怪兽的地球上。某天，因意外一名外星人从宇宙坠落。失去过往记忆的外星人 “奥美迦” 化身为地球人模样，被人称为“宙人”。他对人类充满好奇，积极地接触这些陌生的生命体。\r\n当神秘巨型生物接连出现时，尘封的记忆碎片被唤醒，宙人脱口而出 “怪兽”二字。面对怪兽的威胁，强烈的使命感驱使他变身成为奥美迦奥特曼，与怪兽作战。\r\n随着故事推进，来自外星的宙人与一位普通青年逐渐成为并肩作战的伙伴。\r\n\r\n\r\n\r\n[简介原文]\r\nヒーローも怪獣も存在しない地球に、突然「ソラ」から落ちてきた宇宙人。それは、赤き宇宙ブーメラン「オメガスラッガー」をシンボルに持つ、“究極” の名を冠したウルトラマン。\r\nそれまでの記憶を失った宇宙人「オメガ」は、地球人の姿で現れ、「ソラト」と名付けられます。「ソラト」は初めて触れ合う生命体である「地球人」を理解しようと、興味津々に人々を見つめます。\r\nときに出現する巨大生物、ソラトの失われた記憶から蘇る「怪獣」という言葉。次々と出現する巨大生物「怪獣」を目の前にして、無意識に使命感を掻き立てられるソラトは「ウルトラマンオメガ」に変身し、シャープでパワフルな戦いを繰り広げます。\r\n一方で地球人も、初めて遭遇する巨大生物と赤きスラッガーで戦う巨人が何者なのかを理解しようと、あらゆる視点からその姿を見つめます。やがて結ばれる「宇宙人と地球人」のバディ…ソラトと平凡な青年。見つめ合い響き合うバディの心を通して、「ウルトラマンがなぜ地球を守るのか？」の問いに迫る意欲作です。\r\n今、目覚めの刻（とき）。最新TVシリーズ『ウルトラマンオメガ』にご期待ください。",
+  "name": "ウルトラマンオメガ",
+  "name_cn": "奥美迦奥特曼",
+  "tags": [
+    {
+      "name": "奥特曼",
+      "count": 117,
+      "total_count": 10819
+    },
+    {
+      "name": "特摄",
+      "count": 106,
+      "total_count": 33254
+    },
+    {
+      "name": "2025",
+      "count": 70,
+      "total_count": 1880
+    },
+    {
+      "name": "TV",
+      "count": 55,
+      "total_count": 8648
+    },
+    {
+      "name": "武居正能",
+      "count": 53,
+      "total_count": 185
+    },
+    {
+      "name": "圆谷",
+      "count": 46,
+      "total_count": 3103
+    },
+    {
+      "name": "令和",
+      "count": 40,
+      "total_count": 344
+    },
+    {
+      "name": "根元岁三",
+      "count": 30,
+      "total_count": 31
+    },
+    {
+      "name": "円谷プロダクション",
+      "count": 19,
+      "total_count": 230
+    },
+    {
+      "name": "2025年7月",
+      "count": 16,
+      "total_count": 22
+    },
+    {
+      "name": "战斗",
+      "count": 12,
+      "total_count": 1439
+    },
+    {
+      "name": "足木淳一郎",
+      "count": 11,
+      "total_count": 28
+    },
+    {
+      "name": "电视剧",
+      "count": 11,
+      "total_count": 30677
+    },
+    {
+      "name": "子供向",
+      "count": 6,
+      "total_count": 322
+    },
+    {
+      "name": "动作",
+      "count": 6,
+      "total_count": 7896
+    },
+    {
+      "name": "原创",
+      "count": 4,
+      "total_count": 1564
+    },
+    {
+      "name": "ウルトラマン",
+      "count": 4,
+      "total_count": 858
+    },
+    {
+      "name": "热血",
+      "count": 4,
+      "total_count": 465
+    },
+    {
+      "name": "日本",
+      "count": 4,
+      "total_count": 23303
+    },
+    {
+      "name": "再相信一回",
+      "count": 3,
+      "total_count": 89
+    },
+    {
+      "name": "奥美迦",
+      "count": 2,
+      "total_count": 2
+    },
+    {
+      "name": "田口清隆",
+      "count": 2,
+      "total_count": 609
+    },
+    {
+      "name": "5越本田雅也",
+      "count": 1,
+      "total_count": 1
+    },
+    {
+      "name": "6越三好昭央",
+      "count": 1,
+      "total_count": 1
+    },
+    {
+      "name": "越知靖",
+      "count": 1,
+      "total_count": 2
+    },
+    {
+      "name": "4越知靖足木",
+      "count": 1,
+      "total_count": 1
+    },
+    {
+      "name": "3武居足木",
+      "count": 1,
+      "total_count": 1
+    },
+    {
+      "name": "二季度",
+      "count": 1,
+      "total_count": 11
+    },
+    {
+      "name": "烂片",
+      "count": 1,
+      "total_count": 158
+    },
+    {
+      "name": "1-2武居根元",
+      "count": 1,
+      "total_count": 1
+    }
+  ],
+  "infobox": [
+    {
+      "key": "中文名",
+      "value": "奥美迦奥特曼"
+    },
+    {
+      "key": "集数",
+      "value": "25"
+    },
+    {
+      "key": "放送星期",
+      "value": "六"
+    },
+    {
+      "key": "开始",
+      "value": "2025年7月5日"
+    },
+    {
+      "key": "结束",
+      "value": "2026年1月17日"
+    },
+    {
+      "key": "主演",
+      "value": "近藤頌利、吉田晴登、工藤綾乃"
+    },
+    {
+      "key": "导演",
+      "value": "武居正能、越知靖、市野龍一、鈴木農史、田口清隆、辻本貴則"
+    },
+    {
+      "key": "音乐",
+      "value": "NARASAKI"
+    },
+    {
+      "key": "制作",
+      "value": "円谷プロダクション、テレビ東京、電通"
+    },
+    {
+      "key": "类型",
+      "value": "特摄"
+    },
+    {
+      "key": "国家/地区",
+      "value": "日本"
+    },
+    {
+      "key": "语言",
+      "value": "日语"
+    },
+    {
+      "key": "在线播放平台",
+      "value": "TVer、ネットもテレ東、TSUBURAYA IMAGINATION、YouTube"
+    },
+    {
+      "key": "电视网",
+      "value": "テレ東系列6局ネット"
+    },
+    {
+      "key": "电视台",
+      "value": "テレビ東京"
+    },
+    {
+      "key": "台湾名称",
+      "value": "超人力霸王奧米加"
+    },
+    {
+      "key": "港澳名称",
+      "value": "超人奧米加"
+    },
+    {
+      "key": "官方网站",
+      "value": [
+        {
+          "k": "円谷プロ",
+          "v": "https://m-78.jp/videoworks/ultraman-omega/"
+        },
+        {
+          "k": "テレビ東京",
+          "v": "https://www.tv-tokyo.co.jp/anime/ultraman_omega/"
+        }
+      ]
+    },
+    {
+      "key": "编剧",
+      "value": "根元歳三、足木淳一郎、本田雅也、三好昭央、鶴田幸伸、中野貴雄、兒玉宣勝、吉上亮、安達寛高(乙一)；系列构成：根元歳三・足木淳一郎"
+    },
+    {
+      "key": "著作权表记",
+      "value": "©円谷プロ ©ウルトラマンオメガ製作委員会・テレビ東京"
+    },
+    {
+      "key": "主题歌演出",
+      "value": "ASH（OP）／MindaRyn feat. ASH（前期ED）"
+    },
+    {
+      "key": "监制",
+      "value": "塚越隆行→永竹正幸"
+    },
+    {
+      "key": "制片人/制作人",
+      "value": "主制片人：北浦嗣巳；制片人：村山知之、大石淳子、田中渉"
+    }
+  ],
+  "rating": {
+    "rank": 3563,
+    "total": 336,
+    "count": {
+      "1": 22,
+      "2": 25,
+      "3": 58,
+      "4": 82,
+      "5": 75,
+      "6": 55,
+      "7": 10,
+      "8": 4,
+      "9": 0,
+      "10": 5
+    },
+    "score": 4.3
+  },
+  "total_episodes": 31,
+  "collection": {
+    "on_hold": 42,
+    "dropped": 141,
+    "wish": 21,
+    "collect": 306,
+    "doing": 117
+  },
+  "id": 546258,
+  "eps": 25,
+  "meta_tags": [
+    "日本",
+    "特摄"
+  ],
+  "volumes": 0,
+  "series": false,
+  "locked": false,
+  "nsfw": false,
+  "type": 6
+}

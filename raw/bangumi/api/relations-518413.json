@@ -1,0 +1,86 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/be/dc/122003_80XE2.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/be/dc/122003_80XE2.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/be/dc/122003_80XE2.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/be/dc/122003_80XE2.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/be/dc/122003_80XE2.jpg"
+    },
+    "name": "僕のヒーローアカデミア",
+    "name_cn": "我的英雄学院",
+    "relation": "书籍",
+    "type": 1,
+    "id": 122003
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/39/0b/425587_2U6Hh.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/39/0b/425587_2U6Hh.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/39/0b/425587_2U6Hh.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/39/0b/425587_2U6Hh.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/39/0b/425587_2U6Hh.jpg"
+    },
+    "name": "僕のヒーローアカデミア 第7期",
+    "name_cn": "我的英雄学院 第七季",
+    "relation": "前传",
+    "type": 2,
+    "id": 425587
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/2b/68/581026_q7d9R.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/2b/68/581026_q7d9R.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/2b/68/581026_q7d9R.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/2b/68/581026_q7d9R.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/2b/68/581026_q7d9R.jpg"
+    },
+    "name": "THE REVO",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 581026
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/a4/a0/595624_ojrdx.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/a4/a0/595624_ojrdx.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/a4/a0/595624_ojrdx.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/a4/a0/595624_ojrdx.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/a4/a0/595624_ojrdx.jpg"
+    },
+    "name": "I",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 595624
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/d5/32/615606_U6058.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/d5/32/615606_U6058.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/d5/32/615606_U6058.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/d5/32/615606_U6058.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/d5/32/615606_U6058.jpg"
+    },
+    "name": "TVアニメ『僕のヒーローアカデミア』 FINAL SEASON オリジナルサウンドトラック",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 615606
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/68/55/644516_Nq35f.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/68/55/644516_Nq35f.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/68/55/644516_Nq35f.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/68/55/644516_Nq35f.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/68/55/644516_Nq35f.jpg"
+    },
+    "name": "『僕のヒーローアカデミア』No.170＋1『More』",
+    "name_cn": "『我的英雄学院』No.170＋1『More』",
+    "relation": "续集",
+    "type": 2,
+    "id": 644516
+  }
+]

@@ -1,0 +1,106 @@
+name: Contribution Preview
+
+on:
+  issues:
+    types:
+      - opened
+      - edited
+
+permissions:
+  contents: read
+  issues: write
+
+concurrency:
+  group: contribution-preview-${{ github.event.issue.number }}
+  cancel-in-progress: true
+
+jobs:
+  preview:
+    if: contains(github.event.issue.labels.*.name, 'contribution')
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup pnpm
+        uses: pnpm/action-setup@v4
+        with:
+          run_install: false
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 24
+          cache: pnpm
+
+      - name: Install dependencies
+        run: pnpm install --frozen-lockfile
+
+      - name: Build parser
+        run: pnpm build
+
+      - name: Generate preview
+        id: preview
+        shell: bash
+        run: |
+          set +e
+          pnpm --filter @animeatlas/github-action start -- parse-issue-event "$GITHUB_EVENT_PATH" > contribution-preview.json 2> contribution-preview-errors.txt
+          code=$?
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+          exit 0
+
+      - name: Upsert preview comment
+        uses: actions/github-script@v7
+        env:
+          PREVIEW_CODE: ${{ steps.preview.outputs.code }}
+        with:
+          script: |
+            const fs = require('fs');
+            const marker = '<!-- animeatlas-contribution-preview -->';
+            let body;
+            if (process.env.PREVIEW_CODE === '0') {
+              const contribution = JSON.parse(fs.readFileSync('contribution-preview.json', 'utf8'));
+              if (contribution.schema === 'contribution/v2') {
+                const installment = contribution.target.installment || {};
+                const context = [
+                  installment.season ? `Season ${installment.season}` : null,
+                  installment.part ? `Part ${installment.part}` : null,
+                  installment.cour ? `Cour ${installment.cour}` : null
+                ].filter(Boolean).join(', ') || 'not numbered';
+                const changes = contribution.changes.map((change) => {
+                  if (change.type === 'add_media_alias') return `- Add alias: ${change.alias.value}`;
+                  if (change.type === 'upsert_episode_numbers') return `- Episode ${change.episode_id}: ${change.raw}`;
+                  if (change.type === 'correct_metadata') return `- Set ${change.field} to ${JSON.stringify(change.value)}`;
+                  return `- ${change.type}`;
+                }).join('\n');
+                body = `${marker}\n### AnimeAtlas Preview\n\n**Target:** ${contribution.target.title} (${contribution.target.media_id})\n\n**Installment:** ${context}\n\n${changes}\n\nStatus: ready for maintainer review.`;
+              } else {
+                body = `${marker}\n### AnimeAtlas Preview\n\nLegacy contribution: ${contribution.operation.type}\n\nStatus: ready for maintainer review.`;
+              }
+            } else {
+              const errors = fs.readFileSync('contribution-preview-errors.txt', 'utf8').trim();
+              body = `${marker}\n### AnimeAtlas Preview\n\nStatus: needs more information.\n\n\`\`\`text\n${errors || 'The contribution could not be normalized.'}\n\`\`\``;
+            }
+
+            const { data: comments } = await github.rest.issues.listComments({
+              owner: context.repo.owner,
+              repo: context.repo.repo,
+              issue_number: context.issue.number,
+              per_page: 100
+            });
+            const existing = comments.find((comment) => comment.user?.type === 'Bot' && comment.body?.includes(marker));
+            if (existing) {
+              await github.rest.issues.updateComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                comment_id: existing.id,
+                body
+              });
+            } else {
+              await github.rest.issues.createComment({
+                owner: context.repo.owner,
+                repo: context.repo.repo,
+                issue_number: context.issue.number,
+                body
+              });
+            }

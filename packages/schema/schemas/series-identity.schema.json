@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://animeatlas.dev/schemas/series-identity/v2.json",
+  "title": "AnimeAtlas Series Identity",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "id", "kind", "title", "relationships"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schema": { "const": "series-identity/v2" },
+    "id": { "type": "string", "pattern": "^series-[0-9]{6}$" },
+    "kind": { "const": "anime-series" },
+    "title": { "type": "string", "minLength": 1 },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["type", "target"],
+        "properties": {
+          "type": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
+          "target": { "type": "string", "pattern": "^series-[0-9]{6}$" }
+        }
+      }
+    }
+  }
+}

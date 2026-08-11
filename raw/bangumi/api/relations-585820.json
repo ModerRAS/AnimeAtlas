@@ -1,0 +1,58 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/2e/83/312835_2A3xV.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/2e/83/312835_2A3xV.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/2e/83/312835_2A3xV.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/2e/83/312835_2A3xV.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/2e/83/312835_2A3xV.jpg"
+    },
+    "name": "クレバテス -魔獣の王と赤子と屍の勇者-",
+    "name_cn": "Clevatess -魔兽之王与婴儿与尸之勇者",
+    "relation": "书籍",
+    "type": 1,
+    "id": 312835
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/5c/49/502142_XG5pA.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/5c/49/502142_XG5pA.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/5c/49/502142_XG5pA.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/5c/49/502142_XG5pA.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/5c/49/502142_XG5pA.jpg"
+    },
+    "name": "クレバテス-魔獣の王と赤子と屍の勇者-",
+    "name_cn": "Clevatess-魔兽之王与婴儿与尸之勇者-",
+    "relation": "前传",
+    "type": 2,
+    "id": 502142
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/3a/48/661634_bMnEQ.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/3a/48/661634_bMnEQ.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/3a/48/661634_bMnEQ.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/3a/48/661634_bMnEQ.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/3a/48/661634_bMnEQ.jpg"
+    },
+    "name": "Foreshadow",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 661634
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/47/b1/665194_aGw8w.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/47/b1/665194_aGw8w.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/47/b1/665194_aGw8w.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/47/b1/665194_aGw8w.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/47/b1/665194_aGw8w.jpg"
+    },
+    "name": "Why? RED induction / Awake Anew",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 665194
+  }
+]

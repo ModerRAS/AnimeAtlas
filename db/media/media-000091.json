@@ -1,7 +1,13 @@
 {
   "$schema": "../../packages/schema/schemas/media-identity.schema.json",
+  "schema": "media-identity/v2",
   "id": "media-000091",
   "kind": "anime",
+  "series_id": "series-000018",
+  "title": "自動販売機に生まれ変わった俺は迷宮を彷徨う 3rd season",
+  "installment": {
+    "season": 3
+  },
   "provider_refs": [
     {
       "entity": "subject",
@@ -9,6 +15,5 @@
       "provider": "bangumi"
     }
   ],
-  "relationships": [],
-  "schema": "media-identity/v1"
+  "relationships": []
 }

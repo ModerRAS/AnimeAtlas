@@ -1,0 +1,24 @@
+{
+  "$schema": "../../packages/schema/schemas/media-identity.schema.json",
+  "schema": "media-identity/v2",
+  "id": "media-000097",
+  "kind": "anime",
+  "series_id": "series-000019",
+  "title": "葬送のフリーレン 第2期",
+  "installment": {
+    "season": 2
+  },
+  "provider_refs": [
+    {
+      "provider": "bangumi",
+      "entity": "subject",
+      "id": "515759"
+    }
+  ],
+  "relationships": [
+    {
+      "type": "prequel",
+      "target": "media-000001"
+    }
+  ]
+}

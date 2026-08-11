@@ -7,8 +7,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Kirei ni Shite Moraemasu ka"
+    },
+    {
+      "value": "綺麗にしてもらえますか。",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "能帮我弄干净吗？",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000045",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

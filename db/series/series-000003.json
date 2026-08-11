@@ -1,0 +1,8 @@
+{
+  "$schema": "../../packages/schema/schemas/series-identity.schema.json",
+  "schema": "series-identity/v2",
+  "id": "series-000003",
+  "kind": "anime-series",
+  "title": "無職転生 ～異世界行ったら本気だす～",
+  "relationships": []
+}

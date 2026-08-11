@@ -1,0 +1,58 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/50/ae/454438_Q43mf.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/50/ae/454438_Q43mf.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/50/ae/454438_Q43mf.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/50/ae/454438_Q43mf.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/50/ae/454438_Q43mf.jpg"
+    },
+    "name": "北斗の拳 -FIST OF THE NORTH STAR-",
+    "name_cn": "北斗神拳 -FIST OF THE NORTH STAR-",
+    "relation": "主线故事",
+    "type": 2,
+    "id": 454438
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/a6/d6/619043_ZscXE.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/a6/d6/619043_ZscXE.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/a6/d6/619043_ZscXE.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/a6/d6/619043_ZscXE.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/a6/d6/619043_ZscXE.jpg"
+    },
+    "name": "Elegy of the Enemies",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 619043
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/d0/a9/637339_93zPo.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/d0/a9/637339_93zPo.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/d0/a9/637339_93zPo.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/d0/a9/637339_93zPo.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/d0/a9/637339_93zPo.jpg"
+    },
+    "name": "北斗の拳 拳王軍ザコたちの挽歌 第2クール",
+    "name_cn": "北斗神拳 拳王军杂兵们的挽歌 第二季",
+    "relation": "续集",
+    "type": 2,
+    "id": 637339
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/16/63/660704_jl7Rj.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/16/63/660704_jl7Rj.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/16/63/660704_jl7Rj.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/16/63/660704_jl7Rj.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/16/63/660704_jl7Rj.jpg"
+    },
+    "name": "Blacker Co., Ltd.",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 660704
+  }
+]

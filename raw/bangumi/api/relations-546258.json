@@ -1,0 +1,240 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/33/de/584655_U8Tt5.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/33/de/584655_U8Tt5.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/33/de/584655_U8Tt5.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/33/de/584655_U8Tt5.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/33/de/584655_U8Tt5.jpg"
+    },
+    "name": "共鳴レボリューション",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 584655
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/4a/8a/692012_OPcpY.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/4a/8a/692012_OPcpY.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/4a/8a/692012_OPcpY.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/4a/8a/692012_OPcpY.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/4a/8a/692012_OPcpY.jpg"
+    },
+    "name": "テレビマガジン特別編集 ウルトラマンシリーズ60周年記念 全ウルトラマン記録大鑑",
+    "name_cn": "",
+    "relation": "书籍",
+    "type": 1,
+    "id": 692012
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/e8/90/643385_a7OMW.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/e8/90/643385_a7OMW.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/e8/90/643385_a7OMW.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/e8/90/643385_a7OMW.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/e8/90/643385_a7OMW.jpg"
+    },
+    "name": "ウルトラマンオメガ オリジナルサウンドトラック EXTRA",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 643385
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/ba/57/631469_9uPLs.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/ba/57/631469_9uPLs.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/ba/57/631469_9uPLs.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/ba/57/631469_9uPLs.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/ba/57/631469_9uPLs.jpg"
+    },
+    "name": "ウルトラマンオメガ外伝 Voyage of GAMEDON",
+    "name_cn": "",
+    "relation": "书籍",
+    "type": 1,
+    "id": 631469
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/4d/2b/616189_VQ1MD.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/4d/2b/616189_VQ1MD.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/4d/2b/616189_VQ1MD.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/4d/2b/616189_VQ1MD.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/4d/2b/616189_VQ1MD.jpg"
+    },
+    "name": "JR博多シティ開業15周年記念開催 ウルトラヒーローズEXPO 2026 スプリングフェスティバル IN JR博多シティ NEW GENERATION THE LIVE ウルトラマンオメガ編～絆が紡ぐ未来～",
+    "name_cn": "",
+    "relation": "番外篇",
+    "type": 6,
+    "id": 616189
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/75/18/614232_wR0LW.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/75/18/614232_wR0LW.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/75/18/614232_wR0LW.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/75/18/614232_wR0LW.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/75/18/614232_wR0LW.jpg"
+    },
+    "name": "ウルトラマン ニュージェネレーション スターズ",
+    "name_cn": "奥特曼新生代群星 第四部",
+    "relation": "总集篇",
+    "type": 6,
+    "id": 614232
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/a5/a6/610755_P2pNg.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/a5/a6/610755_P2pNg.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/a5/a6/610755_P2pNg.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/a5/a6/610755_P2pNg.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/a5/a6/610755_P2pNg.jpg"
+    },
+    "name": "ブレーザー×アーク×オメガ　バディ×バディ×バディ！スペシャルトークナイト",
+    "name_cn": "",
+    "relation": "其他",
+    "type": 6,
+    "id": 610755
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/07/53/598499_DVIcX.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/07/53/598499_DVIcX.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/07/53/598499_DVIcX.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/07/53/598499_DVIcX.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/07/53/598499_DVIcX.jpg"
+    },
+    "name": "ウルトラマンオメガ オリジナルサウンドトラック",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 598499
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/3f/ea/591891_7576F.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/3f/ea/591891_7576F.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/3f/ea/591891_7576F.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/3f/ea/591891_7576F.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/3f/ea/591891_7576F.jpg"
+    },
+    "name": "ウルトラヒーローズEXPO2026 ニューイヤーフェスティバル NEW GENERATION THE LIVE　ウルトラマンオメガ編～絆が紡ぐ未来～",
+    "name_cn": "奥特英雄EXPO2026新年庆典 新生代舞台剧 奥美迦奥特曼篇～纽带连接未来～",
+    "relation": "番外篇",
+    "type": 6,
+    "id": 591891
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/a8/8e/569458_CWPlc.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/a8/8e/569458_CWPlc.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/a8/8e/569458_CWPlc.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/a8/8e/569458_CWPlc.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/a8/8e/569458_CWPlc.jpg"
+    },
+    "name": "BRIGHT EYES/Missing Link",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 569458
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/c3/c0/583858_ZCc9O.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/c3/c0/583858_ZCc9O.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/c3/c0/583858_ZCc9O.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/c3/c0/583858_ZCc9O.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/c3/c0/583858_ZCc9O.jpg"
+    },
+    "name": "ウルトラ6兄弟 THE LIVE ウルトラマン編 ～空想は星空の彼方へ～",
+    "name_cn": "",
+    "relation": "角色出演",
+    "type": 6,
+    "id": 583858
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/72/92/583854_0Jf44.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/72/92/583854_0Jf44.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/72/92/583854_0Jf44.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/72/92/583854_0Jf44.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/72/92/583854_0Jf44.jpg"
+    },
+    "name": "ウルトラヒーローズ THE LIVE 〜オメガ・アーク・ブレーザー 新世代ヒーロー集結〜 in博品館劇場",
+    "name_cn": "奥特英雄THE LIVE~奥美迦·亚刻·布莱泽 新世代英雄集结~ in博品馆剧场",
+    "relation": "角色出演",
+    "type": 6,
+    "id": 583854
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/91/34/581234_w8u8H.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/91/34/581234_w8u8H.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/91/34/581234_w8u8H.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/91/34/581234_w8u8H.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/91/34/581234_w8u8H.jpg"
+    },
+    "name": "【ツブコン2025】New Generation 15 Stars Meeting",
+    "name_cn": "【圆谷祭2025】新生代15群星见面会",
+    "relation": "联动",
+    "type": 6,
+    "id": 581234
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/f3/b0/578247_SnNt6.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/f3/b0/578247_SnNt6.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/f3/b0/578247_SnNt6.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/f3/b0/578247_SnNt6.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/f3/b0/578247_SnNt6.jpg"
+    },
+    "name": "【ツブコン2025】ULTRAMAN MUSIC LIVE ～ウルトラマン魂2025～",
+    "name_cn": "【圆谷祭2025】奥特音乐会～奥特曼魂2025～",
+    "relation": "联动",
+    "type": 6,
+    "id": 578247
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/a7/c4/575397_2nrxZ.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/a7/c4/575397_2nrxZ.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/a7/c4/575397_2nrxZ.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/a7/c4/575397_2nrxZ.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/a7/c4/575397_2nrxZ.jpg"
+    },
+    "name": "超人力霸王舞台劇In Taiwan 2025",
+    "name_cn": "",
+    "relation": "番外篇",
+    "type": 6,
+    "id": 575397
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/07/66/575241_s8G8J.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/07/66/575241_s8G8J.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/07/66/575241_s8G8J.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/07/66/575241_s8G8J.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/07/66/575241_s8G8J.jpg"
+    },
+    "name": "NEW GENERATION THE LIVE ウルトラマンオメガ編 ～ダイノサウルス大決戦！～",
+    "name_cn": "新生代THE LIVE 奥美迦奥特曼篇～恐龙大决战～",
+    "relation": "番外篇",
+    "type": 6,
+    "id": 575241
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/58/59/571815_MZc41.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/58/59/571815_MZc41.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/58/59/571815_MZc41.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/58/59/571815_MZc41.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/58/59/571815_MZc41.jpg"
+    },
+    "name": "ULTRAMAN NEW GENERATION THE LIVE ウルトラマンオメガ編 ～やってきたヒーロー～",
+    "name_cn": "新生代THE LIVE 奥美迦奥特曼篇～英雄降临～",
+    "relation": "番外篇",
+    "type": 6,
+    "id": 571815
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/13/e3/217143_iJtTx.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/13/e3/217143_iJtTx.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/13/e3/217143_iJtTx.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/13/e3/217143_iJtTx.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/13/e3/217143_iJtTx.jpg"
+    },
+    "name": "天穂のサクナヒメ",
+    "name_cn": "天穗之咲稻姬",
+    "relation": "游戏",
+    "type": 4,
+    "id": 217143
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/48/a7/384691_2152x.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/48/a7/384691_2152x.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/48/a7/384691_2152x.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/48/a7/384691_2152x.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/48/a7/384691_2152x.jpg"
+    },
+    "name": "天穂のサクナヒメ ココロワ稲作日誌",
+    "name_cn": "天穗之咲稻姬 心轮种稻日记",
+    "relation": "书籍",
+    "type": 1,
+    "id": 384691
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/e9/f4/478684_gVp0X.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/e9/f4/478684_gVp0X.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/e9/f4/478684_gVp0X.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/e9/f4/478684_gVp0X.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/e9/f4/478684_gVp0X.jpg"
+    },
+    "name": "天穂のサクナヒメ",
+    "name_cn": "天穗之咲稻姬",
+    "relation": "前传",
+    "type": 2,
+    "id": 478684
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/88/a6/499125_8M16l.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/88/a6/499125_8M16l.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/88/a6/499125_8M16l.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/88/a6/499125_8M16l.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/88/a6/499125_8M16l.jpg"
+    },
+    "name": "晴々！ / 青のなかで",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 499125
+  }
+]

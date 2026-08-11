@@ -7,8 +7,22 @@
       "source": "community",
       "type": "official",
       "value": "The Ghost in the Shell"
+    },
+    {
+      "value": "攻殻機動隊 THE GHOST IN THE SHELL",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "攻壳机动队 THE GHOST IN THE SHELL",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000047",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

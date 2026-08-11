@@ -1,0 +1,72 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/23/1a/336729_x2TSq.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/23/1a/336729_x2TSq.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/23/1a/336729_x2TSq.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/23/1a/336729_x2TSq.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/23/1a/336729_x2TSq.jpg"
+    },
+    "name": "ただいま、おじゃまされます！",
+    "name_cn": "当前、正被打扰中！",
+    "relation": "书籍",
+    "type": 1,
+    "id": 336729
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/6c/83/636764_1S9Nn.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/6c/83/636764_1S9Nn.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/6c/83/636764_1S9Nn.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/6c/83/636764_1S9Nn.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/6c/83/636764_1S9Nn.jpg"
+    },
+    "name": "ガチ夢中！",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 636764
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/c3/7e/639026_Xc0GM.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/c3/7e/639026_Xc0GM.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/c3/7e/639026_Xc0GM.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/c3/7e/639026_Xc0GM.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/c3/7e/639026_Xc0GM.jpg"
+    },
+    "name": "さんかくゲーム",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 639026
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/aa/c6/657885_Xzg48.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/aa/c6/657885_Xzg48.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/aa/c6/657885_Xzg48.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/aa/c6/657885_Xzg48.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/aa/c6/657885_Xzg48.jpg"
+    },
+    "name": "TVアニメ「ただいま、おじゃまされます！」オリジナル・サウンドトラック",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 657885
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/d3/84/663132_3o6IX.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/d3/84/663132_3o6IX.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/d3/84/663132_3o6IX.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/d3/84/663132_3o6IX.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/d3/84/663132_3o6IX.jpg"
+    },
+    "name": "TVアニメ「ただいま、おじゃまされます！」キャラクターソング",
+    "name_cn": "",
+    "relation": "角色歌",
+    "type": 3,
+    "id": 663132
+  }
+]

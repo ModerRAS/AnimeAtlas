@@ -7,8 +7,22 @@
       "source": "community",
       "type": "romaji",
       "value": "[Boruto Naruto Next Generations]"
+    },
+    {
+      "value": "BORUTO-ボルト- NARUTO NEXT GENERATIONS",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "博人传-火影次世代-",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000051",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

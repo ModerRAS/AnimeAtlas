@@ -1,0 +1,481 @@
+{
+  "date": "2026-07-04",
+  "platform": "TV",
+  "images": {
+    "small": "https://lain.bgm.tv/r/200/pic/cover/l/cf/0b/530729_82Fm9.jpg",
+    "grid": "https://lain.bgm.tv/r/100/pic/cover/l/cf/0b/530729_82Fm9.jpg",
+    "large": "https://lain.bgm.tv/pic/cover/l/cf/0b/530729_82Fm9.jpg",
+    "medium": "https://lain.bgm.tv/r/800/pic/cover/l/cf/0b/530729_82Fm9.jpg",
+    "common": "https://lain.bgm.tv/r/400/pic/cover/l/cf/0b/530729_82Fm9.jpg"
+  },
+  "summary": "三十年前，未知「侵略性外来生物」的出现，让世界一度面临毁灭。\r\n人类与「侵略种」争夺着生存领地。如今，虽然人类勉强确保安全，但世界随时毁灭也不奇怪。\r\n在这样的背景下，联合国危险生物调查机构「EXCEEDS」，为了驱除侵略种带来的危机，正式展开行动。\r\n故事始于远东岛国「瑞穂」，身为侵略种驱除猎人的少女「久濑诗奈」，只想与唯一的家人──妹妹「雪奈」平静生活，然而，在诗奈身边将会发生什么样的事件──？\r\n\r\n\r\n\r\n[简介原文]\r\n30年前に現れた未知の「侵略性外来生物」によって、世界は一度滅びかけた。\r\n人類とその生物「侵略種」は互いに生活圏を争い、現在はかろうじて人類の安全が確保されているものの、世界はいつ滅びてもおかしくない。人々は死と滅びを恐れながら、危険や災害から目を逸らすように日常を生きている。\r\nそんな世界の中、国連危険生物調査機関「EXCEEDS」は、侵略種による危機と災害を退けるために活動を開始した。\r\n物語のはじまりは極東の島国「瑞穂」。離島で暮らす、侵略種駆除ハンターの少女・久瀬シイナ。たったひとりの家族である妹セツナと静かに暮らすことを望むシイナに訪れる事件とは――？",
+  "name": "魔法少女リリカルなのは EXCEEDS Gun Blaze Vengeance",
+  "name_cn": "魔法少女奈叶 EXCEEDS Gun Blaze Vengeance",
+  "tags": [
+    {
+      "name": "原创",
+      "count": 159,
+      "total_count": 617314
+    },
+    {
+      "name": "2026年7月",
+      "count": 155,
+      "total_count": 19522
+    },
+    {
+      "name": "TV",
+      "count": 139,
+      "total_count": 1396783
+    },
+    {
+      "name": "魔法少女奈叶",
+      "count": 117,
+      "total_count": 2312
+    },
+    {
+      "name": "百合",
+      "count": 103,
+      "total_count": 400635
+    },
+    {
+      "name": "SevenArcs",
+      "count": 75,
+      "total_count": 4734
+    },
+    {
+      "name": "2026",
+      "count": 75,
+      "total_count": 40850
+    },
+    {
+      "name": "魔法少女",
+      "count": 69,
+      "total_count": 36617
+    },
+    {
+      "name": "日本",
+      "count": 63,
+      "total_count": 293398
+    },
+    {
+      "name": "战斗",
+      "count": 41,
+      "total_count": 468516
+    },
+    {
+      "name": "滨名孝行",
+      "count": 23,
+      "total_count": 151
+    },
+    {
+      "name": "完全新作",
+      "count": 22,
+      "total_count": 26
+    },
+    {
+      "name": "奈叶",
+      "count": 19,
+      "total_count": 631
+    },
+    {
+      "name": "佐藤博晖",
+      "count": 16,
+      "total_count": 70
+    },
+    {
+      "name": "浜名孝行",
+      "count": 7,
+      "total_count": 233
+    },
+    {
+      "name": "都築真紀",
+      "count": 4,
+      "total_count": 461
+    },
+    {
+      "name": "都筑真纪",
+      "count": 4,
+      "total_count": 42
+    },
+    {
+      "name": "续作",
+      "count": 3,
+      "total_count": 45769
+    },
+    {
+      "name": "未定档",
+      "count": 3,
+      "total_count": 4102
+    },
+    {
+      "name": "魔炮",
+      "count": 3,
+      "total_count": 2661
+    },
+    {
+      "name": "奇幻",
+      "count": 2,
+      "total_count": 467684
+    },
+    {
+      "name": "水树奈奈",
+      "count": 2,
+      "total_count": 6563
+    },
+    {
+      "name": "2026年",
+      "count": 2,
+      "total_count": 1698
+    },
+    {
+      "name": "日本动画",
+      "count": 2,
+      "total_count": 34832
+    },
+    {
+      "name": "科幻",
+      "count": 1,
+      "total_count": 251378
+    },
+    {
+      "name": "2026年7月尝试",
+      "count": 1,
+      "total_count": 8
+    },
+    {
+      "name": "2026.7",
+      "count": 1,
+      "total_count": 43
+    },
+    {
+      "name": "SF",
+      "count": 1,
+      "total_count": 7156
+    },
+    {
+      "name": "热血",
+      "count": 1,
+      "total_count": 212115
+    },
+    {
+      "name": "追番",
+      "count": 1,
+      "total_count": 2629
+    }
+  ],
+  "infobox": [
+    {
+      "key": "中文名",
+      "value": "魔法少女奈叶 EXCEEDS Gun Blaze Vengeance"
+    },
+    {
+      "key": "别名",
+      "value": [
+        {
+          "v": "Mahou Shoujo Lyrical Nanoha EXCEEDS: Gun Blaze Vengeance"
+        },
+        {
+          "v": "Magical Girl Lyrical Nanoha EXCEEDS Gun Blaze Vengeance"
+        },
+        {
+          "v": "魔法少女奈叶EXGV"
+        },
+        {
+          "v": "なのはガンブレ"
+        }
+      ]
+    },
+    {
+      "key": "话数",
+      "value": "12"
+    },
+    {
+      "key": "放送开始",
+      "value": "2026年7月4日"
+    },
+    {
+      "key": "放送星期",
+      "value": "星期六"
+    },
+    {
+      "key": "官方网站",
+      "value": "https://nanoha.com/EXGV/"
+    },
+    {
+      "key": "播放电视台",
+      "value": "TOKYO MX / BS11"
+    },
+    {
+      "key": "其他电视台",
+      "value": "AT-X / 北海道テレビ"
+    },
+    {
+      "key": "导演",
+      "value": "浜名孝行"
+    },
+    {
+      "key": "音乐",
+      "value": "塩野海"
+    },
+    {
+      "key": "Copyright",
+      "value": "©NANOHA EXCEEDS PROJECT"
+    },
+    {
+      "key": "原作",
+      "value": "都築真紀"
+    },
+    {
+      "key": "副导演",
+      "value": "佐藤博暉"
+    },
+    {
+      "key": "人物设定",
+      "value": "新垣一成"
+    },
+    {
+      "key": "副人物设定",
+      "value": "平原みなみ、井戸田あかね、牧孝雄"
+    },
+    {
+      "key": "3DCG",
+      "value": "グラフィニカ"
+    },
+    {
+      "key": "3DCG 导演",
+      "value": "五来聖文"
+    },
+    {
+      "key": "CG 制作人",
+      "value": "向田善弘"
+    },
+    {
+      "key": "音响监督",
+      "value": "ハマノカズゾウ"
+    },
+    {
+      "key": "音效",
+      "value": "斎藤みち代、小山恭正"
+    },
+    {
+      "key": "製作",
+      "value": "NANOHA EXCEEDS PROJECT（キングレコード、ブシロード、Seven Arcs、三洋物産、ムービック、博報堂DYミュージック&ピクチャーズ、Good Smile Company）"
+    },
+    {
+      "key": "企画",
+      "value": "田中辰弥"
+    },
+    {
+      "key": "执行制片人",
+      "value": "吉田昌平、根本雄貴、吉田裕二、内田朋宏、髙橋竜、神部宗之、宇佐義大"
+    },
+    {
+      "key": "监修",
+      "value": "石岡朋子"
+    },
+    {
+      "key": "制片人",
+      "value": "小松怜奈、藤井貴大、植木達也、畑中悠介、丸然、外川明宏、山中隆弘、中路亮輔"
+    },
+    {
+      "key": "副制片人",
+      "value": "穂坂崇徳、木下唯、西ヶ谷英武、池田大介、田尻岳、小笠原由記、村松裕基、山崎史紀、小幡敬志朗"
+    },
+    {
+      "key": "宣传",
+      "value": "伊藤綾香、五十嵐歌耶、野田あすか、田口琢也"
+    },
+    {
+      "key": "宣传协力",
+      "value": "矢野佑太、佐藤駿真"
+    },
+    {
+      "key": "製作协力",
+      "value": "佐藤俊明"
+    },
+    {
+      "key": "制作协力",
+      "value": "川上修一"
+    },
+    {
+      "key": "企画协力",
+      "value": "クオラス（佐藤茂薫、板垣湧斗、小島英徳）"
+    },
+    {
+      "key": "动画制片人",
+      "value": "持田章寛"
+    },
+    {
+      "key": "制作统括",
+      "value": "伊藤將彦"
+    },
+    {
+      "key": "制作管理",
+      "value": "制作デスク：五十嵐達也"
+    },
+    {
+      "key": "设定制作",
+      "value": "高橋香織"
+    },
+    {
+      "key": "制作进行",
+      "value": "高下勇成、吉村花倫、髙橋向日葵、本谷日香莉、渡辺慶久"
+    },
+    {
+      "key": "制作进行协力",
+      "value": "菅野史織"
+    },
+    {
+      "key": "主题歌演出",
+      "value": "水樹奈々 / 青木陽菜"
+    },
+    {
+      "key": "主题歌作词",
+      "value": "水樹奈々 / アザミ"
+    },
+    {
+      "key": "主题歌作曲",
+      "value": "藤永龍太郎(Elements Garden) / 青木陽菜"
+    },
+    {
+      "key": "主题歌编曲",
+      "value": "藤永龍太郎(Elements Garden) / 加藤貴之"
+    },
+    {
+      "key": "插入歌演出",
+      "value": "久瀬シイナ(CV.橘杏咲)"
+    },
+    {
+      "key": "录音",
+      "value": "浅川祥幸"
+    },
+    {
+      "key": "录音助理",
+      "value": "矢吹夏実"
+    },
+    {
+      "key": "录音工作室",
+      "value": "グロービジョン信濃町スタジオ"
+    },
+    {
+      "key": "音响",
+      "value": "グロービジョン"
+    },
+    {
+      "key": "音响制作担当",
+      "value": "岸田直樹、申載鎬"
+    },
+    {
+      "key": "剪辑",
+      "value": "関一彦；剪辑工作室：Imagica EMS"
+    },
+    {
+      "key": "在线剪辑",
+      "value": "安田斐人"
+    },
+    {
+      "key": "离线剪辑",
+      "value": "Seven Arcs編集室"
+    },
+    {
+      "key": "2D 设计",
+      "value": "2D協力：Seven Arcsデジタル映像部"
+    },
+    {
+      "key": "摄影",
+      "value": "二村文章、大澤仁己、大島慧治；摄影协力：中村慎太郎、AWGI（服部安、岡田由紀、競昌則、杉浦仙一、西重成、金正徳）、Enter"
+    },
+    {
+      "key": "特效",
+      "value": "福田直征"
+    },
+    {
+      "key": "背景美术",
+      "value": "キューン・プラント"
+    },
+    {
+      "key": "美术监督助理",
+      "value": "谷川栞理、中川尚子"
+    },
+    {
+      "key": "美术",
+      "value": "谷川菜理、萩原結花、藤本智、松尾春希、野添静、西銘千順"
+    },
+    {
+      "key": "美术制作进行",
+      "value": "徳留卓史、浜尾香織、スタジオコロリド美術部（篠田佳奈）"
+    },
+    {
+      "key": "美术设计",
+      "value": "小野寺里恵、高橋武之"
+    },
+    {
+      "key": "分镜",
+      "value": "浜名孝行(1)、高橋幸(2,5)、中山岳洋(3)、坂田純一(4)、岩畑剛一(6)"
+    },
+    {
+      "key": "演出",
+      "value": "布施木一喜(1)、福元しんいち(2)、山崎茂(3)、コークン(4)、中釜勇亮(5)、Seven Arcs演出部(6)"
+    },
+    {
+      "key": "OP・ED 分镜",
+      "value": "小川優樹 / 唎猪口"
+    },
+    {
+      "key": "OP・ED 演出",
+      "value": "菅野幸子 / 唎猪口"
+    },
+    {
+      "key": "OP・ED 动画制作",
+      "value": "ED制作协力：サンブラスアニメーション株式会社"
+    },
+    {
+      "key": "总作画监督",
+      "value": "新垣一成、平田雄三、鞠野黄英、山内則康"
+    },
+    {
+      "key": "作画监督",
+      "value": "橋本貴吉、平原みなみ、河本美代子、重松しんいち[重松晋一]、荻原旭、山内則康、藤澤俊幸、鞠野黄英、宮本武史、岡本健一郎、しのざきあきら、しまいし、平田雄三、宮川智恵子、小川玖理周、萩尾圭太、日下岳史、こばやししおり、よしだりゅういちろう、かいどうひろゆき、西田美弥子、平田賢一、五十嵐のぞむ"
+    }
+  ],
+  "rating": {
+    "rank": 8148,
+    "total": 239,
+    "count": {
+      "1": 2,
+      "2": 1,
+      "3": 6,
+      "4": 34,
+      "5": 57,
+      "6": 89,
+      "7": 35,
+      "8": 7,
+      "9": 3,
+      "10": 5
+    },
+    "score": 5.7
+  },
+  "total_episodes": 12,
+  "collection": {
+    "on_hold": 37,
+    "dropped": 83,
+    "wish": 589,
+    "collect": 38,
+    "doing": 1213
+  },
+  "id": 530729,
+  "eps": 12,
+  "meta_tags": [
+    "TV",
+    "TV",
+    "日本",
+    "日本",
+    "原创",
+    "原创"
+  ],
+  "volumes": 0,
+  "series": false,
+  "locked": false,
+  "nsfw": false,
+  "type": 2
+}

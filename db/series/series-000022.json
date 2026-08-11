@@ -1,0 +1,8 @@
+{
+  "$schema": "../../packages/schema/schemas/series-identity.schema.json",
+  "schema": "series-identity/v2",
+  "id": "series-000022",
+  "kind": "anime-series",
+  "title": "機械じかけのマリー",
+  "relationships": []
+}

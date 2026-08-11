@@ -1,0 +1,19 @@
+{
+  "$schema": "../../packages/schema/schemas/media-identity.schema.json",
+  "schema": "media-identity/v2",
+  "id": "media-000096",
+  "kind": "anime",
+  "series_id": "series-000010",
+  "title": "花ざかりの君たちへ",
+  "installment": {
+    "season": 1
+  },
+  "provider_refs": [
+    {
+      "provider": "bangumi",
+      "entity": "subject",
+      "id": "494564"
+    }
+  ],
+  "relationships": []
+}

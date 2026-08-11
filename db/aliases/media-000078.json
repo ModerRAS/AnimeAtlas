@@ -7,8 +7,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Kokoore"
+    },
+    {
+      "value": "ここは俺に任せて先に行けと言ってから10年がたったら伝説になっていた。",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "『你们先走我断后』，于是10年后我成为了传说",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000078",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

@@ -1,0 +1,632 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/3e/f6/513103_2T52W.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/3e/f6/513103_2T52W.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/3e/f6/513103_2T52W.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/3e/f6/513103_2T52W.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/3e/f6/513103_2T52W.jpg"
+    },
+    "name": "ラジオCD「Re：ゼロから始める異世界ラジオ生活」Vol.4",
+    "name_cn": "",
+    "relation": "其他",
+    "type": 3,
+    "id": 513103
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/95/b5/305311_595ZX.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/95/b5/305311_595ZX.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/95/b5/305311_595ZX.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/95/b5/305311_595ZX.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/95/b5/305311_595ZX.jpg"
+    },
+    "name": "Re:ゼロから始める異世界生活 Lost in Memories",
+    "name_cn": "Re:从零开始的异世界生活 Lost in Memories",
+    "relation": "游戏",
+    "type": 4,
+    "id": 305311
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/01/32/305312_57JAO.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/01/32/305312_57JAO.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/01/32/305312_57JAO.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/01/32/305312_57JAO.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/01/32/305312_57JAO.jpg"
+    },
+    "name": "Re：从零开始的异世界生活-INFINTY",
+    "name_cn": "从零开始的异世界生活-无限",
+    "relation": "游戏",
+    "type": 4,
+    "id": 305312
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/08/ac/309190_Hzlqu.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/08/ac/309190_Hzlqu.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/08/ac/309190_Hzlqu.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/08/ac/309190_Hzlqu.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/08/ac/309190_Hzlqu.jpg"
+    },
+    "name": "Re:ゼロから始める異世界生活 偽りの王選候補",
+    "name_cn": "Re:从零开始的异世界生活　虚假的王选候补",
+    "relation": "游戏",
+    "type": 4,
+    "id": 309190
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/6c/9e/309318_Ypn9f.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/6c/9e/309318_Ypn9f.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/6c/9e/309318_Ypn9f.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/6c/9e/309318_Ypn9f.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/6c/9e/309318_Ypn9f.jpg"
+    },
+    "name": "Re:ゼロから始める異世界生活 リゼロパズルコレクション",
+    "name_cn": "Re:从零开始的异世界生活 Puzzle Collection",
+    "relation": "游戏",
+    "type": 4,
+    "id": 309318
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/1d/85/328492_K8Qqc.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/1d/85/328492_K8Qqc.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/1d/85/328492_K8Qqc.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/1d/85/328492_K8Qqc.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/1d/85/328492_K8Qqc.jpg"
+    },
+    "name": "TVアニメ「Re:ゼロから始める異世界生活」キャラクターソングアルバム",
+    "name_cn": "",
+    "relation": "角色歌",
+    "type": 3,
+    "id": 328492
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/58/4a/329586_8U4O5.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/58/4a/329586_8U4O5.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/58/4a/329586_8U4O5.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/58/4a/329586_8U4O5.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/58/4a/329586_8U4O5.jpg"
+    },
+    "name": "Re:ゼロから始める異世界生活 禁書と謎の精霊",
+    "name_cn": "Re:从零开始的异世界生活 禁书与神秘精灵",
+    "relation": "游戏",
+    "type": 4,
+    "id": 329586
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/64/ba/337272_eM3TE.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/64/ba/337272_eM3TE.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/64/ba/337272_eM3TE.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/64/ba/337272_eM3TE.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/64/ba/337272_eM3TE.jpg"
+    },
+    "name": "异世界かるてっと～激突！ぱずるすくーる～",
+    "name_cn": "异世界四重奏～激战！拼图学园～",
+    "relation": "游戏",
+    "type": 4,
+    "id": 337272
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/ab/84/426001_MJ5oS.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/ab/84/426001_MJ5oS.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/ab/84/426001_MJ5oS.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/ab/84/426001_MJ5oS.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/ab/84/426001_MJ5oS.jpg"
+    },
+    "name": "Re:ゼロから始める異世界生活 Witch's Re:surrection",
+    "name_cn": "",
+    "relation": "游戏",
+    "type": 4,
+    "id": 426001
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/ba/7e/441795_q6Sc3.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/ba/7e/441795_q6Sc3.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/ba/7e/441795_q6Sc3.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/ba/7e/441795_q6Sc3.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/ba/7e/441795_q6Sc3.jpg"
+    },
+    "name": "僕の心のヤバイやつ 第2期",
+    "name_cn": "我心里危险的东西 第二季",
+    "relation": "联动",
+    "type": 2,
+    "id": 441795
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/01/bf/513102_mcoh0.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/01/bf/513102_mcoh0.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/01/bf/513102_mcoh0.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/01/bf/513102_mcoh0.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/01/bf/513102_mcoh0.jpg"
+    },
+    "name": "ラジオCD「Re：ゼロから始める異世界ラジオ生活」Vol.3",
+    "name_cn": "",
+    "relation": "其他",
+    "type": 3,
+    "id": 513102
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/21/66/296686_E0YJJ.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/21/66/296686_E0YJJ.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/21/66/296686_E0YJJ.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/21/66/296686_E0YJJ.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/21/66/296686_E0YJJ.jpg"
+    },
+    "name": "MUSEUM-THE BEST OF MYTH ＆ ROID-",
+    "name_cn": "",
+    "relation": "插入歌",
+    "type": 3,
+    "id": 296686
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/75/f7/513104_0844I.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/75/f7/513104_0844I.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/75/f7/513104_0844I.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/75/f7/513104_0844I.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/75/f7/513104_0844I.jpg"
+    },
+    "name": "ラジオCD「Re：ゼロから始める異世界ラジオ生活」Vol.5",
+    "name_cn": "",
+    "relation": "其他",
+    "type": 3,
+    "id": 513104
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/74/b0/513105_2g011.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/74/b0/513105_2g011.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/74/b0/513105_2g011.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/74/b0/513105_2g011.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/74/b0/513105_2g011.jpg"
+    },
+    "name": "ラジオCD「Re：ゼロから始める異世界ラジオ生活」Vol.6",
+    "name_cn": "",
+    "relation": "其他",
+    "type": 3,
+    "id": 513105
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/99/d2/513106_8S900.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/99/d2/513106_8S900.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/99/d2/513106_8S900.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/99/d2/513106_8S900.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/99/d2/513106_8S900.jpg"
+    },
+    "name": "ラジオCD「Re：ゼロから始める異世界ラジオ生活」Vol.7",
+    "name_cn": "",
+    "relation": "其他",
+    "type": 3,
+    "id": 513106
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/81/4c/513107_hBpb8.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/81/4c/513107_hBpb8.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/81/4c/513107_hBpb8.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/81/4c/513107_hBpb8.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/81/4c/513107_hBpb8.jpg"
+    },
+    "name": "ラジオCD「Re：ゼロから始める異世界ラジオ生活」Vol.8",
+    "name_cn": "",
+    "relation": "其他",
+    "type": 3,
+    "id": 513107
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/05/04/513108_9g4Md.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/05/04/513108_9g4Md.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/05/04/513108_9g4Md.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/05/04/513108_9g4Md.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/05/04/513108_9g4Md.jpg"
+    },
+    "name": "ラジオCD「Re：ゼロから始める異世界ラジオ生活」Vol.9",
+    "name_cn": "",
+    "relation": "其他",
+    "type": 3,
+    "id": 513108
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/be/01/513109_OoOv6.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/be/01/513109_OoOv6.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/be/01/513109_OoOv6.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/be/01/513109_OoOv6.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/be/01/513109_OoOv6.jpg"
+    },
+    "name": "ラジオCD「Re：ゼロから始める異世界ラジオ生活」Vol.10",
+    "name_cn": "",
+    "relation": "其他",
+    "type": 3,
+    "id": 513109
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/b7/d8/513114_WeaeA.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/b7/d8/513114_WeaeA.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/b7/d8/513114_WeaeA.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/b7/d8/513114_WeaeA.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/b7/d8/513114_WeaeA.jpg"
+    },
+    "name": "DJCD「Re：ゼロから始める異世界ラジオ生活」",
+    "name_cn": "",
+    "relation": "其他",
+    "type": 3,
+    "id": 513114
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/fe/40/532778_A542F.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/fe/40/532778_A542F.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/fe/40/532778_A542F.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/fe/40/532778_A542F.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/fe/40/532778_A542F.jpg"
+    },
+    "name": "UNION ARENA",
+    "name_cn": "携战之境",
+    "relation": "游戏",
+    "type": 4,
+    "id": 532778
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/f2/0a/541824_OSNR2.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/f2/0a/541824_OSNR2.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/f2/0a/541824_OSNR2.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/f2/0a/541824_OSNR2.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/f2/0a/541824_OSNR2.jpg"
+    },
+    "name": "TVアニメ「Re:ゼロから始める異世界生活」Remakeアルバム",
+    "name_cn": "",
+    "relation": "其他",
+    "type": 3,
+    "id": 541824
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/0a/ca/564421_em83Z.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/0a/ca/564421_em83Z.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/0a/ca/564421_em83Z.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/0a/ca/564421_em83Z.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/0a/ca/564421_em83Z.jpg"
+    },
+    "name": "異世界かるてっと3",
+    "name_cn": "异世界四重奏 第三季",
+    "relation": "角色出演",
+    "type": 2,
+    "id": 564421
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/4d/1d/198872_OE7F5.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/4d/1d/198872_OE7F5.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/4d/1d/198872_OE7F5.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/4d/1d/198872_OE7F5.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/4d/1d/198872_OE7F5.jpg"
+    },
+    "name": "Re：ゼロから始める異世界ラジオ生活",
+    "name_cn": "Re：从零开始的异世界广播生活",
+    "relation": "其他",
+    "type": 6,
+    "id": 198872
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/1e/0e/121927_2bGf8.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/1e/0e/121927_2bGf8.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/1e/0e/121927_2bGf8.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/1e/0e/121927_2bGf8.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/1e/0e/121927_2bGf8.jpg"
+    },
+    "name": "Re:ゼロから始める異世界生活",
+    "name_cn": "Re：从零开始的异世界生活",
+    "relation": "书籍",
+    "type": 1,
+    "id": 121927
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/37/74/171136_9Xn9n.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/37/74/171136_9Xn9n.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/37/74/171136_9Xn9n.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/37/74/171136_9Xn9n.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/37/74/171136_9Xn9n.jpg"
+    },
+    "name": "戦国アスカZERO",
+    "name_cn": "战国明日香ZERO",
+    "relation": "游戏",
+    "type": 4,
+    "id": 171136
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/e0/80/177998_f5896.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/e0/80/177998_f5896.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/e0/80/177998_f5896.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/e0/80/177998_f5896.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/e0/80/177998_f5896.jpg"
+    },
+    "name": "Re:ゼロから始める休憩時間",
+    "name_cn": "Re：从零开始的休息时间",
+    "relation": "衍生",
+    "type": 2,
+    "id": 177998
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/90/40/185837_mmNwi.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/90/40/185837_mmNwi.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/90/40/185837_mmNwi.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/90/40/185837_mmNwi.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/90/40/185837_mmNwi.jpg"
+    },
+    "name": "Re:プチから始める異世界生活",
+    "name_cn": "Re：从迷你开始的异世界生活",
+    "relation": "衍生",
+    "type": 2,
+    "id": 185837
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/2c/a9/189636_UqbUz.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/2c/a9/189636_UqbUz.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/2c/a9/189636_UqbUz.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/2c/a9/189636_UqbUz.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/2c/a9/189636_UqbUz.jpg"
+    },
+    "name": "TVアニメ「 Re:ゼロから始める異世界生活 」サウンドトラックCD",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 189636
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/9a/c0/190981_a57aU.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/9a/c0/190981_a57aU.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/9a/c0/190981_a57aU.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/9a/c0/190981_a57aU.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/9a/c0/190981_a57aU.jpg"
+    },
+    "name": "Re:ゼロから始める異世界生活 -DEATH OR KISS-",
+    "name_cn": "",
+    "relation": "游戏",
+    "type": 4,
+    "id": 190981
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/71/44/191123_B9UbD.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/71/44/191123_B9UbD.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/71/44/191123_B9UbD.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/71/44/191123_B9UbD.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/71/44/191123_B9UbD.jpg"
+    },
+    "name": "TVアニメ「Re:ゼロから始める異世界生活」スペシャルサウンドトラック1",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 191123
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/33/0a/101788_iyViu.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/33/0a/101788_iyViu.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/33/0a/101788_iyViu.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/33/0a/101788_iyViu.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/33/0a/101788_iyViu.jpg"
+    },
+    "name": "ディバインゲート",
+    "name_cn": "神圣之门",
+    "relation": "游戏",
+    "type": 4,
+    "id": 101788
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/af/b8/203893_RTzEL.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/af/b8/203893_RTzEL.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/af/b8/203893_RTzEL.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/af/b8/203893_RTzEL.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/af/b8/203893_RTzEL.jpg"
+    },
+    "name": "TVアニメ「Re:ゼロから始める異世界生活」スペシャルサウンドトラック2",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 203893
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/b4/86/209563_xRxUG.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/b4/86/209563_xRxUG.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/b4/86/209563_xRxUG.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/b4/86/209563_xRxUG.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/b4/86/209563_xRxUG.jpg"
+    },
+    "name": "SINoALICE －シノアリス－",
+    "name_cn": "死亡爱丽丝",
+    "relation": "游戏",
+    "type": 4,
+    "id": 209563
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/12/61/225462_j7I3O.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/12/61/225462_j7I3O.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/12/61/225462_j7I3O.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/12/61/225462_j7I3O.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/12/61/225462_j7I3O.jpg"
+    },
+    "name": "Re:ゼロから始める異世界生活 Memory Snow",
+    "name_cn": "Re：从零开始的异世界生活 雪之回忆",
+    "relation": "番外篇",
+    "type": 2,
+    "id": 225462
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/29/f6/261805_0XD0Z.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/29/f6/261805_0XD0Z.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/29/f6/261805_0XD0Z.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/29/f6/261805_0XD0Z.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/29/f6/261805_0XD0Z.jpg"
+    },
+    "name": "Re:ゼロから始める異世界生活 氷結の絆",
+    "name_cn": "Re：从零开始的异世界生活 冰结之绊",
+    "relation": "番外篇",
+    "type": 2,
+    "id": 261805
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/c0/e9/262865_P6q49.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/c0/e9/262865_P6q49.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/c0/e9/262865_P6q49.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/c0/e9/262865_P6q49.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/c0/e9/262865_P6q49.jpg"
+    },
+    "name": "異世界かるてっと",
+    "name_cn": "异世界四重奏",
+    "relation": "角色出演",
+    "type": 2,
+    "id": 262865
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/d9/f9/282617_hMB8U.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/d9/f9/282617_hMB8U.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/d9/f9/282617_hMB8U.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/d9/f9/282617_hMB8U.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/d9/f9/282617_hMB8U.jpg"
+    },
+    "name": "Re:ゼロから始める異世界生活 Animation Illust Works -Re:START-",
+    "name_cn": "",
+    "relation": "书籍",
+    "type": 1,
+    "id": 282617
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/d5/0b/285422_l38Rf.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/d5/0b/285422_l38Rf.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/d5/0b/285422_l38Rf.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/d5/0b/285422_l38Rf.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/d5/0b/285422_l38Rf.jpg"
+    },
+    "name": "異世界かるてっと２",
+    "name_cn": "异世界四重奏 第二季",
+    "relation": "角色出演",
+    "type": 2,
+    "id": 285422
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/72/ef/296195_n0KqL.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/72/ef/296195_n0KqL.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/72/ef/296195_n0KqL.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/72/ef/296195_n0KqL.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/72/ef/296195_n0KqL.jpg"
+    },
+    "name": "Re:ゼロから始める異世界生活 新編集版",
+    "name_cn": "Re：从零开始的异世界生活 新编集版",
+    "relation": "总集篇",
+    "type": 2,
+    "id": 296195
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/7a/22/177045_jp.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/7a/22/177045_jp.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/7a/22/177045_jp.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/7a/22/177045_jp.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/7a/22/177045_jp.jpg"
+    },
+    "name": "Redo",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 177045
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/ee/58/184827_9mGkK.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/ee/58/184827_9mGkK.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/ee/58/184827_9mGkK.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/ee/58/184827_9mGkK.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/ee/58/184827_9mGkK.jpg"
+    },
+    "name": "Paradisus-Paradoxum",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 184827
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/7a/f8/177041_Ul80j.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/7a/f8/177041_Ul80j.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/7a/f8/177041_Ul80j.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/7a/f8/177041_Ul80j.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/7a/f8/177041_Ul80j.jpg"
+    },
+    "name": "STYX HELIX",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 177041
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/16/79/278826_w85gd.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/16/79/278826_w85gd.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/16/79/278826_w85gd.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/16/79/278826_w85gd.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/16/79/278826_w85gd.jpg"
+    },
+    "name": "Re:ゼロから始める異世界生活 2nd season",
+    "name_cn": "Re：从零开始的异世界生活 第二季",
+    "relation": "续集",
+    "type": 2,
+    "id": 278826
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/c9/17/184828_Zun8h.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/c9/17/184828_Zun8h.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/c9/17/184828_Zun8h.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/c9/17/184828_Zun8h.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/c9/17/184828_Zun8h.jpg"
+    },
+    "name": "Stay Alive",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 184828
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/ea/7f/303126_Wzd6R.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/ea/7f/303126_Wzd6R.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/ea/7f/303126_Wzd6R.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/ea/7f/303126_Wzd6R.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/ea/7f/303126_Wzd6R.jpg"
+    },
+    "name": "劇場版 異世界かるてっと ～あなざーわーるど～",
+    "name_cn": "剧场版 异世界四重奏 ～Another World～",
+    "relation": "角色出演",
+    "type": 2,
+    "id": 303126
+  }
+]

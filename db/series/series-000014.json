@@ -1,0 +1,8 @@
+{
+  "$schema": "../../packages/schema/schemas/series-identity.schema.json",
+  "schema": "series-identity/v2",
+  "id": "series-000014",
+  "kind": "anime-series",
+  "title": "ようこそ実力至上主義の教室へ",
+  "relationships": []
+}

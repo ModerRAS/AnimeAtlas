@@ -1,0 +1,72 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/35/90/256015_V6iFa.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/35/90/256015_V6iFa.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/35/90/256015_V6iFa.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/35/90/256015_V6iFa.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/35/90/256015_V6iFa.jpg"
+    },
+    "name": "「お前ごときが魔王に勝てると思うな」と勇者パーティを追放されたので、王都で気ままに暮らしたい",
+    "name_cn": "「凭你也想讨伐魔王？」被勇者小队逐出队伍，只好在王都自在过活",
+    "relation": "书籍",
+    "type": 1,
+    "id": 256015
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/78/58/615496_d09G9.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/78/58/615496_d09G9.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/78/58/615496_d09G9.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/78/58/615496_d09G9.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/78/58/615496_d09G9.jpg"
+    },
+    "name": "Liberator",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 615496
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/d1/fa/615825_6JJWW.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/d1/fa/615825_6JJWW.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/d1/fa/615825_6JJWW.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/d1/fa/615825_6JJWW.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/d1/fa/615825_6JJWW.jpg"
+    },
+    "name": "I need",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 615825
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/d3/8b/628476_8UI2i.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/d3/8b/628476_8UI2i.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/d3/8b/628476_8UI2i.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/d3/8b/628476_8UI2i.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/d3/8b/628476_8UI2i.jpg"
+    },
+    "name": "「お前ごときが魔王に勝てると思うな」と勇者パーティを追放されたので、王都で気ままに暮らしたい アニメオリジナルサウンドトラック(Vol.1)",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 628476
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/37/99/628477_qJjrn.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/37/99/628477_qJjrn.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/37/99/628477_qJjrn.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/37/99/628477_qJjrn.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/37/99/628477_qJjrn.jpg"
+    },
+    "name": "「お前ごときが魔王に勝てると思うな」と勇者パーティを追放されたので、王都で気ままに暮らしたい アニメオリジナルサウンドトラック(Vol.2)",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 628477
+  }
+]

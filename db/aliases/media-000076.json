@@ -7,8 +7,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Kanteishi"
+    },
+    {
+      "value": "最強の職業は勇者でも賢者でもなく鑑定士（仮）らしいですよ？",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "最强的职业不是勇者也不是贤者好像是鉴定士(伪)的样子?",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000076",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

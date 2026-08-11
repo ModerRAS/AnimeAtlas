@@ -15,15 +15,25 @@ const ROOT = findRepoRoot(process.cwd());
 export function buildGeneratedFiles(root = ROOT): GeneratedFiles {
   const mediaRecords = readJsonFiles(join(root, "db", "media"));
   const aliasRecords = readJsonFiles(join(root, "db", "aliases"));
+  const seriesAliasRecords = readJsonFiles(join(root, "db", "series-aliases"));
+  const episodeRecords = readJsonFiles(join(root, "db", "episodes"));
   const metadataRecords = readJsonFiles(join(root, "db", "metadata"));
 
-  const aliasEntries: Record<string, string> = {};
+  const aliasCandidates = new Map<string, Set<string>>();
   const providerEntries: Record<string, string> = {};
+  const episodeNumberEntries: Record<string, string[]> = {};
   const searchEntries = new Map<string, Set<string>>();
+  const mediaBySeries = new Map<string, Set<string>>();
 
   for (const { data } of mediaRecords) {
     if (!isRecord(data) || typeof data.id !== "string" || data.kind !== "anime" || !Array.isArray(data.provider_refs)) {
       continue;
+    }
+
+    if (typeof data.series_id === "string") {
+      const mediaIds = mediaBySeries.get(data.series_id) ?? new Set<string>();
+      mediaIds.add(data.id);
+      mediaBySeries.set(data.series_id, mediaIds);
     }
 
     for (const ref of data.provider_refs) {
@@ -44,13 +54,51 @@ export function buildGeneratedFiles(root = ROOT): GeneratedFiles {
         continue;
       }
       const normalized = normalizeAlias(alias.value);
-      aliasEntries[normalized] = data.media_id;
+      addCandidate(aliasCandidates, normalized, data.media_id);
       for (const token of searchTokens(normalized)) {
         const ids = searchEntries.get(token) ?? new Set<string>();
         ids.add(data.media_id);
         searchEntries.set(token, ids);
       }
     }
+  }
+
+  for (const { data } of seriesAliasRecords) {
+    if (!isRecord(data) || typeof data.series_id !== "string" || !Array.isArray(data.aliases)) continue;
+    for (const alias of data.aliases) {
+      if (!isRecord(alias) || typeof alias.value !== "string") continue;
+      const normalized = normalizeAlias(alias.value);
+      for (const mediaId of mediaBySeries.get(data.series_id) ?? []) {
+        addCandidate(aliasCandidates, normalized, mediaId);
+        for (const token of searchTokens(normalized)) {
+          const ids = searchEntries.get(token) ?? new Set<string>();
+          ids.add(mediaId);
+          searchEntries.set(token, ids);
+        }
+      }
+    }
+  }
+
+  for (const { data } of episodeRecords) {
+    if (!isRecord(data) || typeof data.media_id !== "string" || !Array.isArray(data.episodes)) continue;
+    for (const episode of data.episodes) {
+      if (!isRecord(episode) || typeof episode.id !== "string" || !Array.isArray(episode.numbers)) continue;
+      for (const number of episode.numbers) {
+        if (!isRecord(number) || typeof number.namespace !== "string" || !Number.isInteger(number.value)) continue;
+        const key = `${data.media_id}:${number.namespace}:${number.value}`;
+        const ids = new Set(episodeNumberEntries[key] ?? []);
+        ids.add(episode.id);
+        episodeNumberEntries[key] = sortStrings(ids);
+      }
+    }
+  }
+
+  const aliasEntries: Record<string, string> = {};
+  const aliasCandidateEntries: Record<string, string[]> = {};
+  for (const normalized of sortStrings(aliasCandidates.keys())) {
+    const ids = sortStrings(aliasCandidates.get(normalized) ?? []);
+    aliasCandidateEntries[normalized] = ids;
+    if (ids.length === 1) aliasEntries[normalized] = ids[0];
   }
 
   for (const { data } of metadataRecords) {
@@ -78,6 +126,14 @@ export function buildGeneratedFiles(root = ROOT): GeneratedFiles {
     schema: "generated-alias-index/v1",
     entries: aliasEntries
   });
+  put(files, "generated/indexes/aliases/candidates.json", {
+    schema: "generated-alias-candidates/v2",
+    entries: aliasCandidateEntries
+  });
+  put(files, "generated/indexes/episodes/numbers.json", {
+    schema: "generated-episode-number-index/v2",
+    entries: episodeNumberEntries
+  });
   put(files, "generated/indexes/provider-ids/exact.json", {
     schema: "generated-provider-id-index/v1",
     entries: providerEntries
@@ -92,8 +148,10 @@ export function buildGeneratedFiles(root = ROOT): GeneratedFiles {
       media: mediaRecords.length,
       alias_records: aliasRecords.length,
       metadata_records: metadataRecords.length,
-      aliases: Object.keys(aliasEntries).length,
+      aliases: Object.keys(aliasCandidateEntries).length,
+      ambiguous_aliases: Object.values(aliasCandidateEntries).filter((ids) => ids.length > 1).length,
       provider_refs: Object.keys(providerEntries).length,
+      episode_number_keys: Object.keys(episodeNumberEntries).length,
       search_terms: Object.keys(searchObject).length
     }
   });
@@ -146,6 +204,12 @@ export function checkGeneratedFiles(root = ROOT): CheckResult {
   return { ok: mismatches.length === 0, mismatches };
 }
 
+function addCandidate(index: Map<string, Set<string>>, key: string, mediaId: string): void {
+  const ids = index.get(key) ?? new Set<string>();
+  ids.add(mediaId);
+  index.set(key, ids);
+}
+
 function put(files: GeneratedFiles, path: string, value: unknown): void {
   files.set(path, stableStringify(value));
 }
@@ -184,8 +248,18 @@ function listJsonFiles(dir: string): string[] {
 
 function hashInputs(root: string): Record<string, string> {
   const hashes: Record<string, string> = {};
-  for (const file of listJsonFiles(join(root, "db"))) {
-    hashes[toRepoPath(root, file)] = sha256(readFileSync(file, "utf8").replace(/\r\n?/g, "\n"));
+  for (const dir of ["db", "packages/schema/schemas", "source/manifests"]) {
+    for (const file of listJsonFiles(join(root, dir))) {
+      hashes[toRepoPath(root, file)] = sha256(readFileSync(file, "utf8").replace(/\r\n?/g, "\n"));
+    }
+  }
+  for (const relativePath of [
+    "assets/anifilebert/anime_filename_parser.onnx",
+    "assets/anifilebert/config.json",
+    "assets/anifilebert/vocab.json"
+  ]) {
+    const file = join(root, relativePath);
+    if (existsSync(file)) hashes[relativePath] = sha256(readFileSync(file));
   }
   return hashes;
 }

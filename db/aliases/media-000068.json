@@ -7,8 +7,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Lv999 no Murabito"
+    },
+    {
+      "value": "LV999の村人",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "LV999的村民",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000068",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

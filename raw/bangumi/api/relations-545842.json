@@ -1,0 +1,72 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/29/63/343657_CwKsS.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/29/63/343657_CwKsS.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/29/63/343657_CwKsS.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/29/63/343657_CwKsS.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/29/63/343657_CwKsS.jpg"
+    },
+    "name": "味方が弱すぎて補助魔法に徹していた宮廷魔法師、追放されて最強を目指す",
+    "name_cn": "队友太弱所以贯彻辅助的宫廷魔法师，惨遭流放目标却是最强",
+    "relation": "书籍",
+    "type": 1,
+    "id": 343657
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/ae/24/396001_kC36m.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/ae/24/396001_kC36m.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/ae/24/396001_kC36m.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/ae/24/396001_kC36m.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/ae/24/396001_kC36m.jpg"
+    },
+    "name": "味方が弱すぎて補助魔法に徹していた宮廷魔法師、追放されて最強を目指す",
+    "name_cn": "",
+    "relation": "书籍",
+    "type": 1,
+    "id": 396001
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/ae/a3/590700_7bgs8.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/ae/a3/590700_7bgs8.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/ae/a3/590700_7bgs8.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/ae/a3/590700_7bgs8.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/ae/a3/590700_7bgs8.jpg"
+    },
+    "name": "Quest",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 590700
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/62/74/591554_koW5W.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/62/74/591554_koW5W.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/62/74/591554_koW5W.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/62/74/591554_koW5W.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/62/74/591554_koW5W.jpg"
+    },
+    "name": "欠片",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 591554
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/82/2f/616819_MTwew.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/82/2f/616819_MTwew.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/82/2f/616819_MTwew.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/82/2f/616819_MTwew.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/82/2f/616819_MTwew.jpg"
+    },
+    "name": "TVアニメ「味方が弱すぎて補助魔法に徹していた宮廷魔法師、追放されて最強を目指す」オリジナル・サウンドトラック",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 616819
+  }
+]

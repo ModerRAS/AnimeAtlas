@@ -1,0 +1,8 @@
+{
+  "$schema": "../../packages/schema/schemas/series-identity.schema.json",
+  "schema": "series-identity/v2",
+  "id": "series-000013",
+  "kind": "anime-series",
+  "title": "ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～",
+  "relationships": []
+}

@@ -1,0 +1,72 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/b5/16/375316_7Lu75.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/b5/16/375316_7Lu75.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/b5/16/375316_7Lu75.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/b5/16/375316_7Lu75.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/b5/16/375316_7Lu75.jpg"
+    },
+    "name": "幼馴染とはラブコメにならない",
+    "name_cn": "和青梅竹马之间不会有恋爱喜剧",
+    "relation": "书籍",
+    "type": 1,
+    "id": 375316
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/dc/40/614397_iI9iQ.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/dc/40/614397_iI9iQ.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/dc/40/614397_iI9iQ.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/dc/40/614397_iI9iQ.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/dc/40/614397_iI9iQ.jpg"
+    },
+    "name": "あいらびゅ♡",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 614397
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/ce/c6/615502_ZmTSF.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/ce/c6/615502_ZmTSF.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/ce/c6/615502_ZmTSF.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/ce/c6/615502_ZmTSF.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/ce/c6/615502_ZmTSF.jpg"
+    },
+    "name": "あまのじゃく",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 615502
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/e5/69/628639_Zd1Y0.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/e5/69/628639_Zd1Y0.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/e5/69/628639_Zd1Y0.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/e5/69/628639_Zd1Y0.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/e5/69/628639_Zd1Y0.jpg"
+    },
+    "name": "幼馴染とはラブコメにならない Blu-ray 上巻 特典CD",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 628639
+  },
+  {
+    "images": {
+      "small": "",
+      "grid": "",
+      "large": "",
+      "medium": "",
+      "common": ""
+    },
+    "name": "幼馴染とはラブコメにならない Blu-ray 下巻 特典CD",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 628643
+  }
+]

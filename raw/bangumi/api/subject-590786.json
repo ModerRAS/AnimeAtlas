@@ -1,0 +1,419 @@
+{
+  "date": "2026-07-06",
+  "platform": "TV",
+  "images": {
+    "small": "https://lain.bgm.tv/r/200/pic/cover/l/2c/93/590786_48D8M.jpg",
+    "grid": "https://lain.bgm.tv/r/100/pic/cover/l/2c/93/590786_48D8M.jpg",
+    "large": "https://lain.bgm.tv/pic/cover/l/2c/93/590786_48D8M.jpg",
+    "medium": "https://lain.bgm.tv/r/800/pic/cover/l/2c/93/590786_48D8M.jpg",
+    "common": "https://lain.bgm.tv/r/400/pic/cover/l/2c/93/590786_48D8M.jpg"
+  },
+  "summary": "S级魔导士勒库为了让队友逃走而独自殿后，与魔王展开决战。十年后他平安归来并被奉为救世英雄，但眼见世界已回归和平，他决定隐姓埋名，以F级冒险者的身份重新享受全新的人生。\r\n\r\n\r\n\r\n[简介原文]\r\n勇者パーティのSランク魔導士ラックは勇者エリック、戦士ゴランとともに次元の狭間で魔神王を倒すために激しい戦いを繰り広げていた。\r\n\r\n仲間の全滅を避けるため、ラックはたった一人で敵と戦い続ける決意をし叫ぶ。\r\n「ここは俺に任せて先に行け!」\r\n想像を絶する孤独な戦いを続け、ついに魔神王をも倒したラック。\r\nしかし、彼が元の世界へ帰還した時には「10年」という歳月が過ぎ、ラックは自らを犠牲に世界を救った大英雄として伝説となっていた。\r\n戦いの影響で見た目が若返ったラックは正体を隠し、かつての仲間と新たな仲間たちとともにFランク冒険者ロックとして生きていく。",
+  "name": "ここは俺に任せて先に行けと言ってから10年がたったら伝説になっていた。",
+  "name_cn": "『你们先走我断后』，于是10年后我成为了传说",
+  "tags": [
+    {
+      "name": "2026年7月",
+      "count": 182,
+      "total_count": 19522
+    },
+    {
+      "name": "战斗",
+      "count": 138,
+      "total_count": 468522
+    },
+    {
+      "name": "TV",
+      "count": 124,
+      "total_count": 1396788
+    },
+    {
+      "name": "轻小说改",
+      "count": 118,
+      "total_count": 493938
+    },
+    {
+      "name": "奇幻",
+      "count": 110,
+      "total_count": 467689
+    },
+    {
+      "name": "异世界",
+      "count": 108,
+      "total_count": 260473
+    },
+    {
+      "name": "冒险",
+      "count": 79,
+      "total_count": 53378
+    },
+    {
+      "name": "小说改",
+      "count": 75,
+      "total_count": 157947
+    },
+    {
+      "name": "2026",
+      "count": 72,
+      "total_count": 40842
+    },
+    {
+      "name": "日本",
+      "count": 70,
+      "total_count": 293390
+    },
+    {
+      "name": "月虹",
+      "count": 66,
+      "total_count": 1250
+    },
+    {
+      "name": "轻改",
+      "count": 38,
+      "total_count": 152136
+    },
+    {
+      "name": "后宫",
+      "count": 31,
+      "total_count": 301679
+    },
+    {
+      "name": "龙傲天",
+      "count": 21,
+      "total_count": 39414
+    },
+    {
+      "name": "2026年4月",
+      "count": 12,
+      "total_count": 24967
+    },
+    {
+      "name": "TVA",
+      "count": 5,
+      "total_count": 15444
+    },
+    {
+      "name": "厕纸",
+      "count": 3,
+      "total_count": 12049
+    },
+    {
+      "name": "日本动画",
+      "count": 3,
+      "total_count": 34833
+    },
+    {
+      "name": "神戸洋行",
+      "count": 3,
+      "total_count": 166
+    },
+    {
+      "name": "森川智之",
+      "count": 2,
+      "total_count": 979
+    },
+    {
+      "name": "26夏",
+      "count": 2,
+      "total_count": 93
+    },
+    {
+      "name": "2026.7",
+      "count": 1,
+      "total_count": 43
+    },
+    {
+      "name": "扮猪吃老虎",
+      "count": 1,
+      "total_count": 30
+    },
+    {
+      "name": "広田光毅",
+      "count": 1,
+      "total_count": 156
+    },
+    {
+      "name": "爽",
+      "count": 1,
+      "total_count": 466
+    },
+    {
+      "name": "日本TV",
+      "count": 1,
+      "total_count": 344
+    },
+    {
+      "name": "动画",
+      "count": 1,
+      "total_count": 35582
+    },
+    {
+      "name": "夏季番",
+      "count": 1,
+      "total_count": 568
+    },
+    {
+      "name": "哔哩哔哩",
+      "count": 1,
+      "total_count": 274
+    },
+    {
+      "name": "平板观看",
+      "count": 1,
+      "total_count": 19
+    }
+  ],
+  "infobox": [
+    {
+      "key": "中文名",
+      "value": "『你们先走我断后』，于是10年后我成为了传说"
+    },
+    {
+      "key": "别名",
+      "value": [
+        {
+          "k": "台湾译名",
+          "v": "说出这边交给我你们先走以后十年过去成了传说。"
+        },
+        {
+          "v": "Koko wa Ore ni Makasete Saki ni Ike to Itte kara 10-nen ga Tattara Densetsu ni Natteita"
+        }
+      ]
+    },
+    {
+      "key": "话数",
+      "value": "12"
+    },
+    {
+      "key": "放送开始",
+      "value": "2026年7月6日"
+    },
+    {
+      "key": "放送星期",
+      "value": "星期一"
+    },
+    {
+      "key": "官方网站",
+      "value": "https://kokoore-anime.com/"
+    },
+    {
+      "key": "播放电视台",
+      "value": "TOKYO MX"
+    },
+    {
+      "key": "其他电视台",
+      "value": "KBS京都 / サンテレビ / テレビ愛知 / BS11 / AT-X"
+    },
+    {
+      "key": "导演",
+      "value": "神戸洋行"
+    },
+    {
+      "key": "音乐",
+      "value": "大隅知宇"
+    },
+    {
+      "key": "Copyright",
+      "value": "©えぞぎんぎつね・SBクリエイティブ／「ここ俺」製作委員会"
+    },
+    {
+      "key": "原作",
+      "value": "えぞぎんぎつね（GAノベル／SBクリエイティブ刊）"
+    },
+    {
+      "key": "人物设定",
+      "value": "まじろ"
+    },
+    {
+      "key": "副人物设定",
+      "value": "てんびん"
+    },
+    {
+      "key": "怪物设计",
+      "value": "長森佳容"
+    },
+    {
+      "key": "道具设计",
+      "value": "ぶん山"
+    },
+    {
+      "key": "美术监督",
+      "value": "美峰、HUNG THIEN"
+    },
+    {
+      "key": "摄影监督",
+      "value": "奥谷太希、設楽希"
+    },
+    {
+      "key": "音乐制作",
+      "value": "KADOKAWA"
+    },
+    {
+      "key": "音乐制作人",
+      "value": "水鳥智栄子"
+    },
+    {
+      "key": "音乐监督",
+      "value": "茶畑満里奈"
+    },
+    {
+      "key": "製作",
+      "value": "「ここ俺」製作委員会（KADOKAWA、グリーエンターテインメント、SBクリエイティブ）；田中翔、成田明浩、長瀬奈津子"
+    },
+    {
+      "key": "企画",
+      "value": "工藤大丈、宿輪浩介、三浦晃揮"
+    },
+    {
+      "key": "制片人",
+      "value": "髙岡遼、吉澤太郎、齊藤歩夢"
+    },
+    {
+      "key": "动画制片人",
+      "value": "平田実"
+    },
+    {
+      "key": "副制片人",
+      "value": "福田竣介、宮松雄大"
+    },
+    {
+      "key": "宣传制片人",
+      "value": "大須賀翔"
+    },
+    {
+      "key": "企画协力",
+      "value": "中山卓也、笠原周造、菊島憲文、GA文庫編集部（岩崎裕子、伊藤孝一）、ガンガンGA編集部（中川健、岡本洸平、宮本太朗、永田七海）"
+    },
+    {
+      "key": "制作统括",
+      "value": "宮本椋；制作统括辅佐：齊藤克紀"
+    },
+    {
+      "key": "制作管理助理",
+      "value": "デスク補佐：中川咲奈"
+    },
+    {
+      "key": "制作进行",
+      "value": "秋友真比呂"
+    },
+    {
+      "key": "脚本",
+      "value": "広田光毅"
+    },
+    {
+      "key": "分镜",
+      "value": "神戸洋行"
+    },
+    {
+      "key": "演出",
+      "value": "佐々木良宏、大森英敏、峯友則、木邑優斗"
+    },
+    {
+      "key": "总作画监督",
+      "value": "まじろ、てんびん、おさしみ丸、ぶん山"
+    },
+    {
+      "key": "2D 设计",
+      "value": "2Dグラフィックス：影山慈郎"
+    },
+    {
+      "key": "特效",
+      "value": "特効処理：川西美保"
+    },
+    {
+      "key": "色彩指定",
+      "value": "立川慶人"
+    },
+    {
+      "key": "色彩检查",
+      "value": "立川慶人"
+    },
+    {
+      "key": "美术制作进行",
+      "value": "美术制作：大崎寛也、月虹美術部（宮城清乃、工藤宗宥、今野愛子）"
+    },
+    {
+      "key": "摄影",
+      "value": "T2 Studio（奥谷太希、設楽希、玉川天、Akodaki）"
+    },
+    {
+      "key": "音效",
+      "value": "白石唯果"
+    },
+    {
+      "key": "录音",
+      "value": "亀田亮治"
+    },
+    {
+      "key": "录音助理",
+      "value": "沼田陽由里"
+    },
+    {
+      "key": "录音工作室",
+      "value": "美星"
+    },
+    {
+      "key": "音响",
+      "value": "Ai Addiction"
+    },
+    {
+      "key": "音响制作担当",
+      "value": "稲葉順一"
+    },
+    {
+      "key": "音响制作人",
+      "value": "松長龍平"
+    },
+    {
+      "key": "剪辑",
+      "value": "岡崎由美佳；剪辑工作室：森田編集室"
+    },
+    {
+      "key": "在线剪辑",
+      "value": "ソニーPCL（舘遼太朗、谷口和己）"
+    },
+    {
+      "key": "主题歌演出",
+      "value": "sajou no hana / 名称非公開"
+    }
+  ],
+  "rating": {
+    "rank": 8499,
+    "total": 342,
+    "count": {
+      "1": 3,
+      "2": 5,
+      "3": 6,
+      "4": 22,
+      "5": 103,
+      "6": 149,
+      "7": 42,
+      "8": 4,
+      "9": 1,
+      "10": 7
+    },
+    "score": 5.7
+  },
+  "total_episodes": 12,
+  "collection": {
+    "on_hold": 57,
+    "dropped": 121,
+    "wish": 419,
+    "collect": 58,
+    "doing": 1763
+  },
+  "id": 590786,
+  "eps": 12,
+  "meta_tags": [
+    "TV",
+    "日本",
+    "奇幻",
+    "战斗",
+    "小说改"
+  ],
+  "volumes": 0,
+  "series": false,
+  "locked": false,
+  "nsfw": false,
+  "type": 2
+}

@@ -1,0 +1,21 @@
+{
+  "$schema": "../../packages/schema/schemas/series-aliases.schema.json",
+  "schema": "series-aliases/v2",
+  "series_id": "series-000011",
+  "aliases": [
+    {
+      "value": "お隣の天使様にいつの間にか駄目人間にされていた件",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "關於我在無意間被隔壁的天使變成廢柴這件事",
+      "language": "zh-Hant",
+      "type": "localized",
+      "source": "community",
+      "confidence": 0.9
+    }
+  ]
+}

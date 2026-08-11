@@ -14,8 +14,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Nigetsuri"
+    },
+    {
+      "value": "逃がした魚は大きかったが釣りあげた魚が大きすぎた件",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "关于虽然逃走的鱼很大、但钓上来的鱼却太大了这件事",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000020",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

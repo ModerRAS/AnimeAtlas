@@ -1,0 +1,58 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/61/01/358187_H6L70.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/61/01/358187_H6L70.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/61/01/358187_H6L70.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/61/01/358187_H6L70.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/61/01/358187_H6L70.jpg"
+    },
+    "name": "灰原くんの強くて青春ニューゲーム",
+    "name_cn": "灰原君的青春二周目（NEW GAME+）",
+    "relation": "书籍",
+    "type": 1,
+    "id": 358187
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/73/9e/635274_Q7Pzx.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/73/9e/635274_Q7Pzx.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/73/9e/635274_Q7Pzx.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/73/9e/635274_Q7Pzx.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/73/9e/635274_Q7Pzx.jpg"
+    },
+    "name": "Fly Again!!",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 635274
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/ff/73/639275_YxgtK.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/ff/73/639275_YxgtK.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/ff/73/639275_YxgtK.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/ff/73/639275_YxgtK.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/ff/73/639275_YxgtK.jpg"
+    },
+    "name": "ドラマチック逃避行",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 639275
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/82/9b/658534_mn4ZL.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/82/9b/658534_mn4ZL.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/82/9b/658534_mn4ZL.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/82/9b/658534_mn4ZL.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/82/9b/658534_mn4ZL.jpg"
+    },
+    "name": "TVアニメ「灰原くんの強くて青春ニューゲーム」オリジナル・サウンドトラック",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 658534
+  }
+]

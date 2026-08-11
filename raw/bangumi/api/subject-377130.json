@@ -1,0 +1,475 @@
+{
+  "date": "2026-04-06",
+  "platform": "TV",
+  "images": {
+    "small": "https://lain.bgm.tv/r/200/pic/cover/l/27/ff/377130_wDU1x.jpg",
+    "grid": "https://lain.bgm.tv/r/100/pic/cover/l/27/ff/377130_wDU1x.jpg",
+    "large": "https://lain.bgm.tv/pic/cover/l/27/ff/377130_wDU1x.jpg",
+    "medium": "https://lain.bgm.tv/r/800/pic/cover/l/27/ff/377130_wDU1x.jpg",
+    "common": "https://lain.bgm.tv/r/400/pic/cover/l/27/ff/377130_wDU1x.jpg"
+  },
+  "summary": "众人皆以为魔法是与生俱来的血统，可可却意外撞见了通往魔女之路的另一种可能，这也让她陷入左右世界命运的争斗核心。\r\n\r\n\r\n\r\n[简介原文]\r\n生まれた時から魔法を使えない人は魔法使いになれないし、魔法をかける瞬間を見てはならないのがこの世界の掟。\r\nそれでも小さな村の少女・ココは、昔から魔法使いへの憧れを抱き続けていた。\r\nある日、村を訪れた魔法使い・キーフリーが魔法を使うところを見てしまい、大きな秘密を知る。\r\nそれは、特別な道具で魔法陣を描けば、本当は誰にでも魔法が使えるという、魔法使いたちが隠した「絶対の秘密」だった――。",
+  "name": "とんがり帽子のアトリエ",
+  "name_cn": "尖帽子的魔法工房",
+  "tags": [
+    {
+      "name": "奇幻",
+      "count": 1246,
+      "total_count": 467692
+    },
+    {
+      "name": "2026年4月",
+      "count": 1183,
+      "total_count": 24969
+    },
+    {
+      "name": "漫画改",
+      "count": 1090,
+      "total_count": 857462
+    },
+    {
+      "name": "TV",
+      "count": 873,
+      "total_count": 1396808
+    },
+    {
+      "name": "BUGFILMS",
+      "count": 762,
+      "total_count": 1614
+    },
+    {
+      "name": "魔法",
+      "count": 735,
+      "total_count": 19943
+    },
+    {
+      "name": "2026",
+      "count": 555,
+      "total_count": 40844
+    },
+    {
+      "name": "漫改",
+      "count": 488,
+      "total_count": 360141
+    },
+    {
+      "name": "日本",
+      "count": 463,
+      "total_count": 293404
+    },
+    {
+      "name": "渡边步",
+      "count": 332,
+      "total_count": 1664
+    },
+    {
+      "name": "战斗",
+      "count": 271,
+      "total_count": 468527
+    },
+    {
+      "name": "白浜鴎",
+      "count": 169,
+      "total_count": 169
+    },
+    {
+      "name": "渡辺歩",
+      "count": 113,
+      "total_count": 1009
+    },
+    {
+      "name": "2025",
+      "count": 69,
+      "total_count": 72535
+    },
+    {
+      "name": "2026年",
+      "count": 59,
+      "total_count": 1698
+    },
+    {
+      "name": "异世界",
+      "count": 36,
+      "total_count": 260473
+    },
+    {
+      "name": "冒险",
+      "count": 16,
+      "total_count": 53378
+    },
+    {
+      "name": "濑古浩司",
+      "count": 16,
+      "total_count": 1641
+    },
+    {
+      "name": "待上映",
+      "count": 10,
+      "total_count": 372
+    },
+    {
+      "name": "萝莉",
+      "count": 10,
+      "total_count": 45823
+    },
+    {
+      "name": "瀬古浩司",
+      "count": 7,
+      "total_count": 1045
+    },
+    {
+      "name": "尖帽子的魔法工房",
+      "count": 7,
+      "total_count": 7
+    },
+    {
+      "name": "4月",
+      "count": 7,
+      "total_count": 2279
+    },
+    {
+      "name": "日漫",
+      "count": 6,
+      "total_count": 7220
+    },
+    {
+      "name": "BUG_FILMS",
+      "count": 5,
+      "total_count": 11
+    },
+    {
+      "name": "动画",
+      "count": 5,
+      "total_count": 35582
+    },
+    {
+      "name": "2026春",
+      "count": 5,
+      "total_count": 217
+    },
+    {
+      "name": "未确定",
+      "count": 4,
+      "total_count": 2024
+    },
+    {
+      "name": "日常",
+      "count": 4,
+      "total_count": 398063
+    },
+    {
+      "name": "北村友香",
+      "count": 4,
+      "total_count": 5
+    }
+  ],
+  "infobox": [
+    {
+      "key": "中文名",
+      "value": "尖帽子的魔法工房"
+    },
+    {
+      "key": "别名",
+      "value": [
+        {
+          "v": "魔法帽的工作室"
+        },
+        {
+          "v": "Atelier of Witch Hat"
+        },
+        {
+          "v": "Witch Hat Atelier"
+        },
+        {
+          "v": "Tongari Boushi no Atelier"
+        }
+      ]
+    },
+    {
+      "key": "话数",
+      "value": "13"
+    },
+    {
+      "key": "放送开始",
+      "value": "2026年4月6日"
+    },
+    {
+      "key": "放送星期",
+      "value": "星期一"
+    },
+    {
+      "key": "官方网站",
+      "value": "https://tongari-anime.com/"
+    },
+    {
+      "key": "播放电视台",
+      "value": "TOKYO MX / BS11"
+    },
+    {
+      "key": "其他电视台",
+      "value": "KBS京都 / サンテレビ"
+    },
+    {
+      "key": "播放结束",
+      "value": "2026年6月29日"
+    },
+    {
+      "key": "导演",
+      "value": "渡辺歩"
+    },
+    {
+      "key": "音乐",
+      "value": "北村友香"
+    },
+    {
+      "key": "其他",
+      "value": "Netflix、ABEMA第1话&第2话同時配送，后续一周先行"
+    },
+    {
+      "key": "Copyright",
+      "value": "©白浜鴎／講談社／「とんがり帽子のアトリエ」製作委員会"
+    },
+    {
+      "key": "原作",
+      "value": "白浜鴎（講談社「モーニング・ツー」連載）"
+    },
+    {
+      "key": "副导演",
+      "value": "篠原准；副監督補佐：田頭悠郎、中野悟史"
+    },
+    {
+      "key": "人物设定",
+      "value": "うなばら海里"
+    },
+    {
+      "key": "副人物设定",
+      "value": "中嶋敦子、福地純平、宮崎麻美"
+    },
+    {
+      "key": "服装设计",
+      "value": "服饰设计：小川茜"
+    },
+    {
+      "key": "道具设计",
+      "value": "鈴木典孝、岩畑剛一"
+    },
+    {
+      "key": "分镜",
+      "value": "渡辺歩(1,13)、八木郁乃(2)、大島克也(3,12)、阿部将光(4)、川越一生(5)、葉摘田緒(6)、堂山卓見(7)、前屋俊広(8)、山田晃(9)、篠原准(10)、境隼人(11)"
+    },
+    {
+      "key": "演出",
+      "value": "播摩優(1)、八木郁乃(2)、大島克也(3)、阿部将光(4,13)、川越一生(5)、クレール・バルブ デ クリエール(6)、堂山卓見(7)、前屋俊広(8,12)、安部保仁(9)、尾形光洋(10)、境隼人(11)、篠原准(13)"
+    },
+    {
+      "key": "OP・ED 分镜",
+      "value": "神谷雄貴 / 琴乃[平井琴乃]"
+    },
+    {
+      "key": "OP・ED 演出",
+      "value": "神谷雄貴 / 琴乃[平井琴乃]"
+    },
+    {
+      "key": "製作",
+      "value": "「とんがり帽子のアトリエ」製作委員会（avex pictures、講談社、ツインエンジン、Crunchyroll；山村理香、望月諭、堀有紀、森敦子）"
+    },
+    {
+      "key": "企画",
+      "value": "勝股英夫、高島祐一郎、山本幸治、末平アサ"
+    },
+    {
+      "key": "总制片人",
+      "value": "大山良、伊藤洋平、高橋登、飯島江美子"
+    },
+    {
+      "key": "制片人",
+      "value": "大胡寛二、大和雅恵、遠藤菜央、黒須信彦"
+    },
+    {
+      "key": "动画制片人",
+      "value": "児島宏明"
+    },
+    {
+      "key": "宣传制片人",
+      "value": "佐々木千聖"
+    },
+    {
+      "key": "副制片人",
+      "value": "磯輪のぞみ、桑山ゆかり"
+    },
+    {
+      "key": "制作管理",
+      "value": "本多陽平、平嶋愛里香"
+    },
+    {
+      "key": "设定制作",
+      "value": "三浦世里奈"
+    },
+    {
+      "key": "设定制作助理",
+      "value": "佐々木優美"
+    },
+    {
+      "key": "文艺制作",
+      "value": "三浦世里奈"
+    },
+    {
+      "key": "制作进行",
+      "value": "小山匠、岩本桐子"
+    },
+    {
+      "key": "音乐制作",
+      "value": "avex pictures"
+    },
+    {
+      "key": "音乐助理",
+      "value": "田中統英（エッグ）"
+    },
+    {
+      "key": "主题歌演出",
+      "value": "Eve feat. suis from ヨルシカ / Nakamura Hak"
+    },
+    {
+      "key": "主题歌作词",
+      "value": "Eve / Nakamura Hak"
+    },
+    {
+      "key": "主题歌作曲",
+      "value": "Eve / Nakamura Hak"
+    },
+    {
+      "key": "主题歌编曲",
+      "value": "Numa、Zingai、Ryo / Nakamura Hak"
+    },
+    {
+      "key": "设定",
+      "value": "世界観フォットデザイン：デジタルノイズ（コレサワシゲユキ、灯夢、犬伊勢あや）"
+    },
+    {
+      "key": "3DCG",
+      "value": "KONAMI animation；3DCG协力：Peakys"
+    },
+    {
+      "key": "CG 导演",
+      "value": "辻本厚至"
+    },
+    {
+      "key": "CG 制作人",
+      "value": "小澤征義"
+    },
+    {
+      "key": "CG 制作进行",
+      "value": "坪川淳史；3D制作進行：岡崎真瀬"
+    },
+    {
+      "key": "特效",
+      "value": "榎本めぐみ"
+    },
+    {
+      "key": "美术设计",
+      "value": "多田周平、中島美佳"
+    },
+    {
+      "key": "背景美术",
+      "value": "背景：草薙；背景统括：清木亜夕；後藤亮太、小倉一男"
+    },
+    {
+      "key": "美术板",
+      "value": "小倉一男"
+    },
+    {
+      "key": "美术",
+      "value": "美术协力：須江信人"
+    },
+    {
+      "key": "美术制作进行",
+      "value": "背景进行：平田浩章、竹村美音"
+    },
+    {
+      "key": "摄影",
+      "value": "榎本めぐみ、峰岸美奈子、中村慎太郎、邓超、後藤真美、陳林；摄影协力：Seven Arcs"
+    },
+    {
+      "key": "音响",
+      "value": "dugout"
+    },
+    {
+      "key": "音响制作担当",
+      "value": "平山涼香"
+    },
+    {
+      "key": "音效",
+      "value": "緒方康恭"
+    },
+    {
+      "key": "录音",
+      "value": "星野賢爾"
+    },
+    {
+      "key": "录音助理",
+      "value": "高梨日菜"
+    },
+    {
+      "key": "在线剪辑",
+      "value": "ソニーPCL（石井知、林竜一）"
+    },
+    {
+      "key": "色彩设计助理",
+      "value": "永井唯香、江口亜紗美"
+    },
+    {
+      "key": "摄影监督助理",
+      "value": "榎本めぐみ"
+    },
+    {
+      "key": "剪辑",
+      "value": "本田優規"
+    },
+    {
+      "key": "主动画师",
+      "value": "中野悟史"
+    },
+    {
+      "key": "制作协力",
+      "value": "スタジオコロリド teamヤマヒツヂ(ED)、Production I.G 都築優介(6)、NUT(10)、スノードロップ(11)"
+    }
+  ],
+  "rating": {
+    "rank": 6664,
+    "total": 4491,
+    "count": {
+      "1": 17,
+      "2": 13,
+      "3": 51,
+      "4": 212,
+      "5": 605,
+      "6": 1680,
+      "7": 1416,
+      "8": 401,
+      "9": 58,
+      "10": 38
+    },
+    "score": 6.3
+  },
+  "total_episodes": 13,
+  "collection": {
+    "on_hold": 453,
+    "dropped": 884,
+    "wish": 2499,
+    "collect": 5087,
+    "doing": 4354
+  },
+  "id": 377130,
+  "eps": 13,
+  "meta_tags": [
+    "TV",
+    "日本",
+    "奇幻",
+    "漫画改"
+  ],
+  "volumes": 0,
+  "series": false,
+  "locked": false,
+  "nsfw": false,
+  "type": 2
+}

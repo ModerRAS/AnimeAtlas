@@ -1,0 +1,8 @@
+{
+  "$schema": "../../packages/schema/schemas/series-identity.schema.json",
+  "schema": "series-identity/v2",
+  "id": "series-000008",
+  "kind": "anime-series",
+  "title": "最強の王様、二度目の人生は何をする？",
+  "relationships": []
+}

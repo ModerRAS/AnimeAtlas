@@ -1,0 +1,8 @@
+{
+  "$schema": "../../packages/schema/schemas/series-identity.schema.json",
+  "schema": "series-identity/v2",
+  "id": "series-000018",
+  "kind": "anime-series",
+  "title": "自動販売機に生まれ変わった俺は迷宮を彷徨う",
+  "relationships": []
+}

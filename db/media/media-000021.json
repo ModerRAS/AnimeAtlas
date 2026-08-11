@@ -1,7 +1,13 @@
 {
   "$schema": "../../packages/schema/schemas/media-identity.schema.json",
+  "schema": "media-identity/v2",
   "id": "media-000021",
   "kind": "anime",
+  "series_id": "series-000011",
+  "title": "お隣の天使様にいつの間にか駄目人間にされていた件2",
+  "installment": {
+    "season": 2
+  },
   "provider_refs": [
     {
       "entity": "subject",
@@ -9,6 +15,5 @@
       "provider": "bangumi"
     }
   ],
-  "relationships": [],
-  "schema": "media-identity/v1"
+  "relationships": []
 }

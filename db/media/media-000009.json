@@ -1,7 +1,13 @@
 {
   "$schema": "../../packages/schema/schemas/media-identity.schema.json",
+  "schema": "media-identity/v2",
   "id": "media-000009",
   "kind": "anime",
+  "series_id": "series-000003",
+  "title": "無職転生Ⅲ ～異世界行ったら本気だす～",
+  "installment": {
+    "season": 3
+  },
   "provider_refs": [
     {
       "entity": "subject",
@@ -9,6 +15,5 @@
       "provider": "bangumi"
     }
   ],
-  "relationships": [],
-  "schema": "media-identity/v1"
+  "relationships": []
 }

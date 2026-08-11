@@ -7,8 +7,22 @@
       "source": "community",
       "type": "localized",
       "value": "在異世界獲得超強能力的我，在現實世界照樣無敵～等級提升改變人生命運～ TVSP"
+    },
+    {
+      "value": "異世界でチート能力を手にした俺は、現実世界をも無双する～レベルアップは人生を変えた～ スペシャル",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "在异世界获得超强能力的我，在现实世界照样无敌～等级提升改变人生命运～ SP",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000023",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

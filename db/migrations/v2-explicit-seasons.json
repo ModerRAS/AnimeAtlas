@@ -1,0 +1,206 @@
+{
+  "schema": "v2-migration-plan/v1",
+  "observed_at": "2026-08-11T02:00:00Z",
+  "source": "Bangumi API titles with explicit numeric Season markers or structured sequel evidence",
+  "series": [
+    {
+      "id": "series-000002",
+      "title": "ぐらんぶる",
+      "aliases": [
+        { "value": "ぐらんぶる", "language": "ja", "type": "official", "source": "bangumi", "confidence": 0.98 },
+        { "value": "Grand Blue", "language": "en", "type": "official", "source": "community", "confidence": 0.95 },
+        { "value": "碧藍之海", "language": "zh-Hant", "type": "localized", "source": "community", "confidence": 0.9 }
+      ],
+      "media": [{ "id": "media-000004", "season": 3 }]
+    },
+    {
+      "id": "series-000003",
+      "title": "無職転生 ～異世界行ったら本気だす～",
+      "aliases": [
+        { "value": "無職転生", "language": "ja", "type": "official", "source": "bangumi", "confidence": 0.98 },
+        { "value": "Mushoku Tensei", "language": "ja-Latn", "type": "romaji", "source": "community", "confidence": 0.95 },
+        { "value": "無職轉生～到了異世界就拿出真本事～", "language": "zh-Hant", "type": "localized", "source": "community", "confidence": 0.9 }
+      ],
+      "media": [{ "id": "media-000009", "season": 3 }]
+    },
+    {
+      "id": "series-000004",
+      "title": "異世界かるてっと",
+      "aliases": [
+        { "value": "異世界かるてっと", "language": "ja", "type": "official", "source": "bangumi", "confidence": 0.98 },
+        { "value": "異世界四重奏", "language": "zh-Hant", "type": "localized", "source": "community", "confidence": 0.9 }
+      ],
+      "media": [{ "id": "media-000010", "season": 3 }]
+    },
+    {
+      "id": "series-000005",
+      "title": "異世界のんびり農家",
+      "aliases": [
+        { "value": "異世界のんびり農家", "language": "ja", "type": "official", "source": "bangumi", "confidence": 0.98 },
+        { "value": "異世界悠閒農家", "language": "zh-Hant", "type": "localized", "source": "community", "confidence": 0.9 }
+      ],
+      "media": [{ "id": "media-000011", "season": 2 }]
+    },
+    {
+      "id": "series-000006",
+      "title": "アズールレーン びそくぜんしんっ！",
+      "aliases": [
+        { "value": "アズールレーン びそくぜんしんっ！", "language": "ja", "type": "official", "source": "bangumi", "confidence": 0.98 },
+        { "value": "碧藍航線 微速前進！", "language": "zh-Hant", "type": "localized", "source": "community", "confidence": 0.9 }
+      ],
+      "media": [{ "id": "media-000012", "season": 2 }]
+    },
+    {
+      "id": "series-000007",
+      "title": "彼女、お借りします",
+      "aliases": [
+        { "value": "彼女、お借りします", "language": "ja", "type": "official", "source": "bangumi", "confidence": 0.98 },
+        { "value": "Kanojo, Okarishimasu", "language": "ja-Latn", "type": "romaji", "source": "community", "confidence": 0.95 },
+        { "value": "出租女友", "language": "zh-Hant", "type": "localized", "source": "community", "confidence": 0.9 }
+      ],
+      "media": [
+        { "id": "media-000075", "season": 1 },
+        { "id": "media-000013", "season": 5 }
+      ]
+    },
+    {
+      "id": "series-000008",
+      "title": "最強の王様、二度目の人生は何をする？",
+      "aliases": [
+        { "value": "最強の王様、二度目の人生は何をする？", "language": "ja", "type": "official", "source": "bangumi", "confidence": 0.98 },
+        { "value": "終末起點", "language": "zh-Hant", "type": "localized", "source": "community", "confidence": 0.9 }
+      ],
+      "media": [{ "id": "media-000014", "season": 2 }]
+    },
+    {
+      "id": "series-000009",
+      "title": "ダイヤのA actⅡ",
+      "aliases": [
+        { "value": "ダイヤのA actⅡ", "language": "ja", "type": "official", "source": "bangumi", "confidence": 0.98 },
+        { "value": "Ace of Diamond Act II", "language": "en", "type": "official", "source": "community", "confidence": 0.95 },
+        { "value": "鑽石王牌 act2", "language": "zh-Hant", "type": "localized", "source": "community", "confidence": 0.9 }
+      ],
+      "media": [{ "id": "media-000016", "season": 2 }]
+    },
+    {
+      "id": "series-000010",
+      "title": "花ざかりの君たちへ",
+      "aliases": [
+        { "value": "花ざかりの君たちへ", "language": "ja", "type": "official", "source": "bangumi", "confidence": 0.98 },
+        { "value": "花樣少年少女", "language": "zh-Hant", "type": "localized", "source": "community", "confidence": 0.9 }
+      ],
+      "media": [
+        {
+          "id": "media-000096",
+          "season": 1,
+          "relationships": []
+        },
+        {
+          "id": "media-000018",
+          "season": 2,
+          "relationships": [{ "type": "prequel", "target": "media-000096" }]
+        }
+      ]
+    },
+    {
+      "id": "series-000011",
+      "title": "お隣の天使様にいつの間にか駄目人間にされていた件",
+      "aliases": [
+        { "value": "お隣の天使様にいつの間にか駄目人間にされていた件", "language": "ja", "type": "official", "source": "bangumi", "confidence": 0.98 },
+        { "value": "關於我在無意間被隔壁的天使變成廢柴這件事", "language": "zh-Hant", "type": "localized", "source": "community", "confidence": 0.9 }
+      ],
+      "media": [{ "id": "media-000021", "season": 2 }]
+    },
+    {
+      "id": "series-000012",
+      "title": "魔王学院の不適合者",
+      "aliases": [
+        { "value": "魔王学院の不適合者", "language": "ja", "type": "official", "source": "bangumi", "confidence": 0.98 },
+        { "value": "Maou Gakuin no Futekigousha", "language": "ja-Latn", "type": "romaji", "source": "community", "confidence": 0.95 }
+      ],
+      "media": [{ "id": "media-000042", "season": 2 }]
+    },
+    {
+      "id": "series-000013",
+      "title": "ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～",
+      "aliases": [
+        { "value": "ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～", "language": "ja", "type": "official", "source": "bangumi", "confidence": 0.98 },
+        { "value": "Hell Mode", "language": "en", "type": "official", "source": "community", "confidence": 0.95 }
+      ],
+      "media": [{ "id": "media-000044", "season": 2 }]
+    },
+    {
+      "id": "series-000014",
+      "title": "ようこそ実力至上主義の教室へ",
+      "aliases": [
+        { "value": "ようこそ実力至上主義の教室へ", "language": "ja", "type": "official", "source": "bangumi", "confidence": 0.98 },
+        { "value": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e", "language": "ja-Latn", "type": "romaji", "source": "community", "confidence": 0.95 }
+      ],
+      "media": [{ "id": "media-000049", "season": 4 }]
+    },
+    {
+      "id": "series-000015",
+      "title": "魔入りました！入間くん",
+      "aliases": [
+        { "value": "魔入りました！入間くん", "language": "ja", "type": "official", "source": "bangumi", "confidence": 0.98 },
+        { "value": "Mairimashita! Iruma-kun", "language": "ja-Latn", "type": "romaji", "source": "community", "confidence": 0.95 }
+      ],
+      "media": [{ "id": "media-000069", "season": 4 }]
+    },
+    {
+      "id": "series-000016",
+      "title": "片田舎のおっさん、剣聖になる",
+      "aliases": [
+        { "value": "片田舎のおっさん、剣聖になる", "language": "ja", "type": "official", "source": "bangumi", "confidence": 0.98 },
+        { "value": "Katainaka no Ossan, Kensei ni Naru", "language": "ja-Latn", "type": "romaji", "source": "community", "confidence": 0.95 }
+      ],
+      "media": [{ "id": "media-000077", "season": 2 }]
+    },
+    {
+      "id": "series-000017",
+      "title": "骸骨騎士様、只今異世界へお出掛け中",
+      "aliases": [
+        { "value": "骸骨騎士様、只今異世界へお出掛け中", "language": "ja", "type": "official", "source": "bangumi", "confidence": 0.98 },
+        { "value": "Gaikotsu Kishi-sama, Tadaima Isekai e Odekakechuu", "language": "ja-Latn", "type": "romaji", "source": "community", "confidence": 0.95 }
+      ],
+      "media": [{ "id": "media-000086", "season": 2 }]
+    },
+    {
+      "id": "series-000018",
+      "title": "自動販売機に生まれ変わった俺は迷宮を彷徨う",
+      "aliases": [
+        { "value": "自動販売機に生まれ変わった俺は迷宮を彷徨う", "language": "ja", "type": "official", "source": "bangumi", "confidence": 0.98 },
+        { "value": "Jihanki", "language": "ja-Latn", "type": "nickname", "source": "community", "confidence": 0.9 }
+      ],
+      "media": [{ "id": "media-000091", "season": 3 }]
+    },
+    {
+      "id": "series-000019",
+      "title": "葬送のフリーレン",
+      "aliases": [
+        { "value": "葬送のフリーレン", "language": "ja", "type": "official", "source": "bangumi", "confidence": 0.98 },
+        { "value": "葬送的芙莉莲", "language": "zh-Hans", "type": "localized", "source": "bangumi", "confidence": 0.98 },
+        { "value": "Frieren: Beyond Journey's End", "language": "en", "type": "official", "source": "bangumi", "confidence": 0.95 },
+        { "value": "Sousou no Frieren", "language": "ja-Latn", "type": "romaji", "source": "bangumi", "confidence": 0.95 }
+      ],
+      "media": [
+        { "id": "media-000001", "season": 1 },
+        {
+          "id": "media-000097",
+          "season": 2,
+          "relationships": [{ "type": "prequel", "target": "media-000001" }]
+        }
+      ]
+    },
+    {
+      "id": "series-000020",
+      "title": "ガチアクタ",
+      "aliases": [
+        { "value": "ガチアクタ", "language": "ja", "type": "official", "source": "bangumi", "confidence": 0.98 },
+        { "value": "咔嗒咔嗒", "language": "zh-Hans", "type": "localized", "source": "bangumi", "confidence": 0.98 },
+        { "value": "Gachiakuta", "language": "ja-Latn", "type": "romaji", "source": "bangumi", "confidence": 0.95 }
+      ],
+      "media": [{ "id": "media-000002", "season": 1 }]
+    }
+  ]
+}

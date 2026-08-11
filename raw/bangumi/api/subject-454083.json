@@ -1,0 +1,258 @@
+{
+  "date": "2026-07-05",
+  "platform": "TV",
+  "images": {
+    "small": "https://lain.bgm.tv/r/200/pic/cover/l/61/12/454083_DtM3t.jpg",
+    "grid": "https://lain.bgm.tv/r/100/pic/cover/l/61/12/454083_DtM3t.jpg",
+    "large": "https://lain.bgm.tv/pic/cover/l/61/12/454083_DtM3t.jpg",
+    "medium": "https://lain.bgm.tv/r/800/pic/cover/l/61/12/454083_DtM3t.jpg",
+    "common": "https://lain.bgm.tv/r/400/pic/cover/l/61/12/454083_DtM3t.jpg"
+  },
+  "summary": "2017年9月、日本でのサービスを開始したスマートフォン向け艦船擬人化アプリゲーム『アズールレーン』。2019年冬にはTVアニメーションが放送され、その他にも様々な業界との異色コラボなどでゲーム内外で常に話題を呼びつつ、2024年９月にはサービス開始7周年を迎えました。\r\nそんな『アズールレーン』の公式スピンオフ作品が『アズールレーン　びそくぜんしんっ！』。アズールレーン公式X（旧Twitter）、月刊ComicREX（一迅社刊）にて連載中の4コマコミック、待望のショートアニメ新シリーズがついに始動！\r\n監督は牧俊治、アニメーション制作はStudio CANDY BOXが担当。新進気鋭の実力派制作陣を揃え、『アズールレーン びそくぜんしんっ！』を担当する漫画家・ホリの描く、可愛らしくもどこかコケティッシュで魅力あふれる艦船たちの姿を、生き生きとしたアニメーションで描きだします。",
+  "name": "アズールレーン びそくぜんしんっ！にっ!!",
+  "name_cn": "碧蓝航线：微速前行！第二季",
+  "tags": [
+    {
+      "name": "2026年7月",
+      "count": 122,
+      "total_count": 19426
+    },
+    {
+      "name": "泡面番",
+      "count": 116,
+      "total_count": 153720
+    },
+    {
+      "name": "漫画改",
+      "count": 95,
+      "total_count": 857299
+    },
+    {
+      "name": "TV",
+      "count": 89,
+      "total_count": 1396622
+    },
+    {
+      "name": "日常",
+      "count": 88,
+      "total_count": 397945
+    },
+    {
+      "name": "碧蓝航线",
+      "count": 58,
+      "total_count": 1017
+    },
+    {
+      "name": "2026",
+      "count": 46,
+      "total_count": 40815
+    },
+    {
+      "name": "studioCANDYBOX",
+      "count": 44,
+      "total_count": 145
+    },
+    {
+      "name": "日本",
+      "count": 36,
+      "total_count": 293303
+    },
+    {
+      "name": "百合",
+      "count": 28,
+      "total_count": 400599
+    },
+    {
+      "name": "续作",
+      "count": 19,
+      "total_count": 45762
+    },
+    {
+      "name": "治愈",
+      "count": 17,
+      "total_count": 300629
+    },
+    {
+      "name": "萌",
+      "count": 15,
+      "total_count": 71213
+    },
+    {
+      "name": "游改",
+      "count": 9,
+      "total_count": 2484
+    },
+    {
+      "name": "游戏改",
+      "count": 8,
+      "total_count": 162098
+    },
+    {
+      "name": "少女",
+      "count": 6,
+      "total_count": 6238
+    },
+    {
+      "name": "动画",
+      "count": 6,
+      "total_count": 35575
+    },
+    {
+      "name": "未确定",
+      "count": 5,
+      "total_count": 2024
+    },
+    {
+      "name": "漫改",
+      "count": 5,
+      "total_count": 360102
+    },
+    {
+      "name": "萝莉",
+      "count": 3,
+      "total_count": 45816
+    },
+    {
+      "name": "卖肉",
+      "count": 2,
+      "total_count": 68923
+    },
+    {
+      "name": "后宫",
+      "count": 2,
+      "total_count": 301588
+    },
+    {
+      "name": "牧俊治",
+      "count": 2,
+      "total_count": 3
+    },
+    {
+      "name": "校园",
+      "count": 1,
+      "total_count": 450472
+    },
+    {
+      "name": "萌推一生好",
+      "count": 1,
+      "total_count": 1
+    },
+    {
+      "name": "26夏",
+      "count": 1,
+      "total_count": 93
+    },
+    {
+      "name": "短片",
+      "count": 1,
+      "total_count": 102014
+    },
+    {
+      "name": "福利",
+      "count": 1,
+      "total_count": 5195
+    },
+    {
+      "name": "bh25",
+      "count": 1,
+      "total_count": 2
+    },
+    {
+      "name": "星期日",
+      "count": 1,
+      "total_count": 129
+    }
+  ],
+  "infobox": [
+    {
+      "key": "中文名",
+      "value": "碧蓝航线：微速前行！第二季"
+    },
+    {
+      "key": "别名",
+      "value": [
+        {
+          "v": "Azur Lane: Bisoku Zenshin! Ni!!"
+        }
+      ]
+    },
+    {
+      "key": "话数",
+      "value": "12"
+    },
+    {
+      "key": "放送开始",
+      "value": "2026年7月5日"
+    },
+    {
+      "key": "放送星期",
+      "value": "星期日"
+    },
+    {
+      "key": "官方网站",
+      "value": "https://2nd.azurlane-bisoku.jp/"
+    },
+    {
+      "key": "播放电视台",
+      "value": "TOKYO MX"
+    },
+    {
+      "key": "其他电视台",
+      "value": "BS11"
+    },
+    {
+      "key": "导演",
+      "value": "牧俊治"
+    },
+    {
+      "key": "Copyright",
+      "value": "©Manjuu Co.,Ltd., YongShi Co.,Ltd.& Yostar, Inc.／ホリ, 一迅社／studioCANDYBOX Co., Ltd.& Yostar Pictures, Inc."
+    },
+    {
+      "key": "原作",
+      "value": "ホリ（月刊ComicREX/一迅社刊）；『アズールレーン』運営（蛮啾网络、勇仕网络）"
+    },
+    {
+      "key": "人物设定",
+      "value": "森七奈"
+    }
+  ],
+  "rating": {
+    "rank": 4190,
+    "total": 132,
+    "count": {
+      "1": 1,
+      "2": 0,
+      "3": 2,
+      "4": 2,
+      "5": 9,
+      "6": 49,
+      "7": 51,
+      "8": 13,
+      "9": 1,
+      "10": 4
+    },
+    "score": 6.5
+  },
+  "total_episodes": 12,
+  "collection": {
+    "on_hold": 32,
+    "dropped": 25,
+    "wish": 444,
+    "collect": 57,
+    "doing": 864
+  },
+  "id": 454083,
+  "eps": 12,
+  "meta_tags": [
+    "TV",
+    "日本",
+    "漫画改",
+    "日常"
+  ],
+  "volumes": 0,
+  "series": false,
+  "locked": false,
+  "nsfw": false,
+  "type": 2
+}

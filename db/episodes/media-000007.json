@@ -1,0 +1,37 @@
+{
+  "$schema": "../../packages/schema/schemas/episode-record.schema.json",
+  "schema": "episode-record/v2",
+  "media_id": "media-000007",
+  "episodes": [
+    {
+      "id": "episode-000001",
+      "kind": "regular",
+      "provider_refs": [
+        { "provider": "bangumi", "entity": "episode", "id": "1624219" }
+      ],
+      "numbers": [
+        { "namespace": "bangumi:ep", "value": 1, "source": "bangumi" },
+        { "namespace": "bangumi:sort", "value": 73, "source": "bangumi" }
+      ],
+      "provenance": {
+        "source": "bangumi",
+        "observed_at": "2026-08-10T00:00:00Z"
+      }
+    },
+    {
+      "id": "episode-000002",
+      "kind": "regular",
+      "provider_refs": [
+        { "provider": "bangumi", "entity": "episode", "id": "1624224" }
+      ],
+      "numbers": [
+        { "namespace": "bangumi:ep", "value": 6, "source": "bangumi" },
+        { "namespace": "bangumi:sort", "value": 78, "source": "bangumi" }
+      ],
+      "provenance": {
+        "source": "bangumi",
+        "observed_at": "2026-08-10T00:00:00Z"
+      }
+    }
+  ]
+}

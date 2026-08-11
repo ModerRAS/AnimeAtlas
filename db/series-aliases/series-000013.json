@@ -1,0 +1,21 @@
+{
+  "$schema": "../../packages/schema/schemas/series-aliases.schema.json",
+  "schema": "series-aliases/v2",
+  "series_id": "series-000013",
+  "aliases": [
+    {
+      "value": "ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "Hell Mode",
+      "language": "en",
+      "type": "official",
+      "source": "community",
+      "confidence": 0.95
+    }
+  ]
+}

@@ -7,8 +7,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Gaikotsu Kishi-sama, Tadaima Isekai e Odekakechuu II"
+    },
+    {
+      "value": "骸骨騎士様、只今異世界へお出掛け中Ⅱ",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "骸骨骑士大人异世界冒险中 第二季",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000086",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

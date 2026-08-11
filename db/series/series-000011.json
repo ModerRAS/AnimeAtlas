@@ -1,0 +1,8 @@
+{
+  "$schema": "../../packages/schema/schemas/series-identity.schema.json",
+  "schema": "series-identity/v2",
+  "id": "series-000011",
+  "kind": "anime-series",
+  "title": "お隣の天使様にいつの間にか駄目人間にされていた件",
+  "relationships": []
+}

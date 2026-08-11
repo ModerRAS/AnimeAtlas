@@ -1,0 +1,44 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/42/df/322890_fThjv.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/42/df/322890_fThjv.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/42/df/322890_fThjv.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/42/df/322890_fThjv.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/42/df/322890_fThjv.jpg"
+    },
+    "name": "ニワトリ・ファイター",
+    "name_cn": "鸡斗士",
+    "relation": "书籍",
+    "type": 1,
+    "id": 322890
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/de/78/636755_1g81N.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/de/78/636755_1g81N.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/de/78/636755_1g81N.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/de/78/636755_1g81N.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/de/78/636755_1g81N.jpg"
+    },
+    "name": "Rooster Fighter (Original Series Soundtrack) - Vol. 1",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 636755
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/2e/57/644537_PXsPb.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/2e/57/644537_PXsPb.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/2e/57/644537_PXsPb.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/2e/57/644537_PXsPb.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/2e/57/644537_PXsPb.jpg"
+    },
+    "name": "Rooster Fighter (Original Series Soundtrack) - Vol. 2",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 644537
+  }
+]

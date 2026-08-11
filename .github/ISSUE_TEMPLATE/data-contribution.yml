@@ -1,96 +1,46 @@
-name: Data Contribution
+name: Recognition Error
 
-description: Propose an AnimeAtlas identity, alias, provider ID, or metadata correction.
-title: "Data contribution: "
+description: Report an anime name or release name that AnimeAtlas does not resolve correctly.
+title: "Recognition: "
 labels:
   - contribution
 body:
-  - type: markdown
+  - type: input
+    id: name_that_should_resolve
     attributes:
-      value: |
-        Contributors should not edit repository JSON directly. Submit structured data here; maintainers review and add the `approved` label before automation parses it.
-  - type: dropdown
-    id: change_type
-    attributes:
-      label: Change Type
-      options:
-        - create_media
-        - add_alias
-        - add_provider_ref
-        - correct_metadata
+      label: Name That Should Resolve
+      description: Enter the anime name exactly as it appears. Do not add an internal ID.
+      placeholder: Tensei Shitara Slime Datta Ken 4th Season
     validations:
       required: true
   - type: input
-    id: media_id
+    id: example_filename_or_path
     attributes:
-      label: Media ID
-      description: Existing internal ID, such as media-000001. Leave blank only if the maintainer asks for a new identity proposal.
-      placeholder: media-000001
+      label: Example Filename or Path
+      description: Optional real example. Automation extracts title and Season context from this value.
+      placeholder: Tensei Shitara Slime Datta Ken 4th Season - 06(78).mkv
   - type: input
-    id: canonical_title
+    id: correct_anime
     attributes:
-      label: Canonical Title
-      description: Required for create_media. Use the provider-preferred display title.
-  - type: input
-    id: alias_value
-    attributes:
-      label: Alias Value
-      description: Required for create_media or add_alias.
-  - type: input
-    id: alias_language
-    attributes:
-      label: Alias Language
-      description: BCP 47 language tag for add_alias, such as ja, en, zh-Hans, ja-Latn.
-  - type: dropdown
-    id: alias_type
-    attributes:
-      label: Alias Type
-      options:
-        - official
-        - localized
-        - romaji
-        - nickname
-        - alternative
-        - legacy
-  - type: input
-    id: provider
-    attributes:
-      label: Provider
-      description: Required for create_media, add_provider_ref, or metadata provenance, such as bangumi or tmdb.
-  - type: input
-    id: provider_entity
-    attributes:
-      label: Provider Entity
-      description: Required for create_media or add_provider_ref, such as subject or tv.
-  - type: input
-    id: provider_id
-    attributes:
-      label: Provider ID
-      description: Required for create_media or add_provider_ref.
-  - type: input
-    id: metadata_field
-    attributes:
-      label: Metadata Field
-      description: Required for correct_metadata, such as metadata.episode_count.
-  - type: input
-    id: metadata_value
-    attributes:
-      label: Metadata Value
-      description: Required for correct_metadata. Keep this as a simple JSON scalar for now.
-  - type: input
-    id: source_field
-    attributes:
-      label: Source Field
-      description: Provider-native field used as evidence, such as eps or episode_run_time.
-  - type: input
-    id: evidence_url
-    attributes:
-      label: Evidence URL
-      description: URL or source reference supporting the requested change.
+      label: Correct Anime
+      description: Bangumi subject URL or numeric subject ID.
+      placeholder: https://bgm.tv/subject/515594
     validations:
       required: true
+  - type: input
+    id: season_part
+    attributes:
+      label: Season / Part
+      description: Optional natural Season, Part, or Cour context. Leave blank when unknown.
+      placeholder: Season 4, Part 2
+  - type: input
+    id: episode_mapping
+    attributes:
+      label: Episode Mapping
+      description: Optional observed episode relationship. Examples include 06(78), 第6集/总第78集, or ep=6 sort=78.
+      placeholder: 06(78)
   - type: textarea
-    id: notes
+    id: additional_context
     attributes:
-      label: Notes
-      description: Additional context for maintainers.
+      label: Additional Context
+      description: Optional evidence or explanation for reviewers.

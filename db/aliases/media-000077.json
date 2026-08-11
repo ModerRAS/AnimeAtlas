@@ -7,8 +7,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Katainaka no Ossan, Kensei ni Naru II"
+    },
+    {
+      "value": "片田舎のおっさん、剣聖になるⅡ",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "乡下大叔成为剑圣 第二季",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000077",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

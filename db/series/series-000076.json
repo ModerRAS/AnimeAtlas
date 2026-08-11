@@ -1,0 +1,8 @@
+{
+  "$schema": "../../packages/schema/schemas/series-identity.schema.json",
+  "schema": "series-identity/v2",
+  "id": "series-000076",
+  "kind": "anime-series",
+  "title": "二十世紀電氣目録-ユーレカ・エヴリカ-",
+  "relationships": []
+}

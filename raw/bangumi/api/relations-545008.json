@@ -1,0 +1,44 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/ea/89/337906_53qLz.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/ea/89/337906_53qLz.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/ea/89/337906_53qLz.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/ea/89/337906_53qLz.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/ea/89/337906_53qLz.jpg"
+    },
+    "name": "ふつつかな悪女ではございますが ～雛宮蝶鼠とりかえ伝～",
+    "name_cn": "我是不才恶女 ～雏宫蝶鼠互换传～",
+    "relation": "书籍",
+    "type": 1,
+    "id": 337906
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/72/f7/664476_Og2iF.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/72/f7/664476_Og2iF.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/72/f7/664476_Og2iF.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/72/f7/664476_Og2iF.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/72/f7/664476_Og2iF.jpg"
+    },
+    "name": "ホウキボシ",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 664476
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/4c/cd/683340_J62MH.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/4c/cd/683340_J62MH.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/4c/cd/683340_J62MH.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/4c/cd/683340_J62MH.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/4c/cd/683340_J62MH.jpg"
+    },
+    "name": "Sunny",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 683340
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/b2/00/208415_9u4eO.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/b2/00/208415_9u4eO.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/b2/00/208415_9u4eO.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/b2/00/208415_9u4eO.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/b2/00/208415_9u4eO.jpg"
+    },
+    "name": "バンドリ！ ガールズバンドパーティ！",
+    "name_cn": "BanG Dream! 少女乐团派对！",
+    "relation": "游戏",
+    "type": 4,
+    "id": 208415
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/41/77/338400_00Nhy.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/41/77/338400_00Nhy.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/41/77/338400_00Nhy.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/41/77/338400_00Nhy.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/41/77/338400_00Nhy.jpg"
+    },
+    "name": "BanG Dream! ガルパ☆ピコ ふぃーばー！",
+    "name_cn": "BanG Dream! 少女乐团派对！☆PICO FEVER！",
+    "relation": "前传",
+    "type": 2,
+    "id": 338400
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/dd/67/591203_GOpaH.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/dd/67/591203_GOpaH.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/dd/67/591203_GOpaH.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/dd/67/591203_GOpaH.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/dd/67/591203_GOpaH.jpg"
+    },
+    "name": "元祖！バンドリちゃんのテーマ",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 591203
+  }
+]

@@ -14,8 +14,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Mushoku Tensei S3"
+    },
+    {
+      "value": "無職転生Ⅲ ～異世界行ったら本気だす～",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "无职转生 第三季 ～到了异世界就拿出真本事～",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000009",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

@@ -1,0 +1,86 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/45/20/248977_1welz.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/45/20/248977_1welz.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/45/20/248977_1welz.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/45/20/248977_1welz.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/45/20/248977_1welz.jpg"
+    },
+    "name": "自称悪役令嬢な婚約者の観察記録。",
+    "name_cn": "自称恶役千金的未婚妻观察记录。",
+    "relation": "书籍",
+    "type": 1,
+    "id": 248977
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/52/f0/248978_6L6zA.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/52/f0/248978_6L6zA.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/52/f0/248978_6L6zA.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/52/f0/248978_6L6zA.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/52/f0/248978_6L6zA.jpg"
+    },
+    "name": "自称悪役令嬢な婚約者の観察記録。",
+    "name_cn": "自称恶役大小姐的婚约者观察记录。",
+    "relation": "书籍",
+    "type": 1,
+    "id": 248978
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/b5/9e/635182_lcdLc.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/b5/9e/635182_lcdLc.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/b5/9e/635182_lcdLc.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/b5/9e/635182_lcdLc.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/b5/9e/635182_lcdLc.jpg"
+    },
+    "name": "ラフレア",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 635182
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/74/8e/636209_zNB0I.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/74/8e/636209_zNB0I.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/74/8e/636209_zNB0I.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/74/8e/636209_zNB0I.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/74/8e/636209_zNB0I.jpg"
+    },
+    "name": "Magic",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 636209
+  },
+  {
+    "images": {
+      "small": "",
+      "grid": "",
+      "large": "",
+      "medium": "",
+      "common": ""
+    },
+    "name": "自称悪役令嬢な婚約者の観察記録。 オリジナルサウンドトラック",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 640041
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/0a/da/643869_dsX15.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/0a/da/643869_dsX15.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/0a/da/643869_dsX15.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/0a/da/643869_dsX15.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/0a/da/643869_dsX15.jpg"
+    },
+    "name": "自称悪役令嬢な婚約者の観察記録。～バーティア様を愛でるラジオ。～",
+    "name_cn": "",
+    "relation": "衍生",
+    "type": 6,
+    "id": 643869
+  }
+]

@@ -1,0 +1,35 @@
+{
+  "$schema": "../../packages/schema/schemas/series-aliases.schema.json",
+  "schema": "series-aliases/v2",
+  "series_id": "series-000052",
+  "aliases": [
+    {
+      "value": "本好きの下剋上～司書になるためには手段を選んでいられません～ 領主の養女",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "小书痴的下克上 〜为了成为图书管理员而不择手段〜 领主的养女",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Honzuki no Gekokujou S04"
+    },
+    {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Honzuki no Gekokujou S4"
+    }
+  ]
+}

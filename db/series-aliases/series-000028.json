@@ -1,0 +1,35 @@
+{
+  "$schema": "../../packages/schema/schemas/series-aliases.schema.json",
+  "schema": "series-aliases/v2",
+  "series_id": "series-000028",
+  "aliases": [
+    {
+      "value": "逃がした魚は大きかったが釣りあげた魚が大きすぎた件",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "关于虽然逃走的鱼很大、但钓上来的鱼却太大了这件事",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "溜掉的大魚比不上自己釣到的魚"
+    },
+    {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Nigetsuri"
+    }
+  ]
+}

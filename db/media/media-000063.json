@@ -1,7 +1,11 @@
 {
   "$schema": "../../packages/schema/schemas/media-identity.schema.json",
+  "schema": "media-identity/v2",
   "id": "media-000063",
   "kind": "anime",
+  "series_id": "series-000063",
+  "title": "落第賢者の学院無双～二度目の転生、Sランクチート魔術師冒険録～",
+  "installment": {},
   "provider_refs": [
     {
       "entity": "subject",
@@ -9,6 +13,5 @@
       "provider": "bangumi"
     }
   ],
-  "relationships": [],
-  "schema": "media-identity/v1"
+  "relationships": []
 }

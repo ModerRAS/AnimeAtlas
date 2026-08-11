@@ -7,8 +7,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Degarashi Ouji"
+    },
+    {
+      "value": "最強出涸らし皇子の暗躍帝位争い",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "最强废渣皇子暗中活跃于帝位之争",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000084",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

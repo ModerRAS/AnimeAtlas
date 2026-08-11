@@ -7,8 +7,22 @@
       "source": "community",
       "type": "localized",
       "value": "穹廬下的魔女"
+    },
+    {
+      "value": "天幕のジャードゥーガル",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "穹庐下的魔女",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000032",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

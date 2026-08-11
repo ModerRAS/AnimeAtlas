@@ -21,8 +21,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Ace of Diamond Act II Season 2"
+    },
+    {
+      "value": "ダイヤのA actⅡ Second Season",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "钻石王牌 act2 第二季",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000016",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

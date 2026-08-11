@@ -1,0 +1,72 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/28/25/524365_8izj6.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/28/25/524365_8izj6.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/28/25/524365_8izj6.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/28/25/524365_8izj6.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/28/25/524365_8izj6.jpg"
+    },
+    "name": "ひみつのアイプリ リング編",
+    "name_cn": "秘密的偶像公主 RING篇",
+    "relation": "前传",
+    "type": 2,
+    "id": 524365
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/4e/77/611426_4Z2Kh.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/4e/77/611426_4Z2Kh.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/4e/77/611426_4Z2Kh.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/4e/77/611426_4Z2Kh.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/4e/77/611426_4Z2Kh.jpg"
+    },
+    "name": "アイプリバース",
+    "name_cn": "偶像公主宇宙",
+    "relation": "游戏",
+    "type": 4,
+    "id": 611426
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/00/4c/631916_j8FSi.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/00/4c/631916_j8FSi.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/00/4c/631916_j8FSi.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/00/4c/631916_j8FSi.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/00/4c/631916_j8FSi.jpg"
+    },
+    "name": "おねがいアイプリ",
+    "name_cn": "拜托了偶像公主",
+    "relation": "游戏",
+    "type": 4,
+    "id": 631916
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/31/75/638159_n2R62.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/31/75/638159_n2R62.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/31/75/638159_n2R62.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/31/75/638159_n2R62.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/31/75/638159_n2R62.jpg"
+    },
+    "name": "デコ！",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 638159
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/c4/99/662169_EszEP.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/c4/99/662169_EszEP.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/c4/99/662169_EszEP.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/c4/99/662169_EszEP.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/c4/99/662169_EszEP.jpg"
+    },
+    "name": "TVアニメ『おねがいアイプリ』キャラクターソングミニアルバム WISH IN SONG 01",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 662169
+  }
+]

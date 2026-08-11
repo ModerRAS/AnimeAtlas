@@ -1,0 +1,58 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/dc/b0/392006_7A6cA.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/dc/b0/392006_7A6cA.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/dc/b0/392006_7A6cA.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/dc/b0/392006_7A6cA.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/dc/b0/392006_7A6cA.jpg"
+    },
+    "name": "逃がした魚は大きかったが釣りあげた魚が大きすぎた件",
+    "name_cn": "关于虽然逃走的鱼很大、但钓上来的鱼却太大了这件事",
+    "relation": "书籍",
+    "type": 1,
+    "id": 392006
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/04/30/392016_hEmx5.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/04/30/392016_hEmx5.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/04/30/392016_hEmx5.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/04/30/392016_hEmx5.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/04/30/392016_hEmx5.jpg"
+    },
+    "name": "逃がした魚は大きかったが釣りあげた魚が大きすぎた件",
+    "name_cn": "关于虽然逃走的鱼很大、但钓上来的鱼却太大了这件事",
+    "relation": "书籍",
+    "type": 1,
+    "id": 392016
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/20/8a/637892_dB0wa.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/20/8a/637892_dB0wa.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/20/8a/637892_dB0wa.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/20/8a/637892_dB0wa.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/20/8a/637892_dB0wa.jpg"
+    },
+    "name": "DEAD OR LOVE",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 637892
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/d6/5e/637893_Y2ST9.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/d6/5e/637893_Y2ST9.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/d6/5e/637893_Y2ST9.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/d6/5e/637893_Y2ST9.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/d6/5e/637893_Y2ST9.jpg"
+    },
+    "name": "誓いはキュンと。 feat.鈴木愛理",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 637893
+  }
+]

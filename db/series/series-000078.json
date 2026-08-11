@@ -1,0 +1,8 @@
+{
+  "$schema": "../../packages/schema/schemas/series-identity.schema.json",
+  "schema": "series-identity/v2",
+  "id": "series-000078",
+  "kind": "anime-series",
+  "title": "BLEACH 千年血戦篇",
+  "relationships": []
+}

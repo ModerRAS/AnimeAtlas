@@ -1,0 +1,72 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/4f/ef/355057_aHZAz.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/4f/ef/355057_aHZAz.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/4f/ef/355057_aHZAz.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/4f/ef/355057_aHZAz.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/4f/ef/355057_aHZAz.jpg"
+    },
+    "name": "悪食令嬢と狂血公爵 ～その魔物、私が美味しくいただきます！～",
+    "name_cn": "恶食千金与狂血公爵～那个魔物我就美美地享用了！～",
+    "relation": "书籍",
+    "type": 1,
+    "id": 355057
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/cb/98/371572_WibWf.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/cb/98/371572_WibWf.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/cb/98/371572_WibWf.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/cb/98/371572_WibWf.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/cb/98/371572_WibWf.jpg"
+    },
+    "name": "悪食令嬢と狂血公爵 ~その魔物、私が美味しくいただきます!~",
+    "name_cn": "恶食千金与狂血公爵 ～那个魔物我就美美地享用了！～",
+    "relation": "书籍",
+    "type": 1,
+    "id": 371572
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/42/c8/585053_zgrS1.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/42/c8/585053_zgrS1.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/42/c8/585053_zgrS1.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/42/c8/585053_zgrS1.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/42/c8/585053_zgrS1.jpg"
+    },
+    "name": "シュガリー・ストーリー",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 585053
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/7b/e3/585054_23Kkb.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/7b/e3/585054_23Kkb.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/7b/e3/585054_23Kkb.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/7b/e3/585054_23Kkb.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/7b/e3/585054_23Kkb.jpg"
+    },
+    "name": "JUMBLE!!",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 585054
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/cb/56/615610_1ed54.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/cb/56/615610_1ed54.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/cb/56/615610_1ed54.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/cb/56/615610_1ed54.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/cb/56/615610_1ed54.jpg"
+    },
+    "name": "TVアニメ「悪食令嬢と狂血公爵」オリジナル・サウンドトラック",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 615610
+  }
+]

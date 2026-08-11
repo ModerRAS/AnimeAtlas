@@ -1,0 +1,44 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/74/99/377121_FWA0h.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/74/99/377121_FWA0h.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/74/99/377121_FWA0h.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/74/99/377121_FWA0h.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/74/99/377121_FWA0h.jpg"
+    },
+    "name": "オタクに優しいギャルはいない!?",
+    "name_cn": "没有辣妹会对阿宅温柔!?",
+    "relation": "书籍",
+    "type": 1,
+    "id": 377121
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/72/b0/635217_4mAQQ.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/72/b0/635217_4mAQQ.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/72/b0/635217_4mAQQ.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/72/b0/635217_4mAQQ.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/72/b0/635217_4mAQQ.jpg"
+    },
+    "name": "一生仲仔",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 635217
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/7f/9e/642016_1191O.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/7f/9e/642016_1191O.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/7f/9e/642016_1191O.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/7f/9e/642016_1191O.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/7f/9e/642016_1191O.jpg"
+    },
+    "name": "HIDE AND SEEK",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 642016
+  }
+]

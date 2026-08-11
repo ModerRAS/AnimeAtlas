@@ -1,0 +1,8 @@
+{
+  "$schema": "../../packages/schema/schemas/series-identity.schema.json",
+  "schema": "series-identity/v2",
+  "id": "series-000085",
+  "kind": "anime-series",
+  "title": "人外教室の人間嫌い教師",
+  "relationships": []
+}

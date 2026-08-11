@@ -14,8 +14,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Grand Blue S3"
+    },
+    {
+      "value": "ぐらんぶる Season 3",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "碧蓝之海 第三季",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000004",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

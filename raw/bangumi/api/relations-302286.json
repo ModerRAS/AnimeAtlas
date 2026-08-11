@@ -1,0 +1,156 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/9e/98/1600_dLcNL.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/9e/98/1600_dLcNL.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/9e/98/1600_dLcNL.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/9e/98/1600_dLcNL.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/9e/98/1600_dLcNL.jpg"
+    },
+    "name": "BLEACH",
+    "name_cn": "死神",
+    "relation": "前传",
+    "type": 2,
+    "id": 1600
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/a8/0b/10134_nZN4H.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/a8/0b/10134_nZN4H.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/a8/0b/10134_nZN4H.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/a8/0b/10134_nZN4H.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/a8/0b/10134_nZN4H.jpg"
+    },
+    "name": "BLEACH",
+    "name_cn": "死神",
+    "relation": "书籍",
+    "type": 1,
+    "id": 10134
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/ed/df/103372_Wpnwf.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/ed/df/103372_Wpnwf.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/ed/df/103372_Wpnwf.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/ed/df/103372_Wpnwf.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/ed/df/103372_Wpnwf.jpg"
+    },
+    "name": "GRANBLUE FANTASY",
+    "name_cn": "碧蓝幻想",
+    "relation": "游戏",
+    "type": 4,
+    "id": 103372
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/72/00/194792_0bB66.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/72/00/194792_0bB66.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/72/00/194792_0bB66.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/72/00/194792_0bB66.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/72/00/194792_0bB66.jpg"
+    },
+    "name": "王者荣耀",
+    "name_cn": "王者荣耀",
+    "relation": "游戏",
+    "type": 4,
+    "id": 194792
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/7f/bf/383865_000F2.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/7f/bf/383865_000F2.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/7f/bf/383865_000F2.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/7f/bf/383865_000F2.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/7f/bf/383865_000F2.jpg"
+    },
+    "name": "BIPOLAR",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 383865
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/55/23/403004_lzEdc.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/55/23/403004_lzEdc.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/55/23/403004_lzEdc.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/55/23/403004_lzEdc.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/55/23/403004_lzEdc.jpg"
+    },
+    "name": "最果て",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 403004
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/a8/a2/404587_elTTx.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/a8/a2/404587_elTTx.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/a8/a2/404587_elTTx.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/a8/a2/404587_elTTx.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/a8/a2/404587_elTTx.jpg"
+    },
+    "name": "スカー",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 404587
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/6d/31/412916_20nTM.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/6d/31/412916_20nTM.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/6d/31/412916_20nTM.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/6d/31/412916_20nTM.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/6d/31/412916_20nTM.jpg"
+    },
+    "name": "BLEACH 千年血戦篇-訣別譚-",
+    "name_cn": "死神 千年血战篇-诀别谭-",
+    "relation": "续集",
+    "type": 2,
+    "id": 412916
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/04/f3/413361_gz1Q6.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/04/f3/413361_gz1Q6.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/04/f3/413361_gz1Q6.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/04/f3/413361_gz1Q6.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/04/f3/413361_gz1Q6.jpg"
+    },
+    "name": "Number One - Bankai( feat.Hazel Fernandes)",
+    "name_cn": "",
+    "relation": "插入歌",
+    "type": 3,
+    "id": 413361
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/92/48/444753_fQuYu.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/92/48/444753_fQuYu.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/92/48/444753_fQuYu.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/92/48/444753_fQuYu.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/92/48/444753_fQuYu.jpg"
+    },
+    "name": "TV Animation BLEACH THE BLOOD WARFARE Original Soundtrack Ⅰ",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 444753
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/71/05/651257_f9yFk.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/71/05/651257_f9yFk.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/71/05/651257_f9yFk.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/71/05/651257_f9yFk.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/71/05/651257_f9yFk.jpg"
+    },
+    "name": "BLEACH 千年血戦篇 Animation Works",
+    "name_cn": "",
+    "relation": "书籍",
+    "type": 1,
+    "id": 651257
+  }
+]

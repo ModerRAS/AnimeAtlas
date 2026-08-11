@@ -1,0 +1,142 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/53/9f/237_78UdL.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/53/9f/237_78UdL.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/53/9f/237_78UdL.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/53/9f/237_78UdL.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/53/9f/237_78UdL.jpg"
+    },
+    "name": "GHOST IN THE SHELL / 攻殻機動隊",
+    "name_cn": "攻壳机动队",
+    "relation": "不同演绎",
+    "type": 2,
+    "id": 237
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/f2/fc/324_psuXk.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/f2/fc/324_psuXk.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/f2/fc/324_psuXk.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/f2/fc/324_psuXk.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/f2/fc/324_psuXk.jpg"
+    },
+    "name": "攻殻機動隊 STAND ALONE COMPLEX",
+    "name_cn": "攻壳机动队 STAND ALONE COMPLEX",
+    "relation": "不同演绎",
+    "type": 2,
+    "id": 324
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/bb/ad/25256_qiLcd.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/bb/ad/25256_qiLcd.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/bb/ad/25256_qiLcd.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/bb/ad/25256_qiLcd.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/bb/ad/25256_qiLcd.jpg"
+    },
+    "name": "攻殻機動隊",
+    "name_cn": "攻壳机动队",
+    "relation": "书籍",
+    "type": 1,
+    "id": 25256
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/8d/18/25259_3I3Fp.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/8d/18/25259_3I3Fp.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/8d/18/25259_3I3Fp.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/8d/18/25259_3I3Fp.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/8d/18/25259_3I3Fp.jpg"
+    },
+    "name": "攻殻機動隊",
+    "name_cn": "攻壳机动队",
+    "relation": "书籍",
+    "type": 1,
+    "id": 25259
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/6e/55/61498_5oWUa.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/6e/55/61498_5oWUa.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/6e/55/61498_5oWUa.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/6e/55/61498_5oWUa.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/6e/55/61498_5oWUa.jpg"
+    },
+    "name": "攻殻機動隊ARISE border:1 Ghost Pain",
+    "name_cn": "攻壳机动队ARISE border:1 Ghost Pain",
+    "relation": "不同演绎",
+    "type": 2,
+    "id": 61498
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/5d/3d/133383_WnO2y.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/5d/3d/133383_WnO2y.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/5d/3d/133383_WnO2y.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/5d/3d/133383_WnO2y.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/5d/3d/133383_WnO2y.jpg"
+    },
+    "name": "Ghost in the Shell",
+    "name_cn": "攻壳机动队",
+    "relation": "不同演绎",
+    "type": 6,
+    "id": 133383
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/f2/34/665198_c0t02.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/f2/34/665198_c0t02.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/f2/34/665198_c0t02.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/f2/34/665198_c0t02.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/f2/34/665198_c0t02.jpg"
+    },
+    "name": "Blue",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 665198
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/15/2c/666116_EpfZP.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/15/2c/666116_EpfZP.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/15/2c/666116_EpfZP.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/15/2c/666116_EpfZP.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/15/2c/666116_EpfZP.jpg"
+    },
+    "name": "攻殻機動隊アニメ全史ぴあ",
+    "name_cn": "",
+    "relation": "书籍",
+    "type": 1,
+    "id": 666116
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/0b/4b/666962_tuWaA.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/0b/4b/666962_tuWaA.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/0b/4b/666962_tuWaA.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/0b/4b/666962_tuWaA.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/0b/4b/666962_tuWaA.jpg"
+    },
+    "name": "TVアニメ『攻殻機動隊 THE GHOST IN THE SHELL』O.S.T.",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 666962
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/8b/a8/668279_Y669j.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/8b/a8/668279_Y669j.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/8b/a8/668279_Y669j.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/8b/a8/668279_Y669j.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/8b/a8/668279_Y669j.jpg"
+    },
+    "name": "GO GHOST",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 668279
+  }
+]

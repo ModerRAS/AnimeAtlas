@@ -7,8 +7,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Yuusha no Rokkotsu de"
+    },
+    {
+      "value": "女神『異世界転生何になりたいですか』俺「勇者の肋骨で」",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "女神“异世界转生想成为什么”我“勇者的肋骨”",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000050",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

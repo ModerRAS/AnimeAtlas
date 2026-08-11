@@ -1,0 +1,58 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/94/6e/417112_2Y191.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/94/6e/417112_2Y191.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/94/6e/417112_2Y191.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/94/6e/417112_2Y191.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/94/6e/417112_2Y191.jpg"
+    },
+    "name": "ブチ切れ令嬢は報復を誓いました。 ～魔導書の力で祖国を叩き潰します～",
+    "name_cn": "暴怒千金发誓复仇。 ～凭借魔导书之力打垮祖国～",
+    "relation": "书籍",
+    "type": 1,
+    "id": 417112
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/4f/a6/473045_c4cIk.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/4f/a6/473045_c4cIk.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/4f/a6/473045_c4cIk.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/4f/a6/473045_c4cIk.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/4f/a6/473045_c4cIk.jpg"
+    },
+    "name": "ブチ切れ令嬢は報復を誓いました。 ~魔導書の力で祖国を叩き潰します~",
+    "name_cn": "",
+    "relation": "书籍",
+    "type": 1,
+    "id": 473045
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/b4/e9/646389_aM94m.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/b4/e9/646389_aM94m.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/b4/e9/646389_aM94m.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/b4/e9/646389_aM94m.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/b4/e9/646389_aM94m.jpg"
+    },
+    "name": "Q.E.D.",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 646389
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/d7/14/646391_LM463.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/d7/14/646391_LM463.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/d7/14/646391_LM463.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/d7/14/646391_LM463.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/d7/14/646391_LM463.jpg"
+    },
+    "name": "グッバイ・ララバイ",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 646391
+  }
+]

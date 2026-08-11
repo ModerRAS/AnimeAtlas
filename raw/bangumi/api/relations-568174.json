@@ -1,0 +1,86 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/fd/cb/238563_mUTyC.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/fd/cb/238563_mUTyC.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/fd/cb/238563_mUTyC.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/fd/cb/238563_mUTyC.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/fd/cb/238563_mUTyC.jpg"
+    },
+    "name": "悪役令嬢は隣国の王太子に溺愛される",
+    "name_cn": "被邻国王子溺爱的反派女主",
+    "relation": "书籍",
+    "type": 1,
+    "id": 238563
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/31/de/238777_c68hH.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/31/de/238777_c68hH.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/31/de/238777_c68hH.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/31/de/238777_c68hH.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/31/de/238777_c68hH.jpg"
+    },
+    "name": "悪役令嬢は隣国の王太子に溺愛される",
+    "name_cn": "被邻国王子溺爱的反派女主",
+    "relation": "书籍",
+    "type": 1,
+    "id": 238777
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/9b/98/462946_01eEk.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/9b/98/462946_01eEk.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/9b/98/462946_01eEk.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/9b/98/462946_01eEk.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/9b/98/462946_01eEk.jpg"
+    },
+    "name": "悪役令嬢は隣国の王太子に溺愛される",
+    "name_cn": "",
+    "relation": "游戏",
+    "type": 4,
+    "id": 462946
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/89/41/614400_95JOT.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/89/41/614400_95JOT.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/89/41/614400_95JOT.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/89/41/614400_95JOT.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/89/41/614400_95JOT.jpg"
+    },
+    "name": "愛のファンファーレ",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 614400
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/d5/b1/614401_52Ff7.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/d5/b1/614401_52Ff7.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/d5/b1/614401_52Ff7.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/d5/b1/614401_52Ff7.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/d5/b1/614401_52Ff7.jpg"
+    },
+    "name": "魔法の音",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 614401
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/cf/17/628648_lNYk6.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/cf/17/628648_lNYk6.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/cf/17/628648_lNYk6.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/cf/17/628648_lNYk6.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/cf/17/628648_lNYk6.jpg"
+    },
+    "name": "愛のファンファーレ / 魔法の音",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 628648
+  }
+]

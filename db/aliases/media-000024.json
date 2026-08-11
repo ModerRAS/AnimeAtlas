@@ -7,8 +7,15 @@
       "source": "community",
       "type": "localized",
       "value": "淫獄團地 [年齡限制版]"
+    },
+    {
+      "value": "インゴクダンチ",
+      "language": "ja",
+      "type": "official",
+      "source": "catalog-evidence",
+      "confidence": 0.9
     }
   ],
   "media_id": "media-000024",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

@@ -1,0 +1,58 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/fb/2f/286872_d0aBp.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/fb/2f/286872_d0aBp.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/fb/2f/286872_d0aBp.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/fb/2f/286872_d0aBp.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/fb/2f/286872_d0aBp.jpg"
+    },
+    "name": "ここは俺に任せて先に行けと言ってから10年がたったら伝説になっていた。",
+    "name_cn": "『你们先走我断后』，于是10年后我成为了传说",
+    "relation": "书籍",
+    "type": 1,
+    "id": 286872
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/1f/64/290456_Z99d9.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/1f/64/290456_Z99d9.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/1f/64/290456_Z99d9.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/1f/64/290456_Z99d9.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/1f/64/290456_Z99d9.jpg"
+    },
+    "name": "ここは俺に任せて先に行けと言ってから10年がたったら伝説になっていた。",
+    "name_cn": "『你们先走我断后』，于是10年后我成为了传说",
+    "relation": "书籍",
+    "type": 1,
+    "id": 290456
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/10/79/661614_VJgL1.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/10/79/661614_VJgL1.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/10/79/661614_VJgL1.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/10/79/661614_VJgL1.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/10/79/661614_VJgL1.jpg"
+    },
+    "name": "在り来たりな日常と幸運な日々へ",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 661614
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/3e/1c/664229_ka9BX.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/3e/1c/664229_ka9BX.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/3e/1c/664229_ka9BX.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/3e/1c/664229_ka9BX.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/3e/1c/664229_ka9BX.jpg"
+    },
+    "name": "それでも曇天を越えてゆく",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 664229
+  }
+]

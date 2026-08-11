@@ -7,8 +7,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Otaku ni Yasashii Gal wa Inai"
+    },
+    {
+      "value": "オタクに優しいギャルはいない!?",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "没有辣妹会对阿宅温柔!?",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000066",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

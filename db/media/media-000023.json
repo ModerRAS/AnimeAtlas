@@ -1,7 +1,11 @@
 {
   "$schema": "../../packages/schema/schemas/media-identity.schema.json",
+  "schema": "media-identity/v2",
   "id": "media-000023",
   "kind": "anime",
+  "series_id": "series-000030",
+  "title": "異世界でチート能力を手にした俺は、現実世界をも無双する～レベルアップは人生を変えた～ スペシャル",
+  "installment": {},
   "provider_refs": [
     {
       "entity": "subject",
@@ -9,6 +13,5 @@
       "provider": "bangumi"
     }
   ],
-  "relationships": [],
-  "schema": "media-identity/v1"
+  "relationships": []
 }

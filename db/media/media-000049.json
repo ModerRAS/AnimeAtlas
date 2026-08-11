@@ -1,7 +1,13 @@
 {
   "$schema": "../../packages/schema/schemas/media-identity.schema.json",
+  "schema": "media-identity/v2",
   "id": "media-000049",
   "kind": "anime",
+  "series_id": "series-000014",
+  "title": "ようこそ実力至上主義の教室へ 4th Season",
+  "installment": {
+    "season": 4
+  },
   "provider_refs": [
     {
       "entity": "subject",
@@ -9,6 +15,5 @@
       "provider": "bangumi"
     }
   ],
-  "relationships": [],
-  "schema": "media-identity/v1"
+  "relationships": []
 }

@@ -1,0 +1,30 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/5a/2f/341101_AAaRa.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/5a/2f/341101_AAaRa.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/5a/2f/341101_AAaRa.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/5a/2f/341101_AAaRa.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/5a/2f/341101_AAaRa.jpg"
+    },
+    "name": "도굴왕",
+    "name_cn": "我独自盗墓",
+    "relation": "书籍",
+    "type": 1,
+    "id": 341101
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/31/b4/621937_isu4t.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/31/b4/621937_isu4t.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/31/b4/621937_isu4t.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/31/b4/621937_isu4t.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/31/b4/621937_isu4t.jpg"
+    },
+    "name": "도굴왕",
+    "name_cn": "",
+    "relation": "书籍",
+    "type": 1,
+    "id": 621937
+  }
+]

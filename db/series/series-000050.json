@@ -1,0 +1,8 @@
+{
+  "$schema": "../../packages/schema/schemas/series-identity.schema.json",
+  "schema": "series-identity/v2",
+  "id": "series-000050",
+  "kind": "anime-series",
+  "title": "女神『異世界転生何になりたいですか』俺「勇者の肋骨で」",
+  "relationships": []
+}

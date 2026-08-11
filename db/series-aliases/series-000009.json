@@ -1,0 +1,28 @@
+{
+  "$schema": "../../packages/schema/schemas/series-aliases.schema.json",
+  "schema": "series-aliases/v2",
+  "series_id": "series-000009",
+  "aliases": [
+    {
+      "value": "ダイヤのA actⅡ",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "Ace of Diamond Act II",
+      "language": "en",
+      "type": "official",
+      "source": "community",
+      "confidence": 0.95
+    },
+    {
+      "value": "鑽石王牌 act2",
+      "language": "zh-Hant",
+      "type": "localized",
+      "source": "community",
+      "confidence": 0.9
+    }
+  ]
+}

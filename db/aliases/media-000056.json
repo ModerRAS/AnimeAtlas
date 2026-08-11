@@ -7,8 +7,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Super no Ura de Yani Suu Futari"
+    },
+    {
+      "value": "スーパーの裏でヤニ吸うふたり",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "在超市后门吸烟的二人",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000056",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

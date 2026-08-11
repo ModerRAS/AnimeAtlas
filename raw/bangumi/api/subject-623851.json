@@ -1,0 +1,483 @@
+{
+  "date": "2026-04-05",
+  "platform": "TV",
+  "images": {
+    "small": "https://lain.bgm.tv/r/200/pic/cover/l/e7/cf/623851_sSVfH.jpg",
+    "grid": "https://lain.bgm.tv/r/100/pic/cover/l/e7/cf/623851_sSVfH.jpg",
+    "large": "https://lain.bgm.tv/pic/cover/l/e7/cf/623851_sSVfH.jpg",
+    "medium": "https://lain.bgm.tv/r/800/pic/cover/l/e7/cf/623851_sSVfH.jpg",
+    "common": "https://lain.bgm.tv/r/400/pic/cover/l/e7/cf/623851_sSVfH.jpg"
+  },
+  "summary": "「我要重新统一这个国家」\r\n在近未来的日本，核战争、天灾、暴政等因素引发了革命，文明随之崩坏，国家一分为三，进入了相互争夺霸权的三国时代。\r\n三角青辉原本只是个不起眼地方官。后来，他以「重新统一日本」为目标，凭借自己的博学多识和聪明才辩一路向上爬升。\r\n这位被后世誉为奇才军师的男人，他的传说就此拉开帷幕——\r\n\r\n\r\n\r\n[简介原文]\r\n「この国を、再統一する」\r\n核大戦、天災、悪政などから革命が起こり、文明が崩壊した近未来の日本。\r\n国は三つに分かれ、覇権を争う三国時代に突入した。\r\nしがない地方役人だった三角青輝は「日本再統一」を目指し、豊富な知識と長けた弁舌でのし上がっていく。\r\n後に奇才軍師と称される男の伝説が、幕を開ける――！",
+  "name": "日本三國",
+  "name_cn": "日本三国",
+  "tags": [
+    {
+      "name": "2026年4月",
+      "count": 633,
+      "total_count": 24972
+    },
+    {
+      "name": "漫画改",
+      "count": 619,
+      "total_count": 857450
+    },
+    {
+      "name": "TV",
+      "count": 507,
+      "total_count": 1396781
+    },
+    {
+      "name": "StudioKAFKA",
+      "count": 466,
+      "total_count": 1137
+    },
+    {
+      "name": "历史",
+      "count": 406,
+      "total_count": 18615
+    },
+    {
+      "name": "群像",
+      "count": 378,
+      "total_count": 12635
+    },
+    {
+      "name": "2026",
+      "count": 321,
+      "total_count": 40847
+    },
+    {
+      "name": "日本",
+      "count": 311,
+      "total_count": 293394
+    },
+    {
+      "name": "漫改",
+      "count": 263,
+      "total_count": 360134
+    },
+    {
+      "name": "寺泽和晃",
+      "count": 174,
+      "total_count": 221
+    },
+    {
+      "name": "战争",
+      "count": 173,
+      "total_count": 21436
+    },
+    {
+      "name": "励志",
+      "count": 108,
+      "total_count": 28127
+    },
+    {
+      "name": "生存",
+      "count": 71,
+      "total_count": 2007
+    },
+    {
+      "name": "奇幻",
+      "count": 62,
+      "total_count": 467685
+    },
+    {
+      "name": "小野贤章",
+      "count": 56,
+      "total_count": 747
+    },
+    {
+      "name": "搞笑",
+      "count": 37,
+      "total_count": 635895
+    },
+    {
+      "name": "战斗",
+      "count": 21,
+      "total_count": 468516
+    },
+    {
+      "name": "内海照子",
+      "count": 21,
+      "total_count": 112
+    },
+    {
+      "name": "福山润",
+      "count": 15,
+      "total_count": 15053
+    },
+    {
+      "name": "三国",
+      "count": 13,
+      "total_count": 1890
+    },
+    {
+      "name": "政治",
+      "count": 11,
+      "total_count": 2323
+    },
+    {
+      "name": "寺澤和晃",
+      "count": 11,
+      "total_count": 64
+    },
+    {
+      "name": "2026年",
+      "count": 10,
+      "total_count": 1698
+    },
+    {
+      "name": "スタジオカフカ",
+      "count": 8,
+      "total_count": 30
+    },
+    {
+      "name": "4月",
+      "count": 6,
+      "total_count": 2279
+    },
+    {
+      "name": "新三国",
+      "count": 6,
+      "total_count": 7
+    },
+    {
+      "name": "剧情",
+      "count": 6,
+      "total_count": 15924
+    },
+    {
+      "name": "热血",
+      "count": 5,
+      "total_count": 212115
+    },
+    {
+      "name": "日本三国",
+      "count": 5,
+      "total_count": 5
+    },
+    {
+      "name": "日漫",
+      "count": 5,
+      "total_count": 7220
+    }
+  ],
+  "infobox": [
+    {
+      "key": "中文名",
+      "value": "日本三国"
+    },
+    {
+      "key": "别名",
+      "value": [
+        {
+          "v": "Nippon Sangoku"
+        },
+        {
+          "v": "The Three Nations Of The Crimson Sun"
+        }
+      ]
+    },
+    {
+      "key": "话数",
+      "value": "12"
+    },
+    {
+      "key": "放送开始",
+      "value": "2026年4月5日"
+    },
+    {
+      "key": "放送星期",
+      "value": "星期日"
+    },
+    {
+      "key": "官方网站",
+      "value": "https://nipponsangoku.jp/"
+    },
+    {
+      "key": "播放电视台",
+      "value": "TOKYO MX / BS日テレ"
+    },
+    {
+      "key": "其他电视台",
+      "value": "テレビ愛知"
+    },
+    {
+      "key": "播放结束",
+      "value": "2026年6月21日"
+    },
+    {
+      "key": "导演",
+      "value": "寺澤和晃"
+    },
+    {
+      "key": "音乐",
+      "value": "Kevin Penkin"
+    },
+    {
+      "key": "Copyright",
+      "value": "©松木いっか／小学館／日本三國製作委員会"
+    },
+    {
+      "key": "原作",
+      "value": "松木いっか（小学館「マンガワン」連載）"
+    },
+    {
+      "key": "人物设定",
+      "value": "阿比留隆彦"
+    },
+    {
+      "key": "副人物设定",
+      "value": "辻村幸輝"
+    },
+    {
+      "key": "道具设计",
+      "value": "杉山友美"
+    },
+    {
+      "key": "服装设计",
+      "value": "杉山友美"
+    },
+    {
+      "key": "色彩设计",
+      "value": "小針裕子"
+    },
+    {
+      "key": "摄影监督",
+      "value": "木舩颯人"
+    },
+    {
+      "key": "设定",
+      "value": "笔文字：桐山琴羽；日本画设计：石丸美緒里"
+    },
+    {
+      "key": "音响监督",
+      "value": "はたしょう二"
+    },
+    {
+      "key": "整音",
+      "value": "はたしょう二"
+    },
+    {
+      "key": "音效",
+      "value": "出雲範子；效果助手：高良康平"
+    },
+    {
+      "key": "音响",
+      "value": "サウンドチーム・ドンファン"
+    },
+    {
+      "key": "CG 导演",
+      "value": "CGI 导演：小川耕平"
+    },
+    {
+      "key": "製作",
+      "value": "日本三國製作委員会 Co-produced with Amazon MGM Studios"
+    },
+    {
+      "key": "企画协力",
+      "value": "岡本順哉"
+    },
+    {
+      "key": "执行制片人",
+      "value": "製作総指揮：山本幸治"
+    },
+    {
+      "key": "总制片人",
+      "value": "高橋登"
+    },
+    {
+      "key": "制片人",
+      "value": "岩下貴利人"
+    },
+    {
+      "key": "宣传制片人",
+      "value": "高橋翼"
+    },
+    {
+      "key": "动画制片人",
+      "value": "成瀬晃一"
+    },
+    {
+      "key": "制作管理",
+      "value": "制作デスク：榊原康太郎"
+    },
+    {
+      "key": "制作进行",
+      "value": "榊原康太郎、金延真由、長谷川蓮、浅古詠土、小松遥、佐野楓花、小林にいな、岡崎莉帆"
+    },
+    {
+      "key": "助理制片人",
+      "value": "小磯捺未、長島千紘"
+    },
+    {
+      "key": "设定制作",
+      "value": "若田瞳"
+    },
+    {
+      "key": "音乐制作人",
+      "value": "金野沙矢香 (FUJIPACIFIC MUSIC INC.) 、飯島弘光 (IRMA LA DOUCE)"
+    },
+    {
+      "key": "音乐制作协力",
+      "value": "YUKI KANESAKA"
+    },
+    {
+      "key": "脚本",
+      "value": "内海照子(1-3,5-6,9,11-12)、髙橋明峰(4,7-8,10)"
+    },
+    {
+      "key": "分镜",
+      "value": "寺澤和晃(1-2,12)、金澤洪充(3,10)、森田亜郎(4)、渚美帆(5)、網修次郎(6)、平川哲生(7)、高橋謙仁(8)、えんどうてつや(9)、大橋誉志光(11)"
+    },
+    {
+      "key": "演出",
+      "value": "寺澤和晃(1,12)、玉川陽莉(2,7,11)、左藤洋二(3,10)、森田亜郎(4,12)、渚美帆(5,9)、網修次郎(6)、高橋謙仁(8)"
+    },
+    {
+      "key": "作画监督",
+      "value": "阿比留隆彦、辻村幸輝、森藤希子、罗展、张臥、毛缟斑、山本舞以[山本無以]、西原沙紀、张臥[张臤]、葛歡[葛欢]、渚美帆、井嶋けい子、本田敬一、池津寿恵、荒川紗希、孙振亮、李少雷、骨架"
+    },
+    {
+      "key": "美术设计",
+      "value": "田村せいき"
+    },
+    {
+      "key": "美术板",
+      "value": "田村せいき"
+    },
+    {
+      "key": "美术",
+      "value": "アニメ工房婆娑羅；美术辅佐：北井真理江、松下葵、松本大樹"
+    },
+    {
+      "key": "色彩指定",
+      "value": "小針裕子、油木安弥、松井明穂、一瀬美代子"
+    },
+    {
+      "key": "上色检查",
+      "value": "小針裕子、油木安弥、松井明穂、一瀬美代子；检查辅佐：谷本悠香"
+    },
+    {
+      "key": "上色",
+      "value": "小針裕子、ギークピクチュアズ (油木安弥、谷本悠香)、スタジオエル (千葉涼香、松田雄太、藤田和実、栗山碧)、SHAFT (大野千紘、川上優子、服部文美、岸本芽生、濱田愛華)、STUDIO CL、グレーン、セブンシーズ、RIC、STUDIO MASSKET、杭州神在动画、Fincrossed studio、ペンギンキャノン、Rad plus、ONE・ORDER、MSJ武藏野制作所、SILVER LINK.、上海樊特姆动画、studio BUS"
+    },
+    {
+      "key": "摄影",
+      "value": "摄影统括：福田光；EOTA撮影ユニット (小早川侑、佐藤瑞希、新堀翔琉、宮下光里、荒川優香、藤本真優)"
+    },
+    {
+      "key": "特效",
+      "value": "加藤楓菜、三輪あこ；特效设计：劇団イヌカレー"
+    },
+    {
+      "key": "2D 设计",
+      "value": "2D：加藤楓菜；2DCGデザイン：池辺凛、渡辺晴夏"
+    },
+    {
+      "key": "文艺制作",
+      "value": "髙橋明峰"
+    },
+    {
+      "key": "插画",
+      "value": "長野剛"
+    },
+    {
+      "key": "3DCG",
+      "value": "Marco"
+    },
+    {
+      "key": "3DCG 导演",
+      "value": "原田優"
+    },
+    {
+      "key": "剪辑",
+      "value": "今井大介；剪辑助手：金丸紘平；剪辑工作室：JAY FILM(ジェイ・フィルム)"
+    },
+    {
+      "key": "在线剪辑",
+      "value": "高橋由里、鈴木萌"
+    },
+    {
+      "key": "录音",
+      "value": "鶴巻慶典"
+    },
+    {
+      "key": "录音助理",
+      "value": "吉田更紗"
+    },
+    {
+      "key": "录音工作室",
+      "value": "studio Don Juan（サウンドチーム・ドンファン）"
+    },
+    {
+      "key": "音响制作担当",
+      "value": "松下春香"
+    },
+    {
+      "key": "OP・ED 分镜",
+      "value": "Anded / 寺澤和晃"
+    },
+    {
+      "key": "OP・ED 演出",
+      "value": "[OP/ED] 寺澤和晃"
+    },
+    {
+      "key": "主题歌演出",
+      "value": "キタニタツヤ / Leina"
+    },
+    {
+      "key": "主题歌作词",
+      "value": "キタニタツヤ / Leina"
+    },
+    {
+      "key": "主题歌作曲",
+      "value": "キタニタツヤ / Leina"
+    },
+    {
+      "key": "主题歌编曲",
+      "value": "キタニタツヤ / oni"
+    }
+  ],
+  "rating": {
+    "rank": 3982,
+    "total": 2895,
+    "count": {
+      "1": 10,
+      "2": 6,
+      "3": 9,
+      "4": 48,
+      "5": 171,
+      "6": 785,
+      "7": 1367,
+      "8": 439,
+      "9": 42,
+      "10": 18
+    },
+    "score": 6.7
+  },
+  "total_episodes": 14,
+  "collection": {
+    "on_hold": 179,
+    "dropped": 312,
+    "wish": 1009,
+    "collect": 3309,
+    "doing": 1891
+  },
+  "id": 623851,
+  "eps": 12,
+  "meta_tags": [
+    "TV",
+    "TV",
+    "日本",
+    "日本",
+    "漫画改",
+    "漫画改"
+  ],
+  "volumes": 0,
+  "series": false,
+  "locked": false,
+  "nsfw": false,
+  "type": 2
+}

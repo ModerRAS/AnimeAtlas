@@ -3,15 +3,16 @@
   "_meta": {
     "fields": {
       "metadata.episode_count": {
-        "last_sync": "2026-07-30T09:15:10Z",
+        "source": "bangumi",
+        "source_field": "eps",
+        "last_sync": "2026-08-11T02:00:00Z",
+        "rule": "bangumi.eps -> metadata.episode_count",
         "provider_ref": {
           "entity": "subject",
           "id": "585790",
           "provider": "bangumi"
         },
-        "rule": "approved issue contribution",
-        "source": "bangumi",
-        "source_field": "issue"
+        "raw_ref": "raw/bangumi/api/subject-585790.json"
       },
       "metadata.runtime": {
         "last_sync": "2026-07-30T09:15:10Z",
@@ -37,12 +38,12 @@
       }
     },
     "last_sync": {
-      "bangumi": "2026-07-30T09:15:10Z"
+      "bangumi": "2026-08-11T02:00:00Z"
     }
   },
   "media_id": "media-000091",
   "metadata": {
-    "episode_count": 0,
+    "episode_count": 12,
     "runtime": 0,
     "title": "自動販売機に生まれ変わった俺は迷宮を彷徨う 3rd season"
   },

@@ -1,0 +1,8 @@
+{
+  "$schema": "../../packages/schema/schemas/series-identity.schema.json",
+  "schema": "series-identity/v2",
+  "id": "series-000028",
+  "kind": "anime-series",
+  "title": "逃がした魚は大きかったが釣りあげた魚が大きすぎた件",
+  "relationships": []
+}

@@ -7,8 +7,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Jingai Kyoushitsu no Ningengirai Kyoushi"
+    },
+    {
+      "value": "人外教室の人間嫌い教師",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "非人学生与厌世教师",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000090",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

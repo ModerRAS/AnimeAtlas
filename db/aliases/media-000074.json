@@ -7,8 +7,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Jishou Akuyaku Reijou na Konyakusha no Kansatsu Kiroku"
+    },
+    {
+      "value": "自称悪役令嬢な婚約者の観察記録。",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "自称恶役大小姐的婚约者观察记录。",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000074",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

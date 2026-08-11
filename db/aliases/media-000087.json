@@ -7,8 +7,22 @@
       "source": "community",
       "type": "romaji",
       "value": "GANSO BanG Dream Chan"
+    },
+    {
+      "value": "元祖！バンドリちゃん",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "元祖！BanG Dream Chan",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000087",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

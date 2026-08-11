@@ -2,6 +2,11 @@
   "$schema": "../../packages/schema/schemas/media-identity.schema.json",
   "id": "media-000007",
   "kind": "anime",
+  "series_id": "series-000001",
+  "title": "転生したらスライムだった件 第4期",
+  "installment": {
+    "season": 4
+  },
   "provider_refs": [
     {
       "entity": "subject",
@@ -10,5 +15,5 @@
     }
   ],
   "relationships": [],
-  "schema": "media-identity/v1"
+  "schema": "media-identity/v2"
 }

@@ -1,0 +1,28 @@
+{
+  "$schema": "../../packages/schema/schemas/series-aliases.schema.json",
+  "schema": "series-aliases/v2",
+  "series_id": "series-000007",
+  "aliases": [
+    {
+      "value": "彼女、お借りします",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "Kanojo, Okarishimasu",
+      "language": "ja-Latn",
+      "type": "romaji",
+      "source": "community",
+      "confidence": 0.95
+    },
+    {
+      "value": "出租女友",
+      "language": "zh-Hant",
+      "type": "localized",
+      "source": "community",
+      "confidence": 0.9
+    }
+  ]
+}

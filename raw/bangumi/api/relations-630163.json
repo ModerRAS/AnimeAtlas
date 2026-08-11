@@ -1,0 +1,58 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/b6/ab/296444_8mr8q.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/b6/ab/296444_8mr8q.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/b6/ab/296444_8mr8q.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/b6/ab/296444_8mr8q.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/b6/ab/296444_8mr8q.jpg"
+    },
+    "name": "落第賢者の学院無双  ~二度目の転生、Sランクチート魔術師冒険録~",
+    "name_cn": "落第贤者的学院无双 第二回转生，S等级作弊魔术师冒险记",
+    "relation": "书籍",
+    "type": 1,
+    "id": 296444
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/23/83/325222_Cyd9a.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/23/83/325222_Cyd9a.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/23/83/325222_Cyd9a.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/23/83/325222_Cyd9a.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/23/83/325222_Cyd9a.jpg"
+    },
+    "name": "落第賢者の学院無双 ～二度転生した最強賢者、400年後の世界を魔剣で無双～",
+    "name_cn": "",
+    "relation": "书籍",
+    "type": 1,
+    "id": 325222
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/a3/d0/654748_zLbj5.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/a3/d0/654748_zLbj5.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/a3/d0/654748_zLbj5.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/a3/d0/654748_zLbj5.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/a3/d0/654748_zLbj5.jpg"
+    },
+    "name": "憧憬",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 654748
+  },
+  {
+    "images": {
+      "small": "",
+      "grid": "",
+      "large": "",
+      "medium": "",
+      "common": ""
+    },
+    "name": "＋ENCOUNT",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 660549
+  }
+]

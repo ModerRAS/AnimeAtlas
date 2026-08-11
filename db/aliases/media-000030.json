@@ -7,8 +7,22 @@
       "source": "community",
       "type": "localized",
       "value": "我回來了，他又來打擾了！"
+    },
+    {
+      "value": "ただいま、おじゃまされます！",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "当前、正被打扰中！",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000030",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

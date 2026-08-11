@@ -1,0 +1,46 @@
+name: Season or Episode Error
+
+description: Correct a Season, Part, Cour, or episode-number mapping.
+title: "Season/episode: "
+labels:
+  - contribution
+body:
+  - type: input
+    id: name_that_should_resolve
+    attributes:
+      label: Name That Should Resolve
+      description: Existing alias or release name involved in the incorrect match.
+    validations:
+      required: true
+  - type: input
+    id: example_filename_or_path
+    attributes:
+      label: Example Filename or Path
+      description: Optional real filename or stored path showing the problem.
+  - type: input
+    id: correct_anime
+    attributes:
+      label: Correct Anime
+      description: Bangumi subject URL or numeric subject ID for the correct installment.
+      placeholder: https://bgm.tv/subject/515594
+    validations:
+      required: true
+  - type: input
+    id: season_part
+    attributes:
+      label: Season / Part
+      description: Correct Season, Part, or Cour in natural text.
+      placeholder: Season 4
+    validations:
+      required: true
+  - type: input
+    id: episode_mapping
+    attributes:
+      label: Episode Mapping
+      description: Optional episode relationship, such as 06(78), 第6集/总第78集, or ep=6 sort=78.
+      placeholder: 06(78)
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional Context
+      description: Explain the current wrong result or provide supporting evidence.

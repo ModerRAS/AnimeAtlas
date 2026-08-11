@@ -1,6 +1,6 @@
 import { existsSync, readdirSync, readFileSync } from "node:fs";
 import { basename, dirname, join } from "node:path";
-import { isMediaId, normalizeAlias } from "@animeatlas/core";
+import { isEpisodeId, isMediaId, isSeriesId, normalizeAlias } from "@animeatlas/core";
 
 type AnyRecord = Record<string, unknown>;
 
@@ -34,7 +34,9 @@ export type ValidationResult = {
   ok: boolean;
   issues: ValidationIssue[];
   counts: {
+    series: number;
     media: number;
+    episodes: number;
     aliases: number;
     metadata: number;
     providers: number;
@@ -45,7 +47,10 @@ export type ValidationResult = {
 export function validateRepository(root = findRepoRoot(process.cwd())): ValidationResult {
   const issues: ValidationIssue[] = [];
   const providerKeys = readProviderManifest(root, issues);
+  const seriesRecords = readJsonRecords(join(root, "db", "series"), issues);
   const mediaRecords = readJsonRecords(join(root, "db", "media"), issues);
+  const episodeRecords = readJsonRecords(join(root, "db", "episodes"), issues);
+  const seriesAliasRecords = readJsonRecords(join(root, "db", "series-aliases"), issues);
   const aliasRecords = readJsonRecords(join(root, "db", "aliases"), issues);
   const metadataRecords = readJsonRecords(join(root, "db", "metadata"), issues);
   const contributionRecords = readJsonRecords(join(root, "source", "contributions", "approved"), issues);
@@ -54,6 +59,8 @@ export function validateRepository(root = findRepoRoot(process.cwd())): Validati
     issues.push({ file: join(root, "db", "media"), message: "at least one media identity is required" });
   }
 
+  const seriesIds = validateSeriesRecords(seriesRecords, issues);
+  validateSeriesAliasRecords(seriesAliasRecords, seriesIds, issues);
   const mediaIds = new Set<string>();
   const mediaKinds = new Map<string, string>();
   const providerRefsByMedia = new Map<string, Set<string>>();
@@ -76,8 +83,27 @@ export function validateRepository(root = findRepoRoot(process.cwd())): Validati
       issues.push({ file, message: "media identity filename must match id" });
     }
 
-    if (data.schema !== "media-identity/v1") {
-      issues.push({ file, message: "media identity schema must be media-identity/v1" });
+    if (data.schema !== "media-identity/v1" && data.schema !== "media-identity/v2") {
+      issues.push({ file, message: "media identity schema must be media-identity/v1 or media-identity/v2" });
+    }
+
+    if (data.schema === "media-identity/v2") {
+      if (!isSeriesId(data.series_id) || !seriesIds.has(data.series_id)) {
+        issues.push({ file, message: "v2 media series_id must reference an existing series" });
+      }
+      if (typeof data.title !== "string" || data.title.trim() === "") {
+        issues.push({ file, message: "v2 media title is required" });
+      }
+      if (!isRecord(data.installment)) {
+        issues.push({ file, message: "v2 media installment context is required" });
+      } else {
+        for (const key of ["season", "part", "cour"] as const) {
+          const value = data.installment[key];
+          if (value !== undefined && (!Number.isInteger(value) || Number(value) < 1)) {
+            issues.push({ file, message: `v2 media installment.${key} must be a positive integer` });
+          }
+        }
+      }
     }
 
     if (data.kind !== "anime") {
@@ -143,15 +169,17 @@ export function validateRepository(root = findRepoRoot(process.cwd())): Validati
     issues.push({ file: "db/media", message: `circular relationship detected: ${cycle.join(" -> ")}` });
   }
 
-  const aliases = new Map<string, string>();
+  validateEpisodeRecords(episodeRecords, mediaRecords, mediaIds, providerKeys, issues);
+
+  const aliases = new Map<string, Set<string>>();
   for (const { file, data } of aliasRecords) {
     if (!isRecord(data)) {
       issues.push({ file, message: "alias record must be an object" });
       continue;
     }
 
-    if (data.schema !== "media-aliases/v1") {
-      issues.push({ file, message: "alias schema must be media-aliases/v1" });
+    if (data.schema !== "media-aliases/v1" && data.schema !== "media-aliases/v2") {
+      issues.push({ file, message: "alias schema must be media-aliases/v1 or media-aliases/v2" });
     }
 
     const mediaId = data.media_id;
@@ -193,12 +221,12 @@ export function validateRepository(root = findRepoRoot(process.cwd())): Validati
       }
 
       const normalized = normalizeAlias(alias.value);
-      const existing = aliases.get(normalized);
-      if (existing) {
-        issues.push({ file, message: `duplicate normalized alias ${JSON.stringify(normalized)} already maps to ${existing}` });
-      } else {
-        aliases.set(normalized, mediaId);
+      const targets = aliases.get(normalized) ?? new Set<string>();
+      if (targets.has(mediaId)) {
+        issues.push({ file, message: `duplicate normalized alias ${JSON.stringify(normalized)} within ${mediaId}` });
       }
+      targets.add(mediaId);
+      aliases.set(normalized, targets);
     }
   }
 
@@ -297,14 +325,16 @@ export function validateRepository(root = findRepoRoot(process.cwd())): Validati
     }
   }
 
-  validateContributionRecords(contributionRecords, mediaIds, providerKeys, issues);
+  validateContributionRecords(contributionRecords, mediaRecords, episodeRecords, mediaIds, providerKeys, issues);
 
   return {
     ok: issues.length === 0,
     issues,
     counts: {
+      series: seriesRecords.length,
       media: mediaRecords.length,
-      aliases: aliasRecords.length,
+      episodes: episodeRecords.reduce((count, record) => count + (isRecord(record.data) && Array.isArray(record.data.episodes) ? record.data.episodes.length : 0), 0),
+      aliases: aliasRecords.length + seriesAliasRecords.length,
       metadata: metadataRecords.length,
       providers: providerKeys.size,
       contributions: contributionRecords.length
@@ -312,8 +342,144 @@ export function validateRepository(root = findRepoRoot(process.cwd())): Validati
   };
 }
 
+function validateSeriesAliasRecords(records: JsonRecord[], seriesIds: Set<string>, issues: ValidationIssue[]): void {
+  for (const { file, data } of records) {
+    if (!isRecord(data) || data.schema !== "series-aliases/v2") {
+      issues.push({ file, message: "series alias record must use series-aliases/v2" });
+      continue;
+    }
+    if (!isSeriesId(data.series_id) || !seriesIds.has(data.series_id)) {
+      issues.push({ file, message: "series alias series_id must reference an existing series" });
+      continue;
+    }
+    if (basename(file) !== `${data.series_id}.json`) {
+      issues.push({ file, message: "series alias filename must match series_id" });
+    }
+    if (!Array.isArray(data.aliases) || data.aliases.length === 0) {
+      issues.push({ file, message: "series aliases must be a non-empty array" });
+      continue;
+    }
+    const normalized = new Set<string>();
+    for (const alias of data.aliases) {
+      if (!isRecord(alias) || typeof alias.value !== "string" || alias.value.trim() === "") {
+        issues.push({ file, message: "series alias value is required" });
+        continue;
+      }
+      const key = normalizeAlias(alias.value);
+      if (normalized.has(key)) issues.push({ file, message: `duplicate series alias ${JSON.stringify(key)}` });
+      normalized.add(key);
+    }
+  }
+}
+
+function validateSeriesRecords(records: JsonRecord[], issues: ValidationIssue[]): Set<string> {
+  const seriesIds = new Set<string>();
+  for (const { file, data } of records) {
+    if (!isRecord(data)) {
+      issues.push({ file, message: "series identity must be an object" });
+      continue;
+    }
+    if (data.schema !== "series-identity/v2") {
+      issues.push({ file, message: "series schema must be series-identity/v2" });
+    }
+    if (!isSeriesId(data.id)) {
+      issues.push({ file, message: "series id must match series-000001 format" });
+      continue;
+    }
+    if (basename(file) !== `${data.id}.json`) {
+      issues.push({ file, message: "series filename must match id" });
+    }
+    if (seriesIds.has(data.id)) {
+      issues.push({ file, message: `duplicate series id ${data.id}` });
+    }
+    if (data.kind !== "anime-series" || typeof data.title !== "string" || data.title.trim() === "") {
+      issues.push({ file, message: "series must have kind anime-series and a title" });
+    }
+    seriesIds.add(data.id);
+  }
+  return seriesIds;
+}
+
+function validateEpisodeRecords(
+  records: JsonRecord[],
+  mediaRecords: JsonRecord[],
+  mediaIds: Set<string>,
+  providerKeys: Set<string>,
+  issues: ValidationIssue[]
+): void {
+  const v2MediaIds = new Set(
+    mediaRecords
+      .filter((record) => isRecord(record.data) && record.data.schema === "media-identity/v2" && isMediaId(record.data.id))
+      .map((record) => (record.data as AnyRecord).id as string)
+  );
+  const episodeIds = new Set<string>();
+  const providerEpisodeRefs = new Set<string>();
+
+  for (const { file, data } of records) {
+    if (!isRecord(data) || data.schema !== "episode-record/v2") {
+      issues.push({ file, message: "episode record must use episode-record/v2" });
+      continue;
+    }
+    if (!isMediaId(data.media_id) || !mediaIds.has(data.media_id) || !v2MediaIds.has(data.media_id)) {
+      issues.push({ file, message: "episode media_id must reference a v2 media identity" });
+      continue;
+    }
+    if (basename(file) !== `${data.media_id}.json`) {
+      issues.push({ file, message: "episode filename must match media_id" });
+    }
+    if (!Array.isArray(data.episodes)) {
+      issues.push({ file, message: "episodes must be an array" });
+      continue;
+    }
+
+    for (const episode of data.episodes) {
+      if (!isRecord(episode) || !isEpisodeId(episode.id)) {
+        issues.push({ file, message: "episode id must match episode-000001 format" });
+        continue;
+      }
+      if (episodeIds.has(episode.id)) issues.push({ file, message: `duplicate episode id ${episode.id}` });
+      episodeIds.add(episode.id);
+
+      if (!Array.isArray(episode.provider_refs) || episode.provider_refs.length === 0) {
+        issues.push({ file, message: `${episode.id} must include a provider episode ref` });
+      } else {
+        for (const ref of episode.provider_refs) {
+          if (!isProviderRef(ref) || ref.entity !== "episode") {
+            issues.push({ file, message: `${episode.id} provider ref must target an episode` });
+            continue;
+          }
+          if (!providerKeys.has(ref.provider)) issues.push({ file, message: `${episode.id} uses undeclared provider ${ref.provider}` });
+          const key = providerRefLocalKey(ref);
+          if (providerEpisodeRefs.has(key)) issues.push({ file, message: `duplicate provider episode ref ${key}` });
+          providerEpisodeRefs.add(key);
+        }
+      }
+
+      if (!Array.isArray(episode.numbers) || episode.numbers.length === 0) {
+        issues.push({ file, message: `${episode.id} must include namespaced episode numbers` });
+      } else {
+        const localNumbers = new Set<string>();
+        for (const number of episode.numbers) {
+          if (!isRecord(number) || typeof number.namespace !== "string" || !/^[a-z][a-z0-9-]*:[a-z][a-z0-9-]*$/.test(number.namespace)) {
+            issues.push({ file, message: `${episode.id} episode number namespace is invalid` });
+            continue;
+          }
+          if (!Number.isInteger(number.value) || Number(number.value) < 0 || typeof number.source !== "string" || number.source.trim() === "") {
+            issues.push({ file, message: `${episode.id} episode number value/source is invalid` });
+          }
+          const key = `${number.namespace}:${number.value}`;
+          if (localNumbers.has(key)) issues.push({ file, message: `${episode.id} repeats episode number ${key}` });
+          localNumbers.add(key);
+        }
+      }
+    }
+  }
+}
+
 function validateContributionRecords(
   records: JsonRecord[],
+  mediaRecords: JsonRecord[],
+  episodeRecords: JsonRecord[],
   mediaIds: Set<string>,
   providerKeys: Set<string>,
   issues: ValidationIssue[]
@@ -324,8 +490,8 @@ function validateContributionRecords(
       issues.push({ file, message: "contribution record must be an object" });
       continue;
     }
-    if (data.schema !== "contribution/v1") {
-      issues.push({ file, message: "contribution schema must be contribution/v1" });
+    if (data.schema !== "contribution/v1" && data.schema !== "contribution/v2") {
+      issues.push({ file, message: "contribution schema must be contribution/v1 or contribution/v2" });
     }
 
     const issue = data.issue;
@@ -357,6 +523,11 @@ function validateContributionRecords(
       issues.push({ file, message: "contribution review.approved_at must be an ISO timestamp" });
     }
 
+    if (data.schema === "contribution/v2") {
+      validateContributionV2(file, data, mediaRecords, episodeRecords, mediaIds, issues);
+      continue;
+    }
+
     const operation = data.operation;
     if (!isRecord(operation) || typeof operation.type !== "string") {
       issues.push({ file, message: "contribution operation.type is required" });
@@ -379,6 +550,72 @@ function validateContributionRecords(
       validateContributionMetadataOperation(file, operation, providerKeys, issues);
     } else {
       issues.push({ file, message: `unsupported approved contribution operation ${operation.type}` });
+    }
+  }
+}
+
+function validateContributionV2(
+  file: string,
+  contribution: AnyRecord,
+  mediaRecords: JsonRecord[],
+  episodeRecords: JsonRecord[],
+  mediaIds: Set<string>,
+  issues: ValidationIssue[]
+): void {
+  const target = contribution.target;
+  if (!isRecord(target) || !isMediaId(target.media_id) || !mediaIds.has(target.media_id) || !isSeriesId(target.series_id)) {
+    issues.push({ file, message: "v2 contribution target must reference an existing series-aware media" });
+    return;
+  }
+  const media = mediaRecords.find((record) => isRecord(record.data) && record.data.id === target.media_id)?.data;
+  if (!isRecord(media) || media.schema !== "media-identity/v2" || media.series_id !== target.series_id) {
+    issues.push({ file, message: "v2 contribution target must match media-identity/v2 ownership" });
+    return;
+  }
+  if (JSON.stringify(media.installment ?? {}) !== JSON.stringify(target.installment ?? {})) {
+    issues.push({ file, message: "v2 contribution target installment must match the stored Season/Part" });
+  }
+  if (!isRecord(contribution.observation)) {
+    issues.push({ file, message: "v2 contribution observation is required" });
+  } else if (contribution.observation.alias !== undefined && typeof contribution.observation.alias !== "string") {
+    issues.push({ file, message: "v2 contribution observation.alias must be a string" });
+  }
+  if (!Array.isArray(contribution.changes) || contribution.changes.length === 0) {
+    issues.push({ file, message: "v2 contribution changes must be a non-empty array" });
+    return;
+  }
+
+  const episodeIds = new Map<string, string>();
+  for (const record of episodeRecords) {
+    if (!isRecord(record.data) || typeof record.data.media_id !== "string" || !Array.isArray(record.data.episodes)) continue;
+    for (const episode of record.data.episodes) {
+      if (isRecord(episode) && typeof episode.id === "string") episodeIds.set(episode.id, record.data.media_id);
+    }
+  }
+
+  for (const change of contribution.changes) {
+    if (!isRecord(change) || change.media_id !== target.media_id) {
+      issues.push({ file, message: "every v2 change must target contribution.target.media_id" });
+      continue;
+    }
+    if (change.type === "add_media_alias") {
+      validateContributionAliasOperation(file, { alias: change.alias }, issues, "add_media_alias");
+    } else if (change.type === "upsert_episode_numbers") {
+      if (!isEpisodeId(change.episode_id) || episodeIds.get(change.episode_id) !== target.media_id) {
+        issues.push({ file, message: "upsert_episode_numbers episode must belong to the target Season media" });
+      }
+      if (!Array.isArray(change.numbers) || change.numbers.length === 0) {
+        issues.push({ file, message: "upsert_episode_numbers must include numbers" });
+      }
+    } else if (change.type === "correct_metadata") {
+      if (typeof change.field !== "string" || !change.field.startsWith("metadata.")) {
+        issues.push({ file, message: "correct_metadata field must use metadata.* path" });
+      }
+      if (!isRecord(change.provenance) || typeof change.provenance.evidence_url !== "string") {
+        issues.push({ file, message: "correct_metadata provenance.evidence_url is required" });
+      }
+    } else {
+      issues.push({ file, message: `unsupported v2 contribution change ${String(change.type)}` });
     }
   }
 }

@@ -1,6 +1,6 @@
 {
   "$schema": "../../packages/schema/schemas/media-aliases.schema.json",
-  "schema": "media-aliases/v1",
+  "schema": "media-aliases/v2",
   "media_id": "media-000001",
   "aliases": [
     {
@@ -23,6 +23,13 @@
       "type": "romaji",
       "source": "bangumi",
       "confidence": 0.95
+    },
+    {
+      "value": "葬送のフリーレン",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ]
 }

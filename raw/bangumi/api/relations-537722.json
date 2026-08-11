@@ -1,0 +1,72 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/39/f2/422014_dSfmy.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/39/f2/422014_dSfmy.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/39/f2/422014_dSfmy.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/39/f2/422014_dSfmy.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/39/f2/422014_dSfmy.jpg"
+    },
+    "name": "レプリカだって、恋をする。",
+    "name_cn": "复制品的我也会谈恋爱。",
+    "relation": "书籍",
+    "type": 1,
+    "id": 422014
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/fa/13/640033_9d3ip.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/fa/13/640033_9d3ip.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/fa/13/640033_9d3ip.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/fa/13/640033_9d3ip.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/fa/13/640033_9d3ip.jpg"
+    },
+    "name": "あわ",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 640033
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/09/4a/640239_E1wz2.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/09/4a/640239_E1wz2.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/09/4a/640239_E1wz2.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/09/4a/640239_E1wz2.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/09/4a/640239_E1wz2.jpg"
+    },
+    "name": "リフレイン",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 640239
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/f4/9a/643871_UdONx.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/f4/9a/643871_UdONx.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/f4/9a/643871_UdONx.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/f4/9a/643871_UdONx.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/f4/9a/643871_UdONx.jpg"
+    },
+    "name": "「レプリカだって、恋をする。」文芸部の一頁",
+    "name_cn": "",
+    "relation": "衍生",
+    "type": 6,
+    "id": 643871
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/97/01/654916_ZVbcA.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/97/01/654916_ZVbcA.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/97/01/654916_ZVbcA.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/97/01/654916_ZVbcA.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/97/01/654916_ZVbcA.jpg"
+    },
+    "name": "TVアニメ『レプリカだって、恋をする』オリジナルサウンドトラック",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 654916
+  }
+]

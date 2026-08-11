@@ -1,0 +1,128 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/e7/57/289325_uJB3K.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/e7/57/289325_uJB3K.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/e7/57/289325_uJB3K.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/e7/57/289325_uJB3K.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/e7/57/289325_uJB3K.jpg"
+    },
+    "name": "夜桜さんちの大作戦",
+    "name_cn": "夜樱家的大作战",
+    "relation": "书籍",
+    "type": 1,
+    "id": 289325
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/8b/69/489485_Aa3b5.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/8b/69/489485_Aa3b5.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/8b/69/489485_Aa3b5.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/8b/69/489485_Aa3b5.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/8b/69/489485_Aa3b5.jpg"
+    },
+    "name": "夜桜さんちのミニ作戦",
+    "name_cn": "夜樱家的迷你作战",
+    "relation": "衍生",
+    "type": 2,
+    "id": 489485
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/34/4e/508790_3931v.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/34/4e/508790_3931v.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/34/4e/508790_3931v.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/34/4e/508790_3931v.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/34/4e/508790_3931v.jpg"
+    },
+    "name": "夜桜さんちの大作戦～SPYDAY RADIO～",
+    "name_cn": "",
+    "relation": "衍生",
+    "type": 6,
+    "id": 508790
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/54/fc/517027_seRWW.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/54/fc/517027_seRWW.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/54/fc/517027_seRWW.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/54/fc/517027_seRWW.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/54/fc/517027_seRWW.jpg"
+    },
+    "name": "夜桜さんちの大作戦 第2期",
+    "name_cn": "夜樱家的大作战 第二季",
+    "relation": "续集",
+    "type": 2,
+    "id": 517027
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/76/85/484546_ssHPe.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/76/85/484546_ssHPe.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/76/85/484546_ssHPe.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/76/85/484546_ssHPe.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/76/85/484546_ssHPe.jpg"
+    },
+    "name": "運命ちゃん",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 484546
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/0f/21/484664_OY2Cb.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/0f/21/484664_OY2Cb.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/0f/21/484664_OY2Cb.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/0f/21/484664_OY2Cb.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/0f/21/484664_OY2Cb.jpg"
+    },
+    "name": "fam!",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 484664
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/c5/4b/500955_btTXE.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/c5/4b/500955_btTXE.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/c5/4b/500955_btTXE.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/c5/4b/500955_btTXE.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/c5/4b/500955_btTXE.jpg"
+    },
+    "name": "Secret Operation",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 500955
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/d0/21/500956_rpzI2.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/d0/21/500956_rpzI2.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/d0/21/500956_rpzI2.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/d0/21/500956_rpzI2.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/d0/21/500956_rpzI2.jpg"
+    },
+    "name": "結婚行進曲",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 500956
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/ff/6b/518629_sfSsx.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/ff/6b/518629_sfSsx.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/ff/6b/518629_sfSsx.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/ff/6b/518629_sfSsx.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/ff/6b/518629_sfSsx.jpg"
+    },
+    "name": "夜桜#1/結婚行進曲(最終話特別ver.)",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 518629
+  }
+]

@@ -3,15 +3,16 @@
   "_meta": {
     "fields": {
       "metadata.episode_count": {
-        "last_sync": "2026-07-10T01:18:51Z",
+        "source": "bangumi",
+        "source_field": "eps",
+        "last_sync": "2026-08-11T05:45:53.037Z",
+        "rule": "bangumi.eps -> metadata.episode_count",
         "provider_ref": {
           "entity": "subject",
           "id": "459601",
           "provider": "bangumi"
         },
-        "rule": "approved issue contribution",
-        "source": "bangumi",
-        "source_field": "issue"
+        "raw_ref": "raw/bangumi/api/subject-459601.json"
       },
       "metadata.runtime": {
         "last_sync": "2026-07-10T01:18:51Z",
@@ -37,12 +38,12 @@
       }
     },
     "last_sync": {
-      "bangumi": "2026-07-10T01:18:51Z"
+      "bangumi": "2026-08-11T05:45:53.037Z"
     }
   },
   "media_id": "media-000023",
   "metadata": {
-    "episode_count": 0,
+    "episode_count": 1,
     "runtime": 0,
     "title": "異世界でチート能力を手にした俺は、現実世界をも無双する～レベルアップは人生を変えた～ スペシャル"
   },

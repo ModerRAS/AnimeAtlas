@@ -1,0 +1,128 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/ca/c6/220403_LzmMu.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/ca/c6/220403_LzmMu.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/ca/c6/220403_LzmMu.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/ca/c6/220403_LzmMu.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/ca/c6/220403_LzmMu.jpg"
+    },
+    "name": "魔法少女リリカルなのは Detonation",
+    "name_cn": "魔法少女奈叶 Detonation",
+    "relation": "前传",
+    "type": 2,
+    "id": 220403
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/41/e0/491015_llBLa.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/41/e0/491015_llBLa.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/41/e0/491015_llBLa.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/41/e0/491015_llBLa.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/41/e0/491015_llBLa.jpg"
+    },
+    "name": "星之翼",
+    "name_cn": "星之翼",
+    "relation": "游戏",
+    "type": 4,
+    "id": 491015
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/ad/01/530731_NRu20.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/ad/01/530731_NRu20.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/ad/01/530731_NRu20.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/ad/01/530731_NRu20.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/ad/01/530731_NRu20.jpg"
+    },
+    "name": "魔法少女リリカルなのは EXCEEDS",
+    "name_cn": "魔法少女奈叶 EXCEEDS",
+    "relation": "书籍",
+    "type": 1,
+    "id": 530731
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/a6/d6/634228_Gu3z0.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/a6/d6/634228_Gu3z0.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/a6/d6/634228_Gu3z0.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/a6/d6/634228_Gu3z0.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/a6/d6/634228_Gu3z0.jpg"
+    },
+    "name": "CRIMSON BULLET",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 634228
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/28/ba/642879_I6vE5.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/28/ba/642879_I6vE5.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/28/ba/642879_I6vE5.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/28/ba/642879_I6vE5.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/28/ba/642879_I6vE5.jpg"
+    },
+    "name": "BLAZE",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 642879
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/b9/a0/666141_26004.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/b9/a0/666141_26004.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/b9/a0/666141_26004.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/b9/a0/666141_26004.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/b9/a0/666141_26004.jpg"
+    },
+    "name": "灯火",
+    "name_cn": "",
+    "relation": "插入歌",
+    "type": 3,
+    "id": 666141
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/05/a0/692546_b0f2l.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/05/a0/692546_b0f2l.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/05/a0/692546_b0f2l.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/05/a0/692546_b0f2l.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/05/a0/692546_b0f2l.jpg"
+    },
+    "name": "陽光",
+    "name_cn": "",
+    "relation": "插入歌",
+    "type": 3,
+    "id": 692546
+  },
+  {
+    "images": {
+      "small": "",
+      "grid": "",
+      "large": "",
+      "medium": "",
+      "common": ""
+    },
+    "name": "魔法少女リリカルなのは EXCEEDS Gun Blaze Vengeance オリジナルサウンドトラックCD Vol.1",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 666144
+  },
+  {
+    "images": {
+      "small": "",
+      "grid": "",
+      "large": "",
+      "medium": "",
+      "common": ""
+    },
+    "name": "魔法少女リリカルなのは EXCEEDS Gun Blaze Vengeance オリジナルサウンドトラックCD Vol.2",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 666145
+  }
+]

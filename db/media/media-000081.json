@@ -1,7 +1,11 @@
 {
   "$schema": "../../packages/schema/schemas/media-identity.schema.json",
+  "schema": "media-identity/v2",
   "id": "media-000081",
   "kind": "anime",
+  "series_id": "series-000078",
+  "title": "BLEACH 千年血戦篇",
+  "installment": {},
   "provider_refs": [
     {
       "entity": "subject",
@@ -9,6 +13,5 @@
       "provider": "bangumi"
     }
   ],
-  "relationships": [],
-  "schema": "media-identity/v1"
+  "relationships": []
 }

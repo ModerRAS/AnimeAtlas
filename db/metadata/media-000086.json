@@ -3,15 +3,16 @@
   "_meta": {
     "fields": {
       "metadata.episode_count": {
-        "last_sync": "2026-07-30T08:24:58Z",
+        "source": "bangumi",
+        "source_field": "eps",
+        "last_sync": "2026-08-11T02:00:00Z",
+        "rule": "bangumi.eps -> metadata.episode_count",
         "provider_ref": {
           "entity": "subject",
           "id": "528828",
           "provider": "bangumi"
         },
-        "rule": "approved issue contribution",
-        "source": "bangumi",
-        "source_field": "issue"
+        "raw_ref": "raw/bangumi/api/subject-528828.json"
       },
       "metadata.runtime": {
         "last_sync": "2026-07-30T08:24:58Z",
@@ -37,12 +38,12 @@
       }
     },
     "last_sync": {
-      "bangumi": "2026-07-30T08:24:58Z"
+      "bangumi": "2026-08-11T02:00:00Z"
     }
   },
   "media_id": "media-000086",
   "metadata": {
-    "episode_count": 0,
+    "episode_count": 12,
     "runtime": 0,
     "title": "骸骨騎士様、只今異世界へお出掛け中Ⅱ"
   },

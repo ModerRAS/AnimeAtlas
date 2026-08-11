@@ -1,0 +1,60 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://animeatlas.dev/schemas/episode-record/v2.json",
+  "title": "AnimeAtlas Media Episodes",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "media_id", "episodes"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schema": { "const": "episode-record/v2" },
+    "media_id": { "type": "string", "pattern": "^media-[0-9]{6}$" },
+    "episodes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["id", "kind", "provider_refs", "numbers", "provenance"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^episode-[0-9]{6}$" },
+          "kind": { "enum": ["regular", "special", "ova", "oad"] },
+          "provider_refs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["provider", "entity", "id"],
+              "properties": {
+                "provider": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
+                "entity": { "type": "string", "pattern": "^[a-z][a-z0-9-]*$" },
+                "id": { "type": "string", "minLength": 1 }
+              }
+            }
+          },
+          "numbers": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["namespace", "value", "source"],
+              "properties": {
+                "namespace": { "type": "string", "pattern": "^[a-z][a-z0-9-]*:[a-z][a-z0-9-]*$" },
+                "value": { "type": "integer", "minimum": 0 },
+                "source": { "type": "string", "minLength": 1 }
+              }
+            }
+          },
+          "provenance": {
+            "type": "object",
+            "additionalProperties": true,
+            "required": ["source", "observed_at"],
+            "properties": {
+              "source": { "type": "string", "minLength": 1 },
+              "observed_at": { "type": "string", "format": "date-time" }
+            }
+          }
+        }
+      }
+    }
+  }
+}

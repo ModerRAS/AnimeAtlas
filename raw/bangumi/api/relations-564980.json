@@ -1,0 +1,30 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/a1/7d/537163_J9akx.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/a1/7d/537163_J9akx.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/a1/7d/537163_J9akx.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/a1/7d/537163_J9akx.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/a1/7d/537163_J9akx.jpg"
+    },
+    "name": "コアラ絵日記",
+    "name_cn": "",
+    "relation": "书籍",
+    "type": 1,
+    "id": 537163
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/08/12/585146_9o9T7.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/08/12/585146_9o9T7.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/08/12/585146_9o9T7.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/08/12/585146_9o9T7.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/08/12/585146_9o9T7.jpg"
+    },
+    "name": "虹と",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 585146
+  }
+]

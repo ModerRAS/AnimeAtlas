@@ -1,0 +1,414 @@
+{
+  "date": "2026-04-04",
+  "platform": "TV",
+  "images": {
+    "small": "https://lain.bgm.tv/r/200/pic/cover/l/ec/61/552589_CqLqQ.jpg",
+    "grid": "https://lain.bgm.tv/r/100/pic/cover/l/ec/61/552589_CqLqQ.jpg",
+    "large": "https://lain.bgm.tv/pic/cover/l/ec/61/552589_CqLqQ.jpg",
+    "medium": "https://lain.bgm.tv/r/800/pic/cover/l/ec/61/552589_CqLqQ.jpg",
+    "common": "https://lain.bgm.tv/r/400/pic/cover/l/ec/61/552589_CqLqQ.jpg"
+  },
+  "summary": "吞噬人类灵魂的恶魔降临人间！\r\n美食恶魔「果南」为了享用年轻甜美的灵魂，来到人间的高中。她选定的第一个祭品，是普通男生「供犠羊司」。结果却莫名其妙地和供犠同学签下「情侣契约」！？活了数千年却没谈过恋爱的纯情恶魔果南，每天都被人类的恋爱事件逼得心跳加速。一起回家？牵手？约会？初X！？\r\n「可恶的下等生物！」\r\n超纯情、超可爱的恶魔初恋喜剧，正式开幕！ \r\n\r\n[简介原文]\r\n人間の魂を喰らう、妖しく美しい悪魔が降臨――。\r\n美食の悪魔・カナンは、若くて甘美な魂を食するため、人間界の高校に降り立った。最初のいけにえに選ばれたのは、一人の男子生徒・供犠羊司。「私に食べられるなんて、とても光栄なことよ。感謝しなさい、下等生物」\r\nところが……\r\nなぜか供犠クンと恋人契約を結ぶことに！？数千年生きて初恋も未経験の純情なカナンには、毎日がドキドキの連続！一緒に帰る！？　手を繋ぐ！？　デート！？　初××！？！？！？！？\r\n「おのれ下等生物めーーーーーー！！」\r\nチョロくてかわいい悪魔の初恋ラブコメ、始まります♪",
+  "name": "カナン様はあくまでチョロい",
+  "name_cn": "迦楠大人的白给是恶魔级",
+  "tags": [
+    {
+      "name": "恋爱",
+      "count": 584,
+      "total_count": 560636
+    },
+    {
+      "name": "2026年4月",
+      "count": 475,
+      "total_count": 24965
+    },
+    {
+      "name": "喜剧",
+      "count": 427,
+      "total_count": 34680
+    },
+    {
+      "name": "漫画改",
+      "count": 425,
+      "total_count": 857443
+    },
+    {
+      "name": "校园",
+      "count": 346,
+      "total_count": 450602
+    },
+    {
+      "name": "TV",
+      "count": 313,
+      "total_count": 1396781
+    },
+    {
+      "name": "搞笑",
+      "count": 252,
+      "total_count": 635900
+    },
+    {
+      "name": "StudioKAI",
+      "count": 227,
+      "total_count": 6084
+    },
+    {
+      "name": "2026",
+      "count": 224,
+      "total_count": 40840
+    },
+    {
+      "name": "后宫",
+      "count": 174,
+      "total_count": 301677
+    },
+    {
+      "name": "日本",
+      "count": 171,
+      "total_count": 293388
+    },
+    {
+      "name": "漫改",
+      "count": 163,
+      "total_count": 360135
+    },
+    {
+      "name": "日常",
+      "count": 129,
+      "total_count": 398040
+    },
+    {
+      "name": "卖肉",
+      "count": 68,
+      "total_count": 68929
+    },
+    {
+      "name": "室谷靖",
+      "count": 30,
+      "total_count": 34
+    },
+    {
+      "name": "2026年",
+      "count": 26,
+      "total_count": 1698
+    },
+    {
+      "name": "奇幻",
+      "count": 16,
+      "total_count": 467688
+    },
+    {
+      "name": "TVA",
+      "count": 11,
+      "total_count": 15444
+    },
+    {
+      "name": "福利",
+      "count": 9,
+      "total_count": 5195
+    },
+    {
+      "name": "古贺葵",
+      "count": 6,
+      "total_count": 310
+    },
+    {
+      "name": "迦楠大人的白给是恶魔级",
+      "count": 5,
+      "total_count": 5
+    },
+    {
+      "name": "青春",
+      "count": 4,
+      "total_count": 106721
+    },
+    {
+      "name": "日本动画",
+      "count": 4,
+      "total_count": 34833
+    },
+    {
+      "name": "纯爱",
+      "count": 4,
+      "total_count": 38797
+    },
+    {
+      "name": "山下誠一郎",
+      "count": 3,
+      "total_count": 100
+    },
+    {
+      "name": "スタジオKAI",
+      "count": 3,
+      "total_count": 199
+    },
+    {
+      "name": "古賀葵",
+      "count": 3,
+      "total_count": 222
+    },
+    {
+      "name": "追番",
+      "count": 2,
+      "total_count": 2629
+    },
+    {
+      "name": "动画",
+      "count": 2,
+      "total_count": 35582
+    },
+    {
+      "name": "恋爱喜剧",
+      "count": 2,
+      "total_count": 2092
+    }
+  ],
+  "infobox": [
+    {
+      "key": "中文名",
+      "value": "迦楠大人的白给是恶魔级"
+    },
+    {
+      "key": "别名",
+      "value": [
+        {
+          "v": "容易对付的恶魔大人"
+        },
+        {
+          "v": "Kanan-sama wa Akumade Choroi"
+        }
+      ]
+    },
+    {
+      "key": "话数",
+      "value": "12"
+    },
+    {
+      "key": "放送开始",
+      "value": "2026年4月4日"
+    },
+    {
+      "key": "放送星期",
+      "value": "星期六"
+    },
+    {
+      "key": "官方网站",
+      "value": "https://kanachoro-anime.com/"
+    },
+    {
+      "key": "播放电视台",
+      "value": "TOKYO MX / BS11"
+    },
+    {
+      "key": "其他电视台",
+      "value": "AT-X / HTB"
+    },
+    {
+      "key": "播放结束",
+      "value": "2026年6月20日"
+    },
+    {
+      "key": "导演",
+      "value": "室谷靖"
+    },
+    {
+      "key": "音乐",
+      "value": "睦月周平"
+    },
+    {
+      "key": "Copyright",
+      "value": "©nonco・講談社／「カナン様はあくまでチョロい製作委員会」"
+    },
+    {
+      "key": "原作",
+      "value": "nonco（講談社「週刊少年マガジン」連載）"
+    },
+    {
+      "key": "人物设定",
+      "value": "皆川愛香利"
+    },
+    {
+      "key": "美术设计",
+      "value": "キューン・プラント（小野寺里恵、柿本晋吾、高橋武之）、スタジオ・ユニ"
+    },
+    {
+      "key": "製作",
+      "value": "「カナン様はあくまでチョロい製作委員会」（キングレコード、講談社、Crunchyroll、クロックワークス）；吉田昌平、高島祐一郎、末平アサ、藤本款"
+    },
+    {
+      "key": "执行制片人",
+      "value": "加藤努、古川慎、飯島江美子、武智恒雄"
+    },
+    {
+      "key": "制片人",
+      "value": "諏訪豊、五十嵐歌耶、立花耕、黒須信彦、小澤文啓"
+    },
+    {
+      "key": "制作统括",
+      "value": "麻生一宏"
+    },
+    {
+      "key": "动画制片人",
+      "value": "柴宏和"
+    },
+    {
+      "key": "助理制片人",
+      "value": "大原朋典、鈴木雅人、渡邉日向子"
+    },
+    {
+      "key": "宣传制片人",
+      "value": "市川京典"
+    },
+    {
+      "key": "企画协力",
+      "value": "クオラス（佐藤茂薫、小島英徳、板垣湧斗）"
+    },
+    {
+      "key": "制作管理",
+      "value": "竹中一平"
+    },
+    {
+      "key": "设定制作",
+      "value": "村崎友彦"
+    },
+    {
+      "key": "制作进行",
+      "value": "村崎友彦"
+    },
+    {
+      "key": "剪辑",
+      "value": "吉武将人"
+    },
+    {
+      "key": "在线剪辑",
+      "value": "クープ（若松太一）"
+    },
+    {
+      "key": "OP・ED 分镜",
+      "value": "五十川久史"
+    },
+    {
+      "key": "OP・ED 演出",
+      "value": "五十川久史"
+    },
+    {
+      "key": "转场绘",
+      "value": "分镜：五十川久史"
+    },
+    {
+      "key": "主题歌演出",
+      "value": "Faulieu. / あおぎり高校"
+    },
+    {
+      "key": "主题歌作词",
+      "value": "Canaco、Kaho / Tom Rotus"
+    },
+    {
+      "key": "主题歌作曲",
+      "value": "Kaho / Aiobahn +81"
+    },
+    {
+      "key": "主题歌编曲",
+      "value": "サクマリョウ / Aiobahn +81"
+    },
+    {
+      "key": "3DCG",
+      "value": "3DCG制作：ライズモア；3DCG制作协力：Animguru（杉山好）"
+    },
+    {
+      "key": "CG 制作人",
+      "value": "服部豊和"
+    },
+    {
+      "key": "2D 设计",
+      "value": "チップチューン（由佐万織、田村佳那）"
+    },
+    {
+      "key": "特效",
+      "value": "チップチューン（田村佳那）"
+    },
+    {
+      "key": "音效",
+      "value": "佐藤理緒"
+    },
+    {
+      "key": "录音",
+      "value": "椎原操志"
+    },
+    {
+      "key": "录音助理",
+      "value": "中屋奈紗"
+    },
+    {
+      "key": "录音工作室",
+      "value": "Studio2010:"
+    },
+    {
+      "key": "音响",
+      "value": "楽音舎"
+    },
+    {
+      "key": "音响制作担当",
+      "value": "杉山好美"
+    },
+    {
+      "key": "脚本",
+      "value": "池田臨太郎"
+    },
+    {
+      "key": "分镜",
+      "value": "室谷靖"
+    },
+    {
+      "key": "演出",
+      "value": "室谷靖"
+    },
+    {
+      "key": "总作画监督",
+      "value": "皆川愛香利"
+    },
+    {
+      "key": "作画监督",
+      "value": "古徳真美、芝田千紗"
+    }
+  ],
+  "rating": {
+    "rank": 5826,
+    "total": 1734,
+    "count": {
+      "1": 6,
+      "2": 7,
+      "3": 14,
+      "4": 41,
+      "5": 180,
+      "6": 682,
+      "7": 606,
+      "8": 163,
+      "9": 16,
+      "10": 19
+    },
+    "score": 6.4
+  },
+  "total_episodes": 12,
+  "collection": {
+    "on_hold": 204,
+    "dropped": 373,
+    "wish": 1261,
+    "collect": 2336,
+    "doing": 1826
+  },
+  "id": 552589,
+  "eps": 12,
+  "meta_tags": [
+    "喜剧",
+    "TV",
+    "恋爱",
+    "日本",
+    "漫画改"
+  ],
+  "volumes": 0,
+  "series": false,
+  "locked": false,
+  "nsfw": false,
+  "type": 2
+}

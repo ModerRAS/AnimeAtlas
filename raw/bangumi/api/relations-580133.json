@@ -1,0 +1,114 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/be/3e/1651_8gpPt.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/be/3e/1651_8gpPt.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/be/3e/1651_8gpPt.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/be/3e/1651_8gpPt.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/be/3e/1651_8gpPt.jpg"
+    },
+    "name": "LIAR GAME",
+    "name_cn": "欺诈游戏",
+    "relation": "书籍",
+    "type": 1,
+    "id": 1651
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/81/69/2564_8xcVy.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/81/69/2564_8xcVy.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/81/69/2564_8xcVy.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/81/69/2564_8xcVy.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/81/69/2564_8xcVy.jpg"
+    },
+    "name": "ライアーゲーム",
+    "name_cn": "欺诈游戏",
+    "relation": "不同演绎",
+    "type": 6,
+    "id": 2564
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/68/d1/166244_SKU8w.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/68/d1/166244_SKU8w.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/68/d1/166244_SKU8w.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/68/d1/166244_SKU8w.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/68/d1/166244_SKU8w.jpg"
+    },
+    "name": "라이어 게임",
+    "name_cn": "欺诈游戏",
+    "relation": "不同演绎",
+    "type": 6,
+    "id": 166244
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/ae/c1/683352_J22lu.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/ae/c1/683352_J22lu.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/ae/c1/683352_J22lu.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/ae/c1/683352_J22lu.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/ae/c1/683352_J22lu.jpg"
+    },
+    "name": "TVアニメ第2クール突入記念特番　LIAR GAME RADIO",
+    "name_cn": "",
+    "relation": "衍生",
+    "type": 6,
+    "id": 683352
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/62/28/641310_57Zc7.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/62/28/641310_57Zc7.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/62/28/641310_57Zc7.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/62/28/641310_57Zc7.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/62/28/641310_57Zc7.jpg"
+    },
+    "name": "朝日",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 641310
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/f5/85/641313_aQ223.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/f5/85/641313_aQ223.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/f5/85/641313_aQ223.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/f5/85/641313_aQ223.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/f5/85/641313_aQ223.jpg"
+    },
+    "name": "あぶく",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 641313
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/fd/1b/665726_Mfp0W.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/fd/1b/665726_Mfp0W.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/fd/1b/665726_Mfp0W.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/fd/1b/665726_Mfp0W.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/fd/1b/665726_Mfp0W.jpg"
+    },
+    "name": "たりない",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 665726
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/53/1a/666759_cDTos.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/53/1a/666759_cDTos.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/53/1a/666759_cDTos.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/53/1a/666759_cDTos.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/53/1a/666759_cDTos.jpg"
+    },
+    "name": "All in",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 666759
+  }
+]

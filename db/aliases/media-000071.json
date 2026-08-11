@@ -7,8 +7,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Nige Jouzu no Wakagimi"
+    },
+    {
+      "value": "逃げ上手の若君",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "擅长逃跑的殿下",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000071",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

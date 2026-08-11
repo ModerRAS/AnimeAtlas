@@ -1,0 +1,114 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/51/63/8386_GdQVT.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/51/63/8386_GdQVT.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/51/63/8386_GdQVT.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/51/63/8386_GdQVT.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/51/63/8386_GdQVT.jpg"
+    },
+    "name": "北斗の拳",
+    "name_cn": "北斗神拳",
+    "relation": "不同演绎",
+    "type": 2,
+    "id": 8386
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/ca/91/40981_DgTL5.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/ca/91/40981_DgTL5.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/ca/91/40981_DgTL5.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/ca/91/40981_DgTL5.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/ca/91/40981_DgTL5.jpg"
+    },
+    "name": "北斗の拳",
+    "name_cn": "北斗神拳",
+    "relation": "书籍",
+    "type": 1,
+    "id": 40981
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/5d/ed/461970_mdNwS.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/5d/ed/461970_mdNwS.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/5d/ed/461970_mdNwS.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/5d/ed/461970_mdNwS.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/5d/ed/461970_mdNwS.jpg"
+    },
+    "name": "Fist of the North Star",
+    "name_cn": "北斗神拳 真人版",
+    "relation": "不同演绎",
+    "type": 6,
+    "id": 461970
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/52/55/584833_OzPPv.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/52/55/584833_OzPPv.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/52/55/584833_OzPPv.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/52/55/584833_OzPPv.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/52/55/584833_OzPPv.jpg"
+    },
+    "name": "北斗の拳 拳王軍ザコたちの挽歌",
+    "name_cn": "北斗神拳 拳王军杂兵们的挽歌",
+    "relation": "番外篇",
+    "type": 2,
+    "id": 584833
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/d0/a9/637339_93zPo.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/d0/a9/637339_93zPo.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/d0/a9/637339_93zPo.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/d0/a9/637339_93zPo.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/d0/a9/637339_93zPo.jpg"
+    },
+    "name": "北斗の拳 拳王軍ザコたちの挽歌 第2クール",
+    "name_cn": "北斗神拳 拳王军杂兵们的挽歌 第二季",
+    "relation": "番外篇",
+    "type": 2,
+    "id": 637339
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/3b/b3/642018_46F9N.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/3b/b3/642018_46F9N.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/3b/b3/642018_46F9N.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/3b/b3/642018_46F9N.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/3b/b3/642018_46F9N.jpg"
+    },
+    "name": "Hallelujah",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 642018
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/a6/fd/650933_oQ5D1.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/a6/fd/650933_oQ5D1.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/a6/fd/650933_oQ5D1.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/a6/fd/650933_oQ5D1.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/a6/fd/650933_oQ5D1.jpg"
+    },
+    "name": "IM A SINGER VOL.4",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 650933
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/f8/d5/663983_6AS2a.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/f8/d5/663983_6AS2a.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/f8/d5/663983_6AS2a.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/f8/d5/663983_6AS2a.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/f8/d5/663983_6AS2a.jpg"
+    },
+    "name": "北斗の拳 -FIST OF THE NORTH STAR- 第2クール",
+    "name_cn": "北斗神拳 第2部分",
+    "relation": "续集",
+    "type": 2,
+    "id": 663983
+  }
+]
