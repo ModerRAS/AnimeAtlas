@@ -4,21 +4,21 @@
   "series_id": "series-000090",
   "aliases": [
     {
-      "value": "逃げ上手の若君",
+      "value": "正反対な君と僕",
       "language": "ja",
       "type": "official",
       "source": "bangumi",
       "confidence": 0.98
     },
     {
-      "value": "Nige Jouzu no Wakagimi",
+      "value": "Seihantai na Kimi to Boku",
       "language": "ja-Latn",
       "type": "romaji",
       "source": "community",
       "confidence": 0.95
     },
     {
-      "value": "擅长逃跑的殿下",
+      "value": "相反的你和我",
       "language": "zh-Hans",
       "type": "localized",
       "source": "bangumi",

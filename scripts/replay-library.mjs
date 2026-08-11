@@ -16,6 +16,12 @@ const mediaContext = new Map(
     bangumi: media.provider_refs?.find((ref) => ref.provider === "bangumi" && ref.entity === "subject")?.id
   }])
 );
+const mediaEpisodeNumbers = new Map(
+  listEpisodeRecords().map((record) => [
+    record.media_id,
+    new Set(record.episodes.flatMap((episode) => episode.numbers.map((number) => number.value)))
+  ])
+);
 
 const outcomes = [];
 const counts = {
@@ -40,11 +46,13 @@ for (const row of rows) {
     const catalogSeason = mediaContext.get(mediaId)?.season;
     return catalogSeason !== undefined && catalogSeason !== row.season;
   });
-  const v2Candidates = v2RawCandidates
+  const seasonCandidates = v2RawCandidates
     .filter((mediaId) => {
       const catalogSeason = mediaContext.get(mediaId)?.season;
       return catalogSeason === undefined || catalogSeason === row.season;
     });
+  const episodeCandidates = seasonCandidates.filter((mediaId) => mediaEpisodeNumbers.get(mediaId)?.has(row.episode));
+  const v2Candidates = episodeCandidates.length === 1 ? episodeCandidates : seasonCandidates;
 
   const seasonConflict = v2Candidates.length === 0 && seasonConflicts.length > 0;
   const v1 = resolution(v1Candidates);
@@ -150,6 +158,13 @@ function listMediaRecords() {
     .filter((name) => name.endsWith(".json"))
     .sort()
     .map((name) => JSON.parse(readFileSync(resolve(root, "db/media", name), "utf8")));
+}
+
+function listEpisodeRecords() {
+  return readdirSync(resolve(root, "db/episodes"))
+    .filter((name) => name.endsWith(".json"))
+    .sort()
+    .map((name) => JSON.parse(readFileSync(resolve(root, "db/episodes", name), "utf8")));
 }
 
 function readJson(relativePath) {

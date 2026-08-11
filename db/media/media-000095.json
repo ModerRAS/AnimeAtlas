@@ -3,9 +3,11 @@
   "schema": "media-identity/v2",
   "id": "media-000095",
   "kind": "anime",
-  "series_id": "series-000093",
+  "series_id": "series-000054",
   "title": "鎧真伝サムライトルーパー 第2クール",
-  "installment": {},
+  "installment": {
+    "cour": 2
+  },
   "provider_refs": [
     {
       "entity": "subject",
@@ -13,5 +15,10 @@
       "provider": "bangumi"
     }
   ],
-  "relationships": []
+  "relationships": [
+    {
+      "type": "prequel",
+      "target": "media-000054"
+    }
+  ]
 }

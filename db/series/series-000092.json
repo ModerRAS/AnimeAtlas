@@ -1,8 +1,0 @@
-{
-  "$schema": "../../packages/schema/schemas/series-identity.schema.json",
-  "schema": "series-identity/v2",
-  "id": "series-000092",
-  "kind": "anime-series",
-  "title": "幼女戦記",
-  "relationships": []
-}

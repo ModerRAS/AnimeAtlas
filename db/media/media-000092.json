@@ -3,7 +3,7 @@
   "schema": "media-identity/v2",
   "id": "media-000092",
   "kind": "anime",
-  "series_id": "series-000090",
+  "series_id": "series-000070",
   "title": "逃げ上手の若君 第二期",
   "installment": {
     "season": 2
@@ -15,5 +15,10 @@
       "provider": "bangumi"
     }
   ],
-  "relationships": []
+  "relationships": [
+    {
+      "type": "prequel",
+      "target": "media-000071"
+    }
+  ]
 }

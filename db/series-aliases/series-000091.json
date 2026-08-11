@@ -4,21 +4,21 @@
   "series_id": "series-000091",
   "aliases": [
     {
-      "value": "正反対な君と僕",
+      "value": "幼女戦記",
       "language": "ja",
       "type": "official",
       "source": "bangumi",
       "confidence": 0.98
     },
     {
-      "value": "Seihantai na Kimi to Boku",
+      "value": "Youjo Senki",
       "language": "ja-Latn",
       "type": "romaji",
       "source": "community",
       "confidence": 0.95
     },
     {
-      "value": "相反的你和我",
+      "value": "幼女战记",
       "language": "zh-Hans",
       "type": "localized",
       "source": "bangumi",

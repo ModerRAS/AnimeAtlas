@@ -5,7 +5,9 @@
   "kind": "anime",
   "series_id": "series-000070",
   "title": "逃げ上手の若君",
-  "installment": {},
+  "installment": {
+    "season": 1
+  },
   "provider_refs": [
     {
       "entity": "subject",

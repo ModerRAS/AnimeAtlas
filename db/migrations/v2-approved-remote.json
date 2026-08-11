@@ -4,17 +4,17 @@
   "source": "Bangumi API evidence for approved contributions merged from origin/master",
   "series": [
     {
-      "id": "series-000090",
+      "id": "series-000070",
       "title": "逃げ上手の若君",
       "aliases": [
         { "value": "逃げ上手の若君", "language": "ja", "type": "official", "source": "bangumi", "confidence": 0.98 },
         { "value": "Nige Jouzu no Wakagimi", "language": "ja-Latn", "type": "romaji", "source": "community", "confidence": 0.95 },
         { "value": "擅长逃跑的殿下", "language": "zh-Hans", "type": "localized", "source": "bangumi", "confidence": 0.98 }
       ],
-      "media": [{ "id": "media-000092", "season": 2 }]
+      "media": [{ "id": "media-000092", "season": 2, "relationships": [{ "type": "prequel", "target": "media-000071" }] }]
     },
     {
-      "id": "series-000091",
+      "id": "series-000090",
       "title": "正反対な君と僕",
       "aliases": [
         { "value": "正反対な君と僕", "language": "ja", "type": "official", "source": "bangumi", "confidence": 0.98 },
@@ -24,7 +24,7 @@
       "media": [{ "id": "media-000093", "season": 2 }]
     },
     {
-      "id": "series-000092",
+      "id": "series-000091",
       "title": "幼女戦記",
       "aliases": [
         { "value": "幼女戦記", "language": "ja", "type": "official", "source": "bangumi", "confidence": 0.98 },
@@ -34,14 +34,14 @@
       "media": [{ "id": "media-000094", "season": 2 }]
     },
     {
-      "id": "series-000093",
+      "id": "series-000054",
       "title": "鎧真伝サムライトルーパー",
       "aliases": [
         { "value": "鎧真伝サムライトルーパー", "language": "ja", "type": "official", "source": "bangumi", "confidence": 0.98 },
         { "value": "Yoroi Shin Den Samurai Troopers", "language": "ja-Latn", "type": "romaji", "source": "community", "confidence": 0.95 },
         { "value": "铠真传 武士军团", "language": "zh-Hans", "type": "localized", "source": "bangumi", "confidence": 0.98 }
       ],
-      "media": [{ "id": "media-000095", "part": 2 }]
+      "media": [{ "id": "media-000095", "installment": { "cour": 2 }, "relationships": [{ "type": "prequel", "target": "media-000054" }] }]
     }
   ]
 }

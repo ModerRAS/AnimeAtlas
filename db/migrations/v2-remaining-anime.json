@@ -1178,7 +1178,7 @@
       "media": [
         {
           "id": "media-000054",
-          "installment": {},
+          "installment": { "cour": 1 },
           "relationships": []
         }
       ]
@@ -1708,7 +1708,7 @@
       "media": [
         {
           "id": "media-000071",
-          "installment": {},
+          "installment": { "season": 1 },
           "relationships": []
         }
       ]
