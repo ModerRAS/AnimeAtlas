@@ -2,8 +2,8 @@
   "generator": "@animeatlas/generator@0.0.0",
   "inputs": {
     "assets/anifilebert/anime_filename_parser.onnx": "b3b1fe856497f8484b1f5d708295bbb578fbecb2693f9e83a09df2409714d7eb",
-    "assets/anifilebert/config.json": "87ffd5aa669c4d14af50edeb6d514ea6b6f51eb884a5011dd4e9cdfab17dbfb4",
-    "assets/anifilebert/vocab.json": "11e98a98d321f0d04dd845215a00f754de466fbebf3e2b1911f51ca4ce76b15b",
+    "assets/anifilebert/config.json": "476e036ec38967aa13c39c180dba4789df68932bcfad66dbddad8089f28aec74",
+    "assets/anifilebert/vocab.json": "e2d7a5a42fb7e10ba7436a3d4fb568f3011bd8a3e61db0d1124e4c2b1507a0ce",
     "db/aliases/media-000001.json": "64b4d47996c435c40404917af5d2725d295992fc7dcd39884c3ade23c0083b2a",
     "db/aliases/media-000002.json": "a896415691f0501db4935e0461426b428ec8f7d860a9d6c3428df65fc05651fb",
     "db/aliases/media-000003.json": "7e5af07d29f83a6f86931683cf3149b29fcb9f37fa0437797fa4c44dc991d4ba",

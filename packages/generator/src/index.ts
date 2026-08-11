@@ -259,7 +259,13 @@ function hashInputs(root: string): Record<string, string> {
     "assets/anifilebert/vocab.json"
   ]) {
     const file = join(root, relativePath);
-    if (existsSync(file)) hashes[relativePath] = sha256(readFileSync(file));
+    if (existsSync(file)) {
+      hashes[relativePath] = sha256(
+        relativePath.endsWith(".json")
+          ? readFileSync(file, "utf8").replace(/\r\n?/g, "\n")
+          : readFileSync(file)
+      );
+    }
   }
   return hashes;
 }
