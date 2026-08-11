@@ -1,0 +1,8 @@
+{
+  "$schema": "../../packages/schema/schemas/series-identity.schema.json",
+  "schema": "series-identity/v2",
+  "id": "series-000081",
+  "kind": "anime-series",
+  "title": "最強出涸らし皇子の暗躍帝位争い",
+  "relationships": []
+}

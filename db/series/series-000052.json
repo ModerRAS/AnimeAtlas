@@ -1,0 +1,8 @@
+{
+  "$schema": "../../packages/schema/schemas/series-identity.schema.json",
+  "schema": "series-identity/v2",
+  "id": "series-000052",
+  "kind": "anime-series",
+  "title": "本好きの下剋上～司書になるためには手段を選んでいられません～ 領主の養女",
+  "relationships": []
+}

@@ -1,0 +1,58 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/51/b1/241896_eMvei.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/51/b1/241896_eMvei.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/51/b1/241896_eMvei.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/51/b1/241896_eMvei.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/51/b1/241896_eMvei.jpg"
+    },
+    "name": "乙女怪獣キャラメリゼ",
+    "name_cn": "少女怪兽焦糖味",
+    "relation": "书籍",
+    "type": 1,
+    "id": 241896
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/b1/43/662200_dT9Ab.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/b1/43/662200_dT9Ab.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/b1/43/662200_dT9Ab.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/b1/43/662200_dT9Ab.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/b1/43/662200_dT9Ab.jpg"
+    },
+    "name": "乙女怪獣E.P.",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 662200
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/dd/b2/662202_YYknQ.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/dd/b2/662202_YYknQ.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/dd/b2/662202_YYknQ.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/dd/b2/662202_YYknQ.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/dd/b2/662202_YYknQ.jpg"
+    },
+    "name": "オトメノホンキ",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 662202
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/3a/0b/665182_97Sb0.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/3a/0b/665182_97Sb0.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/3a/0b/665182_97Sb0.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/3a/0b/665182_97Sb0.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/3a/0b/665182_97Sb0.jpg"
+    },
+    "name": "乙女怪獣キャラメリゼ オリジナルサウンドトラック",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 665182
+  }
+]

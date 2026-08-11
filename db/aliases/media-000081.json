@@ -7,8 +7,22 @@
       "source": "community",
       "type": "romaji",
       "value": "BLEACH Sennen Kessen-hen"
+    },
+    {
+      "value": "BLEACH 千年血戦篇",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "死神 千年血战篇",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000081",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

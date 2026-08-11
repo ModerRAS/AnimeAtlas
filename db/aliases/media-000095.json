@@ -7,8 +7,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Yoroi Shin Den Samurai Troopers Part 2"
+    },
+    {
+      "value": "鎧真伝サムライトルーパー 第2クール",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "铠真传 武士军团 第2部分",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000095",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

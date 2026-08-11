@@ -7,8 +7,22 @@
       "source": "community",
       "type": "localized",
       "value": "天穗之咲稻姬 [特別篇]"
+    },
+    {
+      "value": "天穂のサクナヒメ ココロワ稲作日誌",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "天穗之咲稻姬 心轮种稻日记",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000041",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

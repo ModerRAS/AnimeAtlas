@@ -7,8 +7,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Youkoso Jitsuryoku Shijou Shugi no Kyoushitsu e S4"
+    },
+    {
+      "value": "ようこそ実力至上主義の教室へ 4th Season",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "欢迎来到实力至上主义的教室 第四季",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000049",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

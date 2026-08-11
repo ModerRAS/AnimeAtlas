@@ -1,0 +1,30 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/a4/2a/660566_fUfNr.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/a4/2a/660566_fUfNr.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/a4/2a/660566_fUfNr.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/a4/2a/660566_fUfNr.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/a4/2a/660566_fUfNr.jpg"
+    },
+    "name": "メビウス",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 660566
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/6b/81/661638_UmLzN.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/6b/81/661638_UmLzN.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/6b/81/661638_UmLzN.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/6b/81/661638_UmLzN.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/6b/81/661638_UmLzN.jpg"
+    },
+    "name": "ジレンマ",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 661638
+  }
+]

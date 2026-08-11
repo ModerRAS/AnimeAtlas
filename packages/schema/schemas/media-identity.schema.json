@@ -1,15 +1,26 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://animeatlas.dev/schemas/media-identity/v1.json",
+  "$id": "https://animeatlas.dev/schemas/media-identity.json",
   "title": "AnimeAtlas Media Identity",
   "type": "object",
   "additionalProperties": false,
   "required": ["schema", "id", "kind", "provider_refs", "relationships"],
   "properties": {
     "$schema": { "type": "string" },
-    "schema": { "const": "media-identity/v1" },
+    "schema": { "enum": ["media-identity/v1", "media-identity/v2"] },
     "id": { "type": "string", "pattern": "^media-[0-9]{6}$" },
     "kind": { "const": "anime" },
+    "series_id": { "type": "string", "pattern": "^series-[0-9]{6}$" },
+    "title": { "type": "string", "minLength": 1 },
+    "installment": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "season": { "type": "integer", "minimum": 1 },
+        "part": { "type": "integer", "minimum": 1 },
+        "cour": { "type": "integer", "minimum": 1 }
+      }
+    },
     "provider_refs": {
       "type": "array",
       "items": { "$ref": "#/$defs/providerRef" }
@@ -19,6 +30,12 @@
       "items": { "$ref": "#/$defs/relationship" }
     }
   },
+  "allOf": [
+    {
+      "if": { "properties": { "schema": { "const": "media-identity/v2" } } },
+      "then": { "required": ["series_id", "title", "installment"] }
+    }
+  ],
   "$defs": {
     "providerRef": {
       "type": "object",

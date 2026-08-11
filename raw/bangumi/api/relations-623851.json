@@ -1,0 +1,58 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/ad/ac/359917_nmCan.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/ad/ac/359917_nmCan.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/ad/ac/359917_nmCan.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/ad/ac/359917_nmCan.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/ad/ac/359917_nmCan.jpg"
+    },
+    "name": "日本三國",
+    "name_cn": "日本三国",
+    "relation": "书籍",
+    "type": 1,
+    "id": 359917
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/a7/3c/638708_7s4G0.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/a7/3c/638708_7s4G0.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/a7/3c/638708_7s4G0.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/a7/3c/638708_7s4G0.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/a7/3c/638708_7s4G0.jpg"
+    },
+    "name": "誓い",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 638708
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/f5/ef/639588_VO5jV.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/f5/ef/639588_VO5jV.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/f5/ef/639588_VO5jV.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/f5/ef/639588_VO5jV.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/f5/ef/639588_VO5jV.jpg"
+    },
+    "name": "火種",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 639588
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/b2/64/662629_wkp5f.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/b2/64/662629_wkp5f.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/b2/64/662629_wkp5f.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/b2/64/662629_wkp5f.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/b2/64/662629_wkp5f.jpg"
+    },
+    "name": "TVアニメ『日本三國』Original Soundtrack",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 662629
+  }
+]

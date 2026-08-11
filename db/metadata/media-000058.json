@@ -3,15 +3,16 @@
   "_meta": {
     "fields": {
       "metadata.episode_count": {
-        "last_sync": "2026-07-30T06:38:01Z",
+        "source": "bangumi",
+        "source_field": "eps",
+        "last_sync": "2026-08-11T05:45:53.037Z",
+        "rule": "bangumi.eps -> metadata.episode_count",
         "provider_ref": {
           "entity": "subject",
           "id": "377130",
           "provider": "bangumi"
         },
-        "rule": "approved issue contribution",
-        "source": "bangumi",
-        "source_field": "issue"
+        "raw_ref": "raw/bangumi/api/subject-377130.json"
       },
       "metadata.runtime": {
         "last_sync": "2026-07-30T06:38:01Z",
@@ -37,12 +38,12 @@
       }
     },
     "last_sync": {
-      "bangumi": "2026-07-30T06:38:01Z"
+      "bangumi": "2026-08-11T05:45:53.037Z"
     }
   },
   "media_id": "media-000058",
   "metadata": {
-    "episode_count": 0,
+    "episode_count": 13,
     "runtime": 0,
     "title": "とんがり帽子のアトリエ"
   },

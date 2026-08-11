@@ -10,5 +10,5 @@ if (!result.ok) {
 }
 
 console.log(
-  `Validated ${result.counts.providers} providers, ${result.counts.contributions} approved contributions, ${result.counts.media} media identities, ${result.counts.aliases} alias records, and ${result.counts.metadata} metadata records.`
+  `Validated ${result.counts.providers} providers, ${result.counts.contributions} approved contributions, ${result.counts.series} series, ${result.counts.media} media identities, ${result.counts.episodes} episodes, ${result.counts.aliases} alias records, and ${result.counts.metadata} metadata records.`
 );

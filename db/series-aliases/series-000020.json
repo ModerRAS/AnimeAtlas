@@ -1,0 +1,28 @@
+{
+  "$schema": "../../packages/schema/schemas/series-aliases.schema.json",
+  "schema": "series-aliases/v2",
+  "series_id": "series-000020",
+  "aliases": [
+    {
+      "value": "ガチアクタ",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "咔嗒咔嗒",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "Gachiakuta",
+      "language": "ja-Latn",
+      "type": "romaji",
+      "source": "bangumi",
+      "confidence": 0.95
+    }
+  ]
+}

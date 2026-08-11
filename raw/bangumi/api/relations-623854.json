@@ -1,0 +1,58 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/1d/59/547006_mKZVq.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/1d/59/547006_mKZVq.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/1d/59/547006_mKZVq.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/1d/59/547006_mKZVq.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/1d/59/547006_mKZVq.jpg"
+    },
+    "name": "女神『異世界転生何になりたいですか』俺「勇者の肋骨で」",
+    "name_cn": "",
+    "relation": "书籍",
+    "type": 1,
+    "id": 547006
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/7b/f4/636207_ADmcC.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/7b/f4/636207_ADmcC.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/7b/f4/636207_ADmcC.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/7b/f4/636207_ADmcC.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/7b/f4/636207_ADmcC.jpg"
+    },
+    "name": "転生願望",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 636207
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/f6/ad/639025_ssAX8.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/f6/ad/639025_ssAX8.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/f6/ad/639025_ssAX8.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/f6/ad/639025_ssAX8.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/f6/ad/639025_ssAX8.jpg"
+    },
+    "name": "何なんですか？",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 639025
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/d6/fb/660219_Vt42i.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/d6/fb/660219_Vt42i.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/d6/fb/660219_Vt42i.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/d6/fb/660219_Vt42i.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/d6/fb/660219_Vt42i.jpg"
+    },
+    "name": "TVアニメ『女神「異世界転生何になりたいですか」俺「勇者の肋骨で」』オリジナル・サウンドトラック",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 660219
+  }
+]

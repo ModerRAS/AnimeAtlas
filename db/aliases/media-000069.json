@@ -7,8 +7,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Mairimashita! Iruma-kun S4"
+    },
+    {
+      "value": "魔入りました！入間くん 第4シリーズ",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "入间同学入魔了 第四季",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000069",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

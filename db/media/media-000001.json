@@ -1,13 +1,18 @@
 {
   "$schema": "../../packages/schema/schemas/media-identity.schema.json",
-  "schema": "media-identity/v1",
+  "schema": "media-identity/v2",
   "id": "media-000001",
   "kind": "anime",
+  "series_id": "series-000019",
+  "title": "葬送的芙莉莲",
+  "installment": {
+    "season": 1
+  },
   "provider_refs": [
     {
       "provider": "bangumi",
       "entity": "subject",
-      "id": "443666"
+      "id": "400602"
     },
     {
       "provider": "tmdb",

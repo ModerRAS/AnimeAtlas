@@ -3,6 +3,7 @@ dist/
 **/dist/
 coverage/
 release/
+reports/
 .env
 .env.*
 !.env.example

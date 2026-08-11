@@ -1,0 +1,8 @@
+{
+  "$schema": "../../packages/schema/schemas/series-identity.schema.json",
+  "schema": "series-identity/v2",
+  "id": "series-000074",
+  "kind": "anime-series",
+  "title": "最強の職業は勇者でも賢者でもなく鑑定士（仮）らしいですよ？",
+  "relationships": []
+}

@@ -1,0 +1,490 @@
+{
+  "date": "2026-07-02",
+  "platform": "TV",
+  "images": {
+    "small": "https://lain.bgm.tv/r/200/pic/cover/l/e3/74/617123_PaMs9.jpg",
+    "grid": "https://lain.bgm.tv/r/100/pic/cover/l/e3/74/617123_PaMs9.jpg",
+    "large": "https://lain.bgm.tv/pic/cover/l/e3/74/617123_PaMs9.jpg",
+    "medium": "https://lain.bgm.tv/r/800/pic/cover/l/e3/74/617123_PaMs9.jpg",
+    "common": "https://lain.bgm.tv/r/400/pic/cover/l/e3/74/617123_PaMs9.jpg"
+  },
+  "summary": "是恋爱，还是破坏？\r\n女高中生赤石黑绘饱受原因不明的疾病所苦。因为个性笨拙，一直以来都与他人保持距离。在因缘际会之下，她喜欢上了班上颇受欢迎的男生・南新汰。当少女察觉到自己的恋心时，沉睡的力量也随之觉醒……\r\n恋爱与理智的对抗，颠覆少女漫画常识的震撼发展，即将席卷全日本！！\r\n\r\n\r\n\r\n[简介原文]\r\n恋か、破壊か――。\r\n原因不明の病に悩まされている女子高生・赤石黒絵（クロエ）。不器用で人との交流を避けて生きてきた彼女は、とある出会いでクラスのモテ男子・南新汰に恋をする。少女が恋心に気づいたとき、眠っていた力が解放される...。\r\n争う恋と理性――。少女漫画の常識を覆す、衝撃の展開が日本を襲う!!",
+  "name": "乙女怪獣キャラメリゼ",
+  "name_cn": "少女怪兽焦糖味",
+  "tags": [
+    {
+      "name": "恋爱",
+      "count": 345,
+      "total_count": 560632
+    },
+    {
+      "name": "2026年7月",
+      "count": 333,
+      "total_count": 19522
+    },
+    {
+      "name": "漫画改",
+      "count": 271,
+      "total_count": 857446
+    },
+    {
+      "name": "奇幻",
+      "count": 231,
+      "total_count": 467683
+    },
+    {
+      "name": "TV",
+      "count": 209,
+      "total_count": 1396778
+    },
+    {
+      "name": "校园",
+      "count": 204,
+      "total_count": 450599
+    },
+    {
+      "name": "LIDENFILMS",
+      "count": 192,
+      "total_count": 14123
+    },
+    {
+      "name": "2026",
+      "count": 147,
+      "total_count": 40846
+    },
+    {
+      "name": "日本",
+      "count": 119,
+      "total_count": 293394
+    },
+    {
+      "name": "漫改",
+      "count": 118,
+      "total_count": 360133
+    },
+    {
+      "name": "哥斯拉",
+      "count": 77,
+      "total_count": 825
+    },
+    {
+      "name": "女性向",
+      "count": 57,
+      "total_count": 6889
+    },
+    {
+      "name": "搞笑",
+      "count": 52,
+      "total_count": 635890
+    },
+    {
+      "name": "绫奈由仁子",
+      "count": 34,
+      "total_count": 355
+    },
+    {
+      "name": "大峰辉之",
+      "count": 33,
+      "total_count": 33
+    },
+    {
+      "name": "怪兽",
+      "count": 12,
+      "total_count": 288
+    },
+    {
+      "name": "特摄",
+      "count": 8,
+      "total_count": 8498
+    },
+    {
+      "name": "2026年",
+      "count": 5,
+      "total_count": 1698
+    },
+    {
+      "name": "大峰輝之",
+      "count": 4,
+      "total_count": 4
+    },
+    {
+      "name": "綾奈ゆにこ",
+      "count": 4,
+      "total_count": 834
+    },
+    {
+      "name": "动画",
+      "count": 4,
+      "total_count": 35582
+    },
+    {
+      "name": "少女怪兽焦糖味",
+      "count": 4,
+      "total_count": 3
+    },
+    {
+      "name": "少女",
+      "count": 4,
+      "total_count": 6242
+    },
+    {
+      "name": "萝莉",
+      "count": 3,
+      "total_count": 45819
+    },
+    {
+      "name": "纯爱",
+      "count": 2,
+      "total_count": 38796
+    },
+    {
+      "name": "2026夏",
+      "count": 2,
+      "total_count": 109
+    },
+    {
+      "name": "日本动画",
+      "count": 2,
+      "total_count": 34831
+    },
+    {
+      "name": "千贺光莉",
+      "count": 2,
+      "total_count": 2
+    },
+    {
+      "name": "青春",
+      "count": 2,
+      "total_count": 106721
+    },
+    {
+      "name": "乙女向",
+      "count": 2,
+      "total_count": 17832
+    }
+  ],
+  "infobox": [
+    {
+      "key": "中文名",
+      "value": "少女怪兽焦糖味"
+    },
+    {
+      "key": "别名",
+      "value": [
+        {
+          "v": "少女怪兽焦糖恋心"
+        },
+        {
+          "v": "少女怪獸焦糖戀心"
+        },
+        {
+          "v": "Kaiju Girl Caramelise"
+        },
+        {
+          "v": "Otome Kaijuu Caraméliser"
+        }
+      ]
+    },
+    {
+      "key": "话数",
+      "value": "12"
+    },
+    {
+      "key": "放送开始",
+      "value": "2026年7月2日"
+    },
+    {
+      "key": "放送星期",
+      "value": "星期四"
+    },
+    {
+      "key": "官方网站",
+      "value": "https://otomekaiju.com/"
+    },
+    {
+      "key": "播放电视台",
+      "value": "TBS"
+    },
+    {
+      "key": "其他电视台",
+      "value": "BS11 / AT-X"
+    },
+    {
+      "key": "导演",
+      "value": "大峰輝之"
+    },
+    {
+      "key": "音乐",
+      "value": "古橋勇紀、Shinnosuke Nakasone"
+    },
+    {
+      "key": "链接",
+      "value": [
+        {
+          "k": "X",
+          "v": "https://x.com/Otome_Kaiju"
+        }
+      ]
+    },
+    {
+      "key": "Copyright",
+      "value": "©蒼木スピカ/KADOKAWA/乙女怪獣キャラメリゼ製作委員会"
+    },
+    {
+      "key": "原作",
+      "value": "蒼木スピカ（KADOKAWA「月刊コミックアライブ」連載）"
+    },
+    {
+      "key": "人物设定",
+      "value": "中山見都美"
+    },
+    {
+      "key": "美术监督",
+      "value": "桒嶋壮志"
+    },
+    {
+      "key": "CG 导演",
+      "value": "裾分雅明"
+    },
+    {
+      "key": "色彩设计",
+      "value": "大西峰代"
+    },
+    {
+      "key": "道具设计",
+      "value": "鯉沼菜奈"
+    },
+    {
+      "key": "怪物设计",
+      "value": "怪兽设计：大河広行"
+    },
+    {
+      "key": "2D 设计",
+      "value": "吉垣誠"
+    },
+    {
+      "key": "摄影监督",
+      "value": "西崎由佳"
+    },
+    {
+      "key": "剪辑",
+      "value": "長谷川舞(editz)；剪辑工作室：エディッツ"
+    },
+    {
+      "key": "音响监督",
+      "value": "八巻大樹"
+    },
+    {
+      "key": "音乐制作",
+      "value": "ポニーキャニオン"
+    },
+    {
+      "key": "音乐制作人",
+      "value": "大日向洋"
+    },
+    {
+      "key": "音乐制作协力",
+      "value": "小山和歌子（ポニーキャニオン音楽出版）、松本恵太"
+    },
+    {
+      "key": "製作",
+      "value": "乙女怪獣キャラメリゼ製作委員会（TBS、ポニーキャニオン、グッドスマイルフィルム、KADOKAWA、日本BS放送、SANKYO、クロックワークス、コンテンツシード）"
+    },
+    {
+      "key": "企画",
+      "value": "赤津一彦、菊池貞和、宇佐義大、工藤大丈、羽川寛、小倉敏男、武智恒雄、大塚則和"
+    },
+    {
+      "key": "总制片人",
+      "value": "小倉充俊、畠山渉、堀越大"
+    },
+    {
+      "key": "制片人",
+      "value": "海老原佑香、堀切伸二、小幡敬志朗、福島洋心、鎌田七海、大和田智之、井東真一、渡邉日向子、石田悟朗"
+    },
+    {
+      "key": "动画制片人",
+      "value": "荻巣佑也"
+    },
+    {
+      "key": "色彩指定",
+      "value": "飯島孝枝"
+    },
+    {
+      "key": "上色检查",
+      "value": "飯島孝枝"
+    },
+    {
+      "key": "特效",
+      "value": "古市裕一"
+    },
+    {
+      "key": "美术",
+      "value": "草薙"
+    },
+    {
+      "key": "美术设计",
+      "value": "竹内柚紀、榑松迪加、滝沢麻菜美、斉婉廷"
+    },
+    {
+      "key": "美术板",
+      "value": "張恒碩；美术板监修：本田こうへい[本田光平]"
+    },
+    {
+      "key": "背景美术",
+      "value": "桒嶋壮志、張恒碩、城本翔"
+    },
+    {
+      "key": "美术制作进行",
+      "value": "背景制作：平田浩章、竹村美音、前田紗希"
+    },
+    {
+      "key": "3DCG",
+      "value": "FelixFilm"
+    },
+    {
+      "key": "CG 制作人",
+      "value": "田中臥竜"
+    },
+    {
+      "key": "3D 动画师",
+      "value": "大川治幸、田中大樹、Touch Tantagee、平田真之"
+    },
+    {
+      "key": "摄影监督助理",
+      "value": "酒井淳子"
+    },
+    {
+      "key": "摄影",
+      "value": "MADBOX（玄美玲、福井友里恵、島史也）"
+    },
+    {
+      "key": "在线剪辑",
+      "value": "Imagica EMS（福田恵悟）"
+    },
+    {
+      "key": "音效",
+      "value": "古谷友二"
+    },
+    {
+      "key": "录音",
+      "value": "椎葉ひかる"
+    },
+    {
+      "key": "录音助理",
+      "value": "矢吹夏実"
+    },
+    {
+      "key": "录音工作室",
+      "value": "グロービジョン 九段スタジオ"
+    },
+    {
+      "key": "音响",
+      "value": "グロービジョン"
+    },
+    {
+      "key": "音响制作担当",
+      "value": "芳野千広"
+    },
+    {
+      "key": "助理制片人",
+      "value": "田中佑実、縄井孝至、秦健一郎、東真央、岡部美怜"
+    },
+    {
+      "key": "宣传制片人",
+      "value": "小幡敬志朗"
+    },
+    {
+      "key": "企画协力",
+      "value": "田中潤一朗、石井一成、長谷川嘉範、渡部竜平、伊藤誠、相田康久、森田大二朗"
+    },
+    {
+      "key": "制作管理",
+      "value": "制作デスク：土橋尚輝"
+    },
+    {
+      "key": "设定制作",
+      "value": "前田拡記"
+    },
+    {
+      "key": "制作进行",
+      "value": "荻巣佑也、土橋尚輝、桑原龍晟、中島優、笹倉康平"
+    },
+    {
+      "key": "制作进行协力",
+      "value": "第二制作进行：熊谷匠海、鏑木晴貴"
+    },
+    {
+      "key": "主题歌演出",
+      "value": "METANICK / HoneyWorks feat.ハコニワリリィ"
+    },
+    {
+      "key": "主题歌作词",
+      "value": "結城アイラ / HoneyWorks、MARUMOCHI"
+    },
+    {
+      "key": "主题歌作曲",
+      "value": "本多友紀 / HoneyWorks、MARUMOCHI"
+    },
+    {
+      "key": "主题歌编曲",
+      "value": "本多友紀 / HoneyWorks、MARUMOCHI"
+    },
+    {
+      "key": "分镜",
+      "value": "大峰輝之、古橋一浩、高橋謙仁、山本秀世、migmi"
+    },
+    {
+      "key": "演出",
+      "value": "大峰輝之、大西萌、高橋謙仁、有冨興二、migmi"
+    },
+    {
+      "key": "OP・ED 分镜",
+      "value": "浜崎博嗣 / 黒田健司"
+    },
+    {
+      "key": "OP・ED 演出",
+      "value": "浜崎博嗣 / 黒田健司"
+    }
+  ],
+  "rating": {
+    "rank": 4665,
+    "total": 691,
+    "count": {
+      "1": 4,
+      "2": 1,
+      "3": 4,
+      "4": 10,
+      "5": 50,
+      "6": 216,
+      "7": 323,
+      "8": 69,
+      "9": 8,
+      "10": 6
+    },
+    "score": 6.6
+  },
+  "total_episodes": 12,
+  "collection": {
+    "on_hold": 85,
+    "dropped": 152,
+    "wish": 718,
+    "collect": 93,
+    "doing": 3195
+  },
+  "id": 617123,
+  "eps": 12,
+  "meta_tags": [
+    "校园",
+    "TV",
+    "恋爱",
+    "日本",
+    "奇幻",
+    "漫画改"
+  ],
+  "volumes": 0,
+  "series": false,
+  "locked": false,
+  "nsfw": false,
+  "type": 2
+}

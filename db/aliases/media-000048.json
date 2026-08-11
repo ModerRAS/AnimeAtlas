@@ -14,8 +14,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Toukutsu Ou (Korean Audio)"
+    },
+    {
+      "value": "도굴왕",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "盗墓王",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000048",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

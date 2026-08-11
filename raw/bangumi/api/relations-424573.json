@@ -1,0 +1,100 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/ec/36/325234_uE21l.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/ec/36/325234_uE21l.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/ec/36/325234_uE21l.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/ec/36/325234_uE21l.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/ec/36/325234_uE21l.jpg"
+    },
+    "name": "逃げ上手の若君",
+    "name_cn": "擅长逃跑的殿下",
+    "relation": "书籍",
+    "type": 1,
+    "id": 325234
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/db/31/502850_XOJXu.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/db/31/502850_XOJXu.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/db/31/502850_XOJXu.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/db/31/502850_XOJXu.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/db/31/502850_XOJXu.jpg"
+    },
+    "name": "鎌倉STYLE",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 502850
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/51/29/503483_1Tqhr.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/51/29/503483_1Tqhr.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/51/29/503483_1Tqhr.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/51/29/503483_1Tqhr.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/51/29/503483_1Tqhr.jpg"
+    },
+    "name": "プランA",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 503483
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/54/bf/507541_MH2Hu.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/54/bf/507541_MH2Hu.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/54/bf/507541_MH2Hu.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/54/bf/507541_MH2Hu.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/54/bf/507541_MH2Hu.jpg"
+    },
+    "name": "ラジオ上手の若君",
+    "name_cn": "",
+    "relation": "衍生",
+    "type": 6,
+    "id": 507541
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/5d/00/517106_Il9mk.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/5d/00/517106_Il9mk.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/5d/00/517106_Il9mk.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/5d/00/517106_Il9mk.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/5d/00/517106_Il9mk.jpg"
+    },
+    "name": "逃げ上手の若君 第二期",
+    "name_cn": "擅长逃跑的殿下 第二季",
+    "relation": "续集",
+    "type": 2,
+    "id": 517106
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/a5/e4/502852_71keH.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/a5/e4/502852_71keH.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/a5/e4/502852_71keH.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/a5/e4/502852_71keH.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/a5/e4/502852_71keH.jpg"
+    },
+    "name": "逃げ上手の若君 オリジナル・サウンドトラックCD 第1弾",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 502852
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/c1/30/502854_RhveV.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/c1/30/502854_RhveV.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/c1/30/502854_RhveV.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/c1/30/502854_RhveV.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/c1/30/502854_RhveV.jpg"
+    },
+    "name": "逃げ上手の若君 オリジナル・サウンドトラックCD 第2弾",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 502854
+  }
+]

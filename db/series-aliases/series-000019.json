@@ -1,0 +1,35 @@
+{
+  "$schema": "../../packages/schema/schemas/series-aliases.schema.json",
+  "schema": "series-aliases/v2",
+  "series_id": "series-000019",
+  "aliases": [
+    {
+      "value": "葬送のフリーレン",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "葬送的芙莉莲",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "Frieren: Beyond Journey's End",
+      "language": "en",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.95
+    },
+    {
+      "value": "Sousou no Frieren",
+      "language": "ja-Latn",
+      "type": "romaji",
+      "source": "bangumi",
+      "confidence": 0.95
+    }
+  ]
+}

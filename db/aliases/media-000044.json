@@ -7,8 +7,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Hell Mode S2"
+    },
+    {
+      "value": "ヘルモード ～やり込み好きのゲーマーは廃設定の異世界で無双する～ 2nd Season",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "地狱模式～喜欢挑战特殊成就的玩家在废设定的异世界成为无双～第二季",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000044",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

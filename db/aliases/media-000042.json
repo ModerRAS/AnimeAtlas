@@ -7,8 +7,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Maou Gakuin no Futekigousha Season 2"
+    },
+    {
+      "value": "魔王学院の不適合者 ～史上最強の魔王の始祖、転生して子孫たちの学校へ通う～ Ⅱ",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "魔王学院的不适任者～史上最强的魔王始祖，转生就读子孙们的学校～ 第二季",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000042",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

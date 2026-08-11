@@ -1,0 +1,72 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/74/2d/390675_L7Gy5.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/74/2d/390675_L7Gy5.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/74/2d/390675_L7Gy5.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/74/2d/390675_L7Gy5.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/74/2d/390675_L7Gy5.jpg"
+    },
+    "name": "スーパーの裏でヤニ吸うふたり",
+    "name_cn": "在超市后门吸烟的二人",
+    "relation": "书籍",
+    "type": 1,
+    "id": 390675
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/b1/8d/450833_p0vx8.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/b1/8d/450833_p0vx8.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/b1/8d/450833_p0vx8.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/b1/8d/450833_p0vx8.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/b1/8d/450833_p0vx8.jpg"
+    },
+    "name": "NIGHT DANCER",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 450833
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/6b/52/509812_TjtQW.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/6b/52/509812_TjtQW.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/6b/52/509812_TjtQW.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/6b/52/509812_TjtQW.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/6b/52/509812_TjtQW.jpg"
+    },
+    "name": "虚仮の一念海馬に託す",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 509812
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/0e/b0/665187_t195b.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/0e/b0/665187_t195b.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/0e/b0/665187_t195b.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/0e/b0/665187_t195b.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/0e/b0/665187_t195b.jpg"
+    },
+    "name": "イチジク煙",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 665187
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/bb/69/665391_Z3TsD.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/bb/69/665391_Z3TsD.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/bb/69/665391_Z3TsD.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/bb/69/665391_Z3TsD.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/bb/69/665391_Z3TsD.jpg"
+    },
+    "name": "Fiction",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 665391
+  }
+]

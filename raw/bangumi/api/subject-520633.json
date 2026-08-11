@@ -1,0 +1,352 @@
+{
+  "date": "2026-04-04",
+  "platform": "TV",
+  "images": {
+    "small": "https://lain.bgm.tv/r/200/pic/cover/l/ee/50/520633_P76Yx.jpg",
+    "grid": "https://lain.bgm.tv/r/100/pic/cover/l/ee/50/520633_P76Yx.jpg",
+    "large": "https://lain.bgm.tv/pic/cover/l/ee/50/520633_P76Yx.jpg",
+    "medium": "https://lain.bgm.tv/r/800/pic/cover/l/ee/50/520633_P76Yx.jpg",
+    "common": "https://lain.bgm.tv/r/400/pic/cover/l/ee/50/520633_P76Yx.jpg"
+  },
+  "summary": "无论是怎样的每一天，「拉拉熊」都会陪在你的身边。\r\n这一次，它将跳出日常，走进悠然展开的动画世界。\r\n\r\n那一段令人心情放松的轻盈时光。\r\n不管在哪里、在做什么，\r\n拉拉熊都会与你相随。\r\n\r\n一段崭新的开始，令人雀跃的故事。\r\n2026年的春天，请一定要来和「拉拉熊」相见喔。\r\n\r\n\r\n\r\n[简介原文]\r\nどんな毎日も、あなたといっしょの「リラックマ」が\r\n今度は日常を飛び出して、ゆる～り広がるアニメーションの世界へ。\r\n\r\n心がふわっと軽くなるような、そんなひと時。\r\nどこにいても、なにをしてても、\r\nあなたのそばにリラックマを。\r\n\r\n新たにうごきだす、わくわくの物語。\r\n2026年春、ぜひ「リラックマ」に会いにきてくださいね。",
+  "name": "リラックマ",
+  "name_cn": "轻松熊",
+  "tags": [
+    {
+      "name": "2026",
+      "count": 14,
+      "total_count": 40661
+    },
+    {
+      "name": "2026年4月",
+      "count": 13,
+      "total_count": 24938
+    },
+    {
+      "name": "TV",
+      "count": 13,
+      "total_count": 1395716
+    },
+    {
+      "name": "泡面番",
+      "count": 11,
+      "total_count": 153689
+    },
+    {
+      "name": "原创",
+      "count": 10,
+      "total_count": 616785
+    },
+    {
+      "name": "ProductionI.G",
+      "count": 10,
+      "total_count": 35077
+    },
+    {
+      "name": "Production.I.G",
+      "count": 9,
+      "total_count": 42213
+    },
+    {
+      "name": "板津匡览",
+      "count": 8,
+      "total_count": 114
+    },
+    {
+      "name": "日本",
+      "count": 8,
+      "total_count": 293083
+    },
+    {
+      "name": "镰仓由实",
+      "count": 7,
+      "total_count": 51
+    },
+    {
+      "name": "动画短片",
+      "count": 4,
+      "total_count": 2070
+    },
+    {
+      "name": "泡面",
+      "count": 2,
+      "total_count": 10484
+    },
+    {
+      "name": "日本动画",
+      "count": 1,
+      "total_count": 34827
+    },
+    {
+      "name": "佐野晶子かまくらゆみ",
+      "count": 1,
+      "total_count": 1
+    },
+    {
+      "name": "2020s",
+      "count": 1,
+      "total_count": 3612
+    },
+    {
+      "name": "サンエックス",
+      "count": 1,
+      "total_count": 2
+    },
+    {
+      "name": "子供向",
+      "count": 1,
+      "total_count": 12655
+    },
+    {
+      "name": "日常",
+      "count": 1,
+      "total_count": 397754
+    },
+    {
+      "name": "IP改",
+      "count": 1,
+      "total_count": 8
+    },
+    {
+      "name": "漫画改",
+      "count": 1,
+      "total_count": 856620
+    },
+    {
+      "name": "リラックマ",
+      "count": 1,
+      "total_count": 4
+    },
+    {
+      "name": "10，13",
+      "count": 1,
+      "total_count": 1
+    },
+    {
+      "name": "未定档",
+      "count": 1,
+      "total_count": 4101
+    },
+    {
+      "name": "3，8，15藤城香菜",
+      "count": 1,
+      "total_count": 1
+    },
+    {
+      "name": "鎌倉由実",
+      "count": 1,
+      "total_count": 66
+    },
+    {
+      "name": "16-17増田桃一郎",
+      "count": 1,
+      "total_count": 1
+    },
+    {
+      "name": "板津匡覧",
+      "count": 1,
+      "total_count": 90
+    },
+    {
+      "name": "anime",
+      "count": 1,
+      "total_count": 3141
+    },
+    {
+      "name": "1-2，5，7，11-12，18板津匡览",
+      "count": 1,
+      "total_count": 1
+    },
+    {
+      "name": "19佐野晶子",
+      "count": 1,
+      "total_count": 1
+    }
+  ],
+  "infobox": [
+    {
+      "key": "中文名",
+      "value": "轻松熊"
+    },
+    {
+      "key": "别名",
+      "value": [
+        {
+          "v": "輕鬆小熊"
+        },
+        {
+          "v": "拉拉熊"
+        },
+        {
+          "v": "Rilakkuma"
+        },
+        {
+          "k": "第一部分",
+          "v": "リラックマ ごゆるり夢の旅"
+        },
+        {
+          "k": "第二部分",
+          "v": "リラックマ てくてく世界旅行"
+        }
+      ]
+    },
+    {
+      "key": "话数",
+      "value": "*"
+    },
+    {
+      "key": "放送开始",
+      "value": "2026年4月4日"
+    },
+    {
+      "key": "放送星期",
+      "value": "星期六"
+    },
+    {
+      "key": "官方网站",
+      "value": "https://rilakkuma-anime.com/"
+    },
+    {
+      "key": "播放电视台",
+      "value": "TBS"
+    },
+    {
+      "key": "导演",
+      "value": "板津匡覧(前篇) / 鎌倉由実(后篇)"
+    },
+    {
+      "key": "音乐",
+      "value": "横関公太、 池田善哉、 菅野みづき"
+    },
+    {
+      "key": "Copyright",
+      "value": "©SAN-X / チームリラックマ"
+    },
+    {
+      "key": "摄影监督",
+      "value": "奥村隆弘"
+    },
+    {
+      "key": "色彩设计",
+      "value": "佐藤真由美"
+    },
+    {
+      "key": "剪辑",
+      "value": "植松淳一"
+    },
+    {
+      "key": "音响监督",
+      "value": "菊田浩巳"
+    },
+    {
+      "key": "美术监督",
+      "value": "山㟢涼奈"
+    },
+    {
+      "key": "背景美术",
+      "value": "スタジオ風雅"
+    },
+    {
+      "key": "原作",
+      "value": "サンエックス(San-X)"
+    },
+    {
+      "key": "主题歌编曲",
+      "value": "KOHD"
+    },
+    {
+      "key": "主题歌作曲",
+      "value": "幾田りら"
+    },
+    {
+      "key": "主题歌作词",
+      "value": "幾田りら"
+    },
+    {
+      "key": "主题歌演出",
+      "value": "幾田りら"
+    },
+    {
+      "key": "人物设定",
+      "value": "森田千誉"
+    },
+    {
+      "key": "音乐制作",
+      "value": "レジェンドア"
+    },
+    {
+      "key": "动画制片人",
+      "value": "松下慶子"
+    },
+    {
+      "key": "动画制作",
+      "value": "Production I.G"
+    },
+    {
+      "key": "原作监修",
+      "value": "西田愛実、藤村芳子、米村真由美、齋藤奈実"
+    },
+    {
+      "key": "製作",
+      "value": "チームリラックマ（Aniplex、San-X、Production I.G、TBS）"
+    },
+    {
+      "key": "企画",
+      "value": "岩上敦宏、千田洋史、和田丈嗣、赤津一彦"
+    },
+    {
+      "key": "执行制片人",
+      "value": "高橋祐馬、鈴木正人、中村太一、畠山渉"
+    },
+    {
+      "key": "制片人",
+      "value": "井上めぐみ、富田里奈、伊藤整、米田壮汰"
+    },
+    {
+      "key": "助理制片人",
+      "value": "宮澤夕葵美、鈴木真希、池田才哉ユリアン、田中佑実"
+    },
+    {
+      "key": "企画协力",
+      "value": "神宮司学、柴田岬、岡田武士、谷池侑美、松﨑由美子、山崎淑子、菊地恵美、沖津純平、吉田未来、福永衣花、池乗彰吾"
+    }
+  ],
+  "rating": {
+    "rank": 0,
+    "total": 30,
+    "count": {
+      "1": 2,
+      "2": 0,
+      "3": 1,
+      "4": 0,
+      "5": 2,
+      "6": 16,
+      "7": 4,
+      "8": 2,
+      "9": 2,
+      "10": 1
+    },
+    "score": 6.1
+  },
+  "total_episodes": 20,
+  "collection": {
+    "on_hold": 6,
+    "dropped": 20,
+    "wish": 52,
+    "collect": 21,
+    "doing": 91
+  },
+  "id": 520633,
+  "eps": 0,
+  "meta_tags": [
+    "TV",
+    "TV",
+    "日本",
+    "日本"
+  ],
+  "volumes": 0,
+  "series": false,
+  "locked": false,
+  "nsfw": false,
+  "type": 2
+}

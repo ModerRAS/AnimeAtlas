@@ -1,0 +1,8 @@
+{
+  "$schema": "../../packages/schema/schemas/series-identity.schema.json",
+  "schema": "series-identity/v2",
+  "id": "series-000075",
+  "kind": "anime-series",
+  "title": "ここは俺に任せて先に行けと言ってから10年がたったら伝説になっていた。",
+  "relationships": []
+}

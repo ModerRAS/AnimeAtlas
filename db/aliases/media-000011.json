@@ -7,8 +7,22 @@
       "source": "community",
       "type": "localized",
       "value": "異世界悠閒農家 2"
+    },
+    {
+      "value": "異世界のんびり農家２",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "异世界悠闲农家 第二季",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000011",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

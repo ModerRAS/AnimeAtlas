@@ -1,0 +1,716 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/95/62/109053_YdD8U.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/95/62/109053_YdD8U.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/95/62/109053_YdD8U.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/95/62/109053_YdD8U.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/95/62/109053_YdD8U.jpg"
+    },
+    "name": "THE LAST -NARUTO THE MOVIE-",
+    "name_cn": "火影忍者 剧场版 终章",
+    "relation": "前传",
+    "type": 2,
+    "id": 109053
+  },
+  {
+    "images": {
+      "small": "",
+      "grid": "",
+      "large": "",
+      "medium": "",
+      "common": ""
+    },
+    "name": "BORUTO-ボルト- NARUTO NEXT GENERATIONS 第ニ部",
+    "name_cn": "博人传-火影次世代- 第二部",
+    "relation": "续集",
+    "type": 2,
+    "id": 423621
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/d1/72/297556_ADcnl.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/d1/72/297556_ADcnl.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/d1/72/297556_ADcnl.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/d1/72/297556_ADcnl.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/d1/72/297556_ADcnl.jpg"
+    },
+    "name": "BORUTO THE BEST",
+    "name_cn": "",
+    "relation": "其他",
+    "type": 3,
+    "id": 297556
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/6f/e6/218369_01z9N.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/6f/e6/218369_01z9N.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/6f/e6/218369_01z9N.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/6f/e6/218369_01z9N.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/6f/e6/218369_01z9N.jpg"
+    },
+    "name": "NARUTO -ナルト- 疾風伝 ナルティメットストーム4 ROAD TO BORUTO",
+    "name_cn": "火影忍者 疾风传 终极风暴4 慕留人传",
+    "relation": "游戏",
+    "type": 4,
+    "id": 218369
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/c7/34/192123_18w04.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/c7/34/192123_18w04.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/c7/34/192123_18w04.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/c7/34/192123_18w04.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/c7/34/192123_18w04.jpg"
+    },
+    "name": "BORUTO -ボルト-",
+    "name_cn": "博人传",
+    "relation": "番外篇",
+    "type": 2,
+    "id": 192123
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/c8/16/120191_pgTPs.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/c8/16/120191_pgTPs.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/c8/16/120191_pgTPs.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/c8/16/120191_pgTPs.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/c8/16/120191_pgTPs.jpg"
+    },
+    "name": "BORUTO -NARUTO THE MOVIE-",
+    "name_cn": "火影忍者 剧场版 博人传",
+    "relation": "不同演绎",
+    "type": 2,
+    "id": 120191
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/60/24/2782_z3jWE.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/60/24/2782_z3jWE.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/60/24/2782_z3jWE.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/60/24/2782_z3jWE.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/60/24/2782_z3jWE.jpg"
+    },
+    "name": "NARUTO -ナルト- 疾風伝",
+    "name_cn": "火影忍者疾风传",
+    "relation": "前传",
+    "type": 2,
+    "id": 2782
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/21/05/173370_Z8l99.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/21/05/173370_Z8l99.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/21/05/173370_Z8l99.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/21/05/173370_Z8l99.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/21/05/173370_Z8l99.jpg"
+    },
+    "name": "BORUTO-ボルト- -NARUTO NEXT GENERATIONS-",
+    "name_cn": "博人传-火影次世代-",
+    "relation": "书籍",
+    "type": 1,
+    "id": 173370
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/c6/28/219383_jp.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/c6/28/219383_jp.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/c6/28/219383_jp.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/c6/28/219383_jp.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/c6/28/219383_jp.jpg"
+    },
+    "name": "バトンロード",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 219383
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/66/fd/219664_jp.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/66/fd/219664_jp.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/66/fd/219664_jp.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/66/fd/219664_jp.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/66/fd/219664_jp.jpg"
+    },
+    "name": "ドリーミージャーニー",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 219664
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/c1/b4/218580_jp.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/c1/b4/218580_jp.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/c1/b4/218580_jp.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/c1/b4/218580_jp.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/c1/b4/218580_jp.jpg"
+    },
+    "name": "BORUTO -ボルト- NARUTO NEXT GENERATIONS  オリジナルサウンドトラック I",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 218580
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/e7/f7/213055_7p6Q1.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/e7/f7/213055_7p6Q1.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/e7/f7/213055_7p6Q1.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/e7/f7/213055_7p6Q1.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/e7/f7/213055_7p6Q1.jpg"
+    },
+    "name": "BORUTO-ボルト- -NARUTO NEXT GENERATIONS- NOVEL",
+    "name_cn": "博人传-火影次世代- 小说",
+    "relation": "书籍",
+    "type": 1,
+    "id": 213055
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/7e/b9/266172_MtLM3.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/7e/b9/266172_MtLM3.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/7e/b9/266172_MtLM3.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/7e/b9/266172_MtLM3.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/7e/b9/266172_MtLM3.jpg"
+    },
+    "name": "BORUTO -ボルト- NARUTO NEXT GENERATIONS オリジナルサウンドトラック II",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 266172
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/a7/3d/222265_jp.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/a7/3d/222265_jp.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/a7/3d/222265_jp.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/a7/3d/222265_jp.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/a7/3d/222265_jp.jpg"
+    },
+    "name": "サヨナラムーンタウン",
+    "name_cn": "再见月落",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 222265
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/4d/e6/229518_H51lS.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/4d/e6/229518_H51lS.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/4d/e6/229518_H51lS.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/4d/e6/229518_H51lS.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/4d/e6/229518_H51lS.jpg"
+    },
+    "name": "OVER/ヒカルカケラ",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 229518
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/e0/01/229520_q5M5L.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/e0/01/229520_q5M5L.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/e0/01/229520_q5M5L.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/e0/01/229520_q5M5L.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/e0/01/229520_q5M5L.jpg"
+    },
+    "name": "僕は走り続ける",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 229520
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/8e/cc/253254_tLE1W.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/8e/cc/253254_tLE1W.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/8e/cc/253254_tLE1W.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/8e/cc/253254_tLE1W.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/8e/cc/253254_tLE1W.jpg"
+    },
+    "name": "It's all in the game",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 253254
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/7b/5d/134712_3seSg.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/7b/5d/134712_3seSg.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/7b/5d/134712_3seSg.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/7b/5d/134712_3seSg.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/7b/5d/134712_3seSg.jpg"
+    },
+    "name": "NARUTO-ナルト-外伝 ～七代目火影と緋色の花つ月～",
+    "name_cn": "火影忍者 外传 ～第七代火影与绯色花月～",
+    "relation": "书籍",
+    "type": 1,
+    "id": 134712
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/fa/e7/237488_9ykJQ.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/fa/e7/237488_9ykJQ.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/fa/e7/237488_9ykJQ.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/fa/e7/237488_9ykJQ.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/fa/e7/237488_9ykJQ.jpg"
+    },
+    "name": "デンシンタマシイ",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 237488
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/9c/e0/325458_SL7SJ.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/9c/e0/325458_SL7SJ.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/9c/e0/325458_SL7SJ.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/9c/e0/325458_SL7SJ.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/9c/e0/325458_SL7SJ.jpg"
+    },
+    "name": "NARUTO -ナルト- ナルト新伝 親子の日",
+    "name_cn": "火影忍者 鸣人新传 亲子之日",
+    "relation": "书籍",
+    "type": 1,
+    "id": 325458
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/8a/1d/270257_b50tu.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/8a/1d/270257_b50tu.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/8a/1d/270257_b50tu.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/8a/1d/270257_b50tu.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/8a/1d/270257_b50tu.jpg"
+    },
+    "name": "Lonely Go!",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 270257
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/32/ba/244753_pj27E.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/32/ba/244753_pj27E.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/32/ba/244753_pj27E.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/32/ba/244753_pj27E.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/32/ba/244753_pj27E.jpg"
+    },
+    "name": "花鳥風月",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 244753
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/86/f6/283746_80p80.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/86/f6/283746_80p80.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/86/f6/283746_80p80.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/86/f6/283746_80p80.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/86/f6/283746_80p80.jpg"
+    },
+    "name": "NARUTO -ナルト- 木ノ葉新伝 湯煙忍法帖",
+    "name_cn": "火影忍者 木叶新传 汤烟忍法帖",
+    "relation": "书籍",
+    "type": 1,
+    "id": 283746
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/56/49/283796_M2Yks.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/56/49/283796_M2Yks.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/56/49/283796_M2Yks.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/56/49/283796_M2Yks.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/56/49/283796_M2Yks.jpg"
+    },
+    "name": "ゴールデンタイム",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 283796
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/6a/e7/256593_8cs53.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/6a/e7/256593_8cs53.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/6a/e7/256593_8cs53.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/6a/e7/256593_8cs53.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/6a/e7/256593_8cs53.jpg"
+    },
+    "name": "ライカ",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 256593
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/a8/2f/325462_5RaYN.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/a8/2f/325462_5RaYN.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/a8/2f/325462_5RaYN.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/a8/2f/325462_5RaYN.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/a8/2f/325462_5RaYN.jpg"
+    },
+    "name": "NARUTO -ナルト- サスケ烈伝 うちはの末裔と天球の星屑",
+    "name_cn": "火影忍者 佐助烈传 宇智波的后裔与天球的星尘",
+    "relation": "书籍",
+    "type": 1,
+    "id": 325462
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/44/3d/294112_q6MOt.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/44/3d/294112_q6MOt.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/44/3d/294112_q6MOt.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/44/3d/294112_q6MOt.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/44/3d/294112_q6MOt.jpg"
+    },
+    "name": "ティーンエイジドリーム / Storyteller",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 294112
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/eb/9e/267742_Sp34d.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/eb/9e/267742_Sp34d.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/eb/9e/267742_Sp34d.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/eb/9e/267742_Sp34d.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/eb/9e/267742_Sp34d.jpg"
+    },
+    "name": "ポラリス",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 267742
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/34/bd/403576_Ep123.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/34/bd/403576_Ep123.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/34/bd/403576_Ep123.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/34/bd/403576_Ep123.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/34/bd/403576_Ep123.jpg"
+    },
+    "name": "NARUTO -ナルト- サスケ烈伝 うちはの末裔と天球の星屑",
+    "name_cn": "火影忍者 佐助烈传 宇智波的后裔与天球的星尘",
+    "relation": "书籍",
+    "type": 1,
+    "id": 403576
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/c6/00/310226_2blD6.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/c6/00/310226_2blD6.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/c6/00/310226_2blD6.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/c6/00/310226_2blD6.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/c6/00/310226_2blD6.jpg"
+    },
+    "name": "はじまっていく たかまっていく E.P.",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 310226
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/8b/45/274618_3v3aW.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/8b/45/274618_3v3aW.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/8b/45/274618_3v3aW.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/8b/45/274618_3v3aW.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/8b/45/274618_3v3aW.jpg"
+    },
+    "name": "強がりLOSER",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 274618
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/53/4e/323243_otfR8.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/53/4e/323243_otfR8.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/53/4e/323243_otfR8.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/53/4e/323243_otfR8.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/53/4e/323243_otfR8.jpg"
+    },
+    "name": "BAKU",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 323243
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/3e/56/282856_oKUdz.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/3e/56/282856_oKUdz.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/3e/56/282856_oKUdz.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/3e/56/282856_oKUdz.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/3e/56/282856_oKUdz.jpg"
+    },
+    "name": "Ride or Die",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 282856
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/95/03/344980_YM063.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/95/03/344980_YM063.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/95/03/344980_YM063.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/95/03/344980_YM063.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/95/03/344980_YM063.jpg"
+    },
+    "name": "我武者羅",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 344980
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/4b/06/287034_aK7mG.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/4b/06/287034_aK7mG.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/4b/06/287034_aK7mG.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/4b/06/287034_aK7mG.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/4b/06/287034_aK7mG.jpg"
+    },
+    "name": "未完成な光たち",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 287034
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/bf/cb/366483_2kKUI.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/bf/cb/366483_2kKUI.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/bf/cb/366483_2kKUI.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/bf/cb/366483_2kKUI.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/bf/cb/366483_2kKUI.jpg"
+    },
+    "name": "GOLD",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 366483
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/1e/8f/293773_Xkyyk.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/1e/8f/293773_Xkyyk.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/1e/8f/293773_Xkyyk.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/1e/8f/293773_Xkyyk.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/1e/8f/293773_Xkyyk.jpg"
+    },
+    "name": "Wish on",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 293773
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/c9/02/398736_5p2Hw.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/c9/02/398736_5p2Hw.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/c9/02/398736_5p2Hw.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/c9/02/398736_5p2Hw.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/c9/02/398736_5p2Hw.jpg"
+    },
+    "name": "きらりらり",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 398736
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/86/80/410039_xG0HE.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/86/80/410039_xG0HE.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/86/80/410039_xG0HE.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/86/80/410039_xG0HE.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/86/80/410039_xG0HE.jpg"
+    },
+    "name": "宿縁",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 410039
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/b0/3f/300201_Dh7Th.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/b0/3f/300201_Dh7Th.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/b0/3f/300201_Dh7Th.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/b0/3f/300201_Dh7Th.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/b0/3f/300201_Dh7Th.jpg"
+    },
+    "name": "Fireworks",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 300201
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/f7/2a/306547_gYgBS.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/f7/2a/306547_gYgBS.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/f7/2a/306547_gYgBS.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/f7/2a/306547_gYgBS.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/f7/2a/306547_gYgBS.jpg"
+    },
+    "name": "Maybe I",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 306547
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/d3/63/316211_J14B4.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/d3/63/316211_J14B4.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/d3/63/316211_J14B4.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/d3/63/316211_J14B4.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/d3/63/316211_J14B4.jpg"
+    },
+    "name": "セントラル",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 316211
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/64/88/323244_ohoIy.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/64/88/323244_ohoIy.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/64/88/323244_ohoIy.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/64/88/323244_ohoIy.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/64/88/323244_ohoIy.jpg"
+    },
+    "name": "Answers",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 323244
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/da/6f/331234_Ujll7.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/da/6f/331234_Ujll7.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/da/6f/331234_Ujll7.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/da/6f/331234_Ujll7.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/da/6f/331234_Ujll7.jpg"
+    },
+    "name": "キミがいたしるし",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 331234
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/f0/c3/341770_494r5.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/f0/c3/341770_494r5.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/f0/c3/341770_494r5.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/f0/c3/341770_494r5.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/f0/c3/341770_494r5.jpg"
+    },
+    "name": "Who are you? / 星座して二人",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 341770
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/0c/95/352514_Y77OB.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/0c/95/352514_Y77OB.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/0c/95/352514_Y77OB.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/0c/95/352514_Y77OB.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/0c/95/352514_Y77OB.jpg"
+    },
+    "name": "WANDERING",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 352514
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/a6/29/363075_78063.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/a6/29/363075_78063.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/a6/29/363075_78063.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/a6/29/363075_78063.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/a6/29/363075_78063.jpg"
+    },
+    "name": "VOLTAGE",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 363075
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/68/7f/378082_A9VK9.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/68/7f/378082_A9VK9.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/68/7f/378082_A9VK9.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/68/7f/378082_A9VK9.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/68/7f/378082_A9VK9.jpg"
+    },
+    "name": "トワイライト・ファズ",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 378082
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/02/dd/390688_KkLZz.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/02/dd/390688_KkLZz.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/02/dd/390688_KkLZz.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/02/dd/390688_KkLZz.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/02/dd/390688_KkLZz.jpg"
+    },
+    "name": "ビボウロク",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 390688
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/11/3e/399883_YVny6.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/11/3e/399883_YVny6.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/11/3e/399883_YVny6.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/11/3e/399883_YVny6.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/11/3e/399883_YVny6.jpg"
+    },
+    "name": "Ladder",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 399883
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/ef/ba/410040_R8nnN.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/ef/ba/410040_R8nnN.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/ef/ba/410040_R8nnN.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/ef/ba/410040_R8nnN.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/ef/ba/410040_R8nnN.jpg"
+    },
+    "name": "またね / THE SONG",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 410040
+  }
+]

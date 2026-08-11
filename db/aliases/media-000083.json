@@ -7,8 +7,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Clevatess S2"
+    },
+    {
+      "value": "クレバテスⅡ-魔獣の王と偽りの勇者伝承-",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "Clevatess II-魔兽之王与虚假的勇者传承-",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000083",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

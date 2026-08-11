@@ -1,0 +1,406 @@
+{
+  "date": "2026-04-04",
+  "platform": "TV",
+  "images": {
+    "small": "https://lain.bgm.tv/r/200/pic/cover/l/4d/eb/524486_5vyCJ.jpg",
+    "grid": "https://lain.bgm.tv/r/100/pic/cover/l/4d/eb/524486_5vyCJ.jpg",
+    "large": "https://lain.bgm.tv/pic/cover/l/4d/eb/524486_5vyCJ.jpg",
+    "medium": "https://lain.bgm.tv/r/800/pic/cover/l/4d/eb/524486_5vyCJ.jpg",
+    "common": "https://lain.bgm.tv/r/400/pic/cover/l/4d/eb/524486_5vyCJ.jpg"
+  },
+  "summary": "铃木入间隐藏自己是人类的事实，在恶魔学校巴比路斯上学。随着恶魔朋友的增加，他在不知不觉中开始变得能享受魔界生活，并在各种活动中大放异彩！他一路提升在魔界的阶级，渐渐成为在校内外都备受注目的存在。\r\n现在入间又有一项新的挑战，那就是考验班级凝聚力的＜音乐祭＞！由于校方提出的课题：入间所待的问题儿童（阿布诺玛）班的13人必须全员达成「阶级4」的这项空前绝后的无理要求，在最后的升级机会音乐祭中取得优胜成为了达成这项课题的绝对条件。然而，班上还有另一名「不被容许引人注意的恶魔」……。\r\n入间他们，究竟能否让13人全员一起站上舞台呢――！？\r\n\r\n\r\n\r\n[简介原文]\r\n人間であることを隠しながら悪魔学校バビルスに通う鈴木入間。悪魔のオトモダチも増え、いつしか魔界生活を楽しむようになり、様々な行事で大活躍！魔界での位階ランクを駆け上がり、学内外で注目の的になりつつあった。\r\nそんな入間が新たに挑むのは、クラスの結束が試される <音楽祭> ！所属する問題児アブノーマルクラスの13人全員で「位階ランク４」達成という 前人未到の無茶振りが学校から課される中、最後の昇級チャンスとなる音楽祭での優勝は絶対条件。しかし、クラスメートに「目立つことを許されない悪魔」が1人…。\r\n果たして入間たちは13人全員で舞台に立つことが出来るのか――!?",
+  "name": "魔入りました！入間くん 第4シリーズ",
+  "name_cn": "入间同学入魔了 第四季",
+  "tags": [
+    {
+      "name": "2026年4月",
+      "count": 196,
+      "total_count": 24965
+    },
+    {
+      "name": "搞笑",
+      "count": 151,
+      "total_count": 635625
+    },
+    {
+      "name": "漫画改",
+      "count": 118,
+      "total_count": 857151
+    },
+    {
+      "name": "日常",
+      "count": 96,
+      "total_count": 397872
+    },
+    {
+      "name": "校园",
+      "count": 88,
+      "total_count": 450386
+    },
+    {
+      "name": "奇幻",
+      "count": 83,
+      "total_count": 467411
+    },
+    {
+      "name": "TV",
+      "count": 62,
+      "total_count": 1396490
+    },
+    {
+      "name": "BNPictures",
+      "count": 53,
+      "total_count": 5224
+    },
+    {
+      "name": "2026",
+      "count": 51,
+      "total_count": 40782
+    },
+    {
+      "name": "漫改",
+      "count": 44,
+      "total_count": 360074
+    },
+    {
+      "name": "入间同学入魔了",
+      "count": 41,
+      "total_count": 214
+    },
+    {
+      "name": "日本",
+      "count": 32,
+      "total_count": 293243
+    },
+    {
+      "name": "续作",
+      "count": 24,
+      "total_count": 45758
+    },
+    {
+      "name": "奇异日常",
+      "count": 16,
+      "total_count": 95
+    },
+    {
+      "name": "续集",
+      "count": 8,
+      "total_count": 5146
+    },
+    {
+      "name": "辻桥绫佳",
+      "count": 6,
+      "total_count": 6
+    },
+    {
+      "name": "动画",
+      "count": 3,
+      "total_count": 35574
+    },
+    {
+      "name": "异世界",
+      "count": 3,
+      "total_count": 260379
+    },
+    {
+      "name": "森胁真琴",
+      "count": 2,
+      "total_count": 104
+    },
+    {
+      "name": "魔法",
+      "count": 2,
+      "total_count": 19938
+    },
+    {
+      "name": "村瀬歩",
+      "count": 2,
+      "total_count": 413
+    },
+    {
+      "name": "2025",
+      "count": 2,
+      "total_count": 72520
+    },
+    {
+      "name": "木村良平",
+      "count": 2,
+      "total_count": 2997
+    },
+    {
+      "name": "校园恋爱喜剧日常",
+      "count": 1,
+      "total_count": 7
+    },
+    {
+      "name": "超能力",
+      "count": 1,
+      "total_count": 25641
+    },
+    {
+      "name": "长期追踪的",
+      "count": 1,
+      "total_count": 1
+    },
+    {
+      "name": "画风变得奇奇怪怪",
+      "count": 1,
+      "total_count": 1
+    },
+    {
+      "name": "本间昭光",
+      "count": 1,
+      "total_count": 8
+    },
+    {
+      "name": "更新",
+      "count": 1,
+      "total_count": 11
+    },
+    {
+      "name": "朝井彩加",
+      "count": 1,
+      "total_count": 57
+    }
+  ],
+  "infobox": [
+    {
+      "key": "中文名",
+      "value": "入间同学入魔了 第四季"
+    },
+    {
+      "key": "别名",
+      "value": [
+        {
+          "v": "Mairimashita! Iruma-kun 4"
+        },
+        {
+          "v": "Welcome to Demon School! Iruma-kun Season 4"
+        }
+      ]
+    },
+    {
+      "key": "话数",
+      "value": "24"
+    },
+    {
+      "key": "放送开始",
+      "value": "2026年4月4日"
+    },
+    {
+      "key": "放送星期",
+      "value": "星期六"
+    },
+    {
+      "key": "官方网站",
+      "value": "https://www.nhk-character.com/chara/iruma/"
+    },
+    {
+      "key": "播放电视台",
+      "value": "NHK Eテレ"
+    },
+    {
+      "key": "导演",
+      "value": "辻橋綾佳"
+    },
+    {
+      "key": "音乐",
+      "value": "本間昭光、関向弥生"
+    },
+    {
+      "key": "Copyright",
+      "value": "© 西修 (秋田書店) ／魔入りました！入間くん第4シリーズ製作委員会"
+    },
+    {
+      "key": "原作",
+      "value": "西修（秋田書店「週刊少年チャンピオン」連載）"
+    },
+    {
+      "key": "总导演",
+      "value": "森脇真琴"
+    },
+    {
+      "key": "系列构成",
+      "value": "筆安一幸"
+    },
+    {
+      "key": "人物设定",
+      "value": "原由美子"
+    },
+    {
+      "key": "副人物设定",
+      "value": "石田智子、オダサガ秀登"
+    },
+    {
+      "key": "怪物设计",
+      "value": "菊池晃"
+    },
+    {
+      "key": "道具设计",
+      "value": "オチャズケ"
+    },
+    {
+      "key": "设定",
+      "value": "技能・魔法设计：高畑かおり"
+    },
+    {
+      "key": "美术监督",
+      "value": "吉田ひとみ"
+    },
+    {
+      "key": "色彩设计",
+      "value": "高谷知恵"
+    },
+    {
+      "key": "摄影监督",
+      "value": "千葉洋之"
+    },
+    {
+      "key": "摄影监督助理",
+      "value": "井上江美"
+    },
+    {
+      "key": "特效",
+      "value": "福田直征"
+    },
+    {
+      "key": "2D 设计",
+      "value": "藤純"
+    },
+    {
+      "key": "製作",
+      "value": "魔入りました！入間くん第4シリーズ製作委員会（NHKエンタープライズ、Crunchyroll）"
+    },
+    {
+      "key": "企画",
+      "value": "野島正宏、末平アサ"
+    },
+    {
+      "key": "制片人",
+      "value": "宮本未来、山口貴也"
+    },
+    {
+      "key": "助理制片人",
+      "value": "丸山千尋、萩原あかり、池田昂史"
+    },
+    {
+      "key": "动画制片人",
+      "value": "澤田紗彩"
+    },
+    {
+      "key": "制作管理",
+      "value": "平塚剛"
+    },
+    {
+      "key": "设定制作",
+      "value": "矢都木織梨恵"
+    },
+    {
+      "key": "制作进行",
+      "value": "濱島可蓮"
+    },
+    {
+      "key": "OP・ED 分镜",
+      "value": "大久保政雄 / 中西基樹"
+    },
+    {
+      "key": "OP・ED 演出",
+      "value": "大久保政雄 / 中西基樹"
+    },
+    {
+      "key": "主题歌演出",
+      "value": "Penthouse / CANDY TUNE"
+    },
+    {
+      "key": "主题歌作词",
+      "value": "大原拓真、浪岡真太郎 / NOBE"
+    },
+    {
+      "key": "主题歌作曲",
+      "value": "浪岡真太郎 / michitomo"
+    },
+    {
+      "key": "主题歌编曲",
+      "value": "Penthouse / 新山俊也(GOLDTAIL)"
+    },
+    {
+      "key": "音乐制作人",
+      "value": "田中統英"
+    },
+    {
+      "key": "音响",
+      "value": "可知秀幸、阿部秀平"
+    },
+    {
+      "key": "音效",
+      "value": "出雲範子"
+    },
+    {
+      "key": "录音",
+      "value": "小島信人"
+    },
+    {
+      "key": "录音助理",
+      "value": "水師沙紀"
+    },
+    {
+      "key": "剪辑",
+      "value": "小守真由美；剪辑助手：吉原耕佑"
+    },
+    {
+      "key": "在线剪辑",
+      "value": "古宇田晟矢"
+    },
+    {
+      "key": "总作画监督",
+      "value": "原由美子"
+    },
+    {
+      "key": "作画监督",
+      "value": "野田康行"
+    },
+    {
+      "key": "原画",
+      "value": "菊地加純、藤木かほる、尾上遼、川守田拓己、小澤辰則、山口愛子、ヤス、岡崎伸浩、和泉晃耶、玉城史郎、直木菜々子、桂木杏、金正男、山本桂子、藤井芳徳、蕭宇庭、石井麻衣、手塚このみ"
+    }
+  ],
+  "rating": {
+    "rank": 4226,
+    "total": 225,
+    "count": {
+      "1": 2,
+      "2": 1,
+      "3": 1,
+      "4": 5,
+      "5": 22,
+      "6": 73,
+      "7": 82,
+      "8": 26,
+      "9": 3,
+      "10": 10
+    },
+    "score": 6.6
+  },
+  "total_episodes": 24,
+  "collection": {
+    "on_hold": 80,
+    "dropped": 66,
+    "wish": 602,
+    "collect": 148,
+    "doing": 1289
+  },
+  "id": 524486,
+  "eps": 24,
+  "meta_tags": [
+    "校园",
+    "TV",
+    "日本",
+    "漫画改",
+    "日常"
+  ],
+  "volumes": 0,
+  "series": false,
+  "locked": false,
+  "nsfw": false,
+  "type": 2
+}

@@ -7,8 +7,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Rooster Fighter"
+    },
+    {
+      "value": "ニワトリ・ファイター",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "公鸡斗士",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000061",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

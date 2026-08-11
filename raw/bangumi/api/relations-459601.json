@@ -1,0 +1,58 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/f6/88/288543_bAhk4.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/f6/88/288543_bAhk4.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/f6/88/288543_bAhk4.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/f6/88/288543_bAhk4.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/f6/88/288543_bAhk4.jpg"
+    },
+    "name": "異世界でチート能力を手にした俺は、現実世界をも無双する ～レベルアップは人生を変えた～",
+    "name_cn": "在异世界获得超强能力的我，在现实世界照样无敌～等级提升改变人生命运～",
+    "relation": "书籍",
+    "type": 1,
+    "id": 288543
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/2a/46/397025_T8Z0D.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/2a/46/397025_T8Z0D.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/2a/46/397025_T8Z0D.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/2a/46/397025_T8Z0D.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/2a/46/397025_T8Z0D.jpg"
+    },
+    "name": "異世界でチート能力を手にした俺は、現実世界をも無双する～レベルアップは人生を変えた～",
+    "name_cn": "在异世界获得超强能力的我，在现实世界照样无敌～等级提升改变人生命运～",
+    "relation": "前传",
+    "type": 2,
+    "id": 397025
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/20/c8/520715_pw5Fk.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/20/c8/520715_pw5Fk.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/20/c8/520715_pw5Fk.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/20/c8/520715_pw5Fk.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/20/c8/520715_pw5Fk.jpg"
+    },
+    "name": "異世界でチート能力を手にした俺は、現実世界をも無双する ～レベルアップは人生を変えた～ パラレルユニバース",
+    "name_cn": "在异世界获得超强能力的我，在现实世界照样无敌～等级提升改变人生命运～ 平行宇宙",
+    "relation": "游戏",
+    "type": 4,
+    "id": 520715
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/ac/eb/638290_P5064.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/ac/eb/638290_P5064.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/ac/eb/638290_P5064.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/ac/eb/638290_P5064.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/ac/eb/638290_P5064.jpg"
+    },
+    "name": "異世界でチート能力を手にした俺は、現実世界をも無双する～レベルアップは人生を変えた～ 第2期",
+    "name_cn": "在异世界获得超强能力的我，在现实世界照样无敌～等级提升改变人生命运～ 第二季",
+    "relation": "续集",
+    "type": 2,
+    "id": 638290
+  }
+]

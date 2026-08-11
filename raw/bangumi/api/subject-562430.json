@@ -1,0 +1,410 @@
+{
+  "date": "2026-01-05",
+  "platform": "TV",
+  "images": {
+    "small": "https://lain.bgm.tv/r/200/pic/cover/l/49/a0/562430_8dO8T.jpg",
+    "grid": "https://lain.bgm.tv/r/100/pic/cover/l/49/a0/562430_8dO8T.jpg",
+    "large": "https://lain.bgm.tv/pic/cover/l/49/a0/562430_8dO8T.jpg",
+    "medium": "https://lain.bgm.tv/r/800/pic/cover/l/49/a0/562430_8dO8T.jpg",
+    "common": "https://lain.bgm.tv/r/400/pic/cover/l/49/a0/562430_8dO8T.jpg"
+  },
+  "summary": "温泉が湧き出る海辺の街・熱海。\r\n\r\n小さなクリーニング店を営む金目綿花奈さんは、\r\n明るくて働き者で温泉が大好きな女の子。\r\n彼女と彼女を巡る人々が織りなす、ひきこもごもストーリー、始まります。",
+  "name": "綺麗にしてもらえますか。",
+  "name_cn": "能帮我弄干净吗？",
+  "tags": [
+    {
+      "name": "日常",
+      "count": 517,
+      "total_count": 397769
+    },
+    {
+      "name": "2026年1月",
+      "count": 515,
+      "total_count": 27545
+    },
+    {
+      "name": "漫画改",
+      "count": 473,
+      "total_count": 856814
+    },
+    {
+      "name": "TV",
+      "count": 339,
+      "total_count": 1396106
+    },
+    {
+      "name": "OkurutoNoboru",
+      "count": 257,
+      "total_count": 1752
+    },
+    {
+      "name": "2026",
+      "count": 236,
+      "total_count": 40698
+    },
+    {
+      "name": "治愈",
+      "count": 230,
+      "total_count": 300541
+    },
+    {
+      "name": "洗衣服",
+      "count": 183,
+      "total_count": 183
+    },
+    {
+      "name": "漫改",
+      "count": 177,
+      "total_count": 360025
+    },
+    {
+      "name": "日本",
+      "count": 174,
+      "total_count": 293110
+    },
+    {
+      "name": "铃代纱弓",
+      "count": 135,
+      "total_count": 229
+    },
+    {
+      "name": "大西健太",
+      "count": 75,
+      "total_count": 136
+    },
+    {
+      "name": "2026年",
+      "count": 29,
+      "total_count": 1691
+    },
+    {
+      "name": "待田堂子",
+      "count": 27,
+      "total_count": 688
+    },
+    {
+      "name": "职场",
+      "count": 13,
+      "total_count": 22691
+    },
+    {
+      "name": "2026冬",
+      "count": 12,
+      "total_count": 244
+    },
+    {
+      "name": "空气系",
+      "count": 7,
+      "total_count": 856
+    },
+    {
+      "name": "科普",
+      "count": 5,
+      "total_count": 12789
+    },
+    {
+      "name": "动画",
+      "count": 4,
+      "total_count": 35565
+    },
+    {
+      "name": "恋爱",
+      "count": 4,
+      "total_count": 560249
+    },
+    {
+      "name": "卖肉",
+      "count": 3,
+      "total_count": 68890
+    },
+    {
+      "name": "鈴代紗弓",
+      "count": 3,
+      "total_count": 302
+    },
+    {
+      "name": "青山吉能",
+      "count": 3,
+      "total_count": 726
+    },
+    {
+      "name": "职业",
+      "count": 3,
+      "total_count": 508
+    },
+    {
+      "name": "新作",
+      "count": 3,
+      "total_count": 1447
+    },
+    {
+      "name": "福利",
+      "count": 2,
+      "total_count": 5194
+    },
+    {
+      "name": "Okuruto_Noboru",
+      "count": 2,
+      "total_count": 24
+    },
+    {
+      "name": "失忆",
+      "count": 2,
+      "total_count": 224
+    },
+    {
+      "name": "TVA",
+      "count": 2,
+      "total_count": 15443
+    },
+    {
+      "name": "6",
+      "count": 2,
+      "total_count": 2181
+    }
+  ],
+  "infobox": [
+    {
+      "key": "中文名",
+      "value": "能帮我弄干净吗？"
+    },
+    {
+      "key": "别名",
+      "value": [
+        {
+          "v": "可以帮忙洗干净吗？"
+        },
+        {
+          "v": "可以幫忙洗乾淨嗎？"
+        },
+        {
+          "v": "大姐姐的绮丽日常"
+        },
+        {
+          "v": "Kirei ni Shitemoraemasu ka."
+        },
+        {
+          "v": "Will You Clean This For Me?, Wash It All Away"
+        }
+      ]
+    },
+    {
+      "key": "话数",
+      "value": "12"
+    },
+    {
+      "key": "放送开始",
+      "value": "2026年1月5日"
+    },
+    {
+      "key": "放送星期",
+      "value": "星期一"
+    },
+    {
+      "key": "官方网站",
+      "value": "https://kinishite.com/"
+    },
+    {
+      "key": "播放电视台",
+      "value": "TOKYO MX"
+    },
+    {
+      "key": "其他电视台",
+      "value": "ABCテレビ / SBS / BS朝日 / AT-X"
+    },
+    {
+      "key": "播放结束",
+      "value": "2026年3月23日"
+    },
+    {
+      "key": "导演",
+      "value": "大西健太"
+    },
+    {
+      "key": "音乐",
+      "value": "秩父英里"
+    },
+    {
+      "key": "Copyright",
+      "value": "©はっとりみつる／SQUARE ENIX・「綺麗にしてもらえますか。」製作委員会"
+    },
+    {
+      "key": "原作",
+      "value": "はっとりみつる（掲載「ヤングガンガン」スクウェア・エニックス刊）"
+    },
+    {
+      "key": "人物设定",
+      "value": "戸沢東"
+    },
+    {
+      "key": "副人物设定",
+      "value": "山内大輔、宮﨑里美（宮崎里美）"
+    },
+    {
+      "key": "主题歌演出",
+      "value": "ゆう。 / 清浦夏実"
+    },
+    {
+      "key": "主题歌作词",
+      "value": "じん / 清浦夏実"
+    },
+    {
+      "key": "主题歌作曲",
+      "value": "じん / 北川勝利"
+    },
+    {
+      "key": "主题歌编曲",
+      "value": "すくろーす / 北川勝利"
+    },
+    {
+      "key": "製作",
+      "value": "「綺麗にしてもらえますか。」製作委員会（アスミック・エース、ABCアニメーション、ハピネットファントム・スタジオ、AT-X、arma bianca、BS朝日、フライングドッグ、ビットグルーヴプロモーション、クロックワークス、静岡放送、スクウェア・エニックス）"
+    },
+    {
+      "key": "企画",
+      "value": "牟田口新一郎、森好文、鶴丸智康、佐野圭介、坂井智成、西村裕明、佐々木史朗、福井詔雄、武智恒雄、谷口智康、松浦克義"
+    },
+    {
+      "key": "企划制作人",
+      "value": "町田有也"
+    },
+    {
+      "key": "制片人",
+      "value": "前田健太、吉田佳弘、川浪彩奈、川村祐太、塩谷尚史、松井優子、伊藤将生、中村暢、小澤文啓、天野大輔"
+    },
+    {
+      "key": "动画制片人",
+      "value": "山田由己"
+    },
+    {
+      "key": "联合制片人",
+      "value": "宮嶋耕平"
+    },
+    {
+      "key": "制作统括",
+      "value": "古口王仁"
+    },
+    {
+      "key": "文艺制作",
+      "value": "松本健吾"
+    },
+    {
+      "key": "设定制作",
+      "value": "松本健吾"
+    },
+    {
+      "key": "制作管理",
+      "value": "山田樹"
+    },
+    {
+      "key": "制作进行",
+      "value": "須藤一輝、古川翔直飛、市丸寛人、高太志、菊地美里、東万由菜、石川翔太、植木涼、星田光咲、赤堀裕耶"
+    },
+    {
+      "key": "助理制片人",
+      "value": "砂子坂光希、岩﨑あゆみ"
+    },
+    {
+      "key": "副制片人",
+      "value": "有田真代、杉浦綾香"
+    },
+    {
+      "key": "製作协力",
+      "value": "飯塚彩"
+    },
+    {
+      "key": "原作协力",
+      "value": "磯田大輔、辻平良、鮫島正太、木村康貴、落合剛、新﨑潤"
+    },
+    {
+      "key": "宣传制片人",
+      "value": "大石睦美、百瀬巧"
+    },
+    {
+      "key": "宣传",
+      "value": "森田肇"
+    },
+    {
+      "key": "OP・ED 分镜",
+      "value": "大西健太（OP/ED）"
+    },
+    {
+      "key": "OP・ED 演出",
+      "value": "大西健太（OP/ED）、風間紘未（OP演出助手）"
+    },
+    {
+      "key": "录音",
+      "value": "田中空"
+    },
+    {
+      "key": "录音助理",
+      "value": "伊藤春花"
+    },
+    {
+      "key": "录音工作室",
+      "value": "サウンドインスタジオ（Sound Inn Studios）"
+    },
+    {
+      "key": "音响",
+      "value": "ビットグルーヴプロモーション"
+    },
+    {
+      "key": "音响制作担当",
+      "value": "中村暢"
+    },
+    {
+      "key": "剪辑",
+      "value": "本田優規"
+    },
+    {
+      "key": "剪辑助理",
+      "value": "武田明香里"
+    },
+    {
+      "key": "音乐制作人",
+      "value": "増田一陽"
+    },
+    {
+      "key": "2D 设计",
+      "value": "新谷優子"
+    }
+  ],
+  "rating": {
+    "rank": 7493,
+    "total": 1903,
+    "count": {
+      "1": 5,
+      "2": 4,
+      "3": 21,
+      "4": 68,
+      "5": 320,
+      "6": 888,
+      "7": 516,
+      "8": 64,
+      "9": 7,
+      "10": 10
+    },
+    "score": 6.1
+  },
+  "total_episodes": 12,
+  "collection": {
+    "on_hold": 334,
+    "dropped": 501,
+    "wish": 969,
+    "collect": 2210,
+    "doing": 1193
+  },
+  "id": 562430,
+  "eps": 12,
+  "meta_tags": [
+    "TV",
+    "日本",
+    "漫画改",
+    "日常"
+  ],
+  "volumes": 0,
+  "series": false,
+  "locked": false,
+  "nsfw": false,
+  "type": 2
+}

@@ -1,5 +1,5 @@
 import assert from "node:assert/strict";
-import { execFileSync } from "node:child_process";
+import { execFileSync, spawnSync } from "node:child_process";
 import { mkdtempSync, mkdirSync, readFileSync, writeFileSync, copyFileSync } from "node:fs";
 import { tmpdir } from "node:os";
 import { join } from "node:path";
@@ -23,13 +23,50 @@ function runCliJson(args) {
 
 function copySeedRepo(target) {
   writeFileSync(join(target, "pnpm-workspace.yaml"), "packages: []\n");
-  for (const dir of ["source/manifests", "source/contributions/approved", "db/media", "db/aliases", "db/metadata"]) {
+  for (const dir of [
+    "source/manifests",
+    "source/contributions/approved",
+    "db/series",
+    "db/series-aliases",
+    "db/media",
+    "db/aliases",
+    "db/metadata"
+  ]) {
     mkdirSync(join(target, dir), { recursive: true });
   }
   copyFileSync("source/manifests/providers.json", join(target, "source/manifests/providers.json"));
+  copyFileSync("db/series/series-000019.json", join(target, "db/series/series-000019.json"));
+  copyFileSync("db/series-aliases/series-000019.json", join(target, "db/series-aliases/series-000019.json"));
   copyFileSync("db/media/media-000001.json", join(target, "db/media/media-000001.json"));
   copyFileSync("db/aliases/media-000001.json", join(target, "db/aliases/media-000001.json"));
   copyFileSync("db/metadata/media-000001.json", join(target, "db/metadata/media-000001.json"));
+}
+
+function copyV2SeedRepo(target) {
+  writeFileSync(join(target, "pnpm-workspace.yaml"), "packages: []\n");
+  for (const dir of [
+    "source/manifests",
+    "source/contributions/approved",
+    "db/series",
+    "db/series-aliases",
+    "db/media",
+    "db/aliases",
+    "db/metadata",
+    "db/episodes"
+  ]) {
+    mkdirSync(join(target, dir), { recursive: true });
+  }
+  for (const file of [
+    "source/manifests/providers.json",
+    "db/series/series-000001.json",
+    "db/series-aliases/series-000001.json",
+    "db/media/media-000007.json",
+    "db/aliases/media-000007.json",
+    "db/metadata/media-000007.json",
+    "db/episodes/media-000007.json"
+  ]) {
+    copyFileSync(file, join(target, file));
+  }
 }
 
 function issueEvent(operationType = "add_provider_ref") {
@@ -77,13 +114,51 @@ function issueEvent(operationType = "add_provider_ref") {
   };
 }
 
-const aliasResult = runCliJson(["resolve", "alias", "Sousou no Frieren", "--compact"]);
-assert.equal(aliasResult.found, true);
-assert.equal(aliasResult.media_id, "media-000001");
-assert.equal(aliasResult.metadata.title, "葬送的芙莉莲");
-assert.equal(aliasResult.provenance.fields["metadata.title"].source, "bangumi");
+function v2IssueEvent(season = 4) {
+  return {
+    action: "labeled",
+    label: { name: "approved" },
+    issue: {
+      number: 500,
+      html_url: "https://github.com/example/repo/issues/500",
+      body: [
+        "### Name That Should Resolve", "", "Tensei Shitara Slime Datta Ken S4", "",
+        "### Example Filename or Path", "", "Tensei Shitara Slime Datta Ken 4th Season - 06(78).mkv", "",
+        "### Correct Anime", "", "https://bgm.tv/subject/515594", "",
+        "### Season / Part", "", `Season ${season}`, "",
+        "### Episode Mapping", "", "06(78)"
+      ].join("\n"),
+      user: { login: "contributor" },
+      updated_at: "2026-08-10T00:00:00Z"
+    },
+    sender: { login: "maintainer" }
+  };
+}
 
-const providerResult = runCliJson(["resolve", "provider", "bangumi", "subject", "443666", "--compact"]);
+const ambiguousFrieren = spawnSync(
+  process.execPath,
+  ["apps/cli/dist/index.js", "resolve", "alias", "Sousou no Frieren", "--compact"],
+  { encoding: "utf8" }
+);
+assert.equal(ambiguousFrieren.status, 3);
+assert.deepEqual(JSON.parse(ambiguousFrieren.stdout).candidates, ["media-000001", "media-000097"]);
+const frierenSeason1 = runCliJson(["resolve", "alias", "Sousou no Frieren", "--season", "1", "--compact"]);
+assert.equal(frierenSeason1.media_id, "media-000001");
+assert.equal(frierenSeason1.metadata.title, "葬送的芙莉莲");
+assert.equal(frierenSeason1.provenance.fields["metadata.title"].source, "bangumi");
+assert.equal(runCliJson(["resolve", "alias", "Sousou no Frieren", "--season", "2", "--compact"]).media_id, "media-000097");
+
+const ambiguousSeries = spawnSync(
+  process.execPath,
+  ["apps/cli/dist/index.js", "resolve", "alias", "彼女、お借りします", "--compact"],
+  { encoding: "utf8" }
+);
+assert.equal(ambiguousSeries.status, 3);
+assert.deepEqual(JSON.parse(ambiguousSeries.stdout).candidates, ["media-000013", "media-000075"]);
+assert.equal(runCliJson(["resolve", "alias", "彼女、お借りします", "--season", "1", "--compact"]).media_id, "media-000075");
+assert.equal(runCliJson(["resolve", "alias", "彼女、お借りします", "--season", "5", "--compact"]).media_id, "media-000013");
+
+const providerResult = runCliJson(["resolve", "provider", "bangumi", "subject", "400602", "--compact"]);
 assert.equal(providerResult.found, true);
 assert.equal(providerResult.media_id, "media-000001");
 assert.equal(providerResult.metadata.episode_count, 28);
@@ -107,7 +182,7 @@ const archiveFile = join(archiveDir, "subjects.jsonl");
 writeFileSync(
   archiveFile,
   [
-    { id: 443666, type: 2, name: "Sousou no Frieren", name_cn: "葬送的芙莉莲", eps: 28, duration: "24m" },
+    { id: 400602, type: 2, name: "葬送のフリーレン", name_cn: "葬送的芙莉莲", eps: 28, duration: "24m" },
     { id: 1, type: 1, name: "Not Anime" },
     { id: 999999, type: 2, name: "Example Anime", eps: 12, duration: "00:24:00" }
   ].map((row) => JSON.stringify(row)).join("\n") + "\n"
@@ -122,7 +197,7 @@ assert.equal(archivePlan.conflicts.length, 0);
 
 const seenApiUrls = [];
 const apiProvider = createBangumiApiProvider({
-  subjectIds: [443666],
+  subjectIds: [400602],
   baseUrl: "https://api.example.test",
   lastSync: "2026-07-08T12:34:56Z",
   fetchImpl: async (url, init) => {
@@ -132,7 +207,7 @@ const apiProvider = createBangumiApiProvider({
       status: 200,
       statusText: "OK",
       async json() {
-        return { id: 443666, type: 2, name: "Sousou no Frieren", name_cn: "葬送的芙莉莲", eps: 28, duration: "24m" };
+        return { id: 400602, type: 2, name: "葬送のフリーレン", name_cn: "葬送的芙莉莲", eps: 28, duration: "24m" };
       }
     };
   }
@@ -141,10 +216,10 @@ const apiCandidates = [];
 for await (const candidate of apiProvider.incrementalUpdate()) {
   apiCandidates.push(candidate);
 }
-assert.equal(seenApiUrls[0].url, "https://api.example.test/v0/subjects/443666");
-assert.equal(bangumiApiSubjectUrl(443666, "https://api.example.test/"), "https://api.example.test/v0/subjects/443666");
+assert.equal(seenApiUrls[0].url, "https://api.example.test/v0/subjects/400602");
+assert.equal(bangumiApiSubjectUrl(400602, "https://api.example.test/"), "https://api.example.test/v0/subjects/400602");
 assert.equal(apiCandidates.length, 1);
-assert.equal(apiCandidates[0].providerRef.id, "443666");
+assert.equal(apiCandidates[0].providerRef.id, "400602");
 assert.equal(apiCandidates[0].metadata.runtime, 24);
 
 const contribution = contributionFromIssueEvent(issueEvent("add_provider_ref"));
@@ -194,5 +269,24 @@ const createReapplyPlan = applyRepositoryApprovedContributions({ root: createRoo
 assert.equal(createReapplyPlan.plan.conflicts.length, 0);
 assert.equal(createReapplyPlan.plan.mutations.length, 0);
 assert.equal(createReapplyPlan.plan.noops.length, 1);
+
+const v2Root = mkdtempSync(join(tmpdir(), "animeatlas-v2-contribution-"));
+copyV2SeedRepo(v2Root);
+const v2Contribution = contributionFromIssueEvent(v2IssueEvent(), { root: v2Root });
+assert.equal(v2Contribution.ok, true, v2Contribution.ok ? undefined : v2Contribution.errors.join("; "));
+assert.equal(v2Contribution.contribution.schema, "contribution/v2");
+assert.equal(v2Contribution.contribution.target.media_id, "media-000007");
+assert.equal(v2Contribution.contribution.target.installment.season, 4);
+assert.equal(v2Contribution.contribution.changes[1].episode_id, "episode-000002");
+writeApprovedContributionRecord(v2Contribution.contribution, { root: v2Root });
+const v2Applied = applyRepositoryApprovedContributions({ root: v2Root, write: true });
+const v2Episodes = JSON.parse(readFileSync(join(v2Root, "db/episodes/media-000007.json"), "utf8"));
+const v2Episode = v2Episodes.episodes.find((episode) => episode.id === "episode-000002");
+assert.equal(v2Applied.plan.conflicts.length, 0);
+assert.equal(v2Applied.appliedMutations, 3);
+assert.deepEqual(v2Episode.numbers.filter((number) => number.namespace === "release:observed").map((number) => number.value), [6, 78]);
+assert.equal(validateRepository(v2Root).ok, true);
+const wrongSeason = contributionFromIssueEvent(v2IssueEvent(3), { root: v2Root });
+assert.equal(wrongSeason.ok, false);
 
 console.log("Smoke checks passed.");

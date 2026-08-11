@@ -1,0 +1,509 @@
+{
+  "date": "2026-07-08",
+  "platform": "TV",
+  "images": {
+    "small": "https://lain.bgm.tv/r/200/pic/cover/l/1a/a0/585820_NpfLN.jpg",
+    "grid": "https://lain.bgm.tv/r/100/pic/cover/l/1a/a0/585820_NpfLN.jpg",
+    "large": "https://lain.bgm.tv/pic/cover/l/1a/a0/585820_NpfLN.jpg",
+    "medium": "https://lain.bgm.tv/r/800/pic/cover/l/1a/a0/585820_NpfLN.jpg",
+    "common": "https://lain.bgm.tv/r/400/pic/cover/l/1a/a0/585820_NpfLN.jpg"
+  },
+  "summary": "勇者艾莉西亚讨伐了多雷尔将军，亥登与伯雷特之间的战争也随之划下句点。在包含伊斯林在内的三国会谈中，成为争论焦点的，是多雷尔留下的「秘密房间」。为了这个房间的存在，各国使者接连造访位于伯雷特的神学院索歇因。而在这些人之中，也有已成为卢纳专属魔术教师的克雷恩的身影……\r\n\r\n\r\n\r\n[简介原文]\r\n勇者アリシアがドレル将軍を討ち取り、ハイデンとボーレートの戦争は終結した。エスリンを含めた三国協議で争点になったのは、ドレルが遺した“秘密の部屋”。\r\nその存在をめぐって、各国の使者が続々とボーレートの神学校ソルセインを訪れる。そのなかには、ルナ専属の魔術教師となったクレンの姿もあった――。",
+  "name": "クレバテスⅡ-魔獣の王と偽りの勇者伝承-",
+  "name_cn": "Clevatess II-魔兽之王与虚假的勇者传承-",
+  "tags": [
+    {
+      "name": "2026年7月",
+      "count": 237,
+      "total_count": 19522
+    },
+    {
+      "name": "奇幻",
+      "count": 222,
+      "total_count": 467688
+    },
+    {
+      "name": "漫画改",
+      "count": 185,
+      "total_count": 857445
+    },
+    {
+      "name": "战斗",
+      "count": 174,
+      "total_count": 468520
+    },
+    {
+      "name": "TV",
+      "count": 159,
+      "total_count": 1396784
+    },
+    {
+      "name": "Lay-duce",
+      "count": 109,
+      "total_count": 2786
+    },
+    {
+      "name": "2026",
+      "count": 106,
+      "total_count": 40840
+    },
+    {
+      "name": "异世界",
+      "count": 90,
+      "total_count": 260473
+    },
+    {
+      "name": "日本",
+      "count": 80,
+      "total_count": 293392
+    },
+    {
+      "name": "漫改",
+      "count": 57,
+      "total_count": 360135
+    },
+    {
+      "name": "田口清隆",
+      "count": 55,
+      "total_count": 359
+    },
+    {
+      "name": "校园",
+      "count": 52,
+      "total_count": 450601
+    },
+    {
+      "name": "续作",
+      "count": 33,
+      "total_count": 45769
+    },
+    {
+      "name": "续集",
+      "count": 22,
+      "total_count": 5148
+    },
+    {
+      "name": "Clevatess",
+      "count": 17,
+      "total_count": 15
+    },
+    {
+      "name": "动画",
+      "count": 6,
+      "total_count": 35582
+    },
+    {
+      "name": "未定档",
+      "count": 4,
+      "total_count": 4102
+    },
+    {
+      "name": "クレバテス",
+      "count": 4,
+      "total_count": 5
+    },
+    {
+      "name": "中村悠一",
+      "count": 3,
+      "total_count": 11855
+    },
+    {
+      "name": "冒险",
+      "count": 3,
+      "total_count": 53378
+    },
+    {
+      "name": "田村睦心",
+      "count": 3,
+      "total_count": 268
+    },
+    {
+      "name": "小柳啓伍",
+      "count": 3,
+      "total_count": 80
+    },
+    {
+      "name": "26夏",
+      "count": 2,
+      "total_count": 93
+    },
+    {
+      "name": "追番",
+      "count": 2,
+      "total_count": 2629
+    },
+    {
+      "name": "会泽沙弥",
+      "count": 2,
+      "total_count": 14
+    },
+    {
+      "name": "白石晴香",
+      "count": 2,
+      "total_count": 200
+    },
+    {
+      "name": "关智一",
+      "count": 2,
+      "total_count": 1887
+    },
+    {
+      "name": "TVA",
+      "count": 2,
+      "total_count": 15444
+    },
+    {
+      "name": "克雷瓦提斯",
+      "count": 2,
+      "total_count": 5
+    },
+    {
+      "name": "原创",
+      "count": 2,
+      "total_count": 617319
+    }
+  ],
+  "infobox": [
+    {
+      "key": "中文名",
+      "value": "Clevatess II-魔兽之王与虚假的勇者传承-"
+    },
+    {
+      "key": "别名",
+      "value": [
+        {
+          "v": "克雷瓦提斯 第二季 -魔兽之王与虚伪的勇者传承-"
+        },
+        {
+          "v": "クレバテス-魔獣の王と赤子と屍の勇者- 第2期"
+        },
+        {
+          "v": "克雷瓦提斯-魔兽之王与婴儿与尸之勇者- 第二季"
+        },
+        {
+          "v": "Clevatess: Majuu no Ou to Akago to Shikabane no Yuusha Season 2"
+        },
+        {
+          "v": "Clevatess Season 2"
+        }
+      ]
+    },
+    {
+      "key": "话数",
+      "value": "13"
+    },
+    {
+      "key": "放送开始",
+      "value": "2026年7月8日"
+    },
+    {
+      "key": "放送星期",
+      "value": "星期三"
+    },
+    {
+      "key": "官方网站",
+      "value": "https://clevatess.com/"
+    },
+    {
+      "key": "播放电视台",
+      "value": "TOKYO MX"
+    },
+    {
+      "key": "其他电视台",
+      "value": "サンテレビ / KBS京都 / BS日テレ"
+    },
+    {
+      "key": "导演",
+      "value": "田口清隆"
+    },
+    {
+      "key": "音乐",
+      "value": "信澤宣明"
+    },
+    {
+      "key": "链接",
+      "value": [
+        {
+          "k": "X",
+          "v": "https://x.com/clevatess_anime/"
+        }
+      ]
+    },
+    {
+      "key": "Copyright",
+      "value": "©Yuji Iwahara/LDF/クレバテスⅡ製作委員会"
+    },
+    {
+      "key": "原作",
+      "value": "岩原裕二（「LINEマンガ」連載）"
+    },
+    {
+      "key": "系列监督",
+      "value": "塚田拓郎（アニメーションディレクター）"
+    },
+    {
+      "key": "人物设定",
+      "value": "佐古宗一郎"
+    },
+    {
+      "key": "副人物设定",
+      "value": "人设辅佐：Cindy H. Yamauchi[山内英子]、関暁子、さとう沙名栄、近藤奈都子"
+    },
+    {
+      "key": "怪物设计",
+      "value": "魔兽设计：神谷美也子、佐野誉幸、寺澤伸介"
+    },
+    {
+      "key": "设定",
+      "value": "氏家嘉宏、鵲あかね、山口杏奈、宮崎修治、岡戸智凱、井ノ上ユウ子、金田尚美、神田川太郎"
+    },
+    {
+      "key": "製作",
+      "value": "クレバテスⅡ製作委員会（KADOKAWA、サミー、Crunchyroll、BS日本、レイ・デュース、LINE Digital Frontier、AT-X）；笠原周造、星野歩、末平アサ、丸山創、米内則智、高寺祐太朗、佐野圭介"
+    },
+    {
+      "key": "企画",
+      "value": "工藤大丈、田中翔、金信培"
+    },
+    {
+      "key": "制片人",
+      "value": "新井孝介、佐野貢一、高橋佳那子、米内則智、大場美帆、川村祐太"
+    },
+    {
+      "key": "动画制片人",
+      "value": "栗山政一郎"
+    },
+    {
+      "key": "动画检查",
+      "value": "動画検査チーフ/動画検査：余島郁枝"
+    },
+    {
+      "key": "色彩设计",
+      "value": "岩沢れい子"
+    },
+    {
+      "key": "色彩指定",
+      "value": "中川昭洋"
+    },
+    {
+      "key": "色彩检查",
+      "value": "中川昭洋"
+    },
+    {
+      "key": "美术监督",
+      "value": "森川篤"
+    },
+    {
+      "key": "美术板",
+      "value": "美术板协力：東大地"
+    },
+    {
+      "key": "背景美术",
+      "value": "じゃっく（三上明子、片岡一巳）、BeanTree（裵永雲、姜熙永、南世榮）、森川篤"
+    },
+    {
+      "key": "摄影监督",
+      "value": "浅川茂輝"
+    },
+    {
+      "key": "摄影监督助理",
+      "value": "菅生侑美"
+    },
+    {
+      "key": "摄影",
+      "value": "レアトリック（櫻井裕貴、前田加菜子、小林薫乃）"
+    },
+    {
+      "key": "2D 设计",
+      "value": "松田陵平"
+    },
+    {
+      "key": "CG 导演",
+      "value": "辻直希"
+    },
+    {
+      "key": "剪辑",
+      "value": "定松剛"
+    },
+    {
+      "key": "剪辑助理",
+      "value": "剪辑协力：サテライト編集室（松本秀治）"
+    },
+    {
+      "key": "在线剪辑",
+      "value": "小須田一樹；在线剪辑助手：堀場みどり；在线剪辑工作室：トゥーンハーバーワークス；在线剪辑担当：佐野由里子"
+    },
+    {
+      "key": "音响监督",
+      "value": "田口清隆"
+    },
+    {
+      "key": "音效",
+      "value": "古谷友二"
+    },
+    {
+      "key": "录音",
+      "value": "佐竹徹也"
+    },
+    {
+      "key": "录音助理",
+      "value": "菱沼里穂子"
+    },
+    {
+      "key": "录音工作室",
+      "value": "アオイスタジオ"
+    },
+    {
+      "key": "音响",
+      "value": "INSPIONエッジ"
+    },
+    {
+      "key": "音响制作担当",
+      "value": "五十嵐健人、増きらら"
+    },
+    {
+      "key": "音响制作人",
+      "value": "渡辺悠介"
+    },
+    {
+      "key": "音乐制作",
+      "value": "KADOKAWA"
+    },
+    {
+      "key": "音乐制作人",
+      "value": "水鳥智栄子"
+    },
+    {
+      "key": "音乐监督",
+      "value": "茶畑満里奈、竹山沙織"
+    },
+    {
+      "key": "宣传制片人",
+      "value": "三木真由美"
+    },
+    {
+      "key": "助理制片人",
+      "value": "長尾紘樹"
+    },
+    {
+      "key": "设定制作",
+      "value": "宮本佳奈"
+    },
+    {
+      "key": "制作协调",
+      "value": "斎藤廣意"
+    },
+    {
+      "key": "制作管理",
+      "value": "制作デスク：村社匠"
+    },
+    {
+      "key": "制作进行",
+      "value": "话数制作担当：村社匠、矢口咲季、山田彩矢、林洸輔"
+    },
+    {
+      "key": "文艺制作",
+      "value": "西谷一希"
+    },
+    {
+      "key": "制作事务",
+      "value": "円谷あづさ"
+    },
+    {
+      "key": "製作协力",
+      "value": "中山卓也、清原誠巳、福田順、高橋咲紀、平山ひとみ、石井一成、栗田滋弘、飯島江美子、飯塚彩"
+    },
+    {
+      "key": "协力",
+      "value": "酒井拓也、鈴木雅人、鴻巢貴明(クオラス)、和田早紀子(クオラス)"
+    },
+    {
+      "key": "原作协力",
+      "value": "走出慶太、前田真希、葉立芳、具本城"
+    },
+    {
+      "key": "特效",
+      "value": "松田陵平"
+    },
+    {
+      "key": "3D 动画师",
+      "value": "奥田学、小林大介、鈴木廣世視、河野達也"
+    },
+    {
+      "key": "OP・ED 分镜",
+      "value": "相澤伽月 / 小野亮汰"
+    },
+    {
+      "key": "OP・ED 演出",
+      "value": "塚田拓郎 / 小野亮汰"
+    },
+    {
+      "key": "主题歌演出",
+      "value": "前島麻由 / MYTH & ROID"
+    },
+    {
+      "key": "主题歌作词",
+      "value": "R・O・N / MYTH & ROID"
+    },
+    {
+      "key": "主题歌作曲",
+      "value": "R・O・N / MYTH & ROID"
+    },
+    {
+      "key": "主题歌编曲",
+      "value": "R・O・N / MYTH & ROID"
+    },
+    {
+      "key": "脚本",
+      "value": "小柳啓伍"
+    },
+    {
+      "key": "分镜",
+      "value": "齋藤徳明(1,3-4)、則座誠(2)"
+    },
+    {
+      "key": "演出",
+      "value": "塚田拓郎(1)、則座誠(2)、平田政宗(3)、柴田京之介(4)"
+    }
+  ],
+  "rating": {
+    "rank": 3258,
+    "total": 406,
+    "count": {
+      "1": 1,
+      "2": 0,
+      "3": 0,
+      "4": 6,
+      "5": 16,
+      "6": 100,
+      "7": 218,
+      "8": 48,
+      "9": 12,
+      "10": 5
+    },
+    "score": 6.8
+  },
+  "total_episodes": 13,
+  "collection": {
+    "on_hold": 51,
+    "dropped": 24,
+    "wish": 717,
+    "collect": 60,
+    "doing": 2485
+  },
+  "id": 585820,
+  "eps": 13,
+  "meta_tags": [
+    "校园",
+    "TV",
+    "日本",
+    "奇幻",
+    "漫画改",
+    "战斗"
+  ],
+  "volumes": 0,
+  "series": false,
+  "locked": false,
+  "nsfw": false,
+  "type": 2
+}

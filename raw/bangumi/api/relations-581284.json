@@ -1,0 +1,58 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/9f/c7/427473_v7HG3.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/9f/c7/427473_v7HG3.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/9f/c7/427473_v7HG3.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/9f/c7/427473_v7HG3.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/9f/c7/427473_v7HG3.jpg"
+    },
+    "name": "キルアオ",
+    "name_cn": "杀手青春",
+    "relation": "书籍",
+    "type": 1,
+    "id": 427473
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/9c/e9/635126_Ks9A5.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/9c/e9/635126_Ks9A5.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/9c/e9/635126_Ks9A5.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/9c/e9/635126_Ks9A5.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/9c/e9/635126_Ks9A5.jpg"
+    },
+    "name": "ATTITUDE",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 635126
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/01/24/640574_i4us7.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/01/24/640574_i4us7.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/01/24/640574_i4us7.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/01/24/640574_i4us7.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/01/24/640574_i4us7.jpg"
+    },
+    "name": "KILL SHOT",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 640574
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/0a/46/664270_Y2XTW.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/0a/46/664270_Y2XTW.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/0a/46/664270_Y2XTW.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/0a/46/664270_Y2XTW.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/0a/46/664270_Y2XTW.jpg"
+    },
+    "name": "キルアオ 2期",
+    "name_cn": "",
+    "relation": "续集",
+    "type": 2,
+    "id": 664270
+  }
+]

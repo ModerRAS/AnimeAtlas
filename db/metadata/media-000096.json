@@ -1,0 +1,56 @@
+{
+  "$schema": "../../packages/schema/schemas/media-metadata.schema.json",
+  "schema": "media-metadata/v1",
+  "media_id": "media-000096",
+  "metadata": {
+    "title": "花ざかりの君たちへ",
+    "episode_count": 12,
+    "runtime": 0,
+    "air_date": {
+      "start": "2026-01-04"
+    }
+  },
+  "_meta": {
+    "last_sync": {
+      "bangumi": "2026-08-11T02:00:00Z"
+    },
+    "fields": {
+      "metadata.title": {
+        "source": "bangumi",
+        "source_field": "name",
+        "last_sync": "2026-08-11T02:00:00Z",
+        "rule": "bangumi.name -> metadata.title",
+        "provider_ref": {
+          "provider": "bangumi",
+          "entity": "subject",
+          "id": "494564"
+        },
+        "raw_ref": "raw/bangumi/api/subject-494564.json"
+      },
+      "metadata.episode_count": {
+        "source": "bangumi",
+        "source_field": "eps",
+        "last_sync": "2026-08-11T02:00:00Z",
+        "rule": "bangumi.eps -> metadata.episode_count",
+        "provider_ref": {
+          "provider": "bangumi",
+          "entity": "subject",
+          "id": "494564"
+        },
+        "raw_ref": "raw/bangumi/api/subject-494564.json"
+      },
+      "metadata.runtime": {
+        "source": "bangumi",
+        "source_field": "unknown",
+        "last_sync": "2026-08-11T02:00:00Z",
+        "rule": "missing Bangumi runtime -> 0",
+        "provider_ref": {
+          "provider": "bangumi",
+          "entity": "subject",
+          "id": "494564"
+        },
+        "raw_ref": "raw/bangumi/api/subject-494564.json"
+      }
+    }
+  }
+}

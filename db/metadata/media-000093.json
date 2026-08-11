@@ -3,15 +3,16 @@
   "_meta": {
     "fields": {
       "metadata.episode_count": {
-        "last_sync": "2026-08-10T14:19:48Z",
+        "source": "bangumi",
+        "source_field": "eps",
+        "last_sync": "2026-08-11T06:50:00Z",
+        "rule": "bangumi.eps -> metadata.episode_count",
         "provider_ref": {
           "entity": "subject",
           "id": "638497",
           "provider": "bangumi"
         },
-        "rule": "approved issue contribution",
-        "source": "bangumi",
-        "source_field": "issue"
+        "raw_ref": "raw/bangumi/api/subject-638497.json"
       },
       "metadata.runtime": {
         "last_sync": "2026-08-10T14:19:48Z",
@@ -37,12 +38,12 @@
       }
     },
     "last_sync": {
-      "bangumi": "2026-08-10T14:19:48Z"
+      "bangumi": "2026-08-11T06:50:00Z"
     }
   },
   "media_id": "media-000093",
   "metadata": {
-    "episode_count": 0,
+    "episode_count": 13,
     "runtime": 0,
     "title": "正反対な君と僕 第2期"
   },

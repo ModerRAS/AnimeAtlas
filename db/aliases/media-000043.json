@@ -9,6 +9,20 @@
       "value": "Futsutsuka na Akujo dewa Gozaimasu ga"
     },
     {
+      "value": "ふつつかな悪女ではございますが ～雛宮蝶鼠とりかえ伝～",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "恶女不才，请多关照 ～雏宫蝶鼠换身传～",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
       "confidence": 0.9,
       "language": "zh-Hant",
       "source": "community",
@@ -17,5 +31,5 @@
     }
   ],
   "media_id": "media-000043",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

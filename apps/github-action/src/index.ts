@@ -3,6 +3,9 @@ import { existsSync, mkdirSync, readFileSync, writeFileSync } from "node:fs";
 import { dirname, isAbsolute, join } from "node:path";
 import { pathToFileURL } from "node:url";
 import { isMediaId, stableStringify } from "@animeatlas/core";
+import { ContributionV2Record, contributionV2FromIssueFields } from "./v2.js";
+
+export { contributionV2FromIssueFields } from "./v2.js";
 
 type IssueEvent = {
   action?: string;
@@ -42,7 +45,7 @@ type ContributionRecord = {
 };
 
 type ParseResult =
-  | { ok: true; contribution: ContributionRecord }
+  | { ok: true; contribution: ContributionRecord | ContributionV2Record }
   | { ok: false; errors: string[] };
 
 type WriteApprovedContributionOptions = {
@@ -55,7 +58,7 @@ type WriteApprovedContributionOptions = {
 type WriteApprovedContributionResult = {
   file: string;
   written: boolean;
-  contribution: ContributionRecord;
+  contribution: ContributionRecord | ContributionV2Record;
 };
 
 const NO_RESPONSE = "_No response_";
@@ -97,7 +100,7 @@ export function parseIssueFormBody(body: string): Record<string, string> {
   return result;
 }
 
-export function contributionFromIssueEvent(event: IssueEvent): ParseResult {
+export function contributionFromIssueEvent(event: IssueEvent, options: { root?: string } = {}): ParseResult {
   const errors: string[] = [];
   const issue = event.issue;
   if (!issue) {
@@ -110,6 +113,9 @@ export function contributionFromIssueEvent(event: IssueEvent): ParseResult {
 
   const body = issue.body ?? "";
   const fields = parseIssueFormBody(body);
+  if (fields.name_that_should_resolve !== undefined || fields.metadata_field !== undefined) {
+    return contributionV2FromIssueFields(event, fields, options.root ?? findRepoRoot(process.cwd()));
+  }
   const operation = operationFromFields(fields, errors);
 
   if (typeof issue.number !== "number") {
@@ -151,7 +157,7 @@ export function contributionFromIssueEvent(event: IssueEvent): ParseResult {
 }
 
 export function writeApprovedContributionRecord(
-  contribution: ContributionRecord,
+  contribution: ContributionRecord | ContributionV2Record,
   options: WriteApprovedContributionOptions = {}
 ): WriteApprovedContributionResult {
   const root = options.root ?? findRepoRoot(process.cwd());
@@ -174,7 +180,7 @@ export function writeApprovedContributionRecord(
   return { file, written: true, contribution };
 }
 
-export function approvedContributionFileName(contribution: ContributionRecord): string {
+export function approvedContributionFileName(contribution: ContributionRecord | ContributionV2Record): string {
   return `issue-${String(contribution.issue.number).padStart(6, "0")}.json`;
 }
 

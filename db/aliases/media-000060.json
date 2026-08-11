@@ -7,8 +7,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Tsue to Tsurugi no Wistoria"
+    },
+    {
+      "value": "杖と剣のウィストリア",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "杖与剑的魔剑谭",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000060",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

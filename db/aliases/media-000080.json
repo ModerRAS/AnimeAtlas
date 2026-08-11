@@ -7,8 +7,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Akuyaku Reijou wa Ringoku no Outaishi ni Dekiai sareru"
+    },
+    {
+      "value": "悪役令嬢は隣国の王太子に溺愛される",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "被邻国王子溺爱的反派女主",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000080",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

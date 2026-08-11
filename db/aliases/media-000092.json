@@ -7,8 +7,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Nige Jouzu no Wakagimi S2"
+    },
+    {
+      "value": "逃げ上手の若君 第二期",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "擅长逃跑的殿下 第二季",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000092",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

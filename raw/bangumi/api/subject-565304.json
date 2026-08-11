@@ -1,0 +1,469 @@
+{
+  "date": "2026-04-01",
+  "platform": "TV",
+  "images": {
+    "small": "https://lain.bgm.tv/r/200/pic/cover/l/b7/70/565304_z8088.jpg",
+    "grid": "https://lain.bgm.tv/r/100/pic/cover/l/b7/70/565304_z8088.jpg",
+    "large": "https://lain.bgm.tv/pic/cover/l/b7/70/565304_z8088.jpg",
+    "medium": "https://lain.bgm.tv/r/800/pic/cover/l/b7/70/565304_z8088.jpg",
+    "common": "https://lain.bgm.tv/r/400/pic/cover/l/b7/70/565304_z8088.jpg"
+  },
+  "summary": "アドベンチャラーとなったアーサーは、ジャスミンと共に次々とクエストをこなし、剣の腕と魔術を上達させていた。ある日、AAランクの冒険者・ブラルドからとあるクエストに誘われる。なぜアーサーたちに声が掛かったのか疑問は残りつつも、アカデミーへの入学を控えたアーサーの最後のクエストとして参加を決める。だが、予想だにしない惨劇が待ち受けていた──\r\n",
+  "name": "最強の王様、二度目の人生は何をする？ Season 2",
+  "name_cn": "最强王者的第二人生 第二季",
+  "tags": [
+    {
+      "name": "2026年4月",
+      "count": 125,
+      "total_count": 24965
+    },
+    {
+      "name": "战斗",
+      "count": 91,
+      "total_count": 468306
+    },
+    {
+      "name": "TV",
+      "count": 89,
+      "total_count": 1396490
+    },
+    {
+      "name": "奇幻",
+      "count": 84,
+      "total_count": 467411
+    },
+    {
+      "name": "漫画改",
+      "count": 78,
+      "total_count": 857151
+    },
+    {
+      "name": "异世界",
+      "count": 75,
+      "total_count": 260379
+    },
+    {
+      "name": "2026",
+      "count": 61,
+      "total_count": 40782
+    },
+    {
+      "name": "StudioA-CAT",
+      "count": 45,
+      "total_count": 993
+    },
+    {
+      "name": "日本",
+      "count": 30,
+      "total_count": 293243
+    },
+    {
+      "name": "冒险",
+      "count": 28,
+      "total_count": 53348
+    },
+    {
+      "name": "龙傲天",
+      "count": 26,
+      "total_count": 39407
+    },
+    {
+      "name": "漫改",
+      "count": 25,
+      "total_count": 360074
+    },
+    {
+      "name": "续作",
+      "count": 18,
+      "total_count": 45758
+    },
+    {
+      "name": "韩漫",
+      "count": 11,
+      "total_count": 2297
+    },
+    {
+      "name": "转生",
+      "count": 8,
+      "total_count": 5381
+    },
+    {
+      "name": "厕纸",
+      "count": 5,
+      "total_count": 12045
+    },
+    {
+      "name": "日本动画",
+      "count": 3,
+      "total_count": 34830
+    },
+    {
+      "name": "元永慶太郎",
+      "count": 3,
+      "total_count": 779
+    },
+    {
+      "name": "元永庆太郎",
+      "count": 3,
+      "total_count": 1205
+    },
+    {
+      "name": "2026春",
+      "count": 2,
+      "total_count": 217
+    },
+    {
+      "name": "后宫",
+      "count": 2,
+      "total_count": 301564
+    },
+    {
+      "name": "2026年",
+      "count": 2,
+      "total_count": 1695
+    },
+    {
+      "name": "动画",
+      "count": 1,
+      "total_count": 35574
+    },
+    {
+      "name": "轻小说改",
+      "count": 1,
+      "total_count": 493761
+    },
+    {
+      "name": "降智",
+      "count": 1,
+      "total_count": 88
+    },
+    {
+      "name": "#4",
+      "count": 1,
+      "total_count": 48
+    },
+    {
+      "name": "穿越",
+      "count": 1,
+      "total_count": 62532
+    },
+    {
+      "name": "未定档",
+      "count": 1,
+      "total_count": 4101
+    },
+    {
+      "name": "热血",
+      "count": 1,
+      "total_count": 212024
+    },
+    {
+      "name": "TVA",
+      "count": 1,
+      "total_count": 15444
+    }
+  ],
+  "infobox": [
+    {
+      "key": "中文名",
+      "value": "最强王者的第二人生 第二季"
+    },
+    {
+      "key": "别名",
+      "value": [
+        {
+          "v": "终末起点 第二季"
+        },
+        {
+          "v": "最强的国王，第二次的人生要做什么？ 第二季"
+        },
+        {
+          "v": "最强王者，第二人生要做什么？ 第二季"
+        },
+        {
+          "v": "三岁开始做王者 第二季"
+        },
+        {
+          "v": "終末起點 第2季"
+        },
+        {
+          "v": "Saikyou no Ousama, Nidome no Jinsei wa Nani wo Suru? Season 2"
+        },
+        {
+          "v": "The Beginning After the End Season 2"
+        }
+      ]
+    },
+    {
+      "key": "话数",
+      "value": "12"
+    },
+    {
+      "key": "放送开始",
+      "value": "2026年4月1日"
+    },
+    {
+      "key": "放送星期",
+      "value": "星期三"
+    },
+    {
+      "key": "官方网站",
+      "value": "https://saikyo2dome-tbate.com/"
+    },
+    {
+      "key": "播放电视台",
+      "value": "フジテレビ「＋Ultra」"
+    },
+    {
+      "key": "其他电视台",
+      "value": "関西テレビ / 東海テレビ / AT-X"
+    },
+    {
+      "key": "播放结束",
+      "value": "2026年6月24日"
+    },
+    {
+      "key": "导演",
+      "value": "元永慶太郎"
+    },
+    {
+      "key": "音乐",
+      "value": "井内啓二 / Zio"
+    },
+    {
+      "key": "Copyright",
+      "value": "©「最強の王様」製作委員会"
+    },
+    {
+      "key": "原作",
+      "value": "TurtleMe"
+    },
+    {
+      "key": "人物设定",
+      "value": "末岡正美"
+    },
+    {
+      "key": "系列构成",
+      "value": "鴻野貴光"
+    },
+    {
+      "key": "脚本",
+      "value": "鴻野貴光、待田堂子、勝冶京子"
+    },
+    {
+      "key": "分镜",
+      "value": "岩畑剛一、飯田崇、ボブ白旗、稲村保奈美、元永慶太郎、中山岳洋"
+    },
+    {
+      "key": "演出",
+      "value": "元永慶太郎、吉田俊司、ながはまのりひこ、稲村保奈美、辛阔"
+    },
+    {
+      "key": "演出助理",
+      "value": "鶴巻俊亮"
+    },
+    {
+      "key": "总作画监督",
+      "value": "千葉孝幸、ことさん、外崎小鉄、すくな"
+    },
+    {
+      "key": "作画监督",
+      "value": "徐学文、林若轩、覃国庆、曾雪妍、郑钰容、王佳欣、徐学武、刘晓宇、陈洁琼、李品华、马保陵、赵清云、孙振亮、王瑞浩、毛缟斑、梦润、石塚理央(mokoppe)、鷲田敏弥、増喜美和子、高添響、高寄萌、孫仁義、瑞木晶、莊曉彤、楚路、胡駿為、Sword、Oz_art、Kyurii、Kago、Saijin、藤木泰史、豊岡督、Paz Gomez、Litedu、Trin Piña Ferrer、Alejandra Olivares Duran、Diego Llerena、Ada Kimiloglu、Cansu Bakan、Khor、Luis Carlos Granados Casillas、Kumi Staitra、Sergio Lomeli、Ao Clover、Jeto、中岡千芙美、磯田寧音、杨国福、Weng ChunHua(翁春华)、Zhu ZhiFeng(朱至峰)、Pan YueTing(潘悦婷)、Cao JianWei(曹建伟)、Hua BingYan(华炳炎)、Huang TianQi(黄天齐)、Kim Sukhui、Kim Wonhui、Wang Zihou(王子厚)、LEOW WAI KIT、Chong Hiu Tung、Luren、Remus、Poon Yan Yi、Lam Kit Yan、Hollyyumi、Got-Gakusei、Jin Xiangru(金相如)、Shi Xiumin(石秀敏)、Zeng Yini(曾依妮)、Wang Wei、Zhu Hongyun(朱洪云)、Alx Agurto、Fiorella Yengle、ABeatrizCV、Renzo Medina、Daniel Rodriguez、Sergio Paucar、Keguh、Harold Rengifo、Accatriel、Jeas UAV、HannaH、Yadhira Negro、Sandra Espinosa、Alex Torres"
+    },
+    {
+      "key": "道具设计",
+      "value": "杉原由美"
+    },
+    {
+      "key": "色彩设计",
+      "value": "ツジサチコ"
+    },
+    {
+      "key": "美术设计",
+      "value": "長田亜美、金延連、コスモプロジェクト"
+    },
+    {
+      "key": "美术监督",
+      "value": "内藤健"
+    },
+    {
+      "key": "美术监督助理",
+      "value": "蒲昌浩"
+    },
+    {
+      "key": "美术",
+      "value": "スタジオちゅーりっぷ"
+    },
+    {
+      "key": "3DCG 导演",
+      "value": "後藤優一"
+    },
+    {
+      "key": "摄影监督",
+      "value": "高橋圭祐"
+    },
+    {
+      "key": "摄影",
+      "value": "高橋圭祐、小北翔吾、記田めぐみ、笠原蓮"
+    },
+    {
+      "key": "剪辑",
+      "value": "木村祥明"
+    },
+    {
+      "key": "音响监督",
+      "value": "えびなやすのり"
+    },
+    {
+      "key": "音效",
+      "value": "櫻井陽子"
+    },
+    {
+      "key": "录音",
+      "value": "早野利宏"
+    },
+    {
+      "key": "录音助手",
+      "value": "篠原茉莉"
+    },
+    {
+      "key": "录音工作室",
+      "value": "デルファイサウンド"
+    },
+    {
+      "key": "音响",
+      "value": "JukeVox"
+    },
+    {
+      "key": "音响制作担当",
+      "value": "豊岡留奈、北垣貴司"
+    },
+    {
+      "key": "音乐制作",
+      "value": "フジパシフィックミュージック"
+    },
+    {
+      "key": "音乐制作人",
+      "value": "田中宏幸、藤井天波、甫足亮介、田村建吾"
+    },
+    {
+      "key": "企画",
+      "value": "スロウカーブ"
+    },
+    {
+      "key": "执行制片人",
+      "value": "TurtleMe、Gabriel le Luu、Mike Zhu、Kevin Nicklans"
+    },
+    {
+      "key": "制片人",
+      "value": "福田詠章（フジテレビ）、許瑠伊、へザー ホーン、田中宏幸"
+    },
+    {
+      "key": "製作统括",
+      "value": "山本麻未子（フジテレビ）"
+    },
+    {
+      "key": "动画制片人",
+      "value": "本田稔裕"
+    },
+    {
+      "key": "现场制片人",
+      "value": "佐藤俊亮"
+    },
+    {
+      "key": "动画制作",
+      "value": "studio A-CAT"
+    },
+    {
+      "key": "製作",
+      "value": "「最強の王様」製作委員会（フジテレビジョン、Crunchyroll、bilibili、AT-X、ムービック、博報堂、カンテレ(関西テレビ放送)、クロックワークス、スロウカーブ）；高瀬透子（フジテレビ）、末平アサ、张圣晏、佐野圭介、髙橋竜、吉羽亮太、駒井有紀子、武智恒雄、尾畑聡明"
+    },
+    {
+      "key": "OP・ED 分镜",
+      "value": "岩畑剛一 / 元永慶太郎"
+    },
+    {
+      "key": "OP・ED 演出",
+      "value": "元永慶太郎"
+    },
+    {
+      "key": "动画检查",
+      "value": "周婷婷、赵晨、李奕钧、朱宏禹、波波茶、持田真生、井上高宏、Wu Mei、刘琦琦、Sun Feng、Shen GuoDong、Shen Jianhao、Lv Zhengqiu(吕正秋)、Wang Wei"
+    },
+    {
+      "key": "色彩指定",
+      "value": "雷吴杰、松山愛子、宮嶋哲平、吴楠、鍵山晶子、齋藤陸、河野明梨、大嶋慶太、坂口有香、Lee Yeonsu、中島由紀恵、Mao Cailing(毛彩玲)、鈴木綾乃、高橋春奈、長谷川安南"
+    },
+    {
+      "key": "上色检查",
+      "value": "雷吴杰、松山愛子、宮嶋哲平、吴楠、鍵山晶子、齋藤陸、河野明梨、大嶋慶太、坂口有香、Lee Yeonsu、中島由紀恵、Mao Cailing(毛彩玲)、鈴木綾乃、高橋春奈、長谷川安南"
+    },
+    {
+      "key": "制作进行",
+      "value": "雨宮俊之、ニパポーン、千代谷アンナ、林川琦、徐高翔、于蓓蓓、迟媛媛、張聲亞、潘子玥、佐藤良祐、大谷貴俊、Won Sing Wang、Lam Kit Yan、廣兼希奈、伊藤愛夏、石田徹弥、大島玲美、ミョー テイリ マオン、LEOW LEE WON、FAME"
+    },
+    {
+      "key": "制作协力",
+      "value": "温州梦卜动漫設計有限公司、エッジワークススダジオ"
+    },
+    {
+      "key": "制作管理",
+      "value": "制作デスク：佐藤俊亮"
+    },
+    {
+      "key": "宣传制片人",
+      "value": "清水紀穂"
+    },
+    {
+      "key": "宣传",
+      "value": "石川怜育、山﨑舞花、中島拓未"
+    },
+    {
+      "key": "企画协力",
+      "value": "福田佳代（フジテレビ）、森彬俊（フジテレビ）、山口貴也、亢越、李鋮、梶川亜希、張仕祺、曹婷、張玥、盛高立、飯塚彩、萩原美香、山内咲季、福原諒、小澤文啓、上條誠"
+    },
+    {
+      "key": "助理制片人",
+      "value": "野田喜大（フジテレビ）、Michael Son、Laura Nhi Huynh、浄園吏生"
+    }
+  ],
+  "rating": {
+    "rank": 9955,
+    "total": 309,
+    "count": {
+      "1": 10,
+      "2": 11,
+      "3": 38,
+      "4": 93,
+      "5": 97,
+      "6": 39,
+      "7": 13,
+      "8": 4,
+      "9": 2,
+      "10": 2
+    },
+    "score": 4.5
+  },
+  "total_episodes": 12,
+  "collection": {
+    "on_hold": 36,
+    "dropped": 92,
+    "wish": 159,
+    "collect": 506,
+    "doing": 261
+  },
+  "id": 565304,
+  "eps": 12,
+  "meta_tags": [
+    "TV",
+    "日本",
+    "奇幻",
+    "漫画改",
+    "战斗"
+  ],
+  "volumes": 0,
+  "series": false,
+  "locked": false,
+  "nsfw": false,
+  "type": 2
+}

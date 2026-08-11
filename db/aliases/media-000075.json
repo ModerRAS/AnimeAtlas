@@ -7,8 +7,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Kanojo, Okarishimasu"
+    },
+    {
+      "value": "彼女、お借りします",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "租借女友",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000075",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

@@ -1,0 +1,6 @@
+{
+  "$schema": "../../packages/schema/schemas/episode-record.schema.json",
+  "schema": "episode-record/v2",
+  "media_id": "media-000024",
+  "episodes": []
+}

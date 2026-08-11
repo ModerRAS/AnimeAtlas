@@ -1,0 +1,317 @@
+{
+  "date": "2025-10-04",
+  "platform": "TV",
+  "images": {
+    "small": "https://lain.bgm.tv/r/200/pic/cover/l/ea/df/545842_AxVDu.jpg",
+    "grid": "https://lain.bgm.tv/r/100/pic/cover/l/ea/df/545842_AxVDu.jpg",
+    "large": "https://lain.bgm.tv/pic/cover/l/ea/df/545842_AxVDu.jpg",
+    "medium": "https://lain.bgm.tv/r/800/pic/cover/l/ea/df/545842_AxVDu.jpg",
+    "common": "https://lain.bgm.tv/r/400/pic/cover/l/ea/df/545842_AxVDu.jpg"
+  },
+  "summary": "突如其来的“驱逐宣言”，让命运的齿轮再次开始转动——\r\n身为宫廷魔法师的亚列克·尤古雷特，过去总是默默在背后辅佐王太子。\r\n本来是为了保护弱小的列古尔斯才一心钻研辅助魔法，但某天他却突然被驱逐出队伍，顿时失去了工作。\r\n就在这时，曾与他一起在魔法学院的传说队伍「终结永无止尽的日子」中并肩作战的伙伴、悠尔哈・艾森兹竟出现在亚列克的面前。\r\n「我需要你的力量！」\r\n传说的队伍再次集结，新故事即将拉开序幕——\r\n让我们开创新的传说，将那段时光延续下去吧。\r\n终结永无止尽的日子！\r\n\r\n\r\n\r\n[简介原文]\r\n突然の“追放宣告”をきっかけに、再び運命の歯車が廻りだす——\r\n王太子 レグルス・ガルダナを陰で支える宮廷魔法師 アレク・ユグレット。\r\n弱すぎるレグルスを守るため「補助魔法」に徹していたはずが、突然の追放宣告で職を失ってしまう。\r\nそんなアレクの前に現れたのは、魔法学院時代にかつて“伝説”と謳われたパーティー「ラスティングピリオド」で\r\n共に戦った仲間のヨルハ・アイゼンツだった。\r\n「キミの力が必要なんだ！」\r\n伝説のパーティーが再集結し、新たな物語が幕をあける——\r\n始めよう、新しい伝説を。あの日の続きを。\r\nラスティングピリオド終わりなき日々を！",
+  "name": "味方が弱すぎて補助魔法に徹していた宮廷魔法師、追放されて最強を目指す",
+  "name_cn": "队友太弱所以贯彻辅助的宫廷魔法师，惨遭流放目标却是最强",
+  "tags": [
+    {
+      "name": "2025年10月",
+      "count": 169,
+      "total_count": 20608
+    },
+    {
+      "name": "退队流",
+      "count": 129,
+      "total_count": 1114
+    },
+    {
+      "name": "异世界",
+      "count": 118,
+      "total_count": 260434
+    },
+    {
+      "name": "轻小说改",
+      "count": 87,
+      "total_count": 493880
+    },
+    {
+      "name": "TV",
+      "count": 86,
+      "total_count": 1396687
+    },
+    {
+      "name": "2025",
+      "count": 67,
+      "total_count": 72531
+    },
+    {
+      "name": "奇幻",
+      "count": 65,
+      "total_count": 467633
+    },
+    {
+      "name": "月虹",
+      "count": 60,
+      "total_count": 1249
+    },
+    {
+      "name": "战斗",
+      "count": 59,
+      "total_count": 468474
+    },
+    {
+      "name": "小说改",
+      "count": 49,
+      "total_count": 157912
+    },
+    {
+      "name": "厕纸",
+      "count": 43,
+      "total_count": 12047
+    },
+    {
+      "name": "轻改",
+      "count": 42,
+      "total_count": 152129
+    },
+    {
+      "name": "日本",
+      "count": 41,
+      "total_count": 293342
+    },
+    {
+      "name": "梅田修一朗",
+      "count": 16,
+      "total_count": 102
+    },
+    {
+      "name": "高橋賢",
+      "count": 13,
+      "total_count": 50
+    },
+    {
+      "name": "龙傲天",
+      "count": 9,
+      "total_count": 39409
+    },
+    {
+      "name": "筆安一幸",
+      "count": 8,
+      "total_count": 233
+    },
+    {
+      "name": "日本动画",
+      "count": 6,
+      "total_count": 34831
+    },
+    {
+      "name": "魔法",
+      "count": 5,
+      "total_count": 19941
+    },
+    {
+      "name": "冒险",
+      "count": 5,
+      "total_count": 53374
+    },
+    {
+      "name": "TVA",
+      "count": 3,
+      "total_count": 15444
+    },
+    {
+      "name": "2025秋",
+      "count": 3,
+      "total_count": 278
+    },
+    {
+      "name": "群像",
+      "count": 3,
+      "total_count": 12635
+    },
+    {
+      "name": "2025年",
+      "count": 3,
+      "total_count": 3450
+    },
+    {
+      "name": "装逼",
+      "count": 2,
+      "total_count": 9220
+    },
+    {
+      "name": "屎",
+      "count": 1,
+      "total_count": 219
+    },
+    {
+      "name": "优先级Y",
+      "count": 1,
+      "total_count": 180
+    },
+    {
+      "name": "动画",
+      "count": 1,
+      "total_count": 35578
+    },
+    {
+      "name": "M10",
+      "count": 1,
+      "total_count": 202
+    },
+    {
+      "name": "3.0",
+      "count": 1,
+      "total_count": 80
+    }
+  ],
+  "infobox": [
+    {
+      "key": "中文名",
+      "value": "队友太弱所以贯彻辅助的宫廷魔法师，惨遭流放目标却是最强"
+    },
+    {
+      "key": "别名",
+      "value": [
+        {
+          "v": "Mikata ga Yowa Sugite Hojo Mahou ni Toushite Ita Kyuutei Mahoushi, Tsuihou Sarete Saikyou wo Mezasu"
+        },
+        {
+          "v": "Mikata ga Yowasugite Hojo Mahou ni Tesshite Ita Kyuutei Mahoushi, Tsuihou Sarete Saikyou o Mezasu"
+        },
+        {
+          "v": "The Banished Court Magician Aims to Become the Strongest"
+        }
+      ]
+    },
+    {
+      "key": "话数",
+      "value": "12"
+    },
+    {
+      "key": "放送开始",
+      "value": "2025年10月4日"
+    },
+    {
+      "key": "放送星期",
+      "value": "星期六"
+    },
+    {
+      "key": "官方网站",
+      "value": "https://hojomaho.com/"
+    },
+    {
+      "key": "在线播放平台",
+      "value": "ABEMA / U-NEXT / アニメ放題"
+    },
+    {
+      "key": "播放电视台",
+      "value": "テレビ朝日系全国24局ネット「IMAnimation」枠にて"
+    },
+    {
+      "key": "其他电视台",
+      "value": "BS朝日 / AT-X"
+    },
+    {
+      "key": "播放结束",
+      "value": "2025年12月20日"
+    },
+    {
+      "key": "导演",
+      "value": "高橋賢"
+    },
+    {
+      "key": "音乐",
+      "value": "KOUICHI、高田翼"
+    },
+    {
+      "key": "Copyright",
+      "value": "©アルト・講談社／補助魔法プロジェクト"
+    },
+    {
+      "key": "原作",
+      "value": "アルト（講談社Kラノベブックス刊）"
+    },
+    {
+      "key": "漫画",
+      "value": "門司雪（講談社「マガジンポケット」連載）"
+    },
+    {
+      "key": "副导演",
+      "value": "平田政宗（レアトリック）"
+    },
+    {
+      "key": "人物设定",
+      "value": "佐藤陽子"
+    },
+    {
+      "key": "道具设计",
+      "value": "道具武器/小物设计：氏家嘉宏 / 関根柚月"
+    },
+    {
+      "key": "怪物设计",
+      "value": "久我嘉輝、レコメンデーション"
+    },
+    {
+      "key": "作画监督",
+      "value": "かわらじまコウ（怪物作监）"
+    },
+    {
+      "key": "美术板",
+      "value": "金井眞悟"
+    },
+    {
+      "key": "总作画监督",
+      "value": "佐藤陽子、林信秀"
+    },
+    {
+      "key": "製作",
+      "value": "補助魔法プロジェクト（CyberAgent、"
+    },
+    {
+      "key": "音乐制作",
+      "value": "ディオスタ、ハイスピードボーイ"
+    },
+    {
+      "key": "主题歌演出",
+      "value": "秋山黄色 / aruma"
+    }
+  ],
+  "rating": {
+    "rank": 10003,
+    "total": 680,
+    "count": {
+      "1": 16,
+      "2": 17,
+      "3": 72,
+      "4": 189,
+      "5": 250,
+      "6": 102,
+      "7": 24,
+      "8": 5,
+      "9": 2,
+      "10": 3
+    },
+    "score": 4.6
+  },
+  "total_episodes": 12,
+  "collection": {
+    "on_hold": 55,
+    "dropped": 277,
+    "wish": 236,
+    "collect": 1009,
+    "doing": 376
+  },
+  "id": 545842,
+  "eps": 12,
+  "meta_tags": [
+    "TV",
+    "日本",
+    "奇幻",
+    "战斗",
+    "小说改"
+  ],
+  "volumes": 0,
+  "series": false,
+  "locked": false,
+  "nsfw": false,
+  "type": 2
+}

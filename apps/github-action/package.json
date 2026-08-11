@@ -11,6 +11,7 @@
     "start": "node dist/index.js"
   },
   "dependencies": {
-    "@animeatlas/core": "workspace:*"
+    "@animeatlas/core": "workspace:*",
+    "onnxruntime-node": "1.27.0"
   }
 }

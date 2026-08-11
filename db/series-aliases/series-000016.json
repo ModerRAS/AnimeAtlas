@@ -1,0 +1,21 @@
+{
+  "$schema": "../../packages/schema/schemas/series-aliases.schema.json",
+  "schema": "series-aliases/v2",
+  "series_id": "series-000016",
+  "aliases": [
+    {
+      "value": "片田舎のおっさん、剣聖になる",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "Katainaka no Ossan, Kensei ni Naru",
+      "language": "ja-Latn",
+      "type": "romaji",
+      "source": "community",
+      "confidence": 0.95
+    }
+  ]
+}

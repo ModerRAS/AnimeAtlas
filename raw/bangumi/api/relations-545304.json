@@ -1,0 +1,394 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/2b/2a/625097_IV4z5.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/2b/2a/625097_IV4z5.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/2b/2a/625097_IV4z5.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/2b/2a/625097_IV4z5.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/2b/2a/625097_IV4z5.jpg"
+    },
+    "name": "仮面ライダーゼッツ Into the Dream",
+    "name_cn": "假面骑士ZZZ Into the Dream",
+    "relation": "三次元",
+    "type": 6,
+    "id": 625097
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/20/3d/666237_dXGHw.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/20/3d/666237_dXGHw.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/20/3d/666237_dXGHw.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/20/3d/666237_dXGHw.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/20/3d/666237_dXGHw.jpg"
+    },
+    "name": "仮面ライダーゼッツ ファイナルステージ",
+    "name_cn": "假面骑士ZZZ FINAL STAGE",
+    "relation": "三次元",
+    "type": 6,
+    "id": 666237
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/d8/0c/666086_18y0v.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/d8/0c/666086_18y0v.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/d8/0c/666086_18y0v.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/d8/0c/666086_18y0v.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/d8/0c/666086_18y0v.jpg"
+    },
+    "name": "仮面ライダーゼッツ TV オリジナル サウンドトラック",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 666086
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/0d/d1/666083_s7eF2.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/0d/d1/666083_s7eF2.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/0d/d1/666083_s7eF2.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/0d/d1/666083_s7eF2.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/0d/d1/666083_s7eF2.jpg"
+    },
+    "name": "仮面ライダーゼッツ SONG BEST",
+    "name_cn": "",
+    "relation": "其他",
+    "type": 3,
+    "id": 666083
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/00/fb/658244_Kx9tk.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/00/fb/658244_Kx9tk.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/00/fb/658244_Kx9tk.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/00/fb/658244_Kx9tk.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/00/fb/658244_Kx9tk.jpg"
+    },
+    "name": "NoxoN -ノクスオン-",
+    "name_cn": "",
+    "relation": "插入歌",
+    "type": 3,
+    "id": 658244
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/89/ba/646766_d1iDd.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/89/ba/646766_d1iDd.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/89/ba/646766_d1iDd.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/89/ba/646766_d1iDd.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/89/ba/646766_d1iDd.jpg"
+    },
+    "name": "Dystopia’s Dawn",
+    "name_cn": "",
+    "relation": "角色歌",
+    "type": 3,
+    "id": 646766
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/d0/25/644673_N2r7M.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/d0/25/644673_N2r7M.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/d0/25/644673_N2r7M.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/d0/25/644673_N2r7M.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/d0/25/644673_N2r7M.jpg"
+    },
+    "name": "Kickstart",
+    "name_cn": "",
+    "relation": "插入歌",
+    "type": 3,
+    "id": 644673
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/9e/76/643353_rSDFX.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/9e/76/643353_rSDFX.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/9e/76/643353_rSDFX.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/9e/76/643353_rSDFX.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/9e/76/643353_rSDFX.jpg"
+    },
+    "name": "仮面ライダーゼッツ ウラ仮面ライダー",
+    "name_cn": "假面骑士ZZZ 幕后假面骑士",
+    "relation": "其他",
+    "type": 6,
+    "id": 643353
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/2c/7a/642460_RR2j2.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/2c/7a/642460_RR2j2.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/2c/7a/642460_RR2j2.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/2c/7a/642460_RR2j2.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/2c/7a/642460_RR2j2.jpg"
+    },
+    "name": "Cheerful Policy！",
+    "name_cn": "",
+    "relation": "角色歌",
+    "type": 3,
+    "id": 642460
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/03/3a/638488_HgGag.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/03/3a/638488_HgGag.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/03/3a/638488_HgGag.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/03/3a/638488_HgGag.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/03/3a/638488_HgGag.jpg"
+    },
+    "name": "仮面ライダーゼッツ さよならのミッション",
+    "name_cn": "假面骑士ZZZ 告别的任务",
+    "relation": "番外篇",
+    "type": 6,
+    "id": 638488
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/8d/3c/637367_0BZk4.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/8d/3c/637367_0BZk4.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/8d/3c/637367_0BZk4.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/8d/3c/637367_0BZk4.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/8d/3c/637367_0BZk4.jpg"
+    },
+    "name": "行くゼッツ！！ぷち旅ライダーゼッツ",
+    "name_cn": "假面骑士ZZZ 一起去旅行",
+    "relation": "其他",
+    "type": 6,
+    "id": 637367
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/49/9e/634036_8z9Ta.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/49/9e/634036_8z9Ta.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/49/9e/634036_8z9Ta.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/49/9e/634036_8z9Ta.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/49/9e/634036_8z9Ta.jpg"
+    },
+    "name": "PLAY BACK",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 634036
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/01/54/633045_EgkrZ.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/01/54/633045_EgkrZ.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/01/54/633045_EgkrZ.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/01/54/633045_EgkrZ.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/01/54/633045_EgkrZ.jpg"
+    },
+    "name": "全東映特撮 あっち向いてホイ野球選手権大会",
+    "name_cn": "",
+    "relation": "其他",
+    "type": 6,
+    "id": 633045
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/53/6a/631927_DNyYV.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/53/6a/631927_DNyYV.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/53/6a/631927_DNyYV.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/53/6a/631927_DNyYV.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/53/6a/631927_DNyYV.jpg"
+    },
+    "name": "仮面ライダーゼッツ TV オリジナル サウンドトラック Vol.1",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 631927
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/be/26/502002_7jywq.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/be/26/502002_7jywq.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/be/26/502002_7jywq.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/be/26/502002_7jywq.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/be/26/502002_7jywq.jpg"
+    },
+    "name": "仮面ライダーガヴ",
+    "name_cn": "假面骑士加布",
+    "relation": "角色出演",
+    "type": 6,
+    "id": 502002
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/d8/83/623665_ozHZF.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/d8/83/623665_ozHZF.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/d8/83/623665_ozHZF.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/d8/83/623665_ozHZF.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/d8/83/623665_ozHZF.jpg"
+    },
+    "name": "アギトー超能力戦争ー",
+    "name_cn": "AGITO 超能力战争",
+    "relation": "角色出演",
+    "type": 6,
+    "id": 623665
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/e9/0b/619627_Wt8wX.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/e9/0b/619627_Wt8wX.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/e9/0b/619627_Wt8wX.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/e9/0b/619627_Wt8wX.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/e9/0b/619627_Wt8wX.jpg"
+    },
+    "name": "ねむねむNEMOTION",
+    "name_cn": "",
+    "relation": "角色歌",
+    "type": 3,
+    "id": 619627
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/42/1c/617739_Qs23i.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/42/1c/617739_Qs23i.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/42/1c/617739_Qs23i.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/42/1c/617739_Qs23i.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/42/1c/617739_Qs23i.jpg"
+    },
+    "name": "てれびくん超バトルDVD  仮面ライダーゼッツ かっとばせ！巨大ロボット コードゼロイダー！！",
+    "name_cn": "",
+    "relation": "番外篇",
+    "type": 6,
+    "id": 617739
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/3c/35/616981_3yz3w.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/3c/35/616981_3yz3w.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/3c/35/616981_3yz3w.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/3c/35/616981_3yz3w.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/3c/35/616981_3yz3w.jpg"
+    },
+    "name": "ゼッツあにめ ドリームアルバイターばく",
+    "name_cn": "ZZZ动画 DreamArbeiter莫",
+    "relation": "番外篇",
+    "type": 2,
+    "id": 616981
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/e2/75/602333_8bgbO.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/e2/75/602333_8bgbO.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/e2/75/602333_8bgbO.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/e2/75/602333_8bgbO.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/e2/75/602333_8bgbO.jpg"
+    },
+    "name": "超英雄祭 KAMEN RIDER × SUPER SENTAI LIVE & SHOW 2026 DAY1 -KAMEN RIDER-",
+    "name_cn": "",
+    "relation": "三次元",
+    "type": 6,
+    "id": 602333
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/0c/3c/587648_chxUk.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/0c/3c/587648_chxUk.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/0c/3c/587648_chxUk.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/0c/3c/587648_chxUk.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/0c/3c/587648_chxUk.jpg"
+    },
+    "name": "MOVE! TAKE IT!",
+    "name_cn": "",
+    "relation": "插入歌",
+    "type": 3,
+    "id": 587648
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/6d/c2/587315_sw9Q4.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/6d/c2/587315_sw9Q4.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/6d/c2/587315_sw9Q4.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/6d/c2/587315_sw9Q4.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/6d/c2/587315_sw9Q4.jpg"
+    },
+    "name": "仮面ライダースーパーライブ2026",
+    "name_cn": "",
+    "relation": "三次元",
+    "type": 6,
+    "id": 587315
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/47/5d/583597_uiaDa.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/47/5d/583597_uiaDa.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/47/5d/583597_uiaDa.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/47/5d/583597_uiaDa.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/47/5d/583597_uiaDa.jpg"
+    },
+    "name": "仮面ライダーゼッツ 変身講座",
+    "name_cn": "假面骑士ZZZ 变身讲座",
+    "relation": "番外篇",
+    "type": 6,
+    "id": 583597
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/2e/50/581998_yh7My.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/2e/50/581998_yh7My.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/2e/50/581998_yh7My.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/2e/50/581998_yh7My.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/2e/50/581998_yh7My.jpg"
+    },
+    "name": "ゴチゾウパーティー",
+    "name_cn": "饱藏派对",
+    "relation": "角色出演",
+    "type": 6,
+    "id": 581998
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/ed/f9/580305_5uRU4.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/ed/f9/580305_5uRU4.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/ed/f9/580305_5uRU4.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/ed/f9/580305_5uRU4.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/ed/f9/580305_5uRU4.jpg"
+    },
+    "name": "仮面ライダーゼッツ SERIES OF SISTER'S SUBSTORY エージェント美浪",
+    "name_cn": "",
+    "relation": "衍生",
+    "type": 6,
+    "id": 580305
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/25/5c/576681_R71R1.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/25/5c/576681_R71R1.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/25/5c/576681_R71R1.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/25/5c/576681_R71R1.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/25/5c/576681_R71R1.jpg"
+    },
+    "name": "VISIONS",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 576681
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/7e/60/552926_Q69XQ.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/7e/60/552926_Q69XQ.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/7e/60/552926_Q69XQ.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/7e/60/552926_Q69XQ.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/7e/60/552926_Q69XQ.jpg"
+    },
+    "name": "東映公認 鈴村健一・神谷浩史の仮面ラジレンジャー",
+    "name_cn": "东映公认 铃村健一・神谷浩史的假面Radio连者",
+    "relation": "其他",
+    "type": 6,
+    "id": 552926
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/fd/94/546255_ZPP4N.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/fd/94/546255_ZPP4N.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/fd/94/546255_ZPP4N.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/fd/94/546255_ZPP4N.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/fd/94/546255_ZPP4N.jpg"
+    },
+    "name": "仮面ライダーガヴ　お菓子の家の侵略者",
+    "name_cn": "假面骑士加布 零食之家的侵略者",
+    "relation": "角色出演",
+    "type": 6,
+    "id": 546255
+  }
+]

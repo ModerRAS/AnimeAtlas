@@ -1,0 +1,366 @@
+{
+  "date": "2025-09-07",
+  "platform": "日剧",
+  "images": {
+    "small": "https://lain.bgm.tv/r/200/pic/cover/l/d9/1e/545304_ltt5j.jpg",
+    "grid": "https://lain.bgm.tv/r/100/pic/cover/l/d9/1e/545304_ltt5j.jpg",
+    "large": "https://lain.bgm.tv/pic/cover/l/d9/1e/545304_ltt5j.jpg",
+    "medium": "https://lain.bgm.tv/r/800/pic/cover/l/d9/1e/545304_ltt5j.jpg",
+    "common": "https://lain.bgm.tv/r/400/pic/cover/l/d9/1e/545304_ltt5j.jpg"
+  },
+  "summary": "万津莫。冴えない日常を送る普通の好青年（自称）だが、\r\n自分で夢をコントロールできる明晰夢の力で、眠りにつくと無敵のエージェントに！\r\n囚われの身となっているヒロイン・ねむを救う夢の中で活躍していた。\r\n\r\nしかし、そんな夢の世界に “悪夢”を現実のものにしようとする怪人・ナイトメアが現れた！\r\n莫は夢の中で手に入れたベルトで仮面ライダーゼッツに変身！\r\n\r\nMake your dream come true. Good luck！\r\n\r\n現実への侵略を企むナイトメアの侵略を阻止せよ！\r\n世界の命運を託された莫、仮面ライダーゼッツの夢のミッションが始まる！",
+  "name": "仮面ライダーゼッツ",
+  "name_cn": "假面骑士ZZZ",
+  "tags": [
+    {
+      "name": "特摄",
+      "count": 326,
+      "total_count": 33267
+    },
+    {
+      "name": "假面骑士",
+      "count": 321,
+      "total_count": 15145
+    },
+    {
+      "name": "高桥悠也",
+      "count": 178,
+      "total_count": 470
+    },
+    {
+      "name": "日本",
+      "count": 156,
+      "total_count": 23320
+    },
+    {
+      "name": "2025",
+      "count": 155,
+      "total_count": 1879
+    },
+    {
+      "name": "电视剧",
+      "count": 119,
+      "total_count": 30689
+    },
+    {
+      "name": "东映",
+      "count": 115,
+      "total_count": 4345
+    },
+    {
+      "name": "再相信一回",
+      "count": 92,
+      "total_count": 89
+    },
+    {
+      "name": "TV",
+      "count": 80,
+      "total_count": 8650
+    },
+    {
+      "name": "仮面ライダー",
+      "count": 73,
+      "total_count": 3610
+    },
+    {
+      "name": "动作",
+      "count": 52,
+      "total_count": 7904
+    },
+    {
+      "name": "東映",
+      "count": 50,
+      "total_count": 1468
+    },
+    {
+      "name": "2025年9月",
+      "count": 41,
+      "total_count": 47
+    },
+    {
+      "name": "日剧",
+      "count": 40,
+      "total_count": 56376
+    },
+    {
+      "name": "科幻",
+      "count": 34,
+      "total_count": 14712
+    },
+    {
+      "name": "假面骑士ZZZ",
+      "count": 16,
+      "total_count": 1
+    },
+    {
+      "name": "原创",
+      "count": 3,
+      "total_count": 1564
+    },
+    {
+      "name": "石ノ森章太郎",
+      "count": 3,
+      "total_count": 139
+    },
+    {
+      "name": "泽野弘之",
+      "count": 2,
+      "total_count": 306
+    },
+    {
+      "name": "战斗",
+      "count": 2,
+      "total_count": 1441
+    },
+    {
+      "name": "16交易换取组织秘密，阿基拉急停（击毁",
+      "count": 1,
+      "total_count": 1
+    },
+    {
+      "name": "令和",
+      "count": 1,
+      "total_count": 344
+    },
+    {
+      "name": "奇幻",
+      "count": 1,
+      "total_count": 6309
+    },
+    {
+      "name": "2020s",
+      "count": 1,
+      "total_count": 42
+    },
+    {
+      "name": "Madam，庄周梦蝶歌剧配乐，对抗コード",
+      "count": 1,
+      "total_count": 1
+    },
+    {
+      "name": "14被消去的记忆，接受落雷",
+      "count": 1,
+      "total_count": 1
+    },
+    {
+      "name": "75",
+      "count": 1,
+      "total_count": 1
+    },
+    {
+      "name": "英雄",
+      "count": 1,
+      "total_count": 147
+    },
+    {
+      "name": "15两清，the",
+      "count": 1,
+      "total_count": 1
+    },
+    {
+      "name": "上堀内佳寿也",
+      "count": 1,
+      "total_count": 31
+    }
+  ],
+  "infobox": [
+    {
+      "key": "中文名",
+      "value": "假面骑士ZZZ"
+    },
+    {
+      "key": "别名",
+      "value": [
+        {
+          "v": "Kamen Rider ZEZTZ"
+        },
+        {
+          "v": "假面骑士Zeztz"
+        }
+      ]
+    },
+    {
+      "key": "集数",
+      "value": "50"
+    },
+    {
+      "key": "放送星期",
+      "value": "星期日"
+    },
+    {
+      "key": "开始",
+      "value": "2025-09-07"
+    },
+    {
+      "key": "结束",
+      "value": "2026-08-30"
+    },
+    {
+      "key": "导演",
+      "value": "上堀内佳寿也、柏木宏紀、山口恭平、柴﨑貴行、葉山康一郎、杉原輝昭、渡辺淳"
+    },
+    {
+      "key": "音乐",
+      "value": "高木洋、坂部剛"
+    },
+    {
+      "key": "原作",
+      "value": "石ノ森章太郎"
+    },
+    {
+      "key": "制作",
+      "value": "テレビ朝日、東映、ADKエモーションズ"
+    },
+    {
+      "key": "类型",
+      "value": "剧情 / 喜剧 / 科幻"
+    },
+    {
+      "key": "国家/地区",
+      "value": "日本"
+    },
+    {
+      "key": "语言",
+      "value": "日语"
+    },
+    {
+      "key": "每集长",
+      "value": "24分钟"
+    },
+    {
+      "key": "电视台",
+      "value": "テレビ朝日"
+    },
+    {
+      "key": "台湾名称",
+      "value": "假面騎士ZEZTZ"
+    },
+    {
+      "key": "港澳名称",
+      "value": "幪面超人ZEZTZ"
+    },
+    {
+      "key": "官方网站",
+      "value": [
+        {
+          "k": "仮面ライダーWEB",
+          "v": "https://www.kamen-rider-official.com/zeztz/"
+        },
+        {
+          "k": "テレビ朝日",
+          "v": "https://www.tv-asahi.co.jp/zeztz/"
+        }
+      ]
+    },
+    {
+      "key": "链接",
+      "value": [
+        {
+          "k": "X",
+          "v": "https://x.com/zeztz7toei"
+        },
+        {
+          "k": "Instagram",
+          "v": "https://www.instagram.com/kamenrider_tvasahi/"
+        },
+        {
+          "k": "TikTok",
+          "v": "http://www.tiktok.com/@superherotime_tvasahi"
+        },
+        {
+          "k": "仮面ライダー公式チャンネル",
+          "v": "https://www.youtube.com/@KAMENRIDER_Official_Toei"
+        }
+      ]
+    },
+    {
+      "key": "执行制片人",
+      "value": "大川武宏"
+    },
+    {
+      "key": "制片人/制作人",
+      "value": "芝高啓介（テレビ朝日）、谷中寿成・湊陽祐・高崎壮太（東映）"
+    },
+    {
+      "key": "动作导演/武术指导",
+      "value": "渡辺淳、宮崎剛、おぐらとしひろ（代理）"
+    },
+    {
+      "key": "特摄导演",
+      "value": "佛田洋"
+    },
+    {
+      "key": "编剧",
+      "value": "高橋悠也"
+    },
+    {
+      "key": "主题歌演出",
+      "value": "NAQT VANE / YUTA（中本悠太）"
+    },
+    {
+      "key": "主题歌作词",
+      "value": "Benjamin + cAnON. / 藤林聖子"
+    },
+    {
+      "key": "主题歌作曲",
+      "value": "Hiroyuki SAWANO（澤野弘之） / Hi-yunk"
+    },
+    {
+      "key": "主题歌编曲",
+      "value": "Hiroyuki SAWANO（澤野弘之） / Hi-yunk"
+    },
+    {
+      "key": "监制",
+      "value": "小野寺章"
+    },
+    {
+      "key": "副制作人/制作顾问",
+      "value": "阿波根礼奈"
+    },
+    {
+      "key": "人物设计/皮套设计",
+      "value": "田嶋秀樹、PLEX（プレックス）"
+    },
+    {
+      "key": "生物设计",
+      "value": "百武朋"
+    }
+  ],
+  "rating": {
+    "rank": 993,
+    "total": 488,
+    "count": {
+      "1": 2,
+      "2": 0,
+      "3": 5,
+      "4": 5,
+      "5": 12,
+      "6": 38,
+      "7": 168,
+      "8": 203,
+      "9": 37,
+      "10": 18
+    },
+    "score": 7.5
+  },
+  "total_episodes": 52,
+  "collection": {
+    "on_hold": 45,
+    "dropped": 27,
+    "wish": 108,
+    "collect": 150,
+    "doing": 1281
+  },
+  "id": 545304,
+  "eps": 50,
+  "meta_tags": [
+    "日本",
+    "电视剧",
+    "特摄"
+  ],
+  "volumes": 0,
+  "series": false,
+  "locked": false,
+  "nsfw": false,
+  "type": 6
+}

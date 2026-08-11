@@ -1,0 +1,2220 @@
+{
+  "schema": "v2-migration-plan/v1",
+  "observed_at": "2026-08-11T05:45:53.037Z",
+  "source": "Cached Bangumi type=2 subject, title, relation, and paginated episode audit",
+  "series": [
+    {
+      "id": "series-000021",
+      "title": "ゴーストコンサート : missing Songs",
+      "aliases": [
+        {
+          "value": "ゴーストコンサート : missing Songs",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "幽灵音乐会",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "zh-Hant",
+          "source": "community",
+          "type": "localized",
+          "value": "GHOST CONCERT ： 失落之歌"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000003",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000022",
+      "title": "機械じかけのマリー",
+      "aliases": [
+        {
+          "value": "機械じかけのマリー",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "人形机器人玛丽",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "zh-Hant",
+          "source": "community",
+          "type": "localized",
+          "value": "機械女僕‧瑪麗"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000005",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000023",
+      "title": "僕のヒーローアカデミア FINAL SEASON",
+      "aliases": [
+        {
+          "value": "僕のヒーローアカデミア FINAL SEASON",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "我的英雄学院 最终季",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "zh-Hant",
+          "source": "community",
+          "type": "localized",
+          "value": "我的英雄學院 FINAL SEASON"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000006",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000024",
+      "title": "魔法少女リリカルなのは EXCEEDS Gun Blaze Vengeance",
+      "aliases": [
+        {
+          "value": "魔法少女リリカルなのは EXCEEDS Gun Blaze Vengeance",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "魔法少女奈叶 EXCEEDS Gun Blaze Vengeance",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "zh-Hant",
+          "source": "community",
+          "type": "localized",
+          "value": "魔法少女奈葉 EXCEEDS Gun Blaze Vengeance"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000008",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000025",
+      "title": "3年Z組銀八先生",
+      "aliases": [
+        {
+          "value": "3年Z組銀八先生",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "3年Z班银八老师",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "zh-Hant",
+          "source": "community",
+          "type": "localized",
+          "value": "銀魂 3 年 Z 班銀八老師"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000015",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000026",
+      "title": "幼馴染とはラブコメにならない",
+      "aliases": [
+        {
+          "value": "幼馴染とはラブコメにならない",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "和青梅竹马之间不会有恋爱喜剧",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "zh-Hant",
+          "source": "community",
+          "type": "localized",
+          "value": "青梅竹馬的戀愛喜劇無法成立"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000017",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000027",
+      "title": "カナン様はあくまでチョロい",
+      "aliases": [
+        {
+          "value": "カナン様はあくまでチョロい",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "迦楠大人的白给是恶魔级",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "zh-Hant",
+          "source": "community",
+          "type": "localized",
+          "value": "容易對付的惡魔大人"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000019",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000028",
+      "title": "逃がした魚は大きかったが釣りあげた魚が大きすぎた件",
+      "aliases": [
+        {
+          "value": "逃がした魚は大きかったが釣りあげた魚が大きすぎた件",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "关于虽然逃走的鱼很大、但钓上来的鱼却太大了这件事",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "zh-Hant",
+          "source": "community",
+          "type": "localized",
+          "value": "溜掉的大魚比不上自己釣到的魚"
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Nigetsuri"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000020",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000029",
+      "title": "ユリシーズ ジャンヌ・ダルクと錬金の騎士",
+      "aliases": [
+        {
+          "value": "ユリシーズ ジャンヌ・ダルクと錬金の騎士",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "尤利西斯 贞德与炼金骑士",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Ulysses Jeanne d'Arc to Renkin no Kishi"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000022",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000030",
+      "title": "異世界でチート能力を手にした俺は、現実世界をも無双する～レベルアップは人生を変えた～ スペシャル",
+      "aliases": [
+        {
+          "value": "異世界でチート能力を手にした俺は、現実世界をも無双する～レベルアップは人生を変えた～ スペシャル",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "在异世界获得超强能力的我，在现实世界照样无敌～等级提升改变人生命运～ SP",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "zh-Hant",
+          "source": "community",
+          "type": "localized",
+          "value": "在異世界獲得超強能力的我，在現實世界照樣無敵～等級提升改變人生命運～ TVSP"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000023",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000031",
+      "title": "コアラ絵日記",
+      "aliases": [
+        {
+          "value": "コアラ絵日記",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "考拉绘日记",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "zh-Hant",
+          "source": "community",
+          "type": "localized",
+          "value": "無尾熊繪日記"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000025",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000032",
+      "title": "これ描いて死ね",
+      "aliases": [
+        {
+          "value": "これ描いて死ね",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "画完这个再去死",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "zh-Hant",
+          "source": "community",
+          "type": "localized",
+          "value": "畫完這個再去死"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000026",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000033",
+      "title": "グノーシア",
+      "aliases": [
+        {
+          "value": "グノーシア",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "古诺希亚",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "en",
+          "source": "community",
+          "type": "official",
+          "value": "GNOSIA"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000027",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000034",
+      "title": "北斗の拳",
+      "aliases": [
+        {
+          "value": "北斗の拳",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "北斗神拳",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "community",
+          "confidence": 0.9
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000028",
+          "installment": {},
+          "relationships": [
+            {
+              "type": "main-story",
+              "target": "media-000089"
+            }
+          ]
+        },
+        {
+          "id": "media-000089",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000035",
+      "title": "悪食令嬢と狂血公爵",
+      "aliases": [
+        {
+          "value": "悪食令嬢と狂血公爵",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "恶食千金与狂血公爵",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "zh-Hant",
+          "source": "community",
+          "type": "localized",
+          "value": "惡食千金與狂血公爵～那個魔物我就美美地享用了！～"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000029",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000036",
+      "title": "ただいま、おじゃまされます！",
+      "aliases": [
+        {
+          "value": "ただいま、おじゃまされます！",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "当前、正被打扰中！",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "zh-Hant",
+          "source": "community",
+          "type": "localized",
+          "value": "我回來了，他又來打擾了！"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000030",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000037",
+      "title": "キルアオ",
+      "aliases": [
+        {
+          "value": "キルアオ",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "杀手青春",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "zh-Hant",
+          "source": "community",
+          "type": "localized",
+          "value": "殺手青春"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000031",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000038",
+      "title": "天幕のジャードゥーガル",
+      "aliases": [
+        {
+          "value": "天幕のジャードゥーガル",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "穹庐下的魔女",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "zh-Hant",
+          "source": "community",
+          "type": "localized",
+          "value": "穹廬下的魔女"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000032",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000039",
+      "title": "きみが死ぬまで恋をしたい",
+      "aliases": [
+        {
+          "value": "きみが死ぬまで恋をしたい",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "与你相恋到生命尽头",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "zh-Hant",
+          "source": "community",
+          "type": "localized",
+          "value": "與妳相戀到生命盡頭"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000033",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000040",
+      "title": "レプリカだって、恋をする。",
+      "aliases": [
+        {
+          "value": "レプリカだって、恋をする。",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "复制品的我也会谈恋爱。",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "zh-Hant",
+          "source": "community",
+          "type": "localized",
+          "value": "複製品的我也會談戀愛"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000034",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000041",
+      "title": "味方が弱すぎて補助魔法に徹していた宮廷魔法師、追放されて最強を目指す",
+      "aliases": [
+        {
+          "value": "味方が弱すぎて補助魔法に徹していた宮廷魔法師、追放されて最強を目指す",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "队友太弱所以贯彻辅助的宫廷魔法师，惨遭流放目标却是最强",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "zh-Hant",
+          "source": "community",
+          "type": "localized",
+          "value": "貫徹輔助魔法支援弱小隊友的宮廷魔法師，慘遭驅逐後目標成為最強冒險者"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000035",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000042",
+      "title": "嫌な顔されながらおパンツ見せてもらいたいR",
+      "aliases": [
+        {
+          "value": "嫌な顔されながらおパンツ見せてもらいたいR",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "一脸嫌弃表情的妹子给你看胖次R",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "zh-Hant",
+          "source": "community",
+          "type": "localized",
+          "value": "想看她一臉嫌惡地露出褲褲 R"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000036",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000043",
+      "title": "リラックマ",
+      "aliases": [
+        {
+          "value": "リラックマ",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "轻松熊",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "zh-Hant",
+          "source": "community",
+          "type": "localized",
+          "value": "拉拉熊"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000037",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000044",
+      "title": "天穂のサクナヒメ ココロワ稲作日誌",
+      "aliases": [
+        {
+          "value": "天穂のサクナヒメ ココロワ稲作日誌",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "天穗之咲稻姬 心轮种稻日记",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "zh-Hant",
+          "source": "community",
+          "type": "localized",
+          "value": "天穗之咲稻姬 [特別篇]"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000041",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000045",
+      "title": "ふつつかな悪女ではございますが ～雛宮蝶鼠とりかえ伝～",
+      "aliases": [
+        {
+          "value": "ふつつかな悪女ではございますが ～雛宮蝶鼠とりかえ伝～",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "恶女不才，请多关照 ～雏宫蝶鼠换身传～",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Futsutsuka na Akujo dewa Gozaimasu ga"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000043",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000046",
+      "title": "綺麗にしてもらえますか。",
+      "aliases": [
+        {
+          "value": "綺麗にしてもらえますか。",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "能帮我弄干净吗？",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Kirei ni Shite Moraemasu ka"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000045",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000047",
+      "title": "乙女怪獣キャラメリゼ",
+      "aliases": [
+        {
+          "value": "乙女怪獣キャラメリゼ",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "少女怪兽焦糖味",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Otome Kaijuu Carameliser"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000046",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000048",
+      "title": "攻殻機動隊 THE GHOST IN THE SHELL",
+      "aliases": [
+        {
+          "value": "攻殻機動隊 THE GHOST IN THE SHELL",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "攻壳机动队 THE GHOST IN THE SHELL",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "en",
+          "source": "community",
+          "type": "official",
+          "value": "The Ghost in the Shell"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000047",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000049",
+      "title": "도굴왕",
+      "aliases": [
+        {
+          "value": "도굴왕",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "盗墓王",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Toukutsu Ou"
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Toukutsu Ou (Korean Audio)"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000048",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000050",
+      "title": "女神『異世界転生何になりたいですか』俺「勇者の肋骨で」",
+      "aliases": [
+        {
+          "value": "女神『異世界転生何になりたいですか』俺「勇者の肋骨で」",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "女神“异世界转生想成为什么”我“勇者的肋骨”",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Yuusha no Rokkotsu de"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000050",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000051",
+      "title": "BORUTO-ボルト- NARUTO NEXT GENERATIONS",
+      "aliases": [
+        {
+          "value": "BORUTO-ボルト- NARUTO NEXT GENERATIONS",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "博人传-火影次世代-",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "[Boruto Naruto Next Generations]"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000051",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000052",
+      "title": "本好きの下剋上～司書になるためには手段を選んでいられません～ 領主の養女",
+      "aliases": [
+        {
+          "value": "本好きの下剋上～司書になるためには手段を選んでいられません～ 領主の養女",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "小书痴的下克上 〜为了成为图书管理员而不择手段〜 领主的养女",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Honzuki no Gekokujou S04"
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Honzuki no Gekokujou S4"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000052",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000053",
+      "title": "しゃばけ",
+      "aliases": [
+        {
+          "value": "しゃばけ",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "娑婆气",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "zh-Hant",
+          "source": "community",
+          "type": "localized",
+          "value": "娑婆氣"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000053",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000054",
+      "title": "鎧真伝サムライトルーパー",
+      "aliases": [
+        {
+          "value": "鎧真伝サムライトルーパー",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "铠真传 武士军团",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Yoroi Shin Den Samurai Troopers"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000054",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000055",
+      "title": "夜桜さんちの大作戦",
+      "aliases": [
+        {
+          "value": "夜桜さんちの大作戦",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "夜樱家的大作战",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Yozakura-san Chi no Daisakusen"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000055",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000056",
+      "title": "スーパーの裏でヤニ吸うふたり",
+      "aliases": [
+        {
+          "value": "スーパーの裏でヤニ吸うふたり",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "在超市后门吸烟的二人",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Super no Ura de Yani Suu Futari"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000056",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000057",
+      "title": "転校先の清楚可憐な美少女が、昔男子と思って一緒に遊んだ幼馴染だった件",
+      "aliases": [
+        {
+          "value": "転校先の清楚可憐な美少女が、昔男子と思って一緒に遊んだ幼馴染だった件",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "转学后班上的清纯可爱美少女，竟是小时候玩在一起的哥们儿",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Tenbin"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000057",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000058",
+      "title": "とんがり帽子のアトリエ",
+      "aliases": [
+        {
+          "value": "とんがり帽子のアトリエ",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "尖帽子的魔法工房",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Tongari Boushi no Atelier"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000058",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000059",
+      "title": "TRIGUN STARGAZE",
+      "aliases": [
+        {
+          "value": "TRIGUN STARGAZE",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "枪神 观星之人",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000059",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000060",
+      "title": "杖と剣のウィストリア",
+      "aliases": [
+        {
+          "value": "杖と剣のウィストリア",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "杖与剑的魔剑谭",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Tsue to Tsurugi no Wistoria"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000060",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000061",
+      "title": "ニワトリ・ファイター",
+      "aliases": [
+        {
+          "value": "ニワトリ・ファイター",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "公鸡斗士",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Rooster Fighter"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000061",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000062",
+      "title": "名探偵プリキュア！",
+      "aliases": [
+        {
+          "value": "名探偵プリキュア！",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "名侦探光之美少女！",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Star Detective Precure!"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000062",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000063",
+      "title": "落第賢者の学院無双～二度目の転生、Sランクチート魔術師冒険録～",
+      "aliases": [
+        {
+          "value": "落第賢者の学院無双～二度目の転生、Sランクチート魔術師冒険録～",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "落第贤者的学院无双～第二次转生的S级开外挂魔术师冒险录～",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Rakudai Kenja no Gakuin Musou"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000063",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000064",
+      "title": "Re:ゼロから始める異世界生活",
+      "aliases": [
+        {
+          "value": "Re:ゼロから始める異世界生活",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "Re：从零开始的异世界生活",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Re Zero kara Hajimeru Isekai Seikatsu"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000064",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000065",
+      "title": "おねがいアイプリ",
+      "aliases": [
+        {
+          "value": "おねがいアイプリ",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "拜托了偶像公主",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Onegai Aipri"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000065",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000066",
+      "title": "オタクに優しいギャルはいない!?",
+      "aliases": [
+        {
+          "value": "オタクに優しいギャルはいない!?",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "没有辣妹会对阿宅温柔!?",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Otaku ni Yasashii Gal wa Inai"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000066",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000067",
+      "title": "LIAR GAME",
+      "aliases": [
+        {
+          "value": "LIAR GAME",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "欺诈游戏",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000067",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000068",
+      "title": "LV999の村人",
+      "aliases": [
+        {
+          "value": "LV999の村人",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "LV999的村民",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Lv999 no Murabito"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000068",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000069",
+      "title": "メビウス・ダスト",
+      "aliases": [
+        {
+          "value": "メビウス・ダスト",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "梅比乌斯之尘",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Mebius Dust"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000070",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000070",
+      "title": "逃げ上手の若君",
+      "aliases": [
+        {
+          "value": "逃げ上手の若君",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "擅长逃跑的殿下",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Nige Jouzu no Wakagimi"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000071",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000071",
+      "title": "日本三國",
+      "aliases": [
+        {
+          "value": "日本三國",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "日本三国",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Nippon Sangoku"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000072",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000072",
+      "title": "「お前ごときが魔王に勝てると思うな」と勇者パーティを追放されたので、王都で気ままに暮らしたい",
+      "aliases": [
+        {
+          "value": "「お前ごときが魔王に勝てると思うな」と勇者パーティを追放されたので、王都で気ままに暮らしたい",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "「凭你也想讨伐魔王？」被勇者小队逐出队伍，只好在王都自在过活",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Omagoto"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000073",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000073",
+      "title": "自称悪役令嬢な婚約者の観察記録。",
+      "aliases": [
+        {
+          "value": "自称悪役令嬢な婚約者の観察記録。",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "自称恶役大小姐的婚约者观察记录。",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Jishou Akuyaku Reijou na Konyakusha no Kansatsu Kiroku"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000074",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000074",
+      "title": "最強の職業は勇者でも賢者でもなく鑑定士（仮）らしいですよ？",
+      "aliases": [
+        {
+          "value": "最強の職業は勇者でも賢者でもなく鑑定士（仮）らしいですよ？",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "最强的职业不是勇者也不是贤者好像是鉴定士(伪)的样子?",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Kanteishi"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000076",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000075",
+      "title": "ここは俺に任せて先に行けと言ってから10年がたったら伝説になっていた。",
+      "aliases": [
+        {
+          "value": "ここは俺に任せて先に行けと言ってから10年がたったら伝説になっていた。",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "『你们先走我断后』，于是10年后我成为了传说",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Kokoore"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000078",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000076",
+      "title": "二十世紀電氣目録-ユーレカ・エヴリカ-",
+      "aliases": [
+        {
+          "value": "二十世紀電氣目録-ユーレカ・エヴリカ-",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "二十世纪电气目录",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "20 Seiki Denki Mokuroku"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000079",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000077",
+      "title": "悪役令嬢は隣国の王太子に溺愛される",
+      "aliases": [
+        {
+          "value": "悪役令嬢は隣国の王太子に溺愛される",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "被邻国王子溺爱的反派女主",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Akuyaku Reijou wa Ringoku no Outaishi ni Dekiai sareru"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000080",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000078",
+      "title": "BLEACH 千年血戦篇",
+      "aliases": [
+        {
+          "value": "BLEACH 千年血戦篇",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "死神 千年血战篇",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "BLEACH Sennen Kessen-hen"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000081",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000079",
+      "title": "ブチ切れ令嬢は報復を誓いました。～魔導書の力で祖国を叩き潰します～",
+      "aliases": [
+        {
+          "value": "ブチ切れ令嬢は報復を誓いました。～魔導書の力で祖国を叩き潰します～",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "暴怒千金发誓复仇。～凭借魔导书之力打垮祖国～",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Buchigire Reijou wa Houfuku wo Chikaimashita"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000082",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000080",
+      "title": "クレバテスⅡ-魔獣の王と偽りの勇者伝承-",
+      "aliases": [
+        {
+          "value": "クレバテスⅡ-魔獣の王と偽りの勇者伝承-",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "Clevatess II-魔兽之王与虚假的勇者传承-",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Clevatess S2"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000083",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000081",
+      "title": "最強出涸らし皇子の暗躍帝位争い",
+      "aliases": [
+        {
+          "value": "最強出涸らし皇子の暗躍帝位争い",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "最强废渣皇子暗中活跃于帝位之争",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Degarashi Ouji"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000084",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000082",
+      "title": "DIGIMON BEATBREAK",
+      "aliases": [
+        {
+          "value": "DIGIMON BEATBREAK",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "数码宝贝 觉醒节拍",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000085",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000083",
+      "title": "元祖！バンドリちゃん",
+      "aliases": [
+        {
+          "value": "元祖！バンドリちゃん",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "元祖！BanG Dream Chan",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "GANSO BanG Dream Chan"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000087",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000084",
+      "title": "灰原くんの強くて青春ニューゲーム",
+      "aliases": [
+        {
+          "value": "灰原くんの強くて青春ニューゲーム",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "灰原同学重返过去，开启所向无敌的第二轮青春游戏",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Haibara-kun no Tsuyokute Seishun New Game"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000088",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    },
+    {
+      "id": "series-000085",
+      "title": "人外教室の人間嫌い教師",
+      "aliases": [
+        {
+          "value": "人外教室の人間嫌い教師",
+          "language": "ja",
+          "type": "official",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "value": "非人学生与厌世教师",
+          "language": "zh-Hans",
+          "type": "localized",
+          "source": "bangumi",
+          "confidence": 0.98
+        },
+        {
+          "confidence": 0.9,
+          "language": "ja-Latn",
+          "source": "community",
+          "type": "romaji",
+          "value": "Jingai Kyoushitsu no Ningengirai Kyoushi"
+        }
+      ],
+      "media": [
+        {
+          "id": "media-000090",
+          "installment": {},
+          "relationships": []
+        }
+      ]
+    }
+  ]
+}

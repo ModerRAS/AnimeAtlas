@@ -7,8 +7,15 @@
       "source": "community",
       "type": "romaji",
       "value": "TRIGUN STARGAZE"
+    },
+    {
+      "value": "枪神 观星之人",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000059",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

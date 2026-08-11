@@ -1,0 +1,28 @@
+{
+  "$schema": "../../packages/schema/schemas/media-aliases.schema.json",
+  "schema": "media-aliases/v2",
+  "media_id": "media-000096",
+  "aliases": [
+    {
+      "value": "花ざかりの君たちへ",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "花样少年少女",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "花樣少年少女",
+      "language": "zh-Hant",
+      "type": "localized",
+      "source": "community",
+      "confidence": 0.9
+    }
+  ]
+}

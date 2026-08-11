@@ -1,0 +1,440 @@
+{
+  "date": "2026-04-06",
+  "platform": "TV",
+  "images": {
+    "small": "https://lain.bgm.tv/r/200/pic/cover/l/55/50/580133_V380S.jpg",
+    "grid": "https://lain.bgm.tv/r/100/pic/cover/l/55/50/580133_V380S.jpg",
+    "large": "https://lain.bgm.tv/pic/cover/l/55/50/580133_V380S.jpg",
+    "medium": "https://lain.bgm.tv/r/800/pic/cover/l/55/50/580133_V380S.jpg",
+    "common": "https://lain.bgm.tv/r/400/pic/cover/l/55/50/580133_V380S.jpg"
+  },
+  "summary": "突然届けられた1億円と謎の招待状\r\n\r\n女子大生のカンザキナオは、嘘と駆け引きで巨額のマネーを奪い合う\r\n「ライアーゲーム」に突如として巻き込まれてしまう。\r\n他人を疑うことを知らない「バカ正直」のナオは、開始早々、絶体絶命の窮地に陥る。\r\n\r\nそんな彼女が頼ったのは、詐欺罪で服役し、釈放されたばかりの男・アキヤマシンイチ。\r\n鋭い洞察力と圧倒的な知略を持つ「元天才詐欺師」・アキヤマと共に、\r\nナオは異常なゲームの只中へと足を踏み入れていく。\r\n\r\n嘘つきだらけの世界で、正直者は何を見るのか。\r\n\r\n人間の本質を抉る、\r\n究極の心理ゲームが今、開幕する！",
+  "name": "LIAR GAME",
+  "name_cn": "欺诈游戏",
+  "tags": [
+    {
+      "name": "2026年4月",
+      "count": 384,
+      "total_count": 24965
+    },
+    {
+      "name": "智斗",
+      "count": 350,
+      "total_count": 22781
+    },
+    {
+      "name": "漫画改",
+      "count": 282,
+      "total_count": 857443
+    },
+    {
+      "name": "MADHouse",
+      "count": 267,
+      "total_count": 110408
+    },
+    {
+      "name": "TV",
+      "count": 250,
+      "total_count": 1396782
+    },
+    {
+      "name": "推理",
+      "count": 245,
+      "total_count": 73334
+    },
+    {
+      "name": "2026",
+      "count": 177,
+      "total_count": 40840
+    },
+    {
+      "name": "漫改",
+      "count": 151,
+      "total_count": 360136
+    },
+    {
+      "name": "日本",
+      "count": 100,
+      "total_count": 293389
+    },
+    {
+      "name": "青年向",
+      "count": 79,
+      "total_count": 3927
+    },
+    {
+      "name": "川野麻美",
+      "count": 60,
+      "total_count": 60
+    },
+    {
+      "name": "大逃杀",
+      "count": 44,
+      "total_count": 2696
+    },
+    {
+      "name": "佐藤雄三",
+      "count": 26,
+      "total_count": 506
+    },
+    {
+      "name": "浦畑達彦",
+      "count": 16,
+      "total_count": 365
+    },
+    {
+      "name": "2026年",
+      "count": 14,
+      "total_count": 1698
+    },
+    {
+      "name": "悬疑",
+      "count": 13,
+      "total_count": 113136
+    },
+    {
+      "name": "欺诈游戏",
+      "count": 5,
+      "total_count": 5
+    },
+    {
+      "name": "2026年7月",
+      "count": 4,
+      "total_count": 19522
+    },
+    {
+      "name": "TVA",
+      "count": 4,
+      "total_count": 15444
+    },
+    {
+      "name": "都市日常",
+      "count": 3,
+      "total_count": 19
+    },
+    {
+      "name": "日本动画",
+      "count": 2,
+      "total_count": 34833
+    },
+    {
+      "name": "漫画改编",
+      "count": 1,
+      "total_count": 3730
+    },
+    {
+      "name": "正番",
+      "count": 1,
+      "total_count": 977
+    },
+    {
+      "name": "大塚剛央",
+      "count": 1,
+      "total_count": 150
+    },
+    {
+      "name": "2020s",
+      "count": 1,
+      "total_count": 3612
+    },
+    {
+      "name": "26春",
+      "count": 1,
+      "total_count": 34
+    },
+    {
+      "name": "上田耀司",
+      "count": 1,
+      "total_count": 8
+    },
+    {
+      "name": "电视动画",
+      "count": 1,
+      "total_count": 814
+    },
+    {
+      "name": "2026.4",
+      "count": 1,
+      "total_count": 54
+    },
+    {
+      "name": "4分",
+      "count": 1,
+      "total_count": 1044
+    }
+  ],
+  "infobox": [
+    {
+      "key": "中文名",
+      "value": "欺诈游戏"
+    },
+    {
+      "key": "别名",
+      "value": [
+        {
+          "v": "-ライアーゲーム-"
+        }
+      ]
+    },
+    {
+      "key": "话数",
+      "value": "24"
+    },
+    {
+      "key": "放送开始",
+      "value": "2026年4月6日"
+    },
+    {
+      "key": "放送星期",
+      "value": "星期一"
+    },
+    {
+      "key": "官方网站",
+      "value": "https://www.liargame-anime.com/"
+    },
+    {
+      "key": "播放电视台",
+      "value": "テレ東系列"
+    },
+    {
+      "key": "导演",
+      "value": "川野麻美"
+    },
+    {
+      "key": "音乐",
+      "value": "菅野祐悟"
+    },
+    {
+      "key": "Copyright",
+      "value": "©甲斐谷忍プロダクツ／集英社・LIAR GAME製作委員会"
+    },
+    {
+      "key": "原作",
+      "value": "甲斐谷忍（集英社ヤングジャンプコミックスDIGITAL刊）"
+    },
+    {
+      "key": "人物设定",
+      "value": "土屋圭"
+    },
+    {
+      "key": "副人物设定",
+      "value": "横山愛"
+    },
+    {
+      "key": "色彩设计",
+      "value": "中内照美"
+    },
+    {
+      "key": "美术板",
+      "value": "上野秀行"
+    },
+    {
+      "key": "美术设计",
+      "value": "杉山晋史"
+    },
+    {
+      "key": "摄影监督",
+      "value": "畑中宏信"
+    },
+    {
+      "key": "视觉效果",
+      "value": "VFX监修：加藤道哉"
+    },
+    {
+      "key": "製作",
+      "value": "LIAR GAME製作委員会（集英社、REMOW、三洋物産、テレビ東京、ジェイアール東日本企画、ムービック、MADHOUSE、arma bianca、BSテレビ東京）；瓶子吉久、石井紹良、内田朋宏、伊藤隆行、弓矢政法、髙橋竜、田代早苗、坂井智成、内田久善"
+    },
+    {
+      "key": "执行制片人",
+      "value": "大好誠"
+    },
+    {
+      "key": "制片人",
+      "value": "森亮介、加藤貴大、池田大介、北田修一、向山ひとみ、三浦史、吉田勇樹、塩谷尚史、佐々木亮"
+    },
+    {
+      "key": "动画制片人",
+      "value": "制作制片人：芦川真理子"
+    },
+    {
+      "key": "助理制片人",
+      "value": "宇田真奈美、加藤結菜、斉藤礼於、津田大樹、丸然、有賀新、大崎達生、森本雅衣、砂子坂光希、藤野大河"
+    },
+    {
+      "key": "宣传制片人",
+      "value": "原田淳"
+    },
+    {
+      "key": "制作管理",
+      "value": "Park Seong-ho"
+    },
+    {
+      "key": "设定制作",
+      "value": "金賢正"
+    },
+    {
+      "key": "制作进行",
+      "value": "高橋玲奈、Yoo Hyung-joo、Jung Da-woon、吉田真帆"
+    },
+    {
+      "key": "脚本",
+      "value": "浦畑達彦"
+    },
+    {
+      "key": "分镜",
+      "value": "川野麻美"
+    },
+    {
+      "key": "演出",
+      "value": "梅原隆弘"
+    },
+    {
+      "key": "角色作画监督",
+      "value": "角色总作监：土屋圭"
+    },
+    {
+      "key": "总作画监督",
+      "value": "Kwon Hyuk-jung(權赫正)"
+    },
+    {
+      "key": "作画监督",
+      "value": "Cho Hyejeong、Cho Mi-Jung、Gu Gyeong-ok、Kim So-jung"
+    },
+    {
+      "key": "原画",
+      "value": "Lee Dong-wook、Kim Minsun、Lim Ji-hyun、Seo Soon-young、Gang Hyeon-guk、Kang Hyeon-guk、Choi Hye-jeong、Hyeon Su-min"
+    },
+    {
+      "key": "服装设计",
+      "value": "衣装设定：李錫均"
+    },
+    {
+      "key": "背景美术",
+      "value": "長崎斉、澤谷健太、上野秀行"
+    },
+    {
+      "key": "3DCG",
+      "value": "MADBOX；CG制作：サイクロングラフィックス；CG制作协力：pHスタジオ"
+    },
+    {
+      "key": "CG 导演",
+      "value": "秋山侑輝、設楽友久"
+    },
+    {
+      "key": "CG 制作人",
+      "value": "岡島岳洋、吉野智美"
+    },
+    {
+      "key": "CG 制作进行",
+      "value": "渡部美由起"
+    },
+    {
+      "key": "3D 设计",
+      "value": "CGワークス：田中康隆、篠原智哉、石川廉"
+    },
+    {
+      "key": "道具设计",
+      "value": "堀江誠一"
+    },
+    {
+      "key": "音效",
+      "value": "山谷尚人"
+    },
+    {
+      "key": "音响",
+      "value": "ビットグルーヴプロモーション"
+    },
+    {
+      "key": "音响制作担当",
+      "value": "井口泰一"
+    },
+    {
+      "key": "录音",
+      "value": "天野龍洋"
+    },
+    {
+      "key": "录音助理",
+      "value": "岩本佳大"
+    },
+    {
+      "key": "录音工作室",
+      "value": "STUDIO T&T"
+    },
+    {
+      "key": "音乐制作人",
+      "value": "仲安貴彦"
+    },
+    {
+      "key": "剪辑",
+      "value": "塚常真理子"
+    },
+    {
+      "key": "离线剪辑",
+      "value": "塚常真理子"
+    },
+    {
+      "key": "在线剪辑",
+      "value": "ソニーPCL（石井知、林竜一）"
+    },
+    {
+      "key": "主题歌演出",
+      "value": "ヨルシカ / Lucky Kilimanjaro"
+    },
+    {
+      "key": "主题歌作词",
+      "value": "n-buna / 熊木幸丸"
+    },
+    {
+      "key": "主题歌作曲",
+      "value": "n-buna / 熊木幸丸"
+    },
+    {
+      "key": "主题歌编曲",
+      "value": "n-buna / Lucky Kilimanjaro"
+    }
+  ],
+  "rating": {
+    "rank": 8178,
+    "total": 646,
+    "count": {
+      "1": 10,
+      "2": 10,
+      "3": 21,
+      "4": 56,
+      "5": 106,
+      "6": 259,
+      "7": 137,
+      "8": 37,
+      "9": 3,
+      "10": 7
+    },
+    "score": 5.8
+  },
+  "total_episodes": 24,
+  "collection": {
+    "on_hold": 158,
+    "dropped": 330,
+    "wish": 746,
+    "collect": 229,
+    "doing": 2209
+  },
+  "id": 580133,
+  "eps": 24,
+  "meta_tags": [
+    "TV",
+    "TV",
+    "日本",
+    "日本",
+    "推理",
+    "推理",
+    "漫画改",
+    "漫画改",
+    "青年向",
+    "青年向"
+  ],
+  "volumes": 0,
+  "series": false,
+  "locked": false,
+  "nsfw": false,
+  "type": 2
+}

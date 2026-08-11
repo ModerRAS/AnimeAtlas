@@ -3,15 +3,16 @@
   "_meta": {
     "fields": {
       "metadata.episode_count": {
-        "last_sync": "2026-07-10T00:14:34Z",
+        "source": "bangumi",
+        "source_field": "eps",
+        "last_sync": "2026-08-11T02:00:00Z",
+        "rule": "bangumi.eps -> metadata.episode_count",
         "provider_ref": {
           "entity": "subject",
           "id": "495238",
           "provider": "bangumi"
         },
-        "rule": "approved issue contribution",
-        "source": "bangumi",
-        "source_field": "issue"
+        "raw_ref": "raw/bangumi/api/subject-495238.json"
       },
       "metadata.runtime": {
         "last_sync": "2026-07-10T00:14:34Z",
@@ -37,12 +38,12 @@
       }
     },
     "last_sync": {
-      "bangumi": "2026-07-10T00:14:34Z"
+      "bangumi": "2026-08-11T02:00:00Z"
     }
   },
   "media_id": "media-000016",
   "metadata": {
-    "episode_count": 0,
+    "episode_count": 13,
     "runtime": 0,
     "title": "ダイヤのA actⅡ Second Season"
   },

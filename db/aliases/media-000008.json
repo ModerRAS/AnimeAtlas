@@ -7,8 +7,22 @@
       "source": "community",
       "type": "localized",
       "value": "魔法少女奈葉 EXCEEDS Gun Blaze Vengeance"
+    },
+    {
+      "value": "魔法少女リリカルなのは EXCEEDS Gun Blaze Vengeance",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "魔法少女奈叶 EXCEEDS Gun Blaze Vengeance",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000008",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

@@ -1,0 +1,8 @@
+{
+  "$schema": "../../packages/schema/schemas/series-identity.schema.json",
+  "schema": "series-identity/v2",
+  "id": "series-000016",
+  "kind": "anime-series",
+  "title": "片田舎のおっさん、剣聖になる",
+  "relationships": []
+}

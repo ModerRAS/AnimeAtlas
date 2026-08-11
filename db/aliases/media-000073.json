@@ -7,8 +7,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Omagoto"
+    },
+    {
+      "value": "「お前ごときが魔王に勝てると思うな」と勇者パーティを追放されたので、王都で気ままに暮らしたい",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "「凭你也想讨伐魔王？」被勇者小队逐出队伍，只好在王都自在过活",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000073",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

@@ -63,10 +63,11 @@ jobs:
           count=$(jq '.results | length' approved-issue-sync.json)
           issues=$(jq -r '[.results[].contribution.issue.number | "#\(.)"] | join(", ")' approved-issue-sync.json)
           if [[ "$count" == "1" ]]; then
-            operation=$(jq -r '.results[0].contribution.operation.type' approved-issue-sync.json)
-            media_id=$(jq -r '.results[0].contribution.operation.media_id // empty' approved-issue-sync.json)
+            operation=$(jq -r '.results[0].contribution.changes[0].type // .results[0].contribution.operation.type' approved-issue-sync.json)
+            media_id=$(jq -r '.results[0].contribution.target.media_id // .results[0].contribution.operation.media_id // empty' approved-issue-sync.json)
             case "$operation" in
-              add_alias) message="data: add alias to ${media_id} (${issues})" ;;
+              add_media_alias|add_alias) message="data: add alias to ${media_id} (${issues})" ;;
+              upsert_episode_numbers) message="data: add episode mapping to ${media_id} (${issues})" ;;
               add_provider_ref) message="data: add provider ref to ${media_id} (${issues})" ;;
               correct_metadata) message="data: correct metadata for ${media_id} (${issues})" ;;
               create_media) message="data: create media (${issues})" ;;

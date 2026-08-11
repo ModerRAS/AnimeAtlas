@@ -1,0 +1,86 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/a1/70/244829_H2ODb.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/a1/70/244829_H2ODb.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/a1/70/244829_H2ODb.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/a1/70/244829_H2ODb.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/a1/70/244829_H2ODb.jpg"
+    },
+    "name": "しゃばけ",
+    "name_cn": "娑婆气",
+    "relation": "书籍",
+    "type": 1,
+    "id": 244829
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/2e/a1/340164_88L2x.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/2e/a1/340164_88L2x.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/2e/a1/340164_88L2x.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/2e/a1/340164_88L2x.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/2e/a1/340164_88L2x.jpg"
+    },
+    "name": "しゃばけ",
+    "name_cn": "娑婆气",
+    "relation": "其他",
+    "type": 2,
+    "id": 340164
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/8b/0e/588890_JR03J.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/8b/0e/588890_JR03J.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/8b/0e/588890_JR03J.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/8b/0e/588890_JR03J.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/8b/0e/588890_JR03J.jpg"
+    },
+    "name": "脈脈",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 588890
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/0c/d4/589421_h8zMZ.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/0c/d4/589421_h8zMZ.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/0c/d4/589421_h8zMZ.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/0c/d4/589421_h8zMZ.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/0c/d4/589421_h8zMZ.jpg"
+    },
+    "name": "いのちのパレヱド",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 589421
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/12/e1/591555_Ch0qD.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/12/e1/591555_Ch0qD.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/12/e1/591555_Ch0qD.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/12/e1/591555_Ch0qD.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/12/e1/591555_Ch0qD.jpg"
+    },
+    "name": "「しゃばけ」オリジナル・サウンドトラック上巻",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 591555
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/24/7a/591556_ffiMl.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/24/7a/591556_ffiMl.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/24/7a/591556_ffiMl.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/24/7a/591556_ffiMl.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/24/7a/591556_ffiMl.jpg"
+    },
+    "name": "「しゃばけ」オリジナル・サウンドトラック下巻",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 591556
+  }
+]

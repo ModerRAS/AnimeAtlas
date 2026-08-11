@@ -1,0 +1,403 @@
+{
+  "date": "2026-04-05",
+  "platform": "TV",
+  "images": {
+    "small": "https://lain.bgm.tv/r/200/pic/cover/l/b5/7a/505258_73XO8.jpg",
+    "grid": "https://lain.bgm.tv/r/100/pic/cover/l/b5/7a/505258_73XO8.jpg",
+    "large": "https://lain.bgm.tv/pic/cover/l/b5/7a/505258_73XO8.jpg",
+    "medium": "https://lain.bgm.tv/r/800/pic/cover/l/b5/7a/505258_73XO8.jpg",
+    "common": "https://lain.bgm.tv/r/400/pic/cover/l/b5/7a/505258_73XO8.jpg"
+  },
+  "summary": "突如現れ、圧倒的な力で人類への攻撃を始めた“鬼獣（きじゅう）”と呼ばれる異形のモノ。街を破壊され、絶望に暮れる人々。誰もが諦めかけたその時、鬼獣に立ち向かう一つの影が！「テメーら、トサカにきたぜ!!」人類の前に降り立った、小さな希望。それは一羽のニワトリだった!!!!",
+  "name": "ニワトリ・ファイター",
+  "name_cn": "公鸡斗士",
+  "tags": [
+    {
+      "name": "2026年4月",
+      "count": 361,
+      "total_count": 24964
+    },
+    {
+      "name": "漫画改",
+      "count": 332,
+      "total_count": 857442
+    },
+    {
+      "name": "搞笑",
+      "count": 330,
+      "total_count": 635898
+    },
+    {
+      "name": "战斗",
+      "count": 314,
+      "total_count": 468517
+    },
+    {
+      "name": "TV",
+      "count": 253,
+      "total_count": 1396775
+    },
+    {
+      "name": "热血",
+      "count": 210,
+      "total_count": 212116
+    },
+    {
+      "name": "SANZIGEN",
+      "count": 183,
+      "total_count": 3860
+    },
+    {
+      "name": "2026",
+      "count": 169,
+      "total_count": 40839
+    },
+    {
+      "name": "鸡哥",
+      "count": 155,
+      "total_count": 155
+    },
+    {
+      "name": "日本",
+      "count": 123,
+      "total_count": 293387
+    },
+    {
+      "name": "漫改",
+      "count": 122,
+      "total_count": 360134
+    },
+    {
+      "name": "奇幻",
+      "count": 91,
+      "total_count": 467685
+    },
+    {
+      "name": "瀬古浩司",
+      "count": 65,
+      "total_count": 1045
+    },
+    {
+      "name": "铃木大介",
+      "count": 39,
+      "total_count": 45
+    },
+    {
+      "name": "サンジゲン",
+      "count": 21,
+      "total_count": 651
+    },
+    {
+      "name": "三次元",
+      "count": 11,
+      "total_count": 1580
+    },
+    {
+      "name": "2026年",
+      "count": 6,
+      "total_count": 1698
+    },
+    {
+      "name": "抽象",
+      "count": 6,
+      "total_count": 4015
+    },
+    {
+      "name": "逆天",
+      "count": 4,
+      "total_count": 5181
+    },
+    {
+      "name": "喜剧",
+      "count": 4,
+      "total_count": 34680
+    },
+    {
+      "name": "冒险",
+      "count": 3,
+      "total_count": 53378
+    },
+    {
+      "name": "鈴木大介",
+      "count": 3,
+      "total_count": 18
+    },
+    {
+      "name": "日漫",
+      "count": 3,
+      "total_count": 7220
+    },
+    {
+      "name": "3D",
+      "count": 2,
+      "total_count": 50917
+    },
+    {
+      "name": "非人",
+      "count": 2,
+      "total_count": 19
+    },
+    {
+      "name": "公鸡斗士",
+      "count": 2,
+      "total_count": 2
+    },
+    {
+      "name": "新番",
+      "count": 2,
+      "total_count": 1916
+    },
+    {
+      "name": "恶搞",
+      "count": 2,
+      "total_count": 9461
+    },
+    {
+      "name": "三宅健太",
+      "count": 2,
+      "total_count": 121
+    },
+    {
+      "name": "濑古浩司",
+      "count": 2,
+      "total_count": 1641
+    }
+  ],
+  "infobox": [
+    {
+      "key": "中文名",
+      "value": "公鸡斗士"
+    },
+    {
+      "key": "别名",
+      "value": [
+        {
+          "v": "Niwatori Fighter"
+        },
+        {
+          "v": "Rooster Fighter"
+        },
+        {
+          "v": "社会我鸡哥，人狠话不多"
+        }
+      ]
+    },
+    {
+      "key": "话数",
+      "value": "12"
+    },
+    {
+      "key": "放送开始",
+      "value": "2026年4月5日"
+    },
+    {
+      "key": "放送星期",
+      "value": "星期日"
+    },
+    {
+      "key": "官方网站",
+      "value": "https://www.niwatori-fighter.net"
+    },
+    {
+      "key": "播放电视台",
+      "value": "TOKYO MX"
+    },
+    {
+      "key": "其他电视台",
+      "value": "BS Nittele"
+    },
+    {
+      "key": "导演",
+      "value": "鈴木大介"
+    },
+    {
+      "key": "音乐",
+      "value": "高橋哲也"
+    },
+    {
+      "key": "Copyright",
+      "value": "©SS/KH,V"
+    },
+    {
+      "key": "原作",
+      "value": "桜谷シュウ『ニワトリ・ファイター』"
+    },
+    {
+      "key": "人物设定",
+      "value": "茶之原拓也、Shin Joseph"
+    },
+    {
+      "key": "企画",
+      "value": "佐々木健、木下直哉；企画プロデュース：SOLA ENTERTAINMENT"
+    },
+    {
+      "key": "执行制片人",
+      "value": "Sae Whan Song、白井勝也、Jason DeMarco"
+    },
+    {
+      "key": "监制",
+      "value": "SOLA ENTERTAINMENT（Joseph Chou、西雅太郎、前田健成）"
+    },
+    {
+      "key": "制片人",
+      "value": "籾山恵美、鈴木緑視"
+    },
+    {
+      "key": "副制片人",
+      "value": "能恵アンバー、新妻れい"
+    },
+    {
+      "key": "动画制片人",
+      "value": "保住昇汰、松浦裕暁"
+    },
+    {
+      "key": "製作",
+      "value": "VIZ Media ヒーローズ"
+    },
+    {
+      "key": "美术监督",
+      "value": "野山裕司"
+    },
+    {
+      "key": "色彩设计",
+      "value": "松下由佳"
+    },
+    {
+      "key": "摄影监督",
+      "value": "渡辺啓介、林翔子"
+    },
+    {
+      "key": "剪辑",
+      "value": "日高初美；剪辑助手：倉田昂、鈴木黎"
+    },
+    {
+      "key": "在线剪辑",
+      "value": "内田雄大、荒井優祈；在线剪辑工作室：Imagica EMS"
+    },
+    {
+      "key": "脚本",
+      "value": "瀬古浩司"
+    },
+    {
+      "key": "分镜",
+      "value": "鈴木大介"
+    },
+    {
+      "key": "演出",
+      "value": "山之口創"
+    },
+    {
+      "key": "CG 导演",
+      "value": "山之口創；副CG导演：吉田尚人、峯山拓巳"
+    },
+    {
+      "key": "作画监督",
+      "value": "依田祐輔、茶之原拓也、Shin Joseph、中谷蓮、三島夕季"
+    },
+    {
+      "key": "2D 设计",
+      "value": "石神直紀、池田新助"
+    },
+    {
+      "key": "音响监督",
+      "value": "長崎行男"
+    },
+    {
+      "key": "音效",
+      "value": "川田清貴"
+    },
+    {
+      "key": "录音",
+      "value": "今井修治"
+    },
+    {
+      "key": "录音助理",
+      "value": "杉江帆南"
+    },
+    {
+      "key": "音响",
+      "value": "音响制作：ブシロードムーブ；音响制作协力：ビットグルーヴプロモーション"
+    },
+    {
+      "key": "音响制作担当",
+      "value": "濱野伸一郎、鈴木拓也"
+    },
+    {
+      "key": "录音工作室",
+      "value": "ONSEN STUDIO"
+    },
+    {
+      "key": "音乐制作",
+      "value": "剧伴制作：テラムジカ"
+    },
+    {
+      "key": "主题歌演出",
+      "value": "だるまRollin' / 高橋哲也"
+    },
+    {
+      "key": "主题歌作词",
+      "value": "0C / 諸橋邦行、尾﨑可愛"
+    },
+    {
+      "key": "主题歌作曲",
+      "value": "だるまRollin'、高橋浩一郎/ 高橋哲也"
+    },
+    {
+      "key": "主题歌编曲",
+      "value": "だるまRollin'、高橋浩一郎/ 高橋哲也、福場庸介"
+    },
+    {
+      "key": "设定制作",
+      "value": "長谷川雄一"
+    },
+    {
+      "key": "制作进行",
+      "value": "吉谷勇輝"
+    },
+    {
+      "key": "OP・ED 分镜",
+      "value": "鈴木大介 / 林翔子"
+    },
+    {
+      "key": "OP・ED 演出",
+      "value": "鈴木大介"
+    }
+  ],
+  "rating": {
+    "rank": 6999,
+    "total": 1191,
+    "count": {
+      "1": 5,
+      "2": 3,
+      "3": 14,
+      "4": 45,
+      "5": 160,
+      "6": 526,
+      "7": 359,
+      "8": 64,
+      "9": 5,
+      "10": 10
+    },
+    "score": 6.2
+  },
+  "total_episodes": 12,
+  "collection": {
+    "on_hold": 140,
+    "dropped": 377,
+    "wish": 508,
+    "collect": 1381,
+    "doing": 839
+  },
+  "id": 505258,
+  "eps": 12,
+  "meta_tags": [
+    "TV",
+    "日本",
+    "漫画改"
+  ],
+  "volumes": 0,
+  "series": false,
+  "locked": false,
+  "nsfw": false,
+  "type": 2
+}

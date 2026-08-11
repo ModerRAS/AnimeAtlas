@@ -42,12 +42,28 @@ async function main(argv: string[]): Promise<void> {
       throw new CliUsageError("Missing alias value.");
     }
     const normalized = normalizeAlias(options.value);
-    const entries = readGeneratedIndex("generated/indexes/aliases/exact.json");
-    const mediaId = entries[normalized] ?? null;
+    const entries = readGeneratedArrayIndex("generated/indexes/aliases/candidates.json");
+    let candidates = entries[normalized] ?? [];
+    if (options.season !== undefined || options.part !== undefined || options.cour !== undefined) {
+      candidates = candidates.filter((mediaId) => {
+        const identity = readMediaIdentity(mediaId);
+        if (options.season !== undefined && identity.installment?.season !== options.season) return false;
+        if (options.part !== undefined && identity.installment?.part !== undefined && identity.installment.part !== options.part) return false;
+        if (options.cour !== undefined && identity.installment?.cour !== undefined && identity.installment.cour !== options.cour) return false;
+        return true;
+      });
+    }
     writeResolveResult({
       pretty: options.pretty,
-      query: { type: "alias", value: options.value, normalized },
-      mediaId
+      query: {
+        type: "alias",
+        value: options.value,
+        normalized,
+        ...(options.season === undefined ? {} : { season: options.season }),
+        ...(options.part === undefined ? {} : { part: options.part }),
+        ...(options.cour === undefined ? {} : { cour: options.cour })
+      },
+      candidates
     });
     return;
   }
@@ -64,7 +80,7 @@ async function main(argv: string[]): Promise<void> {
     writeResolveResult({
       pretty: options.pretty,
       query: { type: "provider", provider, entity, id, key },
-      mediaId
+      candidates: mediaId ? [mediaId] : []
     });
     return;
   }
@@ -162,19 +178,37 @@ async function main(argv: string[]): Promise<void> {
   throw new CliUsageError(`Unknown command: ${argv.join(" ") || "<empty>"}`);
 }
 
-function parseResolveOptions(args: string[]): { value?: string; positionals: string[]; pretty: boolean } {
+function parseResolveOptions(args: string[]): {
+  value?: string;
+  positionals: string[];
+  pretty: boolean;
+  season?: number;
+  part?: number;
+  cour?: number;
+} {
   const positionals: string[] = [];
   let pretty = true;
-  for (const arg of args) {
+  let season: number | undefined;
+  let part: number | undefined;
+  let cour: number | undefined;
+  for (let index = 0; index < args.length; index += 1) {
+    const arg = args[index];
     if (arg === "--compact") {
       pretty = false;
+    } else if (arg === "--season" || arg === "--part" || arg === "--cour") {
+      const value = Number(args[index + 1]);
+      if (!Number.isInteger(value) || value < 1) throw new CliUsageError(`${arg} requires a positive integer.`);
+      if (arg === "--season") season = value;
+      if (arg === "--part") part = value;
+      if (arg === "--cour") cour = value;
+      index += 1;
     } else if (arg === "--help" || arg === "-h") {
       throw new CliUsageError(usage(), 0);
     } else {
       positionals.push(arg);
     }
   }
-  return { value: positionals.join(" "), positionals, pretty };
+  return { value: positionals.join(" "), positionals, pretty, season, part, cour };
 }
 
 function parseApplyApprovedOptions(args: string[]): ApplyApprovedOptions {
@@ -250,6 +284,18 @@ function readGeneratedIndex(path: string): Record<string, string> {
   return (data as { entries: Record<string, string> }).entries;
 }
 
+function readGeneratedArrayIndex(path: string): Record<string, string[]> {
+  const data = JSON.parse(readFileSync(join(findRepoRoot(process.cwd()), path), "utf8")) as unknown;
+  if (!data || typeof data !== "object" || Array.isArray(data) || !("entries" in data)) {
+    throw new Error(`${path} is not a generated index.`);
+  }
+  return (data as { entries: Record<string, string[]> }).entries;
+}
+
+function readMediaIdentity(mediaId: string): { installment?: { season?: number; part?: number; cour?: number } } {
+  return JSON.parse(readFileSync(join(findRepoRoot(process.cwd()), "db/media", `${mediaId}.json`), "utf8"));
+}
+
 function findRepoRoot(start: string): string {
   let current = start;
   while (!existsSync(join(current, "pnpm-workspace.yaml"))) {
@@ -262,20 +308,23 @@ function findRepoRoot(start: string): string {
   return current;
 }
 
-function writeResolveResult(input: { pretty: boolean; query: Record<string, unknown>; mediaId: string | null }): void {
-  const metadata = input.mediaId ? readMetadataRecord(input.mediaId) : null;
+function writeResolveResult(input: { pretty: boolean; query: Record<string, unknown>; candidates: string[] }): void {
+  const candidates = [...new Set(input.candidates)].sort();
+  const mediaId = candidates.length === 1 ? candidates[0] : null;
+  const metadata = mediaId ? readMetadataRecord(mediaId) : null;
+  const status = mediaId ? "resolved" : candidates.length > 1 ? "ambiguous" : "unresolved";
   const document = {
-    schema: "offline-resolve-result/v1",
+    schema: "catalog-resolve-result/v2",
     query: input.query,
-    found: input.mediaId !== null,
-    media_id: input.mediaId,
+    status,
+    found: mediaId !== null,
+    media_id: mediaId,
+    candidates,
     metadata: metadata?.metadata ?? null,
     provenance: metadata?._meta ?? null
   };
   process.stdout.write(`${JSON.stringify(document, null, input.pretty ? 2 : 0)}\n`);
-  if (!input.mediaId) {
-    process.exitCode = 2;
-  }
+  if (!mediaId) process.exitCode = status === "ambiguous" ? 3 : 2;
 }
 
 function readMetadataRecord(mediaId: string): MetadataRecord {
@@ -291,7 +340,7 @@ function planItem(mediaId: string, candidate: NormalizedMediaCandidate): PlanIte
 }
 
 function usage(): string {
-  return `Usage:\n  animeatlas resolve alias <title-or-alias> [--compact]\n  animeatlas resolve provider <provider> <entity> <id> [--compact]\n  animeatlas bangumi plan-archive <file> [--format auto|json|jsonl] [--last-sync ISO_TIMESTAMP] [--compact]\n  animeatlas contributions plan-approved [--compact]\n  animeatlas contributions apply-approved [--write] [--compact]\n\nResolve commands use generated/ indexes for identity lookup and db/ metadata records for normalized metadata output. Contribution apply defaults to dry-run. It writes db/ records only with --write and never updates generated/ artifacts automatically.`;
+  return `Usage:\n  animeatlas resolve alias <title-or-alias> [--season N] [--part N] [--cour N] [--compact]\n  animeatlas resolve provider <provider> <entity> <id> [--compact]\n  animeatlas bangumi plan-archive <file> [--format auto|json|jsonl] [--last-sync ISO_TIMESTAMP] [--compact]\n  animeatlas contributions plan-approved [--compact]\n  animeatlas contributions apply-approved [--write] [--compact]\n\nResolve commands use generated/ indexes for identity lookup and db/ metadata records for normalized metadata output. Contribution apply defaults to dry-run. It writes db/ records only with --write and never updates generated/ artifacts automatically.`;
 }
 
 class CliUsageError extends Error {

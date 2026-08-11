@@ -1,0 +1,44 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/24/50/385739_CPqIU.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/24/50/385739_CPqIU.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/24/50/385739_CPqIU.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/24/50/385739_CPqIU.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/24/50/385739_CPqIU.jpg"
+    },
+    "name": "これ描いて死ね",
+    "name_cn": "画完这个就去死",
+    "relation": "书籍",
+    "type": 1,
+    "id": 385739
+  },
+  {
+    "images": {
+      "small": "",
+      "grid": "",
+      "large": "",
+      "medium": "",
+      "common": ""
+    },
+    "name": "コニファー",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 660719
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/38/27/665190_8kCK7.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/38/27/665190_8kCK7.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/38/27/665190_8kCK7.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/38/27/665190_8kCK7.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/38/27/665190_8kCK7.jpg"
+    },
+    "name": "遺書",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 665190
+  }
+]

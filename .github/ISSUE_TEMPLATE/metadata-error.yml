@@ -1,0 +1,44 @@
+name: Metadata Error
+
+description: Correct normalized metadata for a season-aware anime installment.
+title: "Metadata: "
+labels:
+  - contribution
+body:
+  - type: input
+    id: correct_anime
+    attributes:
+      label: Correct Anime
+      description: Bangumi subject URL or numeric subject ID for the installment.
+      placeholder: https://bgm.tv/subject/515594
+    validations:
+      required: true
+  - type: input
+    id: metadata_field
+    attributes:
+      label: Metadata Field
+      description: Normalized field to correct, such as metadata.episode_count or metadata.runtime.
+      placeholder: metadata.episode_count
+    validations:
+      required: true
+  - type: input
+    id: correct_value
+    attributes:
+      label: Correct Value
+      description: Correct text, number, boolean, or JSON scalar.
+      placeholder: "24"
+    validations:
+      required: true
+  - type: input
+    id: evidence_url
+    attributes:
+      label: Evidence URL
+      description: Public source supporting the correction.
+      placeholder: https://bgm.tv/subject/515594
+    validations:
+      required: true
+  - type: textarea
+    id: additional_context
+    attributes:
+      label: Additional Context
+      description: Optional explanation for reviewers.

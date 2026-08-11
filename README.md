@@ -5,7 +5,7 @@
 
 An open anime identity and metadata database for offline lookup.
 
-AnimeAtlas resolves an anime title, alias, or external provider ID (**Bangumi / TMDB / AniDB**) to a stable `media-*` identity and normalized metadata. It is built for scrapers, media managers, and library tools that need a local snapshot instead of repeated provider API calls.
+AnimeAtlas resolves anime names and external provider IDs to a stable `series -> media -> episode` identity chain. Media records carry verified Season/Part context, while episode numbers retain provider namespaces such as `bangumi:ep` and `bangumi:sort`.
 
 ## Download the database
 
@@ -20,28 +20,28 @@ curl -L -o animeatlas.sqlite \
   https://github.com/ModerRAS/AnimeAtlas/releases/download/download/animeatlas.sqlite
 ```
 
-The release itself is a single rolling release tagged `download`, overwritten on every publish. Because the URL is stable, you can pin it in scripts, docs, and package managers. The exact build is recorded inside the file in the `release_info` table, so you can always tell which snapshot you have even though the link never changes:
+The `download` release remains a stable alias. Every publish also creates an immutable semantic-version release with `animeatlas-<version>.sqlite` and a SHA-256 manifest. Exact catalog, SQLite schema, generator, normalization, and parser revisions are embedded in `release_info`:
 
 ```sql
-SELECT value FROM release_info WHERE key = 'version';
+SELECT key, value FROM release_info ORDER BY key;
 ```
 
 ### SQLite schema
 
 ```text
-media          (id, kind, title, summary, metadata_json, provenance_json)
-aliases        (media_id, value, normalized, language, type, source, confidence)
-provider_refs  (media_id, provider, entity, provider_id, provider_key)
-search_tokens  (token, media_id)
-release_info   (key, value)
+series                 (id, title, relationships_json)
+media                  (id, series_id, season_number, part_number, cour_number, metadata_json, provenance_json)
+series_aliases         (series_id, value, normalized, language, type, source, confidence)
+aliases                (media_id, value, normalized, language, type, source, confidence)
+provider_refs          (media_id, provider, entity, provider_id, provider_key)
+episodes               (id, media_id, kind, provenance_json)
+episode_provider_refs  (episode_id, provider, entity, provider_id)
+episode_numbers        (episode_id, namespace, number_value, source)
+search_tokens           (token, media_id)
+release_info            (key, value)
 ```
 
-Indexes: `aliases(normalized)`, `provider_refs(provider, entity, provider_id)`, `search_tokens(token)`.
-
-- `media` — one row per anime identity. `metadata_json` holds the normalized fields (title, summary, genres, studios, season, episode count, runtime, air dates, …); `provenance_json` records which provider, source field, and rule produced each value.
-- `aliases` — every alias for a media identity. `normalized` is the NFKC + trimmed + lowercased form used for exact matching.
-- `provider_refs` — the mapping between internal `media-*` IDs and external provider IDs (e.g. `bangumi:subject:443666`). `provider_key` is unique.
-- `search_tokens` — token index for fuzzy / token-based title search.
+Aliases form candidate sets; duplicate normalized aliases across installments are valid. `aliases_v1_compat` exposes only aliases that resolve to one media. Episodes belong to one media, which guarantees that namespaced numbers cannot silently cross Seasons.
 
 ### Query examples
 
@@ -54,7 +54,7 @@ WHERE a.normalized = 'sousou no frieren';
 -- Look up a media identity by a Bangumi subject ID.
 SELECT m.id, m.title, m.summary
 FROM provider_refs p JOIN media m ON m.id = p.media_id
-WHERE p.provider = 'bangumi' AND p.entity = 'subject' AND p.provider_id = '443666';
+WHERE p.provider = 'bangumi' AND p.entity = 'subject' AND p.provider_id = '400602';
 
 -- Pull normalized metadata and its provenance for one media identity.
 SELECT metadata_json, provenance_json FROM media WHERE id = 'media-000001';
@@ -75,15 +75,15 @@ pnpm check
 Resolve a title/alias or an external provider ID from the local indexes:
 
 ```bash
-pnpm cli -- resolve alias "Sousou no Frieren"
-pnpm cli -- resolve provider bangumi subject 443666
+pnpm cli -- resolve alias "Tensei Shitara Slime Datta Ken" --season 4
+pnpm cli -- resolve provider bangumi subject 515594
 ```
 
-Both return the matching `media-*` ID plus normalized metadata and provenance when a record is found. Add `--compact` for single-line JSON output.
+Both return a typed `resolved`, `ambiguous`, or `unresolved` result. Alias resolution reads the candidate-set index and accepts `--season`, `--part`, and `--cour`. Add `--compact` for single-line JSON output.
 
 | Command | Purpose |
 | --- | --- |
-| `resolve alias <title>` | Normalize an alias and look up its media identity |
+| `resolve alias <title> [--season N]` | Resolve a candidate set with installment context |
 | `resolve provider <provider> <entity> <id>` | Map an external provider ID to a media identity |
 | `bangumi plan-archive <file>` | Plan a bulk import from a Bangumi archive dump |
 | `contributions plan-approved` | Preview mutations from approved contribution Issues |
@@ -117,7 +117,7 @@ source/  ->  db/  ->  generated/  ->  SQLite release
 
 ## Contribute Data
 
-Do not edit database JSON directly. Submit an identity, alias, provider reference, or metadata correction through the [data contribution Issue form](https://github.com/ModerRAS/AnimeAtlas/issues/new/choose).
+Do not edit database JSON directly. Use the recognition or Season/episode Issue form. Contributors enter natural observations and a Bangumi target; automation validates Season ownership and converts optional text such as `06(78)` into typed episode-number changes before approval.
 
 1. A maintainer reviews the structured Issue and applies the `approved` label.
 2. GitHub Actions parses the contribution, applies it through the importer, regenerates indexes, and runs `pnpm check`.
@@ -135,12 +135,16 @@ The approval label is the write gate. Community input is stored as an auditable 
 | `pnpm check:generated` | Fail when committed generated artifacts are stale |
 | `pnpm cli -- contributions plan-approved` | Preview approved contribution mutations without writing files |
 | `pnpm cli -- contributions apply-approved --write` | Apply approved contributions locally |
-| `pnpm release:sqlite` | Build `release/animeatlas.sqlite` |
+| `pnpm release:sqlite` | Build stable and immutable SQLite artifacts plus SHA-256 manifests |
+| `pnpm migrate:v2` | Audit all curated `db/migrations/v2-*.json` plans; add `-- --refresh` for live evidence or `-- --write` to apply cached evidence |
+| `pnpm audit:v2` | Cache and classify any remaining v1 Bangumi subjects, relations, and paginated regular episodes |
+| `pnpm replay:library` | Compare v1/v2 against paths stored in read-only `library.db` |
 
 Run `pnpm check` before committing a data or schema change. It is the same validation gate used by repository automation.
 
 ## Architecture
 
+- [AnimeAtlas v2 catalog](docs/v2-catalog.md)
 - [Architecture overview](docs/architecture.md)
 - [Repository boundaries](docs/repository-architecture.md)
 - [Schema-first design](docs/schema-first-architecture.md)

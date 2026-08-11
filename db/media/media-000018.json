@@ -1,7 +1,13 @@
 {
   "$schema": "../../packages/schema/schemas/media-identity.schema.json",
+  "schema": "media-identity/v2",
   "id": "media-000018",
   "kind": "anime",
+  "series_id": "series-000010",
+  "title": "花ざかりの君たちへ 第2期",
+  "installment": {
+    "season": 2
+  },
   "provider_refs": [
     {
       "entity": "subject",
@@ -9,6 +15,10 @@
       "provider": "bangumi"
     }
   ],
-  "relationships": [],
-  "schema": "media-identity/v1"
+  "relationships": [
+    {
+      "type": "prequel",
+      "target": "media-000096"
+    }
+  ]
 }

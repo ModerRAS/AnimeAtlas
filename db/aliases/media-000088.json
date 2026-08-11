@@ -7,8 +7,22 @@
       "source": "community",
       "type": "romaji",
       "value": "Haibara-kun no Tsuyokute Seishun New Game"
+    },
+    {
+      "value": "灰原くんの強くて青春ニューゲーム",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "灰原同学重返过去，开启所向无敌的第二轮青春游戏",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000088",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

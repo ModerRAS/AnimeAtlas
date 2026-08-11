@@ -1,0 +1,8 @@
+{
+  "$schema": "../../packages/schema/schemas/series-identity.schema.json",
+  "schema": "series-identity/v2",
+  "id": "series-000024",
+  "kind": "anime-series",
+  "title": "魔法少女リリカルなのは EXCEEDS Gun Blaze Vengeance",
+  "relationships": []
+}

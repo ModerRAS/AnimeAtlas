@@ -1,0 +1,44 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/b8/8e/299585_w7k0N.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/b8/8e/299585_w7k0N.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/b8/8e/299585_w7k0N.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/b8/8e/299585_w7k0N.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/b8/8e/299585_w7k0N.jpg"
+    },
+    "name": "最強出涸らし皇子の暗躍帝位争い 無能を演じるSSランク皇子は皇位継承戦を影から支配する",
+    "name_cn": "最强出涸皇子的暗跃帝位争夺 虽然对帝位没兴趣，但我不想死所以让我弟当皇帝吧",
+    "relation": "书籍",
+    "type": 1,
+    "id": 299585
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/55/5e/662206_HJO8C.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/55/5e/662206_HJO8C.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/55/5e/662206_HJO8C.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/55/5e/662206_HJO8C.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/55/5e/662206_HJO8C.jpg"
+    },
+    "name": "キミは都市伝説 / クラッシュパラダイス",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 662206
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/26/a3/666729_9390r.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/26/a3/666729_9390r.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/26/a3/666729_9390r.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/26/a3/666729_9390r.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/26/a3/666729_9390r.jpg"
+    },
+    "name": "素敵なかんちがい",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 666729
+  }
+]

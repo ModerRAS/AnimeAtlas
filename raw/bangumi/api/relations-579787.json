@@ -1,0 +1,72 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/df/9b/220947_SMsSg.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/df/9b/220947_SMsSg.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/df/9b/220947_SMsSg.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/df/9b/220947_SMsSg.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/df/9b/220947_SMsSg.jpg"
+    },
+    "name": "LV999の村人",
+    "name_cn": "LV999的村民",
+    "relation": "书籍",
+    "type": 1,
+    "id": 220947
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/1f/c8/658638_D8dRr.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/1f/c8/658638_D8dRr.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/1f/c8/658638_D8dRr.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/1f/c8/658638_D8dRr.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/1f/c8/658638_D8dRr.jpg"
+    },
+    "name": "Not a Hero (棗いつき盤)",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 658638
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/4b/da/658639_dvGEr.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/4b/da/658639_dvGEr.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/4b/da/658639_dvGEr.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/4b/da/658639_dvGEr.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/4b/da/658639_dvGEr.jpg"
+    },
+    "name": "Not a Hero (藍月なくる盤)",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 658639
+  },
+  {
+    "images": {
+      "small": "",
+      "grid": "",
+      "large": "",
+      "medium": "",
+      "common": ""
+    },
+    "name": "LV999の村人 オリジナルサウンドトラック1",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 660560
+  },
+  {
+    "images": {
+      "small": "",
+      "grid": "",
+      "large": "",
+      "medium": "",
+      "common": ""
+    },
+    "name": "LV999の村人 オリジナルサウンドトラック2",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 660563
+  }
+]

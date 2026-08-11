@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://animeatlas.dev/schemas/series-aliases/v2.json",
+  "title": "AnimeAtlas Series Aliases",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schema", "series_id", "aliases"],
+  "properties": {
+    "$schema": { "type": "string" },
+    "schema": { "const": "series-aliases/v2" },
+    "series_id": { "type": "string", "pattern": "^series-[0-9]{6}$" },
+    "aliases": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["value", "language", "type", "source", "confidence"],
+        "properties": {
+          "value": { "type": "string", "minLength": 1 },
+          "language": { "type": "string", "minLength": 2 },
+          "type": { "enum": ["official", "localized", "romaji", "nickname", "alternative", "legacy"] },
+          "source": { "type": "string", "minLength": 1 },
+          "confidence": { "type": "number", "minimum": 0, "maximum": 1 }
+        }
+      }
+    }
+  }
+}

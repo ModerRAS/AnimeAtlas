@@ -1,0 +1,8 @@
+{
+  "$schema": "../../packages/schema/schemas/series-identity.schema.json",
+  "schema": "series-identity/v2",
+  "id": "series-000017",
+  "kind": "anime-series",
+  "title": "骸骨騎士様、只今異世界へお出掛け中",
+  "relationships": []
+}

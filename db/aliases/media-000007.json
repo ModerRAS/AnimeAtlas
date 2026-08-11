@@ -2,6 +2,20 @@
   "$schema": "../../packages/schema/schemas/media-aliases.schema.json",
   "aliases": [
     {
+      "confidence": 0.98,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Tensei Shitara Slime Datta Ken 4th Season"
+    },
+    {
+      "confidence": 1,
+      "language": "ja",
+      "source": "bangumi",
+      "type": "official",
+      "value": "転生したらスライムだった件 第4期"
+    },
+    {
       "confidence": 0.9,
       "language": "zh-Hant",
       "source": "community",
@@ -10,5 +24,5 @@
     }
   ],
   "media_id": "media-000007",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

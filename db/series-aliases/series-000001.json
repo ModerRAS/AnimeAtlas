@@ -1,0 +1,21 @@
+{
+  "$schema": "../../packages/schema/schemas/series-aliases.schema.json",
+  "schema": "series-aliases/v2",
+  "series_id": "series-000001",
+  "aliases": [
+    {
+      "value": "Tensei Shitara Slime Datta Ken",
+      "language": "ja-Latn",
+      "type": "romaji",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "关于我转生变成史莱姆这档事",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
+    }
+  ]
+}

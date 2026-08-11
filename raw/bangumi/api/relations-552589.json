@@ -1,0 +1,86 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/f4/12/384494_pr2pv.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/f4/12/384494_pr2pv.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/f4/12/384494_pr2pv.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/f4/12/384494_pr2pv.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/f4/12/384494_pr2pv.jpg"
+    },
+    "name": "カナン様はあくまでチョロい",
+    "name_cn": "迦楠大人的白给是恶魔级",
+    "relation": "书籍",
+    "type": 1,
+    "id": 384494
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/75/91/630509_j9nSg.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/75/91/630509_j9nSg.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/75/91/630509_j9nSg.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/75/91/630509_j9nSg.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/75/91/630509_j9nSg.jpg"
+    },
+    "name": "MiX",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 630509
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/7a/50/637904_01fcr.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/7a/50/637904_01fcr.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/7a/50/637904_01fcr.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/7a/50/637904_01fcr.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/7a/50/637904_01fcr.jpg"
+    },
+    "name": "ポップ・スナック・ジャンクなHUNNY",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 637904
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/42/49/643867_C1n0N.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/42/49/643867_C1n0N.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/42/49/643867_C1n0N.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/42/49/643867_C1n0N.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/42/49/643867_C1n0N.jpg"
+    },
+    "name": "カナン様はラジオでもチョロい",
+    "name_cn": "",
+    "relation": "衍生",
+    "type": 6,
+    "id": 643867
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/73/2e/662395_Vn6Ni.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/73/2e/662395_Vn6Ni.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/73/2e/662395_Vn6Ni.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/73/2e/662395_Vn6Ni.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/73/2e/662395_Vn6Ni.jpg"
+    },
+    "name": "カナン様はあくまでチョロい 第2期",
+    "name_cn": "迦楠大人的白给是恶魔级 第二季",
+    "relation": "续集",
+    "type": 2,
+    "id": 662395
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/57/17/663131_qH8J3.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/57/17/663131_qH8J3.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/57/17/663131_qH8J3.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/57/17/663131_qH8J3.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/57/17/663131_qH8J3.jpg"
+    },
+    "name": "「カナン様はあくまでチョロい」オリジナル・サウンドトラック",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 663131
+  }
+]

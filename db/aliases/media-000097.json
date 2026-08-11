@@ -1,0 +1,28 @@
+{
+  "$schema": "../../packages/schema/schemas/media-aliases.schema.json",
+  "schema": "media-aliases/v2",
+  "media_id": "media-000097",
+  "aliases": [
+    {
+      "value": "葬送のフリーレン 第2期",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "葬送的芙莉莲 第二季",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "Sousou no Frieren 2nd Season",
+      "language": "ja-Latn",
+      "type": "romaji",
+      "source": "community",
+      "confidence": 0.95
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schema": "v2-migration-plan/v1",
+  "observed_at": "2026-08-11T05:50:15.657Z",
+  "source": "Exceptional provider audit: existing approved evidence for Bangumi 404 and title-verified Bangumi type 6 subjects",
+  "series": [
+    {
+      "id": "series-000086",
+      "title": "インゴクダンチ",
+      "aliases": [
+        { "value": "インゴクダンチ", "language": "ja", "type": "official", "source": "catalog-evidence", "confidence": 0.9 },
+        { "value": "淫獄團地 [年齡限制版]", "language": "zh-Hant", "type": "localized", "source": "community", "confidence": 0.9 }
+      ],
+      "media": [
+        { "id": "media-000024", "installment": {}, "relationships": [], "evidence_only": true }
+      ]
+    },
+    {
+      "id": "series-000087",
+      "title": "ウルトラマンテオ",
+      "aliases": [
+        { "value": "ウルトラマンテオ", "language": "ja", "type": "official", "source": "bangumi", "confidence": 0.98 },
+        { "value": "提欧奥特曼", "language": "zh-Hans", "type": "localized", "source": "bangumi", "confidence": 0.98 },
+        { "value": "超人力霸王狄奧", "language": "zh-Hant", "type": "localized", "source": "community", "confidence": 0.9 }
+      ],
+      "media": [
+        { "id": "media-000038", "installment": {}, "relationships": [], "allowed_subject_types": [6] }
+      ]
+    },
+    {
+      "id": "series-000088",
+      "title": "仮面ライダーゼッツ",
+      "aliases": [
+        { "value": "仮面ライダーゼッツ", "language": "ja", "type": "official", "source": "bangumi", "confidence": 0.98 },
+        { "value": "假面骑士ZZZ", "language": "zh-Hans", "type": "localized", "source": "bangumi", "confidence": 0.98 },
+        { "value": "假面騎士 ZEZTZ", "language": "zh-Hant", "type": "localized", "source": "community", "confidence": 0.9 }
+      ],
+      "media": [
+        { "id": "media-000039", "installment": {}, "relationships": [], "allowed_subject_types": [6] }
+      ]
+    },
+    {
+      "id": "series-000089",
+      "title": "ウルトラマンオメガ",
+      "aliases": [
+        { "value": "ウルトラマンオメガ", "language": "ja", "type": "official", "source": "bangumi", "confidence": 0.98 },
+        { "value": "奥美迦奥特曼", "language": "zh-Hans", "type": "localized", "source": "bangumi", "confidence": 0.98 },
+        { "value": "超人力霸王奧米加", "language": "zh-Hant", "type": "localized", "source": "community", "confidence": 0.9 }
+      ],
+      "media": [
+        { "id": "media-000040", "installment": {}, "relationships": [], "allowed_subject_types": [6] }
+      ]
+    }
+  ]
+}

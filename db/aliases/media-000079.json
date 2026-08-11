@@ -7,8 +7,22 @@
       "source": "community",
       "type": "romaji",
       "value": "20 Seiki Denki Mokuroku"
+    },
+    {
+      "value": "二十世紀電氣目録-ユーレカ・エヴリカ-",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "二十世纪电气目录",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000079",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

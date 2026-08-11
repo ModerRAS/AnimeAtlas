@@ -1,0 +1,8 @@
+{
+  "$schema": "../../packages/schema/schemas/series-identity.schema.json",
+  "schema": "series-identity/v2",
+  "id": "series-000077",
+  "kind": "anime-series",
+  "title": "悪役令嬢は隣国の王太子に溺愛される",
+  "relationships": []
+}

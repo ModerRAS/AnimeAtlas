@@ -1,0 +1,56 @@
+{
+  "$schema": "../../packages/schema/schemas/media-metadata.schema.json",
+  "schema": "media-metadata/v1",
+  "media_id": "media-000097",
+  "metadata": {
+    "title": "葬送のフリーレン 第2期",
+    "episode_count": 10,
+    "runtime": 0,
+    "air_date": {
+      "start": "2026-01-16"
+    }
+  },
+  "_meta": {
+    "last_sync": {
+      "bangumi": "2026-08-11T02:00:00Z"
+    },
+    "fields": {
+      "metadata.title": {
+        "source": "bangumi",
+        "source_field": "name",
+        "last_sync": "2026-08-11T06:00:00Z",
+        "rule": "bangumi.name -> metadata.title",
+        "provider_ref": {
+          "provider": "bangumi",
+          "entity": "subject",
+          "id": "515759"
+        },
+        "raw_ref": "raw/bangumi/api/subject-515759.json"
+      },
+      "metadata.episode_count": {
+        "source": "bangumi",
+        "source_field": "eps",
+        "last_sync": "2026-08-11T02:00:00Z",
+        "rule": "bangumi.eps -> metadata.episode_count",
+        "provider_ref": {
+          "provider": "bangumi",
+          "entity": "subject",
+          "id": "515759"
+        },
+        "raw_ref": "raw/bangumi/api/subject-515759.json"
+      },
+      "metadata.runtime": {
+        "source": "bangumi",
+        "source_field": "unknown",
+        "last_sync": "2026-08-11T06:00:00Z",
+        "rule": "missing Bangumi runtime -> 0",
+        "provider_ref": {
+          "provider": "bangumi",
+          "entity": "subject",
+          "id": "515759"
+        },
+        "raw_ref": "raw/bangumi/api/subject-515759.json"
+      }
+    }
+  }
+}

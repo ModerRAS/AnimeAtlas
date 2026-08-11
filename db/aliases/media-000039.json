@@ -14,8 +14,22 @@
       "source": "community",
       "type": "localized",
       "value": "假面騎士 ZEZTZ [中文配音]"
+    },
+    {
+      "value": "仮面ライダーゼッツ",
+      "language": "ja",
+      "type": "official",
+      "source": "bangumi",
+      "confidence": 0.98
+    },
+    {
+      "value": "假面骑士ZZZ",
+      "language": "zh-Hans",
+      "type": "localized",
+      "source": "bangumi",
+      "confidence": 0.98
     }
   ],
   "media_id": "media-000039",
-  "schema": "media-aliases/v1"
+  "schema": "media-aliases/v2"
 }

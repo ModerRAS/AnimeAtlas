@@ -1,0 +1,453 @@
+{
+  "date": "2026-07-06",
+  "platform": "TV",
+  "images": {
+    "small": "https://lain.bgm.tv/r/200/pic/cover/l/e2/dd/579246_61291.jpg",
+    "grid": "https://lain.bgm.tv/r/100/pic/cover/l/e2/dd/579246_61291.jpg",
+    "large": "https://lain.bgm.tv/pic/cover/l/e2/dd/579246_61291.jpg",
+    "medium": "https://lain.bgm.tv/r/800/pic/cover/l/e2/dd/579246_61291.jpg",
+    "common": "https://lain.bgm.tv/r/400/pic/cover/l/e2/dd/579246_61291.jpg"
+  },
+  "summary": "公爵千金伊丽莎白突遭王太子在派对上宣告解除婚约并囚禁。面对国家的背叛，她带着隐藏强大力量的魔导书成功越狱，并借助邻国子爵路卡斯之手隐姓埋名开创新事业，同时暗中集结人脉、财富与武力，准备向背叛她的祖国展开一场痛快的复仇。\r\n\r\n\r\n\r\n[简介原文]\r\n私を裏切った祖国の皆さま、覚悟はよろしくて？\r\n建国記念パーティーの夜、公爵令嬢エリザベートは、ほかの令嬢に心を移した王太子から突然の婚約破棄を突きつけられ、そのまま牢へ幽閉されてしまう。 \r\nすべてを捧げてきた祖国に裏切られたエリザベートは、強力な神器【七つの魔導書（グリモア・セブンス）】を手に亡命を決意！隣国の子爵ルーカスの手を借りて、新生活と商会経営を始める。祖国への凄烈な復讐心を胸に秘めながら―― \r\n“婚約破棄”×“投獄”された美しき天才令嬢が、最強の魔導書を手に“人脈・経済・武力”を操って裏切者たちに報復する、爽快・大逆転の復讐ファンタジー、ここに開幕！",
+  "name": "ブチ切れ令嬢は報復を誓いました。～魔導書の力で祖国を叩き潰します～",
+  "name_cn": "暴怒千金发誓复仇。～凭借魔导书之力打垮祖国～",
+  "tags": [
+    {
+      "name": "2026年7月",
+      "count": 74,
+      "total_count": 19522
+    },
+    {
+      "name": "TV",
+      "count": 51,
+      "total_count": 1396781
+    },
+    {
+      "name": "轻小说改",
+      "count": 49,
+      "total_count": 493933
+    },
+    {
+      "name": "奇幻",
+      "count": 42,
+      "total_count": 467686
+    },
+    {
+      "name": "StudioComet",
+      "count": 41,
+      "total_count": 1817
+    },
+    {
+      "name": "2026",
+      "count": 35,
+      "total_count": 40840
+    },
+    {
+      "name": "小说改",
+      "count": 31,
+      "total_count": 157942
+    },
+    {
+      "name": "日本",
+      "count": 24,
+      "total_count": 293390
+    },
+    {
+      "name": "恶役大小姐",
+      "count": 23,
+      "total_count": 1898
+    },
+    {
+      "name": "轻改",
+      "count": 18,
+      "total_count": 152136
+    },
+    {
+      "name": "异世界",
+      "count": 14,
+      "total_count": 260472
+    },
+    {
+      "name": "女性向",
+      "count": 14,
+      "total_count": 6889
+    },
+    {
+      "name": "恶役",
+      "count": 11,
+      "total_count": 1403
+    },
+    {
+      "name": "葛谷直行",
+      "count": 10,
+      "total_count": 124
+    },
+    {
+      "name": "スタジオコメット",
+      "count": 4,
+      "total_count": 144
+    },
+    {
+      "name": "日本动画",
+      "count": 3,
+      "total_count": 34833
+    },
+    {
+      "name": "复仇",
+      "count": 3,
+      "total_count": 2716
+    },
+    {
+      "name": "2026年",
+      "count": 3,
+      "total_count": 1698
+    },
+    {
+      "name": "战斗",
+      "count": 2,
+      "total_count": 468518
+    },
+    {
+      "name": "TVA",
+      "count": 2,
+      "total_count": 15444
+    },
+    {
+      "name": "厕纸",
+      "count": 2,
+      "total_count": 12049
+    },
+    {
+      "name": "动画",
+      "count": 1,
+      "total_count": 35582
+    },
+    {
+      "name": "夏季番",
+      "count": 1,
+      "total_count": 568
+    },
+    {
+      "name": "TVA-02",
+      "count": 1,
+      "total_count": 136
+    },
+    {
+      "name": "日本TV",
+      "count": 1,
+      "total_count": 344
+    },
+    {
+      "name": "大西沙織",
+      "count": 1,
+      "total_count": 494
+    },
+    {
+      "name": "三话弃",
+      "count": 1,
+      "total_count": 311
+    },
+    {
+      "name": "小说改编",
+      "count": 1,
+      "total_count": 1972
+    },
+    {
+      "name": "長谷川育美",
+      "count": 1,
+      "total_count": 342
+    },
+    {
+      "name": "白毛",
+      "count": 1,
+      "total_count": 2115
+    }
+  ],
+  "infobox": [
+    {
+      "key": "中文名",
+      "value": "暴怒千金发誓复仇。～凭借魔导书之力打垮祖国～"
+    },
+    {
+      "key": "别名",
+      "value": [
+        {
+          "v": "Buchigire Reijou wa Houfuku wo Chikaimashita. Madousho no Chikara de Sokoku wo Tatakitsubushimasu"
+        },
+        {
+          "v": "A Livid Lady's Guide to Getting Even: How I Crushed My Homeland with My Mighty Grimoires, The Furious Princess Decided to Take Revenge"
+        }
+      ]
+    },
+    {
+      "key": "话数",
+      "value": "12"
+    },
+    {
+      "key": "放送开始",
+      "value": "2026年7月6日"
+    },
+    {
+      "key": "放送星期",
+      "value": "星期一"
+    },
+    {
+      "key": "官方网站",
+      "value": "https://buchigire-anime.com/"
+    },
+    {
+      "key": "播放电视台",
+      "value": "テレ東"
+    },
+    {
+      "key": "其他电视台",
+      "value": "BS11 / AT-X"
+    },
+    {
+      "key": "导演",
+      "value": "葛谷直行"
+    },
+    {
+      "key": "音乐",
+      "value": "宝野聡史、中野香梨"
+    },
+    {
+      "key": "Copyright",
+      "value": "©はぐれメタボ・ホビージャパン／『ブチ切れ令嬢は報復を誓いました』製作委員会"
+    },
+    {
+      "key": "原作",
+      "value": "はぐれメタボ（HJノベルス／ホビージャパン）；漫画：おおのいも（HJコミックス／コミックファイア連載）"
+    },
+    {
+      "key": "人物设定",
+      "value": "姉崎早也花"
+    },
+    {
+      "key": "副人物设定",
+      "value": "渕脇泰賀"
+    },
+    {
+      "key": "道具设计",
+      "value": "渕脇泰賀、西本成司"
+    },
+    {
+      "key": "美术监督",
+      "value": "川上美穂"
+    },
+    {
+      "key": "美术设计",
+      "value": "川上美穂"
+    },
+    {
+      "key": "色彩设计",
+      "value": "古賀遼也"
+    },
+    {
+      "key": "摄影监督",
+      "value": "坂井慎太郎"
+    },
+    {
+      "key": "特效",
+      "value": "サンダービレッジラボ"
+    },
+    {
+      "key": "2D 设计",
+      "value": "サンダービレッジラボ"
+    },
+    {
+      "key": "剪辑",
+      "value": "山田健太郎"
+    },
+    {
+      "key": "音响监督",
+      "value": "渡辺淳"
+    },
+    {
+      "key": "音乐制作",
+      "value": "テレビ東京メディアネット、AQUA ARIS"
+    },
+    {
+      "key": "音乐制作人",
+      "value": "北爪良明"
+    },
+    {
+      "key": "主题歌演出",
+      "value": "小倉唯 / 大西亜玖璃"
+    },
+    {
+      "key": "主题歌作词",
+      "value": "小倉唯、ずまでスコト / 東乃カノ"
+    },
+    {
+      "key": "主题歌作曲",
+      "value": "ずまでスコト / habana"
+    },
+    {
+      "key": "主题歌编曲",
+      "value": "HIDEYA KOJIMA(小島英也) / habana"
+    },
+    {
+      "key": "製作",
+      "value": "『ブチ切れ令嬢は報復を誓いました』製作委員会（テレビ東京メディアネット、ホビージャパン、REMOW、日本BS放送、日本コロムビア、AT-X、スタジオコメット、神南スタジオ、AQUA ARIS、クロックワークス）"
+    },
+    {
+      "key": "企画",
+      "value": "八田紳作、河原正信、前坂栄司、羽川寛、北條真、佐野圭介、茂垣弘道、朴谷直治、前田吉輝、武智恒雄"
+    },
+    {
+      "key": "总制片人",
+      "value": "立野智弘、吉田秀郎、大和田智之、寺内勇美"
+    },
+    {
+      "key": "制片人",
+      "value": "永野雅彦、和田雄一郎、東真央、谷口博康、飯塚彩、長嶋篤史、渡邉日向子"
+    },
+    {
+      "key": "动画制片人",
+      "value": "武藤伸和"
+    },
+    {
+      "key": "监制",
+      "value": "アルケ、森尻和明"
+    },
+    {
+      "key": "宣传制片人",
+      "value": "前田吉輝"
+    },
+    {
+      "key": "副制片人",
+      "value": "林秀耶"
+    },
+    {
+      "key": "助理制片人",
+      "value": "内堀茜"
+    },
+    {
+      "key": "企画协力",
+      "value": "HJ文庫・ノベルス編集部（木下亮、下里昌広）、コミックファイア編集部（宇田川芳彦、松本絵美）"
+    },
+    {
+      "key": "制作管理",
+      "value": "制作デスク：西奥圭佑"
+    },
+    {
+      "key": "设定制作",
+      "value": "西奥圭佑"
+    },
+    {
+      "key": "制作进行",
+      "value": "青野絢太、大柳龍生、松尾祥"
+    },
+    {
+      "key": "制作进行协力",
+      "value": "伊東愛華"
+    },
+    {
+      "key": "制作协力",
+      "value": "ペンギンキャノン"
+    },
+    {
+      "key": "音效",
+      "value": "白石唯果"
+    },
+    {
+      "key": "录音",
+      "value": "高木祐希"
+    },
+    {
+      "key": "录音助理",
+      "value": "谷口礼奈"
+    },
+    {
+      "key": "录音工作室",
+      "value": "神南スタジオ"
+    },
+    {
+      "key": "音响",
+      "value": "神南スタジオ"
+    },
+    {
+      "key": "音响制作担当",
+      "value": "中尾舞"
+    },
+    {
+      "key": "离线剪辑",
+      "value": "岡安プロモーション"
+    },
+    {
+      "key": "在线剪辑",
+      "value": "qooop/クープ（立川貴巳、柄澤晴斗）"
+    },
+    {
+      "key": "OP・ED 分镜",
+      "value": "星野美鈴 / 佐藤まさふみ[佐藤昌文]"
+    },
+    {
+      "key": "OP・ED 演出",
+      "value": "星野美鈴 / 佐藤まさふみ[佐藤昌文]"
+    },
+    {
+      "key": "摄影",
+      "value": "スタジオトゥインクル（坂井慎太郎、菊池達也、稲玉光太郎、海切佑実）"
+    },
+    {
+      "key": "脚本",
+      "value": "広田光毅"
+    },
+    {
+      "key": "分镜",
+      "value": "葛谷直行"
+    },
+    {
+      "key": "演出",
+      "value": "佐藤まさふみ[佐藤昌文]、徐恵眞"
+    },
+    {
+      "key": "总作画监督",
+      "value": "姉崎早也花、鈴木光"
+    },
+    {
+      "key": "作画监督",
+      "value": "加藤壮、佐藤優美、高橋はつみ、野本正幸、赵小川、陈玲玲、姜海华、李伟峰"
+    }
+  ],
+  "rating": {
+    "rank": 9218,
+    "total": 126,
+    "count": {
+      "1": 3,
+      "2": 3,
+      "3": 13,
+      "4": 22,
+      "5": 42,
+      "6": 33,
+      "7": 5,
+      "8": 0,
+      "9": 4,
+      "10": 1
+    },
+    "score": 5
+  },
+  "total_episodes": 12,
+  "collection": {
+    "on_hold": 25,
+    "dropped": 73,
+    "wish": 185,
+    "collect": 23,
+    "doing": 707
+  },
+  "id": 579246,
+  "eps": 12,
+  "meta_tags": [
+    "TV",
+    "日本",
+    "奇幻",
+    "小说改"
+  ],
+  "volumes": 0,
+  "series": false,
+  "locked": false,
+  "nsfw": false,
+  "type": 2
+}

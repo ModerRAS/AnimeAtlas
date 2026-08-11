@@ -1,0 +1,8 @@
+{
+  "$schema": "../../packages/schema/schemas/series-identity.schema.json",
+  "schema": "series-identity/v2",
+  "id": "series-000001",
+  "kind": "anime-series",
+  "title": "転生したらスライムだった件",
+  "relationships": []
+}

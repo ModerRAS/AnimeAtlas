@@ -1,0 +1,8 @@
+{
+  "$schema": "../../packages/schema/schemas/series-identity.schema.json",
+  "schema": "series-identity/v2",
+  "id": "series-000063",
+  "kind": "anime-series",
+  "title": "落第賢者の学院無双～二度目の転生、Sランクチート魔術師冒険録～",
+  "relationships": []
+}

@@ -1,0 +1,490 @@
+{
+  "date": "2026-07-06",
+  "platform": "TV",
+  "images": {
+    "small": "https://lain.bgm.tv/r/200/pic/cover/l/1d/71/528828_oQl2M.jpg",
+    "grid": "https://lain.bgm.tv/r/100/pic/cover/l/1d/71/528828_oQl2M.jpg",
+    "large": "https://lain.bgm.tv/pic/cover/l/1d/71/528828_oQl2M.jpg",
+    "medium": "https://lain.bgm.tv/r/800/pic/cover/l/1d/71/528828_oQl2M.jpg",
+    "common": "https://lain.bgm.tv/r/400/pic/cover/l/1d/71/528828_oQl2M.jpg"
+  },
+  "summary": "「亚克」一觉醒来，发现自己竟然以 MMORPG 中使用的游戏角色姿态，被扔到了异世界。而那个姿态正是外表身穿铠甲，里头却全是骨骸的「骸骨骑士」。\r\n──要是真面目曝光，自己可能会被误认为是怪兽而成为讨伐对象！？\r\n亚克因此下定决心，要当一个佣兵低调度日。然而，他绝非那种能对眼前的恶行坐视不管的男人！\r\n亚克与在旅途中相遇的精灵战士艾莉安、兽人族忍者千代女，以及精灵兽碰太一起，今天也将继续他们的旅程。\r\n凭藉一刀两断斩尽邪恶、痛快且爽快的战斗表现而大获好评的人气电视动画，已确定制作众所期待的续作！\r\n骸骨骑士大人那种无自觉的「惩恶扬善」异世界奇幻故事，在此再次登场！！\r\n\r\n\r\n\r\n[简介原文]\r\n目覚めるとMMORPGで自身が使用していたゲームキャラの姿のまま、異世界に放り出されていた「アーク」。その姿は、見た目が鎧、中身が全身骨格という”骸骨騎士”であった。\r\n──正体がバレたら、モンスターと勘違いされて討伐対象になりかねない!?\r\nアークは目立たないよう傭兵として過ごすことを決意する。だが、彼は目の前の悪事を捨て置けるような男ではなかった！\r\n旅の道中で出会ったエルフの戦士・アリアン、獣人族の忍者・チヨメ、そして精霊獣のポンタとともに、今日も彼らの旅路はまだまだ続く。\r\n悪を一刀両断する痛快＆爽快バトルで好評を博した大人気TVアニメ、待望の続編が制作決定！\r\n骸骨騎士様による無自覚”世直し”異世界ファンタジー、ここに再び参上!!",
+  "name": "骸骨騎士様、只今異世界へお出掛け中Ⅱ",
+  "name_cn": "骸骨骑士大人异世界冒险中 第二季",
+  "tags": [
+    {
+      "name": "2026年7月",
+      "count": 129,
+      "total_count": 19514
+    },
+    {
+      "name": "异世界",
+      "count": 95,
+      "total_count": 260465
+    },
+    {
+      "name": "轻小说改",
+      "count": 86,
+      "total_count": 493921
+    },
+    {
+      "name": "TV",
+      "count": 78,
+      "total_count": 1396767
+    },
+    {
+      "name": "战斗",
+      "count": 64,
+      "total_count": 468507
+    },
+    {
+      "name": "奇幻",
+      "count": 63,
+      "total_count": 467676
+    },
+    {
+      "name": "龙傲天",
+      "count": 52,
+      "total_count": 39413
+    },
+    {
+      "name": "轻改",
+      "count": 33,
+      "total_count": 152133
+    },
+    {
+      "name": "2026",
+      "count": 30,
+      "total_count": 40849
+    },
+    {
+      "name": "日本",
+      "count": 27,
+      "total_count": 293387
+    },
+    {
+      "name": "小说改",
+      "count": 25,
+      "total_count": 157929
+    },
+    {
+      "name": "后宫",
+      "count": 20,
+      "total_count": 301621
+    },
+    {
+      "name": "Studio",
+      "count": 19,
+      "total_count": 487
+    },
+    {
+      "name": "转生",
+      "count": 19,
+      "total_count": 5381
+    },
+    {
+      "name": "搞笑",
+      "count": 11,
+      "total_count": 635857
+    },
+    {
+      "name": "AuraStudio",
+      "count": 7,
+      "total_count": 7
+    },
+    {
+      "name": "AURA",
+      "count": 4,
+      "total_count": 9
+    },
+    {
+      "name": "冒险",
+      "count": 3,
+      "total_count": 53377
+    },
+    {
+      "name": "小野胜巳",
+      "count": 2,
+      "total_count": 97
+    },
+    {
+      "name": "穿越",
+      "count": 2,
+      "total_count": 62557
+    },
+    {
+      "name": "日本动画",
+      "count": 2,
+      "total_count": 34831
+    },
+    {
+      "name": "骸骨骑士大人异世界冒险中",
+      "count": 2,
+      "total_count": 10
+    },
+    {
+      "name": "2026年07月",
+      "count": 1,
+      "total_count": 6
+    },
+    {
+      "name": "前野智昭",
+      "count": 1,
+      "total_count": 877
+    },
+    {
+      "name": "26夏",
+      "count": 1,
+      "total_count": 93
+    },
+    {
+      "name": "小野勝巳",
+      "count": 1,
+      "total_count": 161
+    },
+    {
+      "name": "续集",
+      "count": 1,
+      "total_count": 5148
+    },
+    {
+      "name": "哔哩哔哩",
+      "count": 1,
+      "total_count": 274
+    },
+    {
+      "name": "TVA-01",
+      "count": 1,
+      "total_count": 55
+    },
+    {
+      "name": "稗田寧",
+      "count": 1,
+      "total_count": 7
+    }
+  ],
+  "infobox": [
+    {
+      "key": "中文名",
+      "value": "骸骨骑士大人异世界冒险中 第二季"
+    },
+    {
+      "key": "别名",
+      "value": [
+        {
+          "v": "Gaikotsu Kishi-sama, Tadaima Isekai e Odekakechuu II"
+        },
+        {
+          "v": "Gaikotsu Kishi-sama, Tadaima Isekai e Odekake-chuu Season 2"
+        },
+        {
+          "v": "Skeleton Knight in Another World Season 2"
+        }
+      ]
+    },
+    {
+      "key": "话数",
+      "value": "12"
+    },
+    {
+      "key": "放送开始",
+      "value": "2026年7月6日"
+    },
+    {
+      "key": "放送星期",
+      "value": "星期一"
+    },
+    {
+      "key": "官方网站",
+      "value": "https://skeleton-knight.com/"
+    },
+    {
+      "key": "播放电视台",
+      "value": "AT-X"
+    },
+    {
+      "key": "其他电视台",
+      "value": "TOKYO MX / サンテレビ / BS11"
+    },
+    {
+      "key": "导演",
+      "value": "小野勝巳"
+    },
+    {
+      "key": "音乐",
+      "value": "eba、伊藤翼"
+    },
+    {
+      "key": "链接",
+      "value": [
+        {
+          "k": "X",
+          "v": "https://x.com/gaikotsukishi02"
+        }
+      ]
+    },
+    {
+      "key": "Copyright",
+      "value": "©秤猿鬼・オーバーラップ／骸骨騎士様II製作委員会"
+    },
+    {
+      "key": "原作",
+      "value": "秤猿鬼（オーバーラップノベルス刊）/ 漫画: サワノアキラ(澤野明)（「コミックガルド」連載）"
+    },
+    {
+      "key": "人物原案",
+      "value": "KeG"
+    },
+    {
+      "key": "人物设定",
+      "value": "今西亨"
+    },
+    {
+      "key": "副人物设定",
+      "value": "芝田千紗"
+    },
+    {
+      "key": "动画制作",
+      "value": "オーラスタジオ"
+    },
+    {
+      "key": "系列构成",
+      "value": "根元歳三"
+    },
+    {
+      "key": "怪物设计",
+      "value": "長森佳容"
+    },
+    {
+      "key": "道具设计",
+      "value": "宮崎真一"
+    },
+    {
+      "key": "美术监督",
+      "value": "呂佳芳"
+    },
+    {
+      "key": "美术设计",
+      "value": "溝口理花、滝沢麻菜美"
+    },
+    {
+      "key": "背景美术",
+      "value": "草薙(KUSANAGI)（呂佳芳、海野有希）；背景美术协力：NAM HAI ART"
+    },
+    {
+      "key": "色彩设计",
+      "value": "大野春恵"
+    },
+    {
+      "key": "CG 导演",
+      "value": "青木ともたか"
+    },
+    {
+      "key": "摄影监督",
+      "value": "山本聖"
+    },
+    {
+      "key": "摄影",
+      "value": "チップチューン（山田和広）；摄影协力：カスケード、光の園・アニメーション"
+    },
+    {
+      "key": "剪辑",
+      "value": "神宮司由美"
+    },
+    {
+      "key": "音响监督",
+      "value": "本山哲"
+    },
+    {
+      "key": "主题歌演出",
+      "value": "PelleK / DIALOGUE+"
+    },
+    {
+      "key": "主题歌作词",
+      "value": "hotaru / 田淵智也"
+    },
+    {
+      "key": "主题歌作曲",
+      "value": "eba、PelleK / 田淵智也"
+    },
+    {
+      "key": "主题歌编曲",
+      "value": "eba、伊藤翼 / 半田翼"
+    },
+    {
+      "key": "音乐制作",
+      "value": "ポニーキャニオン"
+    },
+    {
+      "key": "音乐制作人",
+      "value": "鎗水善史"
+    },
+    {
+      "key": "製作",
+      "value": "骸骨騎士様II製作委員会（オーバーラップ、Crunchyroll、MUSE、ドコモ・アニメストア、MAGNET、ポニーキャニオン、AT-X、CTW）"
+    },
+    {
+      "key": "企画",
+      "value": "永田勝治、末平アサ、康振木、松本浩、岩野貢、若月賢一、渡瀬昌太、石渡章博"
+    },
+    {
+      "key": "执行制片人",
+      "value": "原田直樹"
+    },
+    {
+      "key": "制片人",
+      "value": "中山愛理菜、鹿毛朋子、林家瑋、松崎友貴、鹿志村絵美、鎗水善史、飯塚彩、若林秀行"
+    },
+    {
+      "key": "动画制片人",
+      "value": "上間康弘"
+    },
+    {
+      "key": "制作管理",
+      "value": "制作デスク：金子拓矢"
+    },
+    {
+      "key": "设定制作",
+      "value": "髙崎慎"
+    },
+    {
+      "key": "制作进行",
+      "value": "望月芙美香"
+    },
+    {
+      "key": "主动画师",
+      "value": "湯舟正博"
+    },
+    {
+      "key": "脚本",
+      "value": "根元歳三"
+    },
+    {
+      "key": "分镜",
+      "value": "小野勝巳"
+    },
+    {
+      "key": "演出",
+      "value": "高橋幸雄"
+    },
+    {
+      "key": "总作画监督",
+      "value": "鈴木光、小林陽奈、高市彩加、熊田明子、泉坂つかさ"
+    },
+    {
+      "key": "作画监督",
+      "value": "高市彩加、桜井このみ"
+    },
+    {
+      "key": "原画",
+      "value": "白浜穂積、湯舟正博、大久保海祐、高市彩加、桜井このみ、金正男、林千尋、黄翔麟、高橋こう平、小濱省吾、岩田幸子、永田有香、関谷夏実、specinef、龍光、明光、安南堂仁汰"
+    },
+    {
+      "key": "色彩指定",
+      "value": "菊地美穂子、カン・ソヒョン"
+    },
+    {
+      "key": "色彩检查",
+      "value": "菊地美穂子、カン・ソヒョン；检查辅佐：山崎結芽"
+    },
+    {
+      "key": "特效",
+      "value": "チップチューン（田村佳那）"
+    },
+    {
+      "key": "2D 设计",
+      "value": "チップチューン（升崎慎二、由佐万織）"
+    },
+    {
+      "key": "美术板",
+      "value": "呂佳芳"
+    },
+    {
+      "key": "美术制作进行",
+      "value": "背景进行：平田浩章；背景进行辅佐：竹村美音、前田紗希、HO PHUONG、NGUYEN TRINH、CONG TRI、KHANH MY"
+    },
+    {
+      "key": "3DCG",
+      "value": "CGI制作：オーラスタジオ"
+    },
+    {
+      "key": "3D 动画师",
+      "value": "CGIアニメーター：金澤詩織、平元潤一、市原優香、小林優哉、長井七海、乙津健太、衣斐彩香、宮坂瑠七"
+    },
+    {
+      "key": "在线剪辑",
+      "value": "塚根結衣；在线剪辑工作室：Imagica EMS"
+    },
+    {
+      "key": "音响",
+      "value": "ダックスプロダクション"
+    },
+    {
+      "key": "音响制作担当",
+      "value": "平賀愛子、岡村歩美"
+    },
+    {
+      "key": "录音",
+      "value": "武藤雅人"
+    },
+    {
+      "key": "录音助理",
+      "value": "廣嶋瑛美"
+    },
+    {
+      "key": "录音工作室",
+      "value": "スリーエススタジオ[スワラ・プロ]"
+    },
+    {
+      "key": "OP・ED 演出",
+      "value": "小野勝巳 / すまきどり"
+    },
+    {
+      "key": "企画协力",
+      "value": "曽山貴史、飯島江美子、羅明旭"
+    },
+    {
+      "key": "副制片人",
+      "value": "坂本晴太、遠藤玉波、黄之郁"
+    }
+  ],
+  "rating": {
+    "rank": 8827,
+    "total": 163,
+    "count": {
+      "1": 4,
+      "2": 1,
+      "3": 5,
+      "4": 23,
+      "5": 53,
+      "6": 62,
+      "7": 11,
+      "8": 0,
+      "9": 1,
+      "10": 3
+    },
+    "score": 5.3
+  },
+  "total_episodes": 12,
+  "collection": {
+    "on_hold": 35,
+    "dropped": 97,
+    "wish": 449,
+    "collect": 43,
+    "doing": 1099
+  },
+  "id": 528828,
+  "eps": 12,
+  "meta_tags": [
+    "TV",
+    "日本",
+    "奇幻",
+    "战斗",
+    "小说改"
+  ],
+  "volumes": 0,
+  "series": false,
+  "locked": false,
+  "nsfw": false,
+  "type": 2
+}

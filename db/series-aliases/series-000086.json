@@ -1,0 +1,21 @@
+{
+  "$schema": "../../packages/schema/schemas/series-aliases.schema.json",
+  "schema": "series-aliases/v2",
+  "series_id": "series-000086",
+  "aliases": [
+    {
+      "value": "インゴクダンチ",
+      "language": "ja",
+      "type": "official",
+      "source": "catalog-evidence",
+      "confidence": 0.9
+    },
+    {
+      "value": "淫獄團地 [年齡限制版]",
+      "language": "zh-Hant",
+      "type": "localized",
+      "source": "community",
+      "confidence": 0.9
+    }
+  ]
+}

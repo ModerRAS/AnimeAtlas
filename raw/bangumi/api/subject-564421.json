@@ -1,0 +1,347 @@
+{
+  "date": "2025-10-13",
+  "platform": "TV",
+  "images": {
+    "small": "https://lain.bgm.tv/r/200/pic/cover/l/0a/ca/564421_em83Z.jpg",
+    "grid": "https://lain.bgm.tv/r/100/pic/cover/l/0a/ca/564421_em83Z.jpg",
+    "large": "https://lain.bgm.tv/pic/cover/l/0a/ca/564421_em83Z.jpg",
+    "medium": "https://lain.bgm.tv/r/800/pic/cover/l/0a/ca/564421_em83Z.jpg",
+    "common": "https://lain.bgm.tv/r/400/pic/cover/l/0a/ca/564421_em83Z.jpg"
+  },
+  "summary": "2020年に第2期シリーズが放送された異世界系アニメクロスオーバーアニメ『異世界かるてっと』。本作の第3期シリーズ制作が決定。新たに参戦する『陰の実力者になりたくて！』も描かれたティザービジュアルが解禁された。公式XではA5ビジュアルカードが当たるフォロー＆RPキャンペーンを実施。2025年6月21日（土）・22（日）に開催される「ちゃやまち推しフェスティバル2025」のKADOKAWAアニメブースでも配布される。",
+  "name": "異世界かるてっと3",
+  "name_cn": "异世界四重奏 第三季",
+  "tags": [
+    {
+      "name": "泡面番",
+      "count": 263,
+      "total_count": 153738
+    },
+    {
+      "name": "异世界",
+      "count": 246,
+      "total_count": 260465
+    },
+    {
+      "name": "原创",
+      "count": 213,
+      "total_count": 617308
+    },
+    {
+      "name": "2025年10月",
+      "count": 201,
+      "total_count": 20608
+    },
+    {
+      "name": "TV",
+      "count": 149,
+      "total_count": 1396767
+    },
+    {
+      "name": "搞笑",
+      "count": 135,
+      "total_count": 635857
+    },
+    {
+      "name": "喜剧",
+      "count": 133,
+      "total_count": 34676
+    },
+    {
+      "name": "联动",
+      "count": 121,
+      "total_count": 895
+    },
+    {
+      "name": "STUDIOPUYUKAI",
+      "count": 103,
+      "total_count": 1495
+    },
+    {
+      "name": "2025",
+      "count": 96,
+      "total_count": 72534
+    },
+    {
+      "name": "奇幻",
+      "count": 84,
+      "total_count": 467676
+    },
+    {
+      "name": "日本",
+      "count": 66,
+      "total_count": 293387
+    },
+    {
+      "name": "续作",
+      "count": 25,
+      "total_count": 45768
+    },
+    {
+      "name": "日常",
+      "count": 13,
+      "total_count": 398019
+    },
+    {
+      "name": "悠木碧",
+      "count": 13,
+      "total_count": 12157
+    },
+    {
+      "name": "小林裕介",
+      "count": 12,
+      "total_count": 1136
+    },
+    {
+      "name": "校园",
+      "count": 10,
+      "total_count": 450577
+    },
+    {
+      "name": "穿越",
+      "count": 7,
+      "total_count": 62557
+    },
+    {
+      "name": "异世界四重奏",
+      "count": 5,
+      "total_count": 139
+    },
+    {
+      "name": "2025年",
+      "count": 5,
+      "total_count": 3450
+    },
+    {
+      "name": "泡面",
+      "count": 3,
+      "total_count": 10490
+    },
+    {
+      "name": "日野聡",
+      "count": 3,
+      "total_count": 266
+    },
+    {
+      "name": "スタジオぷYUKAI",
+      "count": 2,
+      "total_count": 209
+    },
+    {
+      "name": "山下誠一郎",
+      "count": 2,
+      "total_count": 100
+    },
+    {
+      "name": "10月",
+      "count": 2,
+      "total_count": 2154
+    },
+    {
+      "name": "福島潤",
+      "count": 2,
+      "total_count": 95
+    },
+    {
+      "name": "日野聪",
+      "count": 2,
+      "total_count": 963
+    },
+    {
+      "name": "芦名稔",
+      "count": 2,
+      "total_count": 147
+    },
+    {
+      "name": "STUDIO_PUYUKAI",
+      "count": 2,
+      "total_count": 266
+    },
+    {
+      "name": "芦名みのる",
+      "count": 2,
+      "total_count": 201
+    }
+  ],
+  "infobox": [
+    {
+      "key": "中文名",
+      "value": "异世界四重奏 第三季"
+    },
+    {
+      "key": "别名",
+      "value": [
+        {
+          "v": "Isekai Quartet 3"
+        }
+      ]
+    },
+    {
+      "key": "话数",
+      "value": "11"
+    },
+    {
+      "key": "放送开始",
+      "value": "2025年10月13日"
+    },
+    {
+      "key": "放送星期",
+      "value": "星期一"
+    },
+    {
+      "key": "官方网站",
+      "value": "https://isekai-quartet.com/"
+    },
+    {
+      "key": "播放电视台",
+      "value": "TOKYO MX"
+    },
+    {
+      "key": "其他电视台",
+      "value": "BS11 / MBＳ / AT-X"
+    },
+    {
+      "key": "播放结束",
+      "value": "2025年12月22日"
+    },
+    {
+      "key": "导演",
+      "value": "芦名みのる"
+    },
+    {
+      "key": "音乐",
+      "value": "川田瑠夏"
+    },
+    {
+      "key": "Copyright",
+      "value": "©異世界かるてっと3／KADOKAWA"
+    },
+    {
+      "key": "原作",
+      "value": "丸山くがね『オーバーロード』・暁なつめ『この素晴らしい世界に祝福を！』・長月達平『Re:ゼロから始める異世界生活』・カルロ・ゼン『幼女戦記』；协力：アネコユサギ『盾の勇者の成り上がり』、逢沢大介『陰の実力者になりたくて！』、土日月『この勇者が俺TUEEEくせに慎重すぎる』"
+    },
+    {
+      "key": "人物原案",
+      "value": "so-bin、三嶋くろね、大塚真一郎、篠月しのぶ；协力：弥南せいら、東西、とよた瑣織"
+    },
+    {
+      "key": "人物设定",
+      "value": "たけはらみのる"
+    },
+    {
+      "key": "主题歌演出",
+      "value": "アインズ(CV：日野聡)、カズマ(CV：福島潤)、スバル(CV：小林裕介)、ターニャ(CV：悠木碧) / 鈴木このみ、伊東歌詞太郎"
+    },
+    {
+      "key": "美术监督",
+      "value": "齋藤優；3D美术监督：高宮せいご"
+    },
+    {
+      "key": "美术设计",
+      "value": "戸杉奈津子；3D美术设计：高宮せいご"
+    },
+    {
+      "key": "摄影监督",
+      "value": "大久保潤一；辅佐：船曳一廣"
+    },
+    {
+      "key": "音乐制作人",
+      "value": "竹山紗織"
+    },
+    {
+      "key": "音乐监督",
+      "value": "茶畑満里奈"
+    },
+    {
+      "key": "企画",
+      "value": "工藤大丈、田中翔"
+    },
+    {
+      "key": "执行制片人",
+      "value": "笠原周造"
+    },
+    {
+      "key": "制片人",
+      "value": "菊島憲文"
+    },
+    {
+      "key": "动画制片人",
+      "value": "制作制片人：横山稔"
+    },
+    {
+      "key": "现场制片人",
+      "value": "石川功真"
+    },
+    {
+      "key": "企画协力",
+      "value": "藤田明子、神戸優貴、本郷駿之介、有馬聡史、吉田翔平、中山卓也、清原誠巳"
+    },
+    {
+      "key": "协力",
+      "value": "有水宗治郎、梅田正勝"
+    },
+    {
+      "key": "录音",
+      "value": "進藤公隆"
+    },
+    {
+      "key": "录音助理",
+      "value": "仲田舞吏乃"
+    },
+    {
+      "key": "音响",
+      "value": "マジックカプセル"
+    },
+    {
+      "key": "配音监督",
+      "value": "大寺文彦"
+    },
+    {
+      "key": "音效",
+      "value": "古谷友二"
+    },
+    {
+      "key": "音响制作担当",
+      "value": "見留滉平"
+    }
+  ],
+  "rating": {
+    "rank": 5171,
+    "total": 955,
+    "count": {
+      "1": 3,
+      "2": 2,
+      "3": 1,
+      "4": 18,
+      "5": 82,
+      "6": 359,
+      "7": 387,
+      "8": 76,
+      "9": 13,
+      "10": 14
+    },
+    "score": 6.5
+  },
+  "total_episodes": 11,
+  "collection": {
+    "on_hold": 86,
+    "dropped": 48,
+    "wish": 512,
+    "collect": 1766,
+    "doing": 579
+  },
+  "id": 564421,
+  "eps": 11,
+  "meta_tags": [
+    "喜剧",
+    "TV",
+    "日本",
+    "奇幻",
+    "原创"
+  ],
+  "volumes": 0,
+  "series": false,
+  "locked": false,
+  "nsfw": false,
+  "type": 2
+}

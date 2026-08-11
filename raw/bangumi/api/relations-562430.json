@@ -1,0 +1,58 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/7f/20/224173_f3UsL.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/7f/20/224173_f3UsL.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/7f/20/224173_f3UsL.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/7f/20/224173_f3UsL.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/7f/20/224173_f3UsL.jpg"
+    },
+    "name": "綺麗にしてもらえますか。",
+    "name_cn": "能帮我弄干净吗？",
+    "relation": "书籍",
+    "type": 1,
+    "id": 224173
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/65/f1/613319_Qn1uQ.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/65/f1/613319_Qn1uQ.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/65/f1/613319_Qn1uQ.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/65/f1/613319_Qn1uQ.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/65/f1/613319_Qn1uQ.jpg"
+    },
+    "name": "若葉のころ",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 613319
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/63/41/618483_w1uOp.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/63/41/618483_w1uOp.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/63/41/618483_w1uOp.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/63/41/618483_w1uOp.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/63/41/618483_w1uOp.jpg"
+    },
+    "name": "綺麗。",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 618483
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/f6/81/636184_dtepd.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/f6/81/636184_dtepd.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/f6/81/636184_dtepd.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/f6/81/636184_dtepd.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/f6/81/636184_dtepd.jpg"
+    },
+    "name": "TVアニメ『綺麗にしてもらえますか。』オリジナル・サウンドトラック",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 636184
+  }
+]

@@ -1,0 +1,432 @@
+{
+  "date": "2026-07-01",
+  "platform": "TV",
+  "images": {
+    "small": "https://lain.bgm.tv/r/200/pic/cover/l/fd/f7/630163_yyAc7.jpg",
+    "grid": "https://lain.bgm.tv/r/100/pic/cover/l/fd/f7/630163_yyAc7.jpg",
+    "large": "https://lain.bgm.tv/pic/cover/l/fd/f7/630163_yyAc7.jpg",
+    "medium": "https://lain.bgm.tv/r/800/pic/cover/l/fd/f7/630163_yyAc7.jpg",
+    "common": "https://lain.bgm.tv/r/400/pic/cover/l/fd/f7/630163_yyAc7.jpg"
+  },
+  "summary": "現代から転生し、人生のすべてを魔導の研究に費やした大賢者エフタル。しかし彼は己の才能の限界を知り、絶望と後悔の果てに命を落としてしまう。\r\n――それから400年。前世の知識と魔術を携え、二度目の転生を遂げたエフタルは、再び魔導の頂きを目指すことを決意する。だが彼を待っていたのは、なぜか魔法文明が著しく衰退した世界だった。彼の扱う魔法は、もはや“奇跡”と呼ばれる領域――。\r\nそれでもなお魔導には上があると信じ、彼は旅の途中で出会った奴隷の少女、アナスタシアとともに魔法学院の入学試験へと向かう。その前にたちはだかったのは、魔族屈指の魔術師にして名門学院の学長マーリン――400年を越えてなお、師であるエフタルを想い続ける“かつての弟子”だった。\r\n絶望から転生した賢者が、世界の常識を塗り替える。規格外の学院ファンタジー、開幕！\r\n",
+  "name": "落第賢者の学院無双～二度目の転生、Sランクチート魔術師冒険録～",
+  "name_cn": "落第贤者的学院无双～第二次转生的S级开外挂魔术师冒险录～",
+  "tags": [
+    {
+      "name": "2026年7月",
+      "count": 106,
+      "total_count": 19519
+    },
+    {
+      "name": "异世界",
+      "count": 83,
+      "total_count": 260472
+    },
+    {
+      "name": "TV",
+      "count": 73,
+      "total_count": 1396779
+    },
+    {
+      "name": "轻小说改",
+      "count": 69,
+      "total_count": 493930
+    },
+    {
+      "name": "奇幻",
+      "count": 46,
+      "total_count": 467684
+    },
+    {
+      "name": "后宫",
+      "count": 34,
+      "total_count": 301675
+    },
+    {
+      "name": "2026",
+      "count": 34,
+      "total_count": 40846
+    },
+    {
+      "name": "小说改",
+      "count": 33,
+      "total_count": 157940
+    },
+    {
+      "name": "转生",
+      "count": 32,
+      "total_count": 5381
+    },
+    {
+      "name": "校园",
+      "count": 32,
+      "total_count": 450599
+    },
+    {
+      "name": "日本",
+      "count": 30,
+      "total_count": 293394
+    },
+    {
+      "name": "穿越",
+      "count": 30,
+      "total_count": 62560
+    },
+    {
+      "name": "EMTスクエアード",
+      "count": 28,
+      "total_count": 747
+    },
+    {
+      "name": "战斗",
+      "count": 18,
+      "total_count": 468516
+    },
+    {
+      "name": "轻改",
+      "count": 10,
+      "total_count": 152134
+    },
+    {
+      "name": "厕纸",
+      "count": 7,
+      "total_count": 12049
+    },
+    {
+      "name": "龙傲天",
+      "count": 6,
+      "total_count": 39413
+    },
+    {
+      "name": "石井久志",
+      "count": 6,
+      "total_count": 54
+    },
+    {
+      "name": "三重野瞳",
+      "count": 4,
+      "total_count": 489
+    },
+    {
+      "name": "魔法",
+      "count": 4,
+      "total_count": 19943
+    },
+    {
+      "name": "EMT2",
+      "count": 3,
+      "total_count": 1695
+    },
+    {
+      "name": "涩涩",
+      "count": 3,
+      "total_count": 833
+    },
+    {
+      "name": "日本动画",
+      "count": 3,
+      "total_count": 34832
+    },
+    {
+      "name": "2026年6月",
+      "count": 2,
+      "total_count": 37
+    },
+    {
+      "name": "26夏",
+      "count": 2,
+      "total_count": 93
+    },
+    {
+      "name": "重生",
+      "count": 1,
+      "total_count": 917
+    },
+    {
+      "name": "正太",
+      "count": 1,
+      "total_count": 5291
+    },
+    {
+      "name": "一话弃",
+      "count": 1,
+      "total_count": 426
+    },
+    {
+      "name": "日本TV",
+      "count": 1,
+      "total_count": 344
+    },
+    {
+      "name": "天赋技能",
+      "count": 1,
+      "total_count": 5
+    }
+  ],
+  "infobox": [
+    {
+      "key": "中文名",
+      "value": "落第贤者的学院无双～第二次转生的S级开外挂魔术师冒险录～"
+    },
+    {
+      "key": "别名",
+      "value": [
+        {
+          "v": "Rakudai Kenja no Gakuin Musou: Nidome no Tensei, S-Rank Cheat Majutsushi Boukenroku"
+        },
+        {
+          "v": "落第贤者的学院无双～第二回转生，S等级作弊魔术师冒险记～"
+        }
+      ]
+    },
+    {
+      "key": "话数",
+      "value": "*"
+    },
+    {
+      "key": "放送开始",
+      "value": "2026年7月1日"
+    },
+    {
+      "key": "放送星期",
+      "value": "星期三"
+    },
+    {
+      "key": "官方网站",
+      "value": "https://rakudai-anime.com/"
+    },
+    {
+      "key": "播放电视台",
+      "value": "TOKYO MX"
+    },
+    {
+      "key": "其他电视台",
+      "value": "ABCテレビ / BSフジ"
+    },
+    {
+      "key": "导演",
+      "value": "石井久志"
+    },
+    {
+      "key": "音乐",
+      "value": "中橋孝晃、N組（仮）"
+    },
+    {
+      "key": "链接",
+      "value": [
+        {
+          "k": "X",
+          "v": "https://x.com/rakudai_anime"
+        }
+      ]
+    },
+    {
+      "key": "其他",
+      "value": "2026年6月25日ABEMA6日先行"
+    },
+    {
+      "key": "Copyright",
+      "value": "©白石新・けんたろう・魚デニム／SQUARE ENIX・「落第賢者の学院無双～二度目の転生、Sランクチート魔術師冒険録～」製作委員会"
+    },
+    {
+      "key": "原作",
+      "value": "白石新；漫画：けんたろう"
+    },
+    {
+      "key": "人物设定",
+      "value": "古川英樹"
+    },
+    {
+      "key": "副人物设定",
+      "value": "栗田聡美、小林雅和、真村躍"
+    },
+    {
+      "key": "怪物设计",
+      "value": "真村躍"
+    },
+    {
+      "key": "道具设计",
+      "value": "古川英樹、わたなべさとみ、鴨宮弘樹"
+    },
+    {
+      "key": "色彩设计",
+      "value": "鈴木咲絵"
+    },
+    {
+      "key": "摄影监督",
+      "value": "朝日康平、並木智"
+    },
+    {
+      "key": "製作",
+      "value": "「落第賢者の学院無双～二度目の転生、Sランクチート魔術師冒険録～」製作委員会（ABCアニメーション、NBCユニバーサル・エンターテイメント、ディ・テクノ、スクウェア・エニックス、arma bianca、WOWOW、 ビットグルーヴプロモーション、BSフジ、EMTスクエアード、ジュドー、クロックワークス）"
+    },
+    {
+      "key": "企画",
+      "value": "森好文、許樹人、市原寛之、松浦克義、坂井智成、二宮崇昌、福井詔雄、臼井裕詞、宮本秀晃、武智恒雄"
+    },
+    {
+      "key": "总制片人",
+      "value": "町田有也、日野亮、鮫島正太"
+    },
+    {
+      "key": "制片人",
+      "value": "小林大介、村上貴志、宮本和紀、落合剛、砂子坂光希、片桐大輔、中村暢、大森慎司、川人憲治郎、くまくらたかあき、渡邉日向子"
+    },
+    {
+      "key": "助理制片人",
+      "value": "松本彩乃、篠崎友美、山口舞"
+    },
+    {
+      "key": "宣传制片人",
+      "value": "杉本美佳"
+    },
+    {
+      "key": "宣传协力",
+      "value": "木村康貴、SCHNEID（伊藤美奈、田中希実、庭田佳奈）"
+    },
+    {
+      "key": "动画制片人",
+      "value": "近藤泰介"
+    },
+    {
+      "key": "制作管理",
+      "value": "制作担当：金汎叙"
+    },
+    {
+      "key": "设定制作",
+      "value": "大田陽和"
+    },
+    {
+      "key": "文艺制作",
+      "value": "文艺担当：藤本冴香"
+    },
+    {
+      "key": "制作进行",
+      "value": "山岸雄、吉田和幸、李智、前田将希"
+    },
+    {
+      "key": "音效",
+      "value": "猪俣泰史"
+    },
+    {
+      "key": "录音",
+      "value": "安田舞"
+    },
+    {
+      "key": "录音助理",
+      "value": "菊池友紀"
+    },
+    {
+      "key": "录音工作室",
+      "value": "タバック"
+    },
+    {
+      "key": "音响",
+      "value": "ビットグルーヴプロモーション"
+    },
+    {
+      "key": "音响制作担当",
+      "value": "鈴木拓也"
+    },
+    {
+      "key": "在线剪辑",
+      "value": "グッド・ジョブTOKYO（安田奈土樹、幡多良美）"
+    },
+    {
+      "key": "离线剪辑",
+      "value": "山岸歩奈実"
+    },
+    {
+      "key": "摄影",
+      "value": "T2 Studio（朝日康平、並木智、福島敏行、小田野晶人、佐藤陽一郎、朴昌善、飯島蓮）"
+    },
+    {
+      "key": "背景美术",
+      "value": "梶原芳郎、平澤真紀子、パルサーデザイン（徳田俊之）、アートスタジオ・ザオ（平栁悟）、FSE"
+    },
+    {
+      "key": "3DCG",
+      "value": "CGワークス：EMT2 CG部[EMTスクエアード]"
+    },
+    {
+      "key": "3D 动画师",
+      "value": "岡恭生"
+    },
+    {
+      "key": "CG 制作进行",
+      "value": "山口香鳳"
+    },
+    {
+      "key": "2D 设计",
+      "value": "柴田渉"
+    },
+    {
+      "key": "OP・ED 分镜",
+      "value": "平川哲生 / 倉嶋丈康"
+    },
+    {
+      "key": "OP・ED 演出",
+      "value": "平川哲生 / 石井久志"
+    },
+    {
+      "key": "主题歌演出",
+      "value": "FLOW / TrySail"
+    },
+    {
+      "key": "主题歌作词",
+      "value": "KOHSHI ASAKAWA / sabio"
+    },
+    {
+      "key": "主题歌作曲",
+      "value": "TAKESHI ASAKAWA / sabio"
+    },
+    {
+      "key": "主题歌编曲",
+      "value": "FLOW / sabio"
+    },
+    {
+      "key": "音乐制作",
+      "value": "ジュドー"
+    }
+  ],
+  "rating": {
+    "rank": 9926,
+    "total": 245,
+    "count": {
+      "1": 9,
+      "2": 17,
+      "3": 28,
+      "4": 58,
+      "5": 78,
+      "6": 42,
+      "7": 9,
+      "8": 1,
+      "9": 1,
+      "10": 2
+    },
+    "score": 4.5
+  },
+  "total_episodes": 12,
+  "collection": {
+    "on_hold": 37,
+    "dropped": 117,
+    "wish": 313,
+    "collect": 53,
+    "doing": 1155
+  },
+  "id": 630163,
+  "eps": 0,
+  "meta_tags": [
+    "校园",
+    "TV",
+    "日本",
+    "奇幻",
+    "穿越",
+    "小说改"
+  ],
+  "volumes": 0,
+  "series": false,
+  "locked": false,
+  "nsfw": false,
+  "type": 2
+}

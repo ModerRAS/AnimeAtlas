@@ -1,0 +1,114 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/a8/c9/214581_732qq.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/a8/c9/214581_732qq.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/a8/c9/214581_732qq.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/a8/c9/214581_732qq.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/a8/c9/214581_732qq.jpg"
+    },
+    "name": "グノーシア",
+    "name_cn": "古诺希亚",
+    "relation": "游戏",
+    "type": 4,
+    "id": 214581
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/c7/62/595694_fCXna.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/c7/62/595694_fCXna.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/c7/62/595694_fCXna.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/c7/62/595694_fCXna.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/c7/62/595694_fCXna.jpg"
+    },
+    "name": "化けの皮 (feat. こぼ・かなえる, 重音テト, Giga & TeddyLoid)",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 595694
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/1e/8f/596091_179Wx.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/1e/8f/596091_179Wx.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/1e/8f/596091_179Wx.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/1e/8f/596091_179Wx.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/1e/8f/596091_179Wx.jpg"
+    },
+    "name": "Love Me☆Liar!",
+    "name_cn": "",
+    "relation": "角色歌",
+    "type": 3,
+    "id": 596091
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/ab/a1/608690_ciwDt.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/ab/a1/608690_ciwDt.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/ab/a1/608690_ciwDt.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/ab/a1/608690_ciwDt.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/ab/a1/608690_ciwDt.jpg"
+    },
+    "name": "GNOSIA RADIO",
+    "name_cn": "",
+    "relation": "衍生",
+    "type": 6,
+    "id": 608690
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/df/d5/630147_rigRF.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/df/d5/630147_rigRF.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/df/d5/630147_rigRF.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/df/d5/630147_rigRF.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/df/d5/630147_rigRF.jpg"
+    },
+    "name": "TVアニメ「グノーシア」オリジナルサウンドトラック",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 630147
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/3e/c8/635371_WBKwB.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/3e/c8/635371_WBKwB.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/3e/c8/635371_WBKwB.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/3e/c8/635371_WBKwB.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/3e/c8/635371_WBKwB.jpg"
+    },
+    "name": "グノーシア　ザ・ライブプレイングシアター",
+    "name_cn": "",
+    "relation": "三次元",
+    "type": 6,
+    "id": 635371
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/89/cf/585020_DbP5c.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/89/cf/585020_DbP5c.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/89/cf/585020_DbP5c.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/89/cf/585020_DbP5c.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/89/cf/585020_DbP5c.jpg"
+    },
+    "name": "Lost God of SASORI",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 585020
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/64/eb/626318_6hu07.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/64/eb/626318_6hu07.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/64/eb/626318_6hu07.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/64/eb/626318_6hu07.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/64/eb/626318_6hu07.jpg"
+    },
+    "name": "FLOOR KILLER feat. Cosaqu & KennyDoes & テークエム & peko & KOPERU",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 626318
+  }
+]

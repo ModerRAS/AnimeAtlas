@@ -1,0 +1,8 @@
+{
+  "$schema": "../../packages/schema/schemas/series-identity.schema.json",
+  "schema": "series-identity/v2",
+  "id": "series-000064",
+  "kind": "anime-series",
+  "title": "Re:ゼロから始める異世界生活",
+  "relationships": []
+}

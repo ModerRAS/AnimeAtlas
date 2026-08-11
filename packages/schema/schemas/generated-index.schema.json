@@ -1,37 +1,50 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://animeatlas.dev/schemas/generated-index/v1.json",
+  "$id": "https://animeatlas.dev/schemas/generated-index.json",
   "title": "AnimeAtlas Generated Index",
   "oneOf": [
-    { "$ref": "#/$defs/stringIndex" },
-    { "$ref": "#/$defs/stringArrayIndex" }
+    { "$ref": "#/$defs/mediaStringIndex" },
+    { "$ref": "#/$defs/mediaArrayIndex" },
+    { "$ref": "#/$defs/episodeArrayIndex" }
   ],
   "$defs": {
-    "stringIndex": {
+    "mediaStringIndex": {
       "type": "object",
       "additionalProperties": false,
       "required": ["schema", "entries"],
       "properties": {
-        "schema": {
-          "enum": ["generated-alias-index/v1", "generated-provider-id-index/v1"]
-        },
-        "entries": {
-          "type": "object",
-          "additionalProperties": { "type": "string", "pattern": "^media-[0-9]{6}$" }
-        }
+        "schema": { "enum": ["generated-alias-index/v1", "generated-provider-id-index/v1"] },
+        "entries": { "type": "object", "additionalProperties": { "type": "string", "pattern": "^media-[0-9]{6}$" } }
       }
     },
-    "stringArrayIndex": {
+    "mediaArrayIndex": {
       "type": "object",
       "additionalProperties": false,
       "required": ["schema", "entries"],
       "properties": {
-        "schema": { "const": "generated-search-index/v1" },
+        "schema": { "enum": ["generated-search-index/v1", "generated-alias-candidates/v2"] },
         "entries": {
           "type": "object",
           "additionalProperties": {
             "type": "array",
+            "uniqueItems": true,
             "items": { "type": "string", "pattern": "^media-[0-9]{6}$" }
+          }
+        }
+      }
+    },
+    "episodeArrayIndex": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["schema", "entries"],
+      "properties": {
+        "schema": { "const": "generated-episode-number-index/v2" },
+        "entries": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "array",
+            "uniqueItems": true,
+            "items": { "type": "string", "pattern": "^episode-[0-9]{6}$" }
           }
         }
       }

@@ -1,0 +1,8 @@
+{
+  "$schema": "../../packages/schema/schemas/series-identity.schema.json",
+  "schema": "series-identity/v2",
+  "id": "series-000058",
+  "kind": "anime-series",
+  "title": "とんがり帽子のアトリエ",
+  "relationships": []
+}

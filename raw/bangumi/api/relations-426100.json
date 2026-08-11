@@ -1,0 +1,114 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/42/e9/7159_RmkTk.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/42/e9/7159_RmkTk.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/42/e9/7159_RmkTk.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/42/e9/7159_RmkTk.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/42/e9/7159_RmkTk.jpg"
+    },
+    "name": "TRIGUN",
+    "name_cn": "枪神",
+    "relation": "不同演绎",
+    "type": 2,
+    "id": 7159
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/2f/46/10764_saYZw.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/2f/46/10764_saYZw.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/2f/46/10764_saYZw.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/2f/46/10764_saYZw.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/2f/46/10764_saYZw.jpg"
+    },
+    "name": "トライガン・マキシマム",
+    "name_cn": "枪神 MAXIMUM",
+    "relation": "书籍",
+    "type": 1,
+    "id": 10764
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/47/98/388170_3O3ht.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/47/98/388170_3O3ht.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/47/98/388170_3O3ht.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/47/98/388170_3O3ht.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/47/98/388170_3O3ht.jpg"
+    },
+    "name": "TRIGUN STAMPEDE",
+    "name_cn": "枪神 斯坦比特",
+    "relation": "前传",
+    "type": 2,
+    "id": 388170
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/2b/32/622521_TTjg4.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/2b/32/622521_TTjg4.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/2b/32/622521_TTjg4.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/2b/32/622521_TTjg4.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/2b/32/622521_TTjg4.jpg"
+    },
+    "name": "ピカレスクヒーロー",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 622521
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/ba/0a/622523_B55BB.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/ba/0a/622523_B55BB.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/ba/0a/622523_B55BB.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/ba/0a/622523_B55BB.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/ba/0a/622523_B55BB.jpg"
+    },
+    "name": "スターダスト",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 622523
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/84/08/638455_yJBYq.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/84/08/638455_yJBYq.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/84/08/638455_yJBYq.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/84/08/638455_yJBYq.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/84/08/638455_yJBYq.jpg"
+    },
+    "name": "「TRIGUN STARGAZE」Original Soundtrack 1",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 638455
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/5f/30/638456_1mdo2.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/5f/30/638456_1mdo2.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/5f/30/638456_1mdo2.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/5f/30/638456_1mdo2.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/5f/30/638456_1mdo2.jpg"
+    },
+    "name": "「TRIGUN STARGAZE」Original Soundtrack 2",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 638456
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/a9/f3/638461_KU64h.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/a9/f3/638461_KU64h.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/a9/f3/638461_KU64h.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/a9/f3/638461_KU64h.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/a9/f3/638461_KU64h.jpg"
+    },
+    "name": "「TRIGUN STARGAZE」Selection Soundtrack",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 638461
+  }
+]

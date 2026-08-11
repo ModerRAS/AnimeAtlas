@@ -1,0 +1,86 @@
+[
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/e2/79/187871_i33v3.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/e2/79/187871_i33v3.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/e2/79/187871_i33v3.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/e2/79/187871_i33v3.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/e2/79/187871_i33v3.jpg"
+    },
+    "name": "とんがり帽子のアトリエ",
+    "name_cn": "尖帽子的魔法工房",
+    "relation": "书籍",
+    "type": 1,
+    "id": 187871
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/4a/a1/636206_CFOB9.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/4a/a1/636206_CFOB9.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/4a/a1/636206_CFOB9.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/4a/a1/636206_CFOB9.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/4a/a1/636206_CFOB9.jpg"
+    },
+    "name": "ただ美しい呪い",
+    "name_cn": "",
+    "relation": "片尾曲",
+    "type": 3,
+    "id": 636206
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/4c/bc/640032_5Ud85.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/4c/bc/640032_5Ud85.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/4c/bc/640032_5Ud85.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/4c/bc/640032_5Ud85.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/4c/bc/640032_5Ud85.jpg"
+    },
+    "name": "風のアンセム (feat. suis from ヨルシカ)",
+    "name_cn": "",
+    "relation": "片头曲",
+    "type": 3,
+    "id": 640032
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/83/6c/640038_QXtxY.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/83/6c/640038_QXtxY.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/83/6c/640038_QXtxY.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/83/6c/640038_QXtxY.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/83/6c/640038_QXtxY.jpg"
+    },
+    "name": "TVアニメ「とんがり帽子のアトリエ」 オリジナルサウンドトラック",
+    "name_cn": "",
+    "relation": "原声集",
+    "type": 3,
+    "id": 640038
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/cd/ee/645346_bKwGp.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/cd/ee/645346_bKwGp.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/cd/ee/645346_bKwGp.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/cd/ee/645346_bKwGp.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/cd/ee/645346_bKwGp.jpg"
+    },
+    "name": "風のアンセム feat. suis from ヨルシカ",
+    "name_cn": "",
+    "relation": "其他",
+    "type": 2,
+    "id": 645346
+  },
+  {
+    "images": {
+      "small": "https://lain.bgm.tv/r/200/pic/cover/l/c5/80/664690_62q2u.jpg",
+      "grid": "https://lain.bgm.tv/r/100/pic/cover/l/c5/80/664690_62q2u.jpg",
+      "large": "https://lain.bgm.tv/pic/cover/l/c5/80/664690_62q2u.jpg",
+      "medium": "https://lain.bgm.tv/r/800/pic/cover/l/c5/80/664690_62q2u.jpg",
+      "common": "https://lain.bgm.tv/r/400/pic/cover/l/c5/80/664690_62q2u.jpg"
+    },
+    "name": "とんがり帽子のアトリエ 第2期",
+    "name_cn": "尖帽子的魔法工房 第二季",
+    "relation": "续集",
+    "type": 2,
+    "id": 664690
+  }
+]

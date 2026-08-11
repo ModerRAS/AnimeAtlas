@@ -1,0 +1,8 @@
+{
+  "$schema": "../../packages/schema/schemas/series-identity.schema.json",
+  "schema": "series-identity/v2",
+  "id": "series-000082",
+  "kind": "anime-series",
+  "title": "DIGIMON BEATBREAK",
+  "relationships": []
+}

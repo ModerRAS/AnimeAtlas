@@ -1,0 +1,8 @@
+{
+  "$schema": "../../packages/schema/schemas/series-identity.schema.json",
+  "schema": "series-identity/v2",
+  "id": "series-000084",
+  "kind": "anime-series",
+  "title": "灰原くんの強くて青春ニューゲーム",
+  "relationships": []
+}
