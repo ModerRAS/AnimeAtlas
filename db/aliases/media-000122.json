@@ -1,0 +1,14 @@
+{
+  "$schema": "../../packages/schema/schemas/media-aliases.schema.json",
+  "aliases": [
+    {
+      "confidence": 0.9,
+      "language": "en",
+      "source": "community",
+      "type": "official",
+      "value": "Fire Force 3rd Season Part 2"
+    }
+  ],
+  "media_id": "media-000122",
+  "schema": "media-aliases/v1"
+}

@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 158,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/158"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "en",
+      "source": "community",
+      "type": "official",
+      "value": "SPY×FAMILY Season 3"
+    },
+    "evidence_url": "https://bgm.tv/subject/498378",
+    "notes": "Observed in `S:\\动漫\\SPY×FAMILY\\Season 3`; global episodes 38-50. Library series id=278. Verified against the public Bangumi API; submit through the contribution workflow rather than editing catalog data directly.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "498378",
+      "provider": "bangumi"
+    },
+    "title": "SPY×FAMILY Season 3",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-02T09:28:15Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 177,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/177"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Yozakurasan Chi no Daisakusen"
+    },
+    "evidence_url": "https://bgm.tv/subject/517027",
+    "notes": "Corrected: the local release folder holds global episodes 28-39 (Season 2), not Season 1. Season 1 (411276, media-000055) already has the hyphenated `Yozakura-san` alias; this issue adds the Season 2 media with the non-hyphenated romaji release spelling.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "517027",
+      "provider": "bangumi"
+    },
+    "title": "夜桜さんちの大作戦 第2期",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-02T09:28:55Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

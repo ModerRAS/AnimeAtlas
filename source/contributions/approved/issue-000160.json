@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 160,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/160"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "en",
+      "source": "community",
+      "type": "official",
+      "value": "One Punch Man Season 3"
+    },
+    "evidence_url": "https://bgm.tv/subject/285757",
+    "notes": "Observed in `S:\\动漫\\One Punch Man\\Season 3`; episodes 1-12. Library series id=280. Verified against the public Bangumi API; submit through the contribution workflow rather than editing catalog data directly.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "285757",
+      "provider": "bangumi"
+    },
+    "title": "ワンパンマン 第3期",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-02T09:28:20Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

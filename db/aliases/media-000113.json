@@ -1,0 +1,14 @@
+{
+  "$schema": "../../packages/schema/schemas/media-aliases.schema.json",
+  "aliases": [
+    {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Seishun Buta Yarou wa Santa Claus no Yume wo Minai"
+    }
+  ],
+  "media_id": "media-000113",
+  "schema": "media-aliases/v1"
+}

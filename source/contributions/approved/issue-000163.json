@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 163,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/163"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "en",
+      "source": "community",
+      "type": "official",
+      "value": "My Hero Academia Vigilantes Season 2"
+    },
+    "evidence_url": "https://bgm.tv/subject/567417",
+    "notes": "Observed in the local folder with global episodes 14-26, the second season. Library series id=283. Verified against the public Bangumi API; submit through the contribution workflow rather than editing catalog data directly.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "567417",
+      "provider": "bangumi"
+    },
+    "title": "ヴィジランテ -僕のヒーローアカデミア ILLEGALS- 第2期",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-02T09:28:26Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

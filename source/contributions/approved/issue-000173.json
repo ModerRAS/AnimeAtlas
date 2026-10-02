@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 173,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/173"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "en",
+      "source": "community",
+      "type": "official",
+      "value": "Crayon Shin-chan the Movie：Super Magificent! Scorching Kasukabe Dancers"
+    },
+    "evidence_url": "https://bgm.tv/subject/528635",
+    "notes": "Observed as the local movie file. Library series id=298. Verified against the public Bangumi API; submit through the contribution workflow rather than editing catalog data directly.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "528635",
+      "provider": "bangumi"
+    },
+    "title": "クレヨンしんちゃん 超華麗！灼熱のカスカベダンサーズ",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-02T09:28:53Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

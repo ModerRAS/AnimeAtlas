@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 154,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/154"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Seishun Buta Yarou wa Santa Claus no Yume wo Minai"
+    },
+    "evidence_url": "https://bgm.tv/subject/467930",
+    "notes": "Observed in the exact local release folder; episodes 4-13. Library series id=272. Verified against the public Bangumi API; submit through the contribution workflow rather than editing catalog data directly.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "467930",
+      "provider": "bangumi"
+    },
+    "title": "青春ブタ野郎はサンタクロースの夢を見ない",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-02T09:28:08Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

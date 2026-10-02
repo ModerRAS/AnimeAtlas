@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 171,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/171"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "劇場版 我與機器子"
+    },
+    "evidence_url": "https://bgm.tv/subject/441940",
+    "notes": "Observed as the local movie file; filename also contains Me & Roboco the Movie. Library series id=296. Verified against the public Bangumi API; submit through the contribution workflow rather than editing catalog data directly.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "441940",
+      "provider": "bangumi"
+    },
+    "title": "劇場版 僕とロボコ",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-02T09:28:48Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

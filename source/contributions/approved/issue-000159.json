@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 159,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/159"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Ansatsusha de Aru Ore no Status ga Yuusha yori mo Akiraka ni Tsuyoi no da ga"
+    },
+    "evidence_url": "https://bgm.tv/subject/537904",
+    "notes": "Observed in the exact local release folder; episodes 1-12. Library series id=279. Verified against the public Bangumi API; submit through the contribution workflow rather than editing catalog data directly.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "537904",
+      "provider": "bangumi"
+    },
+    "title": "暗殺者である俺のステータスが勇者よりも明らかに強いのだが",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-02T09:28:18Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

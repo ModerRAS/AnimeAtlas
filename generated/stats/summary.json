@@ -1,13 +1,13 @@
 {
   "counts": {
-    "alias_records": 110,
-    "aliases": 359,
+    "alias_records": 131,
+    "aliases": 380,
     "ambiguous_aliases": 17,
     "episode_number_keys": 3460,
-    "media": 110,
-    "metadata_records": 110,
-    "provider_refs": 112,
-    "search_terms": 859
+    "media": 131,
+    "metadata_records": 131,
+    "provider_refs": 133,
+    "search_terms": 979
   },
   "schema": "generated-stats/v1"
 }

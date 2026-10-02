@@ -1,0 +1,14 @@
+{
+  "$schema": "../../packages/schema/schemas/media-aliases.schema.json",
+  "aliases": [
+    {
+      "confidence": 0.9,
+      "language": "und",
+      "source": "community",
+      "type": "alternative",
+      "value": "IDOLiSH7 - 偶像星願 - First BEAT！ 劇場版總集篇 前篇"
+    }
+  ],
+  "media_id": "media-000127",
+  "schema": "media-aliases/v1"
+}

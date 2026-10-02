@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 170,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/170"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "und",
+      "source": "community",
+      "type": "alternative",
+      "value": "IDOLiSH7 - 偶像星願 - First BEAT！ 劇場版總集篇 前篇"
+    },
+    "evidence_url": "https://bgm.tv/subject/534907",
+    "notes": "Observed as the local front-half compilation movie. Library series id=295. Verified against the public Bangumi API; submit through the contribution workflow rather than editing catalog data directly.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "534907",
+      "provider": "bangumi"
+    },
+    "title": "アイドリッシュセブン First BEAT! 劇場総集編 前編",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-02T09:28:45Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

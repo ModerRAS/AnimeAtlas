@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 167,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/167"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "en",
+      "source": "community",
+      "type": "official",
+      "value": "Marriage Toxin"
+    },
+    "evidence_url": "https://bgm.tv/subject/590353",
+    "notes": "Observed in the exact local release folder; episodes 1-13. Library series id=288. Verified against the public Bangumi API; submit through the contribution workflow rather than editing catalog data directly.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "590353",
+      "provider": "bangumi"
+    },
+    "title": "マリッジトキシン",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-02T09:28:37Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

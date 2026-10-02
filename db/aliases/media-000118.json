@@ -1,0 +1,14 @@
+{
+  "$schema": "../../packages/schema/schemas/media-aliases.schema.json",
+  "aliases": [
+    {
+      "confidence": 0.9,
+      "language": "en",
+      "source": "community",
+      "type": "official",
+      "value": "One Punch Man Season 3"
+    }
+  ],
+  "media_id": "media-000118",
+  "schema": "media-aliases/v1"
+}
