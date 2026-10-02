@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 143,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/143"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "en",
+      "source": "community",
+      "type": "official",
+      "value": "[One Piece]"
+    },
+    "evidence_url": "https://bgm.tv/subject/975",
+    "notes": "Observed in `S:\\动漫\\[One Piece]\\Season 1`; local episodes are global 1137-1175. Library series id=259. Verified against the public Bangumi API; submit through the contribution workflow rather than editing catalog data directly.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "975",
+      "provider": "bangumi"
+    },
+    "title": "ONE PIECE",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-02T09:27:46Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

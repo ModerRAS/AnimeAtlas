@@ -1,0 +1,25 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 147,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/147"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "en",
+      "source": "community",
+      "type": "official",
+      "value": "Daemons of the Shadow Realm"
+    },
+    "evidence_url": "https://bgm.tv/subject/568572",
+    "media_id": "media-000104",
+    "notes": "The local library entry `Daemons of the Shadow Realm` (24 files) stays unmatched. Media for 黄泉のツガイ (bangumi 568572) now exists as media-000104 (created by issue #179); this adds the English release title as an alias instead of re-creating the media.",
+    "type": "add_alias"
+  },
+  "review": {
+    "approved_at": "2026-10-02T09:27:52Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

@@ -3,19 +3,12 @@
   "aliases": [
     {
       "confidence": 0.9,
-      "language": "ja-Latn",
-      "source": "community",
-      "type": "romaji",
-      "value": "Yomi no Tsugai"
-    },
-    {
-      "confidence": 0.9,
       "language": "en",
       "source": "community",
       "type": "official",
-      "value": "Daemons of the Shadow Realm"
+      "value": "DAN DA DAN"
     }
   ],
-  "media_id": "media-000104",
+  "media_id": "media-000110",
   "schema": "media-aliases/v1"
 }

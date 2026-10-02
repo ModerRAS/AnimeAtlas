@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 149,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/149"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "魔法光源股份有限公司 第二季"
+    },
+    "evidence_url": "https://bgm.tv/subject/529723",
+    "notes": "Observed in `S:\\动漫\\魔法光源股份有限公司\\Season 2`; episodes 1-7. Library series id=266. Verified against the public Bangumi API; submit through the contribution workflow rather than editing catalog data directly.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "529723",
+      "provider": "bangumi"
+    },
+    "title": "株式会社マジルミエ 第2期",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-02T09:27:57Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}
