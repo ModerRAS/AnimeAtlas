@@ -1,0 +1,62 @@
+{
+  "changes": [
+    {
+      "alias": {
+        "confidence": 1,
+        "language": "und",
+        "source": "community",
+        "type": "alternative",
+        "value": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen 4th Season"
+      },
+      "media_id": "media-000052",
+      "type": "add_media_alias"
+    }
+  ],
+  "issue": {
+    "author": "ModerRAS",
+    "number": 181,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/181"
+  },
+  "observation": {
+    "alias": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen 4th Season",
+    "example": "Honzuki no Gekokujou S04/[BeanSub] Honzuki no Gekokujou S04 - 01 [1080P].mp4",
+    "notes": "Local audit: this long romanized title mis-matched to an unrelated Azur Lane music video (score 0.76), while the Chinese title 小書痴的下剋上 為了成為圖書管理員不擇手段！領主的養女 resolves correctly (0.96) to media-000052. The romaji long form needs an alias.",
+    "parsed_installment": {
+      "season": 4
+    },
+    "parser": {
+      "input": "Honzuki no Gekokujou S04/[BeanSub] Honzuki no Gekokujou S04 - 01 [1080P].mp4",
+      "model": "ModerRAS/AniFileBERT",
+      "revision": "d8ddb0b54dad4d65a60ab7eba5acb06a2a1fab02",
+      "season_raw": "04",
+      "title_candidates": [
+        {
+          "confidence": 0.999999,
+          "label": "TITLE_LATIN",
+          "source": "file",
+          "span": [
+            0,
+            20
+          ],
+          "text": "Honzuki no Gekokujou"
+        }
+      ]
+    }
+  },
+  "review": {
+    "approved_at": "2026-10-02T09:14:18Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v2",
+  "target": {
+    "installment": {},
+    "media_id": "media-000052",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "469104",
+      "provider": "bangumi"
+    },
+    "series_id": "series-000052",
+    "title": "本好きの下剋上～司書になるためには手段を選んでいられません～ 領主の養女"
+  }
+}

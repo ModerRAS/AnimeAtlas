@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 180,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/180"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Tsue to Tsurugi no Wistoria Season 2"
+    },
+    "evidence_url": "https://bgm.tv/subject/515856",
+    "notes": "Release folder: `[Nekomoe kissaten&LoliHouse] Tsue to Tsurugi no Wistoria [13-24][WebRip 1080p HEVC-10bit AAC]` (episodes 13-24 = Season 2). The bare romaji alias `Tsue to Tsurugi no Wistoria` already exists on media-000060 (Season 1), so this issue adds the Season 2 media with a season-qualified alias. Catalog currently has no media for bangumi 515856.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "515856",
+      "provider": "bangumi"
+    },
+    "title": "杖と剣のウィストリア Season 2",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-02T09:18:55Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

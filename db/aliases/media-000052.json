@@ -16,18 +16,25 @@
       "value": "Honzuki no Gekokujou S4"
     },
     {
-      "value": "本好きの下剋上～司書になるためには手段を選んでいられません～ 領主の養女",
+      "confidence": 0.98,
       "language": "ja",
-      "type": "official",
       "source": "bangumi",
-      "confidence": 0.98
+      "type": "official",
+      "value": "本好きの下剋上～司書になるためには手段を選んでいられません～ 領主の養女"
     },
     {
-      "value": "小书痴的下克上 〜为了成为图书管理员而不择手段〜 领主的养女",
+      "confidence": 0.98,
       "language": "zh-Hans",
-      "type": "localized",
       "source": "bangumi",
-      "confidence": 0.98
+      "type": "localized",
+      "value": "小书痴的下克上 〜为了成为图书管理员而不择手段〜 领主的养女"
+    },
+    {
+      "confidence": 1,
+      "language": "und",
+      "source": "community",
+      "type": "alternative",
+      "value": "Honzuki no Gekokujou: Shisho ni Naru Tame ni wa Shudan wo Erandeiraremasen 4th Season"
     }
   ],
   "media_id": "media-000052",
