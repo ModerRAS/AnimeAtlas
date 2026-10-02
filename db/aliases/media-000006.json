@@ -9,18 +9,25 @@
       "value": "我的英雄學院 FINAL SEASON"
     },
     {
-      "value": "僕のヒーローアカデミア FINAL SEASON",
+      "confidence": 0.98,
       "language": "ja",
-      "type": "official",
       "source": "bangumi",
-      "confidence": 0.98
+      "type": "official",
+      "value": "僕のヒーローアカデミア FINAL SEASON"
     },
     {
-      "value": "我的英雄学院 最终季",
+      "confidence": 0.98,
       "language": "zh-Hans",
-      "type": "localized",
       "source": "bangumi",
-      "confidence": 0.98
+      "type": "localized",
+      "value": "我的英雄学院 最终季"
+    },
+    {
+      "confidence": 1,
+      "language": "und",
+      "source": "community",
+      "type": "alternative",
+      "value": "Boku no Hero Academia Final Season"
     }
   ],
   "media_id": "media-000006",

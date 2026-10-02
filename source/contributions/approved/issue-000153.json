@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 153,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/153"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Kaijuu 8 gou"
+    },
+    "evidence_url": "https://bgm.tv/subject/501844",
+    "notes": "Observed in the local folder with episodes 16-24, which are the second season. Library series id=271. Verified against the public Bangumi API; submit through the contribution workflow rather than editing catalog data directly.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "501844",
+      "provider": "bangumi"
+    },
+    "title": "怪獣8号 第2期",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-02T09:13:56Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

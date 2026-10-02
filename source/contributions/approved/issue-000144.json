@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 144,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/144"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "en",
+      "source": "community",
+      "type": "official",
+      "value": "Backstabbed in a Backwater Dungeon (My Gift Lvl 9999 Unlimited Gacha)"
+    },
+    "evidence_url": "https://bgm.tv/subject/524195",
+    "notes": "Observed in the exact local release folder; episodes 1-12. Library series id=276. Verified against the public Bangumi API; submit through the contribution workflow rather than editing catalog data directly.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "524195",
+      "provider": "bangumi"
+    },
+    "title": "信じていた仲間達にダンジョン奥地で殺されかけたがギフト『無限ガチャ』でレベル9999の仲間達を手に入れて元パーティーメンバーと世界に復讐＆『ざまぁ！』します！",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-02T09:13:51Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

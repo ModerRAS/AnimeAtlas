@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 145,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/145"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "en",
+      "source": "community",
+      "type": "official",
+      "value": "The World's Strongest Rearguard：Labyrinth Country's Novice Seeker"
+    },
+    "evidence_url": "https://bgm.tv/subject/583862",
+    "notes": "Observed in the exact local release folder; episodes 1-8. Library series id=261. Verified against the public Bangumi API; submit through the contribution workflow rather than editing catalog data directly.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "583862",
+      "provider": "bangumi"
+    },
+    "title": "世界最強の後衛 ～迷宮国の新人探索者～",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-02T09:13:53Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

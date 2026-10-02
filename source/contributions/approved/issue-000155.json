@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 155,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/155"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "en",
+      "source": "community",
+      "type": "official",
+      "value": "Witch Watch"
+    },
+    "evidence_url": "https://bgm.tv/subject/506672",
+    "notes": "Observed in the exact local release folder; episodes 17-25. Library series id=273. Verified against the public Bangumi API; submit through the contribution workflow rather than editing catalog data directly.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "506672",
+      "provider": "bangumi"
+    },
+    "title": "ウィッチウォッチ",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-02T09:13:59Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

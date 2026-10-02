@@ -1,0 +1,14 @@
+{
+  "$schema": "../../packages/schema/schemas/media-aliases.schema.json",
+  "aliases": [
+    {
+      "confidence": 0.9,
+      "language": "en",
+      "source": "community",
+      "type": "official",
+      "value": "Backstabbed in a Backwater Dungeon (My Gift Lvl 9999 Unlimited Gacha)"
+    }
+  ],
+  "media_id": "media-000098",
+  "schema": "media-aliases/v1"
+}

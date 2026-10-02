@@ -1,0 +1,50 @@
+{
+  "$schema": "../../packages/schema/schemas/media-metadata.schema.json",
+  "_meta": {
+    "fields": {
+      "metadata.episode_count": {
+        "last_sync": "2026-10-02T09:14:01Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "445905",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      },
+      "metadata.runtime": {
+        "last_sync": "2026-10-02T09:14:01Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "445905",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      },
+      "metadata.title": {
+        "last_sync": "2026-10-02T09:14:01Z",
+        "provider_ref": {
+          "entity": "subject",
+          "id": "445905",
+          "provider": "bangumi"
+        },
+        "rule": "approved issue contribution",
+        "source": "bangumi",
+        "source_field": "issue"
+      }
+    },
+    "last_sync": {
+      "bangumi": "2026-10-02T09:14:01Z"
+    }
+  },
+  "media_id": "media-000102",
+  "metadata": {
+    "episode_count": 0,
+    "runtime": 0,
+    "title": "勇者刑に処す 懲罰勇者9004隊刑務記録"
+  },
+  "schema": "media-metadata/v1"
+}

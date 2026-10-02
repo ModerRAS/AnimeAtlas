@@ -1,0 +1,14 @@
+{
+  "$schema": "../../packages/schema/schemas/media-aliases.schema.json",
+  "aliases": [
+    {
+      "confidence": 0.9,
+      "language": "en",
+      "source": "community",
+      "type": "official",
+      "value": "The World's Strongest Rearguard：Labyrinth Country's Novice Seeker"
+    }
+  ],
+  "media_id": "media-000099",
+  "schema": "media-aliases/v1"
+}

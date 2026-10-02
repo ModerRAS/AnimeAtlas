@@ -1,0 +1,61 @@
+{
+  "changes": [
+    {
+      "alias": {
+        "confidence": 1,
+        "language": "und",
+        "source": "community",
+        "type": "alternative",
+        "value": "Clevatess Ⅱ -Majuu no Ou to Akago to Shikabane no Yuusha Denshou-"
+      },
+      "media_id": "media-000083",
+      "type": "add_media_alias"
+    }
+  ],
+  "issue": {
+    "author": "ModerRAS",
+    "number": 175,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/175"
+  },
+  "observation": {
+    "alias": "Clevatess Ⅱ -Majuu no Ou to Akago to Shikabane no Yuusha Denshou-",
+    "notes": "Observed in the local release folder. The Roman numeral II identifies the already catalogued second season.",
+    "parsed_installment": {
+      "season": 2
+    },
+    "parser": {
+      "input": "Clevatess Ⅱ -Majuu no Ou to Akago to Shikabane no Yuusha Denshou-",
+      "model": "ModerRAS/AniFileBERT",
+      "revision": "d8ddb0b54dad4d65a60ab7eba5acb06a2a1fab02",
+      "title_candidates": [
+        {
+          "confidence": 0.902179,
+          "label": "TITLE_LATIN",
+          "source": "file",
+          "span": [
+            0,
+            50
+          ],
+          "text": "Clevatess Ⅱ -Majuu no Ou to Akago to Shikabane no"
+        }
+      ]
+    },
+    "season_part": "Season 2"
+  },
+  "review": {
+    "approved_at": "2026-10-02T09:14:06Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v2",
+  "target": {
+    "installment": {},
+    "media_id": "media-000083",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "585820",
+      "provider": "bangumi"
+    },
+    "series_id": "series-000080",
+    "title": "クレバテスⅡ-魔獣の王と偽りの勇者伝承-"
+  }
+}

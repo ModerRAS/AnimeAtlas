@@ -1,0 +1,63 @@
+{
+  "changes": [
+    {
+      "alias": {
+        "confidence": 1,
+        "language": "und",
+        "source": "community",
+        "type": "alternative",
+        "value": "Mushoku Tensei Ⅲ Isekai Ittara Honki Dasu"
+      },
+      "media_id": "media-000009",
+      "type": "add_media_alias"
+    }
+  ],
+  "issue": {
+    "author": "ModerRAS",
+    "number": 174,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/174"
+  },
+  "observation": {
+    "alias": "Mushoku Tensei Ⅲ Isekai Ittara Honki Dasu",
+    "notes": "Observed in `S:\\动漫\\Mushoku Tensei Ⅲ Isekai Ittara Honki Dasu`. Existing AnimeAtlas media is the verified Bangumi third-season subject.",
+    "parsed_installment": {
+      "season": 3
+    },
+    "parser": {
+      "input": "Mushoku Tensei Ⅲ Isekai Ittara Honki Dasu",
+      "model": "ModerRAS/AniFileBERT",
+      "revision": "d8ddb0b54dad4d65a60ab7eba5acb06a2a1fab02",
+      "title_candidates": [
+        {
+          "confidence": 0.962361,
+          "label": "TITLE_LATIN",
+          "source": "file",
+          "span": [
+            0,
+            41
+          ],
+          "text": "Mushoku Tensei Ⅲ Isekai Ittara Honki Dasu"
+        }
+      ]
+    },
+    "season_part": "Season 3"
+  },
+  "review": {
+    "approved_at": "2026-10-02T09:14:03Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v2",
+  "target": {
+    "installment": {
+      "season": 3
+    },
+    "media_id": "media-000009",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "501963",
+      "provider": "bangumi"
+    },
+    "series_id": "series-000003",
+    "title": "無職転生Ⅲ ～異世界行ったら本気だす～"
+  }
+}

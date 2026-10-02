@@ -16,18 +16,25 @@
       "value": "Mushoku Tensei S3"
     },
     {
-      "value": "無職転生Ⅲ ～異世界行ったら本気だす～",
+      "confidence": 0.98,
       "language": "ja",
-      "type": "official",
       "source": "bangumi",
-      "confidence": 0.98
+      "type": "official",
+      "value": "無職転生Ⅲ ～異世界行ったら本気だす～"
     },
     {
-      "value": "无职转生 第三季 ～到了异世界就拿出真本事～",
+      "confidence": 0.98,
       "language": "zh-Hans",
-      "type": "localized",
       "source": "bangumi",
-      "confidence": 0.98
+      "type": "localized",
+      "value": "无职转生 第三季 ～到了异世界就拿出真本事～"
+    },
+    {
+      "confidence": 1,
+      "language": "und",
+      "source": "community",
+      "type": "alternative",
+      "value": "Mushoku Tensei Ⅲ Isekai Ittara Honki Dasu"
     }
   ],
   "media_id": "media-000009",

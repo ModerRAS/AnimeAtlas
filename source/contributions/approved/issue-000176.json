@@ -1,0 +1,58 @@
+{
+  "changes": [
+    {
+      "alias": {
+        "confidence": 1,
+        "language": "und",
+        "source": "community",
+        "type": "alternative",
+        "value": "Boku no Hero Academia Final Season"
+      },
+      "media_id": "media-000006",
+      "type": "add_media_alias"
+    }
+  ],
+  "issue": {
+    "author": "ModerRAS",
+    "number": 176,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/176"
+  },
+  "observation": {
+    "alias": "Boku no Hero Academia Final Season",
+    "notes": "Observed in `S:\\动漫\\Boku no Hero Academia Final Season`. Bangumi subject 518413 is the verified FINAL SEASON.",
+    "parsed_installment": {},
+    "parser": {
+      "input": "Boku no Hero Academia Final Season",
+      "model": "ModerRAS/AniFileBERT",
+      "revision": "d8ddb0b54dad4d65a60ab7eba5acb06a2a1fab02",
+      "title_candidates": [
+        {
+          "confidence": 0.995913,
+          "label": "TITLE_LATIN",
+          "source": "file",
+          "span": [
+            0,
+            34
+          ],
+          "text": "Boku no Hero Academia Final Season"
+        }
+      ]
+    }
+  },
+  "review": {
+    "approved_at": "2026-10-02T09:14:09Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v2",
+  "target": {
+    "installment": {},
+    "media_id": "media-000006",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "518413",
+      "provider": "bangumi"
+    },
+    "series_id": "series-000023",
+    "title": "僕のヒーローアカデミア FINAL SEASON"
+  }
+}
