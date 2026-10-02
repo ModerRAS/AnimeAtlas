@@ -3,13 +3,15 @@
 [![Validate](https://github.com/ModerRAS/AnimeAtlas/actions/workflows/validate.yml/badge.svg)](https://github.com/ModerRAS/AnimeAtlas/actions/workflows/validate.yml)
 [![Download SQLite](https://img.shields.io/badge/download-animeatlas.sqlite-00897B)](https://github.com/ModerRAS/AnimeAtlas/releases/download/download/animeatlas.sqlite)
 
-An open anime identity and metadata database for offline lookup.
+[中文](README.md) | [English](README.en.md)
 
-AnimeAtlas resolves anime names and external provider IDs to a stable `series -> media -> episode` identity chain. Media records carry verified Season/Part context, while episode numbers retain provider namespaces such as `bangumi:ep` and `bangumi:sort`.
+面向离线查询的开放动漫身份与元数据数据库。
 
-## Download the database
+AnimeAtlas 将动漫名称与外部数据源 ID 解析为稳定的 `series -> media -> episode` 身份链。media 记录带有经过校验的 Season/Part 上下文，剧集编号保留 `bangumi:ep`、`bangumi:sort` 等数据源命名空间。
 
-A single-file SQLite snapshot is published under a **fixed download link** that always points at the latest build — the URL never changes between releases:
+## 下载数据库
+
+单文件 SQLite 快照通过**固定下载链接**发布，始终指向最新构建——链接在版本之间保持不变：
 
 ```
 https://github.com/ModerRAS/AnimeAtlas/releases/download/download/animeatlas.sqlite
@@ -20,7 +22,7 @@ curl -L -o animeatlas.sqlite \
   https://github.com/ModerRAS/AnimeAtlas/releases/download/download/animeatlas.sqlite
 ```
 
-The `download` release remains a stable alias. Every publish also creates an immutable semantic-version release with `animeatlas-<version>.sqlite` and a SHA-256 manifest. Exact catalog, SQLite schema, generator, normalization, and parser revisions are embedded in `release_info`:
+`download` release 是稳定别名。每次发布同时创建不可变的语义化版本 release，包含 `animeatlas-<version>.sqlite` 与 SHA-256 清单。确切的 catalog、SQLite schema、generator、normalization 与 parser 修订号都记录在 `release_info` 中：
 
 ```sql
 SELECT key, value FROM release_info ORDER BY key;
@@ -41,30 +43,30 @@ search_tokens           (token, media_id)
 release_info            (key, value)
 ```
 
-Aliases form candidate sets; duplicate normalized aliases across installments are valid. `aliases_v1_compat` exposes only aliases that resolve to one media. Episodes belong to one media, which guarantees that namespaced numbers cannot silently cross Seasons.
+别名构成候选集合；同一 normalized 别名在不同 installment 之间重复是合法的。`aliases_v1_compat` 只暴露可唯一解析到单个 media 的别名。每集只属于一个 media，从而保证带命名空间的编号不会静默跨季。
 
-### Query examples
+### 查询示例
 
 ```sql
--- Resolve an alias. `normalized` stores NFKC + trimmed + lowercased text.
+-- 解析别名。`normalized` 存储 NFKC + trim + 小写后的文本。
 SELECT m.id, m.title
 FROM aliases a JOIN media m ON m.id = a.media_id
 WHERE a.normalized = 'sousou no frieren';
 
--- Look up a media identity by a Bangumi subject ID.
+-- 通过 Bangumi subject ID 查询 media 身份。
 SELECT m.id, m.title, m.summary
 FROM provider_refs p JOIN media m ON m.id = p.media_id
 WHERE p.provider = 'bangumi' AND p.entity = 'subject' AND p.provider_id = '400602';
 
--- Pull normalized metadata and its provenance for one media identity.
+-- 取出某个 media 身份的规范化元数据及其 provenance。
 SELECT metadata_json, provenance_json FROM media WHERE id = 'media-000001';
 ```
 
-## Use the CLI
+## 使用 CLI
 
-The repository also ships a CLI for offline resolution against the committed JSON indexes (no network needed).
+仓库还提供 CLI，可基于已提交的 JSON 索引离线解析（无需网络）。
 
-Requirements: Node.js 22+, pnpm 10+.
+环境要求：Node.js 22+、pnpm 10+。
 
 ```bash
 corepack enable
@@ -72,28 +74,28 @@ pnpm install --frozen-lockfile
 pnpm check
 ```
 
-Resolve a title/alias or an external provider ID from the local indexes:
+从本地索引解析标题/别名或外部数据源 ID：
 
 ```bash
 pnpm cli -- resolve alias "Tensei Shitara Slime Datta Ken" --season 4
 pnpm cli -- resolve provider bangumi subject 515594
 ```
 
-Both return a typed `resolved`, `ambiguous`, or `unresolved` result. Alias resolution reads the candidate-set index and accepts `--season`, `--part`, and `--cour`. Add `--compact` for single-line JSON output.
+两者都会返回带类型的 `resolved`、`ambiguous` 或 `unresolved` 结果。别名解析读取候选集合索引，并接受 `--season`、`--part`、`--cour`。加 `--compact` 输出单行 JSON。
 
-| Command | Purpose |
+| 命令 | 用途 |
 | --- | --- |
-| `resolve alias <title> [--season N]` | Resolve a candidate set with installment context |
-| `resolve provider <provider> <entity> <id>` | Map an external provider ID to a media identity |
-| `bangumi plan-archive <file>` | Plan a bulk import from a Bangumi archive dump |
-| `contributions plan-approved` | Preview mutations from approved contribution Issues |
-| `contributions apply-approved --write` | Apply approved contributions to `db/` |
+| `resolve alias <title> [--season N]` | 结合 installment 上下文解析候选集合 |
+| `resolve provider <provider> <entity> <id>` | 将外部数据源 ID 映射为 media 身份 |
+| `bangumi plan-archive <file>` | 规划从 Bangumi archive dump 批量导入 |
+| `contributions plan-approved` | 预览已批准 contribution issue 产生的变更 |
+| `contributions apply-approved --write` | 将已批准 contribution 应用到 `db/` |
 
-## What's in the database
+## 数据库内容
 
-The committed snapshot is a seed dataset that consolidates IDs across providers and carries normalized metadata with field-level provenance (which provider, which source field, and which rule produced each value). It grows through reviewed community contributions. See `generated/stats/summary.json` for current record counts (media, aliases, provider refs, search tokens).
+已提交的快照是种子数据集，整合了各数据源的 ID，并携带带字段级 provenance 的规范化元数据（每个值来自哪个数据源、哪个来源字段、哪条规则）。它通过经过审核的社区贡献持续增长。当前记录数量（media、aliases、provider refs、search tokens）见 `generated/stats/summary.json`。
 
-## Data Model
+## 数据模型
 
 ```text
 reviewed source inputs
@@ -104,53 +106,53 @@ source/  ->  db/  ->  generated/  ->  SQLite release
            normalized records
 ```
 
-| Directory | Purpose | Edit policy |
+| 目录 | 用途 | 编辑策略 |
 | --- | --- | --- |
-| `source/` | Approved community contributions, import manifests, and durable editorial decisions | Created through reviewed workflows |
-| `raw/` | Optional captured provider evidence | Machine-written only |
-| `db/` | Normalized media, alias, metadata, relation, and provenance records | Generated by the import pipeline |
-| `generated/` | Deterministic lookup indexes, manifests, and statistics | Run `pnpm generate`; never edit manually |
-| `apps/` | CLI, GitHub Action helper, and static viewer | Application entry points |
-| `packages/` | Schemas, provider contracts, importer, validator, and generator | Reusable domain logic |
+| `source/` | 已批准的社区贡献、导入清单与持久化编辑决策 | 通过受审核的工作流创建 |
+| `raw/` | 可选的已采集数据源证据 | 仅机器写入 |
+| `db/` | 规范化后的 media、别名、元数据、关系与 provenance 记录 | 由导入流水线生成 |
+| `generated/` | 确定性查找索引、清单与统计 | 运行 `pnpm generate`；禁止手动编辑 |
+| `apps/` | CLI、GitHub Action 辅助程序与静态查看器 | 应用入口 |
+| `packages/` | Schema、数据源契约、importer、validator 与 generator | 可复用领域逻辑 |
 
-`generated/` is disposable output. `source/` and provider evidence explain how the published snapshot was produced; `db/` is the stable JSON consumption layer.
+`generated/` 是可丢弃的输出。`source/` 与数据源证据说明已发布快照是如何产生的；`db/` 是稳定的 JSON 消费层。
 
-## Contribute Data
+## 贡献数据
 
-Do not edit database JSON directly. Use the recognition or Season/episode Issue form. Contributors enter natural observations and a Bangumi target; automation validates Season ownership and converts optional text such as `06(78)` into typed episode-number changes before approval.
+不要直接编辑数据库 JSON。请使用 Recognition 或 Season/episode 的 issue 表单。贡献者填写自然语言的观察结果与 Bangumi 目标；自动化会在批准前校验 Season 归属，并把 `06(78)` 之类的可选文本转换为带类型的剧集编号变更。
 
-1. A maintainer reviews the structured Issue and applies the `approved` label.
-2. GitHub Actions parses the contribution, applies it through the importer, regenerates indexes, and runs `pnpm check`.
-3. On success, automation commits the updated `source/`, `db/`, and `generated/` records to `master`, closes the Issue, and refreshes the `download` SQLite release.
+1. 维护者审核结构化 issue 并打上 `approved` 标签。
+2. GitHub Actions 解析 contribution，通过 importer 应用，重新生成索引并运行 `pnpm check`。
+3. 成功后，自动化将更新后的 `source/`、`db/`、`generated/` 记录提交到 `master`，关闭 issue，并刷新 `download` SQLite release。
 
-The approval label is the write gate. Community input is stored as an auditable contribution record before it affects normalized data.
+批准标签即写入闸门。社区输入在影响规范化数据之前，会先以可审计的 contribution 记录形式保存。
 
-## Development
+## 开发
 
-| Command | Purpose |
+| 命令 | 用途 |
 | --- | --- |
-| `pnpm check` | Build, typecheck, validate data, verify generated artifacts, and run smoke checks |
-| `pnpm validate` | Validate source and normalized records |
-| `pnpm generate` | Rebuild deterministic indexes and manifests from `db/` |
-| `pnpm check:generated` | Fail when committed generated artifacts are stale |
-| `pnpm cli -- contributions plan-approved` | Preview approved contribution mutations without writing files |
-| `pnpm cli -- contributions apply-approved --write` | Apply approved contributions locally |
-| `pnpm release:sqlite` | Build stable and immutable SQLite artifacts plus SHA-256 manifests |
-| `pnpm migrate:v2` | Audit all curated `db/migrations/v2-*.json` plans; add `-- --refresh` for live evidence or `-- --write` to apply cached evidence |
-| `pnpm audit:v2` | Cache and classify any remaining v1 Bangumi subjects, relations, and paginated regular episodes |
-| `pnpm replay:library` | Compare v1/v2 against paths stored in read-only `library.db` |
+| `pnpm check` | 构建、类型检查、校验数据、验证生成产物并运行冒烟检查 |
+| `pnpm validate` | 校验 source 与规范化记录 |
+| `pnpm generate` | 从 `db/` 重建确定性索引与清单 |
+| `pnpm check:generated` | 当已提交的生成产物过期时失败 |
+| `pnpm cli -- contributions plan-approved` | 预览已批准 contribution 的变更（不写文件） |
+| `pnpm cli -- contributions apply-approved --write` | 在本地应用已批准 contribution |
+| `pnpm release:sqlite` | 构建稳定与不可变 SQLite 产物及 SHA-256 清单 |
+| `pnpm migrate:v2` | 审计所有 `db/migrations/v2-*.json` 计划；加 `-- --refresh` 采集实时证据，或加 `-- --write` 应用缓存证据 |
+| `pnpm audit:v2` | 缓存并分类剩余 v1 Bangumi subjects、relations 与分页 regular episodes |
+| `pnpm replay:library` | 将 v1/v2 与只读 `library.db` 中存储的路径进行对比 |
 
-Run `pnpm check` before committing a data or schema change. It is the same validation gate used by repository automation.
+提交数据或 schema 变更前请运行 `pnpm check`。它与仓库自动化使用同一套校验闸门。
 
-## Architecture
+## 架构
 
 - [AnimeAtlas v2 catalog](docs/v2-catalog.md)
-- [Architecture overview](docs/architecture.md)
-- [Repository boundaries](docs/repository-architecture.md)
-- [Schema-first design](docs/schema-first-architecture.md)
-- [Validation and index generation](docs/validation-and-index-generation.md)
-- [GitHub automation](.github/README.md)
+- [架构总览](docs/architecture.md)
+- [仓库边界](docs/repository-architecture.md)
+- [Schema-first 设计](docs/schema-first-architecture.md)
+- [校验与索引生成](docs/validation-and-index-generation.md)
+- [GitHub 自动化](.github/README.md)
 
-## License
+## 许可证
 
 [MIT](LICENSE)
