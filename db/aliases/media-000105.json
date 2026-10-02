@@ -7,6 +7,13 @@
       "source": "community",
       "type": "romaji",
       "value": "Tsue to Tsurugi no Wistoria Season 2"
+    },
+    {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "杖與劍的魔劍譚 Season 2"
     }
   ],
   "media_id": "media-000105",

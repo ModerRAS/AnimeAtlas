@@ -1,0 +1,69 @@
+{
+  "changes": [
+    {
+      "alias": {
+        "confidence": 1,
+        "language": "und",
+        "source": "community",
+        "type": "alternative",
+        "value": "Clevatess Ⅱ－魔獸之王與虛假的勇者傳承－"
+      },
+      "media_id": "media-000083",
+      "type": "add_media_alias"
+    }
+  ],
+  "issue": {
+    "author": "ModerRAS",
+    "number": 183,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/183"
+  },
+  "observation": {
+    "alias": "Clevatess Ⅱ－魔獸之王與虛假的勇者傳承－",
+    "notes": "Local audit: the Traditional Chinese library title mis-matched to クレバテス Season 1 (bangumi 502142, score 0.76) instead of media-000083 (クレバテスⅡ, 585820). The romaji long form was added by issue #175; this adds the zh-Hant spelling.",
+    "parsed_installment": {},
+    "parser": {
+      "input": "Clevatess Ⅱ－魔獸之王與虛假的勇者傳承－",
+      "model": "ModerRAS/AniFileBERT",
+      "revision": "d8ddb0b54dad4d65a60ab7eba5acb06a2a1fab02",
+      "season_raw": "Ⅱ",
+      "title_candidates": [
+        {
+          "confidence": 0.999999,
+          "label": "TITLE_LATIN",
+          "source": "file",
+          "span": [
+            0,
+            9
+          ],
+          "text": "Clevatess"
+        },
+        {
+          "confidence": 0.739183,
+          "label": "TITLE_CHS",
+          "source": "file",
+          "span": [
+            12,
+            16
+          ],
+          "text": "魔獸之王"
+        }
+      ]
+    }
+  },
+  "review": {
+    "approved_at": "2026-10-02T09:41:48Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v2",
+  "target": {
+    "installment": {},
+    "media_id": "media-000083",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "585820",
+      "provider": "bangumi"
+    },
+    "series_id": "series-000080",
+    "title": "クレバテスⅡ-魔獣の王と偽りの勇者伝承-"
+  }
+}
