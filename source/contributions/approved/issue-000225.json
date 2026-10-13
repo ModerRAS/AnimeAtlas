@@ -1,0 +1,25 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 225,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/225"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "en",
+      "source": "community",
+      "type": "official",
+      "value": "The Laid-Off Cheat-Granting Mage Enjoys a Second"
+    },
+    "evidence_url": "https://bgm.tv/subject/625799",
+    "media_id": "media-000134",
+    "notes": "Companion Skymoon folder for Bangumi 625799 (primary alias Chii Fuyo, #187). Same Fall 2026 show; folder holds ep 01.",
+    "type": "add_alias"
+  },
+  "review": {
+    "approved_at": "2026-10-13T13:29:18Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

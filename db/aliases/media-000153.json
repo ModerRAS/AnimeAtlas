@@ -7,6 +7,13 @@
       "source": "community",
       "type": "official",
       "value": "The Vermilion Mask"
+    },
+    {
+      "confidence": 0.9,
+      "language": "zh-Hans",
+      "source": "community",
+      "type": "localized",
+      "value": "朱色假面"
     }
   ],
   "media_id": "media-000153",

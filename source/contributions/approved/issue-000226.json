@@ -1,0 +1,25 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 226,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/226"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "重生者的魔法一定要特別"
+    },
+    "evidence_url": "https://bgm.tv/subject/471844",
+    "media_id": "media-000140",
+    "notes": "Companion CHT folder for Bangumi 471844 S2 (primary alias Kikansha no Mahou wa Tokubetsu desu, #193). Local file 第二季 - 13 (= S2E1 absolute).",
+    "type": "add_alias"
+  },
+  "review": {
+    "approved_at": "2026-10-13T13:29:21Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

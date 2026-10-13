@@ -1,0 +1,25 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 224,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/224"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "zh-Hans",
+      "source": "community",
+      "type": "localized",
+      "value": "朱色假面"
+    },
+    "evidence_url": "https://bgm.tv/subject/568525",
+    "media_id": "media-000153",
+    "notes": "Companion folder for Bangumi 568525 (primary alias The Vermilion Mask, #206). Local ANi file 01.",
+    "type": "add_alias"
+  },
+  "review": {
+    "approved_at": "2026-10-13T13:29:14Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

@@ -7,6 +7,13 @@
       "source": "community",
       "type": "romaji",
       "value": "Chii Fuyo"
+    },
+    {
+      "confidence": 0.9,
+      "language": "en",
+      "source": "community",
+      "type": "official",
+      "value": "The Laid-Off Cheat-Granting Mage Enjoys a Second"
     }
   ],
   "media_id": "media-000134",
