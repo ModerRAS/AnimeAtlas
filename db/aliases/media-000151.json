@@ -1,0 +1,14 @@
+{
+  "$schema": "../../packages/schema/schemas/media-aliases.schema.json",
+  "aliases": [
+    {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Tensei shita Daiseijo wa, Seijo de Aru Koto wo Hitakakusu"
+    }
+  ],
+  "media_id": "media-000151",
+  "schema": "media-aliases/v1"
+}

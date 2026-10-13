@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 184,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/184"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "en",
+      "source": "community",
+      "type": "official",
+      "value": "TANK CHAIR"
+    },
+    "evidence_url": "https://bgm.tv/subject/636023",
+    "notes": "Bangumi 636023 (TANK CHAIR-戦車椅子-, 2026-10-04 TV). Local LoliHouse files 01/02.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "636023",
+      "provider": "bangumi"
+    },
+    "title": "TANK CHAIR-戦車椅子-",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-13T13:14:54Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

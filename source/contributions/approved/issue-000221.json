@@ -1,0 +1,25 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 221,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/221"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "en",
+      "source": "community",
+      "type": "official",
+      "value": "ASSASSINATION CLASSROOM THE MOVIE：OUR TIME"
+    },
+    "evidence_url": "https://bgm.tv/subject/583746",
+    "media_id": "media-000125",
+    "notes": "Bangumi 583746 already maps to media-000125 (existing alias Gekijouban Ansatsu Kyoushitsu Minna no Jikan); this adds the Skymoon folder-title alias. OUR TIME = みんなの時間 (2026-03-20 movie). Supersedes #185, which wrongly used create_media.",
+    "type": "add_alias"
+  },
+  "review": {
+    "approved_at": "2026-10-13T13:21:17Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

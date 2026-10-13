@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 211,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/211"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "極致軟弱千金小姐，不小心答應了精明未婚夫的賭局"
+    },
+    "evidence_url": "https://bgm.tv/subject/596771",
+    "notes": "Bangumi 596771 (2026-10-04 TV, 12 eps). Local ANi CHT files 01/02. (596771 is the anime; 322489 is the novel, not this.)",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "596771",
+      "provider": "bangumi"
+    },
+    "title": "弱気MAX令嬢なのに、辣腕婚約者様の賭けに乗ってしまった",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-13T13:16:48Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 205,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/205"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "TOUGEN ANKI - Nikko Kegon no Taki-hen"
+    },
+    "evidence_url": "https://bgm.tv/subject/617948",
+    "notes": "Bangumi 617948 (2026-10-02 TV, 12 eps). Local files 01/02. Companion CHT folder 桃源暗鬼：日光·華嚴瀑布篇 will follow as add_alias.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "617948",
+      "provider": "bangumi"
+    },
+    "title": "桃源暗鬼 ～日光・華厳の滝編～",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-13T13:16:22Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

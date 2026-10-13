@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 204,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/204"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Tensei shita Daiseijo wa, Seijo de Aru Koto wo Hitakakusu"
+    },
+    "evidence_url": "https://bgm.tv/subject/542007",
+    "notes": "Bangumi 542007 (2026-10-03 TV). Local LoliHouse files 01/02.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "542007",
+      "provider": "bangumi"
+    },
+    "title": "転生した大聖女は、聖女であることをひた隠す",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-13T13:16:18Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

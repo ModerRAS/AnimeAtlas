@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 190,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/190"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Gensou Suikoden"
+    },
+    "evidence_url": "https://bgm.tv/subject/541538",
+    "notes": "Bangumi 541538 (幻想水滸伝, 2026-10-03 TV, 23 eps). Local LoliHouse file: Gensou Suikoden - 01.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "541538",
+      "provider": "bangumi"
+    },
+    "title": "幻想水滸伝",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-13T13:15:19Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

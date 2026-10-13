@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 199,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/199"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "en",
+      "source": "community",
+      "type": "official",
+      "value": "Sasaki and Peeps"
+    },
+    "evidence_url": "https://bgm.tv/subject/486456",
+    "notes": "Local files: Sasaki and Peeps Season 2 - 01 (ViuTV). Bangumi 486456 (第2期, 2026-10-07 TV, 12 eps).",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "486456",
+      "provider": "bangumi"
+    },
+    "title": "佐々木とピーちゃん 第2期",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-13T13:15:57Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

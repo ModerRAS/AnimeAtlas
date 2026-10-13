@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 186,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/186"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Ao Ashi"
+    },
+    "evidence_url": "https://bgm.tv/subject/555605",
+    "notes": "Local folder holds absolute-numbered S2 files ([LoliHouse] Ao Ashi S2 - 01...). Bangumi 555605 (アオアシ Season 2, 2026-10-04 TV). No S1 entry exists yet; this alias covers the bare folder name.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "555605",
+      "provider": "bangumi"
+    },
+    "title": "アオアシ Season 2",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-13T13:15:02Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

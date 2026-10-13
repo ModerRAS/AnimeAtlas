@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 207,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/207"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "冰劍的魔術師將要統一世界"
+    },
+    "evidence_url": "https://bgm.tv/subject/654294",
+    "notes": "Local files: ANi CHT 冰劍的魔術師將要統一世界 2 - 01 (Season 2 subdir). Bangumi 654294 (Ⅱ, 2026-10-08 TV, 12 eps).",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "654294",
+      "provider": "bangumi"
+    },
+    "title": "冰剣の魔術師が世界を統べるⅡ",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-13T13:16:31Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

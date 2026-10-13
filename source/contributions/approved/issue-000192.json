@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 192,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/192"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Horemajo"
+    },
+    "evidence_url": "https://bgm.tv/subject/624923",
+    "notes": "Horemajo = hore (惚れ薬 love potion) + majo (魔女 witch) shorthand. Bangumi 624923 (2026-10-05 TV, 12 eps). Local files: Horemajo - 01/02.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "624923",
+      "provider": "bangumi"
+    },
+    "title": "どうも、好きな人に惚れ薬を依頼された魔女です。",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-13T13:15:27Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

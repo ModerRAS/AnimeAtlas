@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 217,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/217"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "zh-Hans",
+      "source": "community",
+      "type": "localized",
+      "value": "黑暗召喚師在地下戀愛中"
+    },
+    "evidence_url": "https://bgm.tv/subject/630160",
+    "notes": "Bangumi 630160 (2026-10-04 TV, 12 eps). Local Skymoon CHS file 01.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "630160",
+      "provider": "bangumi"
+    },
+    "title": "ダークサモナーとデキている",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-13T13:17:15Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

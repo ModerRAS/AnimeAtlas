@@ -1,0 +1,25 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 220,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/220"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "en",
+      "source": "community",
+      "type": "official",
+      "value": "My Hero Academia：Vigilantes"
+    },
+    "evidence_url": "https://bgm.tv/subject/567417",
+    "media_id": "media-000120",
+    "notes": "Local folder holds absolute eps 14-26 (= S2E1-13; the 第2期 subject 567417 has 13 eps). Bangumi 567417 is already linked to media-000120. Adds the bare folder alias (full-width colon as on disk).",
+    "type": "add_alias"
+  },
+  "review": {
+    "approved_at": "2026-10-13T13:17:28Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

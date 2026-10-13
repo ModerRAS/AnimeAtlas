@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 188,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/188"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "en",
+      "source": "community",
+      "type": "official",
+      "value": "Dragon Ball Super：Beerus"
+    },
+    "evidence_url": "https://bgm.tv/subject/623249",
+    "notes": "Bangumi 623249 (ドラゴンボール超 ビルス, 2026-10-11 TV). Single-file ViuTV release in local library.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "623249",
+      "provider": "bangumi"
+    },
+    "title": "ドラゴンボール超 ビルス",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-13T13:15:11Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

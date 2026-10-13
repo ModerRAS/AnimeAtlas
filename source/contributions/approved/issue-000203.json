@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 203,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/203"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Tensei Kizoku, Kantei Skill de Nariagaru"
+    },
+    "evidence_url": "https://bgm.tv/subject/530104",
+    "notes": "Local files absolute-numbered 25/26 (S1 434144 = 12 + S2 500855 = 12), so S3E1-2. Bangumi 530104 (第3期, 2026-09-27 TV).",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "530104",
+      "provider": "bangumi"
+    },
+    "title": "転生貴族、鑑定スキルで成り上がる 第3期",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-13T13:16:14Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

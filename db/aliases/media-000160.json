@@ -1,0 +1,14 @@
+{
+  "$schema": "../../packages/schema/schemas/media-aliases.schema.json",
+  "aliases": [
+    {
+      "confidence": 0.9,
+      "language": "zh-Hans",
+      "source": "community",
+      "type": "localized",
+      "value": "羅梅莉亞戰記"
+    }
+  ],
+  "media_id": "media-000160",
+  "schema": "media-aliases/v1"
+}

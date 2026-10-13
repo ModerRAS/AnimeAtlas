@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 187,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/187"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Chii Fuyo"
+    },
+    "evidence_url": "https://bgm.tv/subject/625799",
+    "notes": "Chii Fuyo is the fansub shorthand for Cheat-Fuyo (チート付与). Bangumi 625799 (2026-10-06 TV, 12 eps). Local LoliHouse file: Chii Fuyo - 01.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "625799",
+      "provider": "bangumi"
+    },
+    "title": "追放されたチート付与魔術師は気ままなセカンドライフを謳歌する。",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-13T13:15:06Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

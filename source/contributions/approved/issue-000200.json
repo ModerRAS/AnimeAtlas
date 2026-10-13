@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 200,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/200"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Sekai Saikyou no Majo, Hajimemashita"
+    },
+    "evidence_url": "https://bgm.tv/subject/646154",
+    "notes": "Bangumi 646154 (2026-10-07 TV, 12 eps). Local Skymoon + LoliHouse files for ep 01.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "646154",
+      "provider": "bangumi"
+    },
+    "title": "世界最強の魔女、始めました",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-13T13:16:02Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

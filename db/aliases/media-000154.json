@@ -1,0 +1,14 @@
+{
+  "$schema": "../../packages/schema/schemas/media-aliases.schema.json",
+  "aliases": [
+    {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "冰劍的魔術師將要統一世界"
+    }
+  ],
+  "media_id": "media-000154",
+  "schema": "media-aliases/v1"
+}

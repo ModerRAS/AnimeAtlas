@@ -1,0 +1,14 @@
+{
+  "$schema": "../../packages/schema/schemas/media-aliases.schema.json",
+  "aliases": [
+    {
+      "confidence": 0.9,
+      "language": "zh-Hans",
+      "source": "community",
+      "type": "localized",
+      "value": "黑暗召喚師在地下戀愛中"
+    }
+  ],
+  "media_id": "media-000164",
+  "schema": "media-aliases/v1"
+}

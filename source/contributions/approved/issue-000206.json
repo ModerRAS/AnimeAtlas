@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 206,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/206"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "en",
+      "source": "community",
+      "type": "official",
+      "value": "The Vermilion Mask"
+    },
+    "evidence_url": "https://bgm.tv/subject/568525",
+    "notes": "Bangumi 568525 (2026-10-10 TV). Single-file ViuTV release. Companion folder 朱色假面 will follow as add_alias.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "568525",
+      "provider": "bangumi"
+    },
+    "title": "朱色の仮面",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-13T13:16:26Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

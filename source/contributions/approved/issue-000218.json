@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 218,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/218"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "zh-Hans",
+      "source": "community",
+      "type": "localized",
+      "value": "僵屍搜尋中"
+    },
+    "evidence_url": "https://bgm.tv/subject/586255",
+    "notes": "Bangumi 586255 (2026-10-03 TV, 12 eps). Local Skymoon CHS file 01.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "586255",
+      "provider": "bangumi"
+    },
+    "title": "#ゾンビさがしてます",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-13T13:17:20Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}

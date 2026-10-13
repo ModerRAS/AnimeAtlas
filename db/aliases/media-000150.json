@@ -1,0 +1,14 @@
+{
+  "$schema": "../../packages/schema/schemas/media-aliases.schema.json",
+  "aliases": [
+    {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Tensei Kizoku, Kantei Skill de Nariagaru"
+    }
+  ],
+  "media_id": "media-000150",
+  "schema": "media-aliases/v1"
+}

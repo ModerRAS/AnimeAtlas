@@ -1,0 +1,14 @@
+{
+  "$schema": "../../packages/schema/schemas/media-aliases.schema.json",
+  "aliases": [
+    {
+      "confidence": 0.9,
+      "language": "zh-Hant",
+      "source": "community",
+      "type": "localized",
+      "value": "和沒有信徒的女神大人一起攻略異世界"
+    }
+  ],
+  "media_id": "media-000155",
+  "schema": "media-aliases/v1"
+}

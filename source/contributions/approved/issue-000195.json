@@ -1,0 +1,30 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 195,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/195"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Mahou Shoujo Ikusei Keikaku restart"
+    },
+    "evidence_url": "https://bgm.tv/subject/418229",
+    "notes": "Bangumi 418229 (2026-10-05 TV). Local LoliHouse file: Mahou Shoujo Ikusei Keikaku restart - 01.",
+    "provider_ref": {
+      "entity": "subject",
+      "id": "418229",
+      "provider": "bangumi"
+    },
+    "title": "魔法少女育成計画 restart",
+    "type": "create_media"
+  },
+  "review": {
+    "approved_at": "2026-10-13T13:15:39Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}
