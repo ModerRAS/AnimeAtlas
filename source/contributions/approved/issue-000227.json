@@ -1,0 +1,25 @@
+{
+  "issue": {
+    "author": "ModerRAS",
+    "number": 227,
+    "url": "https://github.com/ModerRAS/AnimeAtlas/issues/227"
+  },
+  "operation": {
+    "alias": {
+      "confidence": 0.9,
+      "language": "ja-Latn",
+      "source": "community",
+      "type": "romaji",
+      "value": "Tantei wa Mou, Shindeiru. S2"
+    },
+    "evidence_url": "https://bgm.tv/subject/393010",
+    "media_id": "media-000148",
+    "notes": "Filename-exact alias (with trailing dot, as in [LoliHouse] Tantei wa Mou, Shindeiru. S2 - 01). Normalization does not strip trailing dots, so the folder alias from #201 alone does not match filenames. Same S2 media 393010.",
+    "type": "add_alias"
+  },
+  "review": {
+    "approved_at": "2026-10-13T13:33:56Z",
+    "approved_by": "github-actions[bot]"
+  },
+  "schema": "contribution/v1"
+}
